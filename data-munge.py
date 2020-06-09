@@ -38,21 +38,21 @@ cong["fips"] = cong['FIPS'].map("{:02}".format)
 
 cong["Code"] = cong["fips"] + cong["CD"] # this is what we'll need to match to state legislative boundaries (mapbox)
 cong['Code'] = cong['Code'].astype(str)
+cong.groupby(['June Cook Ratings']).agg(['count']) # check for any misspelling 
+cong.groupby(['April Cook Ratings']).agg(['count']) # check for any misspelling 
 
 # Congressional map
 cong_shp['Code'] = cong_shp["STATEFP"] + cong_shp["CD116FP"]
 cong_shp['Code'] = cong_shp['Code'].astype(str)
-out.groupby(['June Cook Ratings']).agg(['count']) # check for any misspelling 
-out.groupby(['April Cook Ratings']).agg(['count']) # check for any misspelling 
 
 # Merge them 
-out = cong_shp.merge(cong, on='Code')
-out = out[["NAME", "District", "Code", "D", "R", "April Cook Ratings",
+cong_out = cong_shp.merge(cong, on='Code')
+cong_out = cong_out[["NAME", "District", "Code", "D", "R", "April Cook Ratings",
            "June Cook Ratings", "Opposition Primary", "geometry"]]
 
 # next: merge with full congressional map in QGIS
 # then save as geojson
-out.to_file("cong_dat.shp")
+cong_out.to_file("cong_dat.shp")
 
 ###############################
 #      CREATE STATE DATA      #
