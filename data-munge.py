@@ -12,16 +12,16 @@ import pandas as pd
 import geopandas as gpd
 
 # PEC data 
-cong = pd.read_csv("/Users/hopecj/projects/PEC/map/data/PEC Map Data 2020  - House.csv")
-gov = pd.read_csv("/Users/hopecj/projects/PEC/map/data/PEC Map Data 2020  - Governors.csv")
-redistrict = pd.read_csv("/Users/hopecj/projects/PEC/map/data/PEC Map Data 2020  - Redistricting.csv")
-referenda = pd.read_csv("/Users/hopecj/projects/PEC/map/data/PEC Map Data 2020  - Referenda.csv")
-senate = pd.read_csv("/Users/hopecj/projects/PEC/map/data/PEC Map Data 2020  - Senate.csv")
-stleg = pd.read_csv("/Users/hopecj/projects/PEC/map/data/PEC Map Data 2020  - State Legislatures.csv")
-supreme = pd.read_csv("/Users/hopecj/projects/PEC/map/data/PEC Map Data 2020  - State Supreme Court.csv")
+cong = pd.read_csv("/Users/hopecj/projects/PEC/PEC-map/data/PEC Map Data 2020  - House.csv")
+gov = pd.read_csv("/Users/hopecj/projects/PEC/PEC-map/data/PEC Map Data 2020  - Governors.csv")
+redistrict = pd.read_csv("/Users/hopecj/projects/PEC/PEC-map/data/PEC Map Data 2020  - Redistricting.csv")
+referenda = pd.read_csv("/Users/hopecj/projects/PEC/PEC-map/data/PEC Map Data 2020  - Referenda.csv")
+senate = pd.read_csv("/Users/hopecj/projects/PEC/PEC-map/data/PEC Map Data 2020  - Senate.csv")
+stleg = pd.read_csv("/Users/hopecj/projects/PEC/PEC-map/data/PEC Map Data 2020  - State Legislatures.csv")
+supreme = pd.read_csv("/Users/hopecj/projects/PEC/PEC-map/data/PEC Map Data 2020  - State Supreme Court.csv")
 
 # Shapefiles of US congressional districts and US states
-cong_shp = gpd.read_file("/Users/hopecj/projects/PEC/map/data/cb_2019_us_cd116_500k/cb_2019_us_cd116_500k.shp")
+cong_shp = gpd.read_file("/Users/hopecj/projects/PEC/PEC-map/data/cb_2019_us_cd116_500k/cb_2019_us_cd116_500k.shp")
 
 
 # State code to state FIPS crosswalk
