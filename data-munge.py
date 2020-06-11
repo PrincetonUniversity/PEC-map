@@ -98,8 +98,8 @@ out_cong.columns
 out_cong = out_cong.rename(columns={'Opposition': 'Opposition Primary'})
 out_cong.to_file("/Users/hopecj/projects/PEC/PEC-map/out-files/house_dat_june11.geojson", driver="GeoJSON")
 
-cong = gpd.read_file("/Users/hopecj/projects/PEC/PEC-map/out-files/house_dat_june11.geojson")
-list(cong.columns)
+# cong = gpd.read_file("/Users/hopecj/projects/PEC/PEC-map/out-files/house_dat_june11.geojson")
+# list(cong.columns)
 
 
 # #state

@@ -3,24 +3,13 @@
     "layers": {
         "congressional": {
             "source": "mapbox://tileset-source/openprecincts/congressional",
-            "minzoom": 0,
-            "maxzoom": 14,
-            "features": {
-                "allowed_output": ["NAME", "District", "D", "R", "June Cook", "Opposition Primary"]
-            }
+            "minzoom": 5,
+            "maxzoom": 16
         },
         "state": {
             "source": "mapbox://tileset-source/openprecincts/state",
             "minzoom": 0,
-            "maxzoom": 10,
-            "features": {
-                "allowed_output": ["State", 
-                    "Senate Cook Rating June", "Senate D", "Senate R",
-                    "Governor Cook Rating June", "Governor D", "Governor R", "Governor Opposition Primary",
-                    "State House", "State Senate", "State Legislature June CNalysis rating", 
-                    "PGP Link", "Ballot Measures Include", "Ballotpedia Link",
-                     "State Supreme Court Elections", "State Supreme Court Ballotpedia Link", "State Supreme Court Retention"]
-            }
+            "maxzoom": 5
         }
     }
 }
