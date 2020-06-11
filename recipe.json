@@ -6,7 +6,7 @@
             "minzoom": 0,
             "maxzoom": 14,
             "features": {
-                "allowed_output": ["NAME", "District", "D", "R", "June Cook Ratings"]
+                "allowed_output": ["NAME", "District", "D", "R", "June Cook", "Opposition Primary"]
             }
         },
         "state": {
@@ -14,7 +14,12 @@
             "minzoom": 0,
             "maxzoom": 10,
             "features": {
-                "allowed_output": ["State", "Senate Cook Rating June", "Governor Cook Rating June", "State Legislature June CNalysis rating", "PGP Link", "Ballot Measures Include", "State Supreme Court Elections"]
+                "allowed_output": ["State", 
+                    "Senate Cook Rating June", "Senate D", "Senate R",
+                    "Governor Cook Rating June", "Governor D", "Governor R", "Governor Opposition Primary",
+                    "State House", "State Senate", "State Legislature June CNalysis rating", 
+                    "PGP Link", "Ballot Measures Include", "Ballotpedia Link",
+                     "State Supreme Court Elections", "State Supreme Court Ballotpedia Link", "State Supreme Court Retention"]
             }
         }
     }
