@@ -6,3 +6,5 @@ tilesets add-source openprecincts state ./state_dat_june11.geojson
 tilesets create openprecincts.PEC-map --recipe ../recipe.json --name "PEC map V1"
 
 tilesets publish openprecincts.PEC-map 
+
+tilesets status openprecincts.PEC-map # to check the status
