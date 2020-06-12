@@ -5,6 +5,8 @@ const map = new mapboxgl.Map({
     style: 'mapbox://styles/openprecincts/ckbazy0ec05n81imptth2lltu', // stylesheet location
 });
 
+const zoomThreshold = 5;
+
 map.on('load', function() {
     // Add a source for the state polygons.
     map.addSource('PEC-map', {
@@ -18,7 +20,7 @@ map.on('load', function() {
             'source': 'PEC-map',
             'source-layer': 'state',
             'minzoom': 0,
-            'maxzoom': 5,
+            'maxzoom': zoomThreshold,
             'paint': {
             // 'fill-color': 'rgba(200, 100, 240, 0.4)',
             'fill-opacity': 0,
@@ -32,7 +34,7 @@ map.on('load', function() {
             'id': 'congressional-layer',
             'source': 'PEC-map',
             'source-layer': 'congressional',
-            'minzoom': 5,
+            'minzoom': zoomThreshold,
             'paint': {
                 // 'fill-color': 'rgba(200, 200, 140, 0.4)',
                 'fill-opacity': 0,
@@ -83,6 +85,15 @@ map.on('load', function() {
          map.getCanvas().style.cursor = '';
     });
 
+    // add legend on zoom
+    var congressionalLegendEl = document.getElementById('congressional-legend');
+    map.on('zoom', function() {
+        if (map.getZoom() > zoomThreshold) {
+            congressionalLegendEl.style.display = 'block';
+        } else {
+        congressionalLegendEl.style.display = 'none';
+        }
+    });
 
 });
 
