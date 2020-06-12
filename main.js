@@ -1,3 +1,7 @@
+// legend code and zoom by layer help from this code
+// https://docs.mapbox.com/mapbox-gl-js/example/updating-choropleth/
+
+
 mapboxgl.accessToken = 'pk.eyJ1Ijoib3BlbnByZWNpbmN0cyIsImEiOiJjanVqMHJtM3gwMXdyM3lzNmZkbmpxaXpwIn0.ZU772lvU-NeKNFAkukT6hw';
 
 const map = new mapboxgl.Map({
@@ -8,7 +12,6 @@ const map = new mapboxgl.Map({
 const zoomThreshold = 5;
 
 map.on('load', function() {
-    // Add a source for the state polygons.
     map.addSource('PEC-map', {
         'type': 'vector',
         'url': 'mapbox://openprecincts.PEC-map'
