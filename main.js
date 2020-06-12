@@ -14,7 +14,7 @@ map.on('load', function() {
 
     map.addLayer(
         {
-            'id': 'state',
+            'id': 'states-layer',
             'source': 'PEC-map',
             'source-layer': 'state',
             'minzoom': 0,
@@ -29,7 +29,7 @@ map.on('load', function() {
 
     map.addLayer(
         {
-            'id': 'congressional',
+            'id': 'congressional-layer',
             'source': 'PEC-map',
             'source-layer': 'congressional',
             'minzoom': 5,
@@ -41,46 +41,47 @@ map.on('load', function() {
         }
     );
 
+    // State-layer click and pop-up stuff
+    map.on('click', 'states-layer', function(e) {
+        let el = document.createElement('div');
+        el.className = 'marker';
 
+        new mapboxgl.Popup(el)
+            .setLngLat(e.lngLat)
+            .setHTML(e.features[0].properties.STATEFP)
+            .setHTML('<h3>' + e.features[0].properties.State + '</h3><p>' + e.features[0].properties["Senate Cook Rating June"] + '</p>')
+            .addTo(map);
+        });
 
-
-
-
-
-
-
-
-    // // Need to add a layer so that states are click-y
-    // map.addLayer({
-    //     'id': 'states-layer',
-    //     'type': 'fill',
-    //     'source': 'states',
-    //     'maxzoom': zoomThreshold,
-    //     'paint': {
-    //         'fill-color': 'rgba(200, 100, 240, 0.4)',
-    //         'fill-opacity': 0,
-    //     }
-    // });
-
-    // map.on('click', 'states-layer', function(e) {
-    //     let el = document.createElement('div');
-    //     el.className = 'marker';
-
-    //     new mapboxgl.Popup(el)
-    //         .setLngLat(e.lngLat)
-    //         .setHTML(e.features[0].properties.STATEFP)
-    //         .setHTML('<h3>' + e.features[0].properties.State + '</h3><p>' + e.features[0].properties["Senate Cook Rating June"] + '</p>')
-    //         .addTo(map);
-    //     });
-
-    // map.on('mouseenter', 'states-layer', function() {
-    //     map.getCanvas().style.cursor = 'pointer';
-    // });
+    map.on('mouseenter', 'states-layer', function() {
+        map.getCanvas().style.cursor = 'pointer';
+    });
         
-    //     // Change it back to a pointer when it leaves.
-    // map.on('mouseleave', 'states-layer', function() {
-    //      map.getCanvas().style.cursor = '';
-    // });
+    // Change it back to a pointer when it leaves.
+    map.on('mouseleave', 'states-layer', function() {
+         map.getCanvas().style.cursor = '';
+    });
+
+    // Congressional-layer click and pop-up stuff
+    map.on('click', 'congressional-layer', function(e) {
+        let el = document.createElement('div');
+        el.className = 'marker';
+
+        new mapboxgl.Popup(el)
+            .setLngLat(e.lngLat)
+            .setHTML(e.features[0].properties.STATEFP)
+            .setHTML('<h3>' + e.features[0].properties.District + '</h3><p>' + e.features[0].properties["June Cook"] + '</p>')
+            .addTo(map);
+        });
+
+    map.on('mouseenter', 'congressional-layer', function() {
+        map.getCanvas().style.cursor = 'pointer';
+    });
+        
+    // Change it back to a pointer when it leaves.
+    map.on('mouseleave', 'congressional-layer', function() {
+         map.getCanvas().style.cursor = '';
+    });
 
 
 });
