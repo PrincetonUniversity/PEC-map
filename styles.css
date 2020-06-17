@@ -30,11 +30,12 @@ body {
   /**
   * Create a position for the map
   * on the page */
-  #map {
+  #map-container {
     position: absolute;
     top: 0;
     bottom: 0;
-    width: 100%;
+    width: 90%; 
+    height: 70%;
   }
   
   .legend {
