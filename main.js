@@ -1,13 +1,25 @@
 // legend code and zoom by layer help from this code
 // https://docs.mapbox.com/mapbox-gl-js/example/updating-choropleth/
 
+/**
+ * CONSTANTS AND GLOBALS
+ * */
+const width = window.innerWidth * 0.9, // this is in the CSS for map-container
+      height = window.innerHeight * 0.7, // this is in the CSS for map-container
+      margin = { top: 20, bottom: 50, left: 60, right: 40 };
 
 mapboxgl.accessToken = 'pk.eyJ1Ijoib3BlbnByZWNpbmN0cyIsImEiOiJjanVqMHJtM3gwMXdyM3lzNmZkbmpxaXpwIn0.ZU772lvU-NeKNFAkukT6hw';
 
 const map = new mapboxgl.Map({
-    container: 'map',
+    container: 'map-container',
     style: 'mapbox://styles/openprecincts/ckbazy0ec05n81imptth2lltu', // stylesheet location
 });
+
+const svg = d3
+      .select("#map-container")
+      .append("svg")    
+      .attr("width", width)
+      .attr("height", height);
 
 const zoomThreshold = 5;
 
@@ -51,10 +63,11 @@ map.on('load', function() {
         let el = document.createElement('div');
         el.className = 'marker';
 
+
         new mapboxgl.Popup(el)
             .setLngLat(e.lngLat)
             .setHTML(e.features[0].properties.STATEFP)
-            .setHTML('<h3>' + e.features[0].properties.State + '</h3><p>' + e.features[0].properties["Senate Cook Rating June"] + '</p>')
+            .setHTML('<h3>' + e.features[0].properties.State + '</h3><p>' + e.features[0].properties["Ballotpedia Link"] + '</p>')
             .addTo(map);
         });
 
