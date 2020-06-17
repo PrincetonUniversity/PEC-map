@@ -63,11 +63,17 @@ map.on('load', function() {
         let el = document.createElement('div');
         el.className = 'marker';
 
+        // let myTable = '<h3>' + e.features[0].properties.State + '</h3> <p>' + e.features[0].properties["Ballotpedia Link"] + '</p>'
+        let myTable = '<table> <tr> <th>' + "State" + '</th> <td>' + e.features[0].properties.State + '</td>' + 
+                      '<tr> <th>' + "State House" + '</th> <td>' + e.features[0].properties["State House"] + '</td>' + 
+                      '<tr> <th>' + "State Senate" + '</th> <td>' + e.features[0].properties["State Senate"] + '</td>' + 
+                      '<tr> <th>' + "Senate Cook Rating June" + '</th> <td>' + e.features[0].properties['Senate Cook Rating June'] + '</td>' + 
+                      '<tr> <th>' + "Governor Cook Rating June" + '</th> <td>' + e.features[0].properties["Governor Cook Rating June"] + '</td>' + 
+                    '</table>'
 
         new mapboxgl.Popup(el)
             .setLngLat(e.lngLat)
-            .setHTML(e.features[0].properties.STATEFP)
-            .setHTML('<h3>' + e.features[0].properties.State + '</h3><p>' + e.features[0].properties["Ballotpedia Link"] + '</p>')
+            .setHTML(myTable)
             .addTo(map);
         });
 

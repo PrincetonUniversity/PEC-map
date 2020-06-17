@@ -19,14 +19,6 @@ body {
     text-align: left;
   }
 
-  .marker {
-    background-size: cover;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    cursor: pointer;
-  }
-  
   /**
   * Create a position for the map
   * on the page */
@@ -60,4 +52,33 @@ body {
     height: 10px;
     margin-right: 5px;
     width: 10px;
+  }
+
+  /* .marker {
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+   */
+
+  table {
+    /* font-family: arial, sans-serif; */
+    /* border-collapse: collapse; */
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  tr:nth-child(odd) {
+    background-color: white;
   }
