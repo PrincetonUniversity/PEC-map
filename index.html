@@ -7,8 +7,13 @@
         <link href='./styles.css' rel='stylesheet' />
     </head>
     <body>
-        <!-- <div id='map' style='width: 2000px; height: 1000px;'></div> -->
-        <div id='map-container'></div>
+        <div class='sidebar'>
+            <div class='heading'>
+              <h1>Election Information</h1>
+            </div>
+            <div id='clicked-info' class='clicked-info'></div>
+          </div>
+        <div id='map-container' class='map pad2'>Map</div>
         <div id="congressional-legend" class="legend" style="display: none;">
             <h4>Cook Rating</h4>
             <div><span style="background-color: #faeab7"></span>Toss-Up</div>
@@ -16,6 +21,7 @@
             <div><span style="background-color: #96cde9"></span>Lean-R</div>                
             <div><span style="background-color: #000000"></span>Strongly D or R</div>
         </div>
+
 
         <script src='https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js'></script>
         <link href='https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css' rel='stylesheet' />

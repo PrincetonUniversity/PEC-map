@@ -62,17 +62,21 @@ map.on('load', function() {
     map.on('click', 'states-layer', function(e) {
         let el = document.createElement('div');
         el.className = 'marker';
-
-        // let myTable = '<h3>' + e.features[0].properties.State + '</h3> <p>' + e.features[0].properties["Ballotpedia Link"] + '</p>'
         let myTable = '<table> <tr> <th>' + "State" + '</th> <td>' + e.features[0].properties.State + '</td>' + 
                       '<tr> <th>' + "State House" + '</th> <td>' + e.features[0].properties["State House"] + '</td>' + 
                       '<tr> <th>' + "State Senate" + '</th> <td>' + e.features[0].properties["State Senate"] + '</td>' + 
                       '<tr> <th>' + "Senate Cook Rating June" + '</th> <td>' + e.features[0].properties['Senate Cook Rating June'] + '</td>' + 
                       '<tr> <th>' + "Governor Cook Rating June" + '</th> <td>' + e.features[0].properties["Governor Cook Rating June"] + '</td>' + 
+                      '<tr> <th>' + "State Supreme Court Elections" + '</th> <td>' + e.features[0].properties["State Supreme Court Elections"] + '</td>' + 
+                      '<tr> <th>' + "State Supreme Court Retention" + '</th> <td>' + e.features[0].properties["State Supreme Court Retention"] + '</td>' + 
+                      '<tr> <th>' + "Ballot Measures" + '</th> <td>' + e.features[0].properties["Ballot Measures Include"] + '</td>' + 
+                      '<tr> <th>' + "PGP Link" + '</th> <td>' + e.features[0].properties["PGP Link"] + '</td>' + 
+                      '<tr> <th>' + "Ballotpedia Link" + '</th> <td>' + e.features[0].properties["Ballotpedia Link"] + '</td>' + 
                     '</table>'
 
         new mapboxgl.Popup(el)
             .setLngLat(e.lngLat)
+            // .setLngLat([-130, 45]) //if state table is in the same place
             .setHTML(myTable)
             .addTo(map);
         });
@@ -90,11 +94,16 @@ map.on('load', function() {
     map.on('click', 'congressional-layer', function(e) {
         let el = document.createElement('div');
         el.className = 'marker';
+        let myCongressionalTable = '<table> <tr> <th>' + "District" + '</th> <td>' + e.features[0].properties.District + '</td>' + 
+                        // '<tr> <th>' + "State House" + '</th> <td>' + e.features[0].properties["State House"] + '</td>' + 
+                        // '<tr> <th>' + "State Senate" + '</th> <td>' + e.features[0].properties["State Senate"] + '</td>' + 
+                        '<tr> <th>' + "June Cook Rating" + '</th> <td>' + e.features[0].properties["June Cook"] + '</td>' + 
+                        // '<tr> <th>' + "Governor Cook Rating June" + '</th> <td>' + e.features[0].properties["Governor Cook Rating June"] + '</td>' + 
+                    '</table>'
 
         new mapboxgl.Popup(el)
             .setLngLat(e.lngLat)
-            .setHTML(e.features[0].properties.STATEFP)
-            .setHTML('<h3>' + e.features[0].properties.District + '</h3><p>' + e.features[0].properties["June Cook"] + '</p>')
+            .setHTML(myCongressionalTable)
             .addTo(map);
         });
 
