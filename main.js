@@ -13,6 +13,8 @@ mapboxgl.accessToken = 'pk.eyJ1Ijoib3BlbnByZWNpbmN0cyIsImEiOiJjanVqMHJtM3gwMXdyM
 const map = new mapboxgl.Map({
     container: 'map-container',
     style: 'mapbox://styles/openprecincts/ckbazy0ec05n81imptth2lltu', // stylesheet location
+    center: [-96.527, 38.233],
+    zoom: 3.5
 });
 
 const svg = d3
@@ -60,46 +62,61 @@ map.on('load', function() {
 
     // State-layer click and pop-up stuff
     map.on('click', 'states-layer', function(e) {
+        let prop = e.features[0].properties
         let el = document.createElement('div');
-        el.className = 'marker';
-        let myTable = '<table> <tr> <th>' + "State" + '</th> <td>' + e.features[0].properties.State + '</td>' + 
-                      '<tr> <th>' + "State House" + '</th> <td>' + e.features[0].properties["State House"] + '</td>' + 
-                      '<tr> <th>' + "State Senate" + '</th> <td>' + e.features[0].properties["State Senate"] + '</td>' + 
-                      '<tr> <th>' + "Senate Cook Rating June" + '</th> <td>' + e.features[0].properties['Senate Cook Rating June'] + '</td>' + 
-                      '<tr> <th>' + "Governor Cook Rating June" + '</th> <td>' + e.features[0].properties["Governor Cook Rating June"] + '</td>' + 
-                      '<tr> <th>' + "State Supreme Court Elections" + '</th> <td>' + e.features[0].properties["State Supreme Court Elections"] + '</td>' + 
-                      '<tr> <th>' + "State Supreme Court Retention" + '</th> <td>' + e.features[0].properties["State Supreme Court Retention"] + '</td>' + 
-                      '<tr> <th>' + "Ballot Measures" + '</th> <td>' + e.features[0].properties["Ballot Measures Include"] + '</td>' + 
-                      '<tr> <th>' + "PGP Link" + '</th> <td>' + e.features[0].properties["PGP Link"] + '</td>' + 
-                      '<tr> <th>' + "Ballotpedia Link" + '</th> <td>' + e.features[0].properties["Ballotpedia Link"] + '</td>' + 
-                    '</table>'
-
-        new mapboxgl.Popup(el)
-            .setLngLat(e.lngLat)
-            // .setLngLat([-130, 45]) //if state table is in the same place
-            .setHTML(myTable)
-            .addTo(map);
-        });
-
-    map.on('mouseenter', 'states-layer', function() {
-        map.getCanvas().style.cursor = 'pointer';
-    });
+        let clickedStateBox = document.getElementById('clicked-info')
+        let clickedStateInfo = clickedStateBox.appendChild(el)
+        clickedStateInfo.id = "state-" + prop.State;
+        clickedStateInfo.className = 'item';
         
-    // Change it back to a pointer when it leaves.
-    map.on('mouseleave', 'states-layer', function() {
-         map.getCanvas().style.cursor = '';
-    });
+         /* Add the link to the individual listing created above. */
+        let link = clickedStateInfo.appendChild(document.createElement('a'));
+        link.href = prop['PGP Link'];
+        link.className = 'title';
+        link.id = "link-" + prop.id;
+        link.innerHTML = prop.State;
+        
+        /* Add details to the individual state info. */
+        let details = clickedStateInfo.appendChild(document.createElement('div'));
+        if (prop['Ballot Measures Include']) {
+            details.innerHTML += 'Ballot Measures Include: '.bold() + prop['Ballot Measures Include']+ "<br />";
+        }
+        if (prop['State House']) {
+            details.innerHTML += 'State House: '.bold() + prop['State House'] + "<br />";
+        }
+        if (prop['State Senate']) {
+            details.innerHTML += 'State Senate: '.bold() + prop['State Senate'] + "<br />";
+        }
+        if (prop['Governor Cook Rating June']) {
+            details.innerHTML += 'June Cook Rating (Governor): '.bold() + prop['Governor Cook Rating June']+ "<br />";
+        }
+        if (prop['Senate Cook Rating June']) {
+            details.innerHTML += 'June Cook Rating (Senate): '.bold() + prop['Senate Cook Rating June']+ "<br />";
+        }
+        if (prop['State Supreme Court Elections']) {
+            details.innerHTML += 'State Supreme Court Elections: '.bold() + prop['State Supreme Court Elections']+ "<br />";
+        }
+        if (prop['State Supreme Court Retention']) {
+            details.innerHTML += 'State Supreme Court Retention? '.bold() + prop['State Supreme Court Retention']+ "<br />";
+        }
+        if (prop['Ballotpedia Link']) {
+            let ballot_link = details.appendChild(document.createElement('a'));
+            ballot_link.href = prop['Ballotpedia Link'];
+            ballot_link.className = 'a';
+            ballot_link.id = "ballot_link-" + prop.id;
+            ballot_link.innerHTML = 'Ballotpedia Link';
+        }
+        });
 
     // Congressional-layer click and pop-up stuff
     map.on('click', 'congressional-layer', function(e) {
+        let prop = e.features[0].properties
         let el = document.createElement('div');
-        el.className = 'marker';
-        let myCongressionalTable = '<table> <tr> <th>' + "District" + '</th> <td>' + e.features[0].properties.District + '</td>' + 
-                        // '<tr> <th>' + "State House" + '</th> <td>' + e.features[0].properties["State House"] + '</td>' + 
-                        // '<tr> <th>' + "State Senate" + '</th> <td>' + e.features[0].properties["State Senate"] + '</td>' + 
-                        '<tr> <th>' + "June Cook Rating" + '</th> <td>' + e.features[0].properties["June Cook"] + '</td>' + 
-                        // '<tr> <th>' + "Governor Cook Rating June" + '</th> <td>' + e.features[0].properties["Governor Cook Rating June"] + '</td>' + 
-                    '</table>'
+        el.className = 'marker'
+
+        let myCongressionalTable = '<table> <tr> <th>' + "District" + '</th> <td>' + prop.District + '</td>' + 
+                                   '<tr> <th>' + "June Cook Rating" + '</th> <td>' + prop["June Cook"] + '</td>' + 
+                                '</table>'
 
         new mapboxgl.Popup(el)
             .setLngLat(e.lngLat)

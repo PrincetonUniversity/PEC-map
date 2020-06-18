@@ -22,18 +22,33 @@ body {
   box-sizing: border-box;
 }
 
-.map {
-  position: absolute;
-  left: 33.3333%;
-  width: 66.6666%;
-  top: 0;
-  bottom: 0;
-}
+  #map-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 33.3333%;
+    width: 66.6666%;
+  }
 
 .clicked-info {
   height: 100%;
   overflow: auto;
   padding-bottom: 60px;
+}
+
+.clicked-info .item {
+  display: block;
+  border-bottom: 1px solid #eee;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.clicked-info .item:last-child { border-bottom: none; }
+
+.clicked-info .item .title {
+  display: block;
+  color: #00853e;
+  font-weight: 700;
 }
 
 .heading {
@@ -45,7 +60,7 @@ body {
 }
 
   a {
-    color: #404040;
+    color: #004785;
     text-decoration: none;
   }
 
@@ -81,23 +96,12 @@ body {
     text-align: left;
   }
 
-  /**
-  * Create a position for the map
-  * on the page */
-  /* #map-container {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 90%; 
-    height: 70%;
-  } */
-  
   .legend {
     background-color: #fff;
     border-radius: 3px;
     bottom: 30px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-    font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font: 400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
     padding: 10px;
     position: absolute;
     right: 10px;
@@ -116,20 +120,7 @@ body {
     width: 10px;
   }
 
-  .marker {
-    /* background-size: cover; */
-    /* width: 100px;
-    height: 100px; */
-    /* border-radius: 50%; */
-    /* cursor: pointer; */
-    height:300px;
-    width: 200px;
-    overflow: scroll;
-  }
-
   table {
-    /* font-family: arial, sans-serif; */
-    /* border-collapse: collapse; */
     width: 100%;
   }
   
