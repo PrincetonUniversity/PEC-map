@@ -39,7 +39,6 @@ map.on('load', function() {
             'minzoom': 0,
             'maxzoom': zoomThreshold,
             'paint': {
-            // 'fill-color': 'rgba(200, 100, 240, 0.4)',
             'fill-opacity': 0,
                 },
             'type': 'fill',
@@ -53,7 +52,6 @@ map.on('load', function() {
             'source-layer': 'congressional',
             'minzoom': zoomThreshold,
             'paint': {
-                // 'fill-color': 'rgba(200, 200, 140, 0.4)',
                 'fill-opacity': 0,
                     },
             'type': 'fill',
@@ -63,13 +61,18 @@ map.on('load', function() {
     // State-layer click and pop-up stuff
     map.on('click', 'states-layer', function(e) {
         let prop = e.features[0].properties
-        let el = document.createElement('div');
-        let clickedStateBox = document.getElementById('clicked-info')
+        let el = document.createElement('div'); //parent
+        let clickedStateBox = document.getElementById('clicked-info') 
+
         let clickedStateInfo = clickedStateBox.appendChild(el)
+
+        clickedStateInfo.insertBefore(el, clickedStateInfo.firstElementChild)
+
+
         clickedStateInfo.id = "state-" + prop.State;
         clickedStateInfo.className = 'item';
         
-         /* Add the link to the individual listing created above. */
+        /* Add hyperlinked state name. */
         let link = clickedStateInfo.appendChild(document.createElement('a'));
         link.href = prop['PGP Link'];
         link.className = 'title';
