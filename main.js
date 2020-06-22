@@ -109,6 +109,7 @@ map.on('load', function() {
 
     // Congressional-layer click and pop-up stuff
     map.on('click', 'congressional-layer', function(e) {
+        e.originalEvent.cancelBubble = true; 
         let prop = e.features[0].properties
         let el = document.createElement('div');
         el.className = 'marker'
