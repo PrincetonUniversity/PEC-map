@@ -36,16 +36,15 @@ body {
   padding-bottom: 60px;
 }
 
-.clicked-info .item {
+.state-info {
   display: block;
   border-bottom: 1px solid #eee;
   padding: 10px;
   text-decoration: none;
+  border-bottom: none;
 }
 
-.clicked-info .item:last-child { border-bottom: none; }
-
-.clicked-info .item .title {
+.state-info .title {
   display: block;
   color: #00853e;
   font-weight: 700;

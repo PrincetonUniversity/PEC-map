@@ -45,18 +45,18 @@ map.on('load', function() {
         }
     );
 
-    // map.addLayer(
-    //     {
-    //         'id': 'congressional-layer',
-    //         'source': 'PEC-map',
-    //         'source-layer': 'congressional',
-    //         'minzoom': zoomThreshold,
-    //         'paint': {
-    //             'fill-opacity': 0,
-    //                 },
-    //         'type': 'fill',
-    //     }
-    // );
+    map.addLayer(
+        {
+            'id': 'congressional-layer',
+            'source': 'PEC-map',
+            'source-layer': 'congressional',
+            'minzoom': zoomThreshold,
+            'paint': {
+                'fill-opacity': 0,
+                    },
+            'type': 'fill',
+        }
+    );
 
     // State-layer click and pop-up stuff
     map.on('click', 'states-layer', function(e) {
@@ -65,17 +65,8 @@ map.on('load', function() {
         let clickedStateBox = document.getElementById('clicked-info') 
 
         let clickedStateInfo = document.getElementById('state-info')
-
         clickedStateInfo.innerHTML = ""
-
         clickedStateBox.appendChild(clickedStateInfo)
-
-        // let clickedStateInfo = clickedStateBox.appendChild(el)
-
-        // clickedStateInfo.insertBefore(el, clickedStateInfo.firstElementChild)
-
-        // clickedStateInfo.id = "state-" + prop.State;
-        // clickedStateInfo.className = 'item';
         
         /* Add hyperlinked state name. */
         let link = clickedStateInfo.appendChild(document.createElement('a'));
