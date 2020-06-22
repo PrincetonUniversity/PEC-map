@@ -45,18 +45,18 @@ map.on('load', function() {
         }
     );
 
-    map.addLayer(
-        {
-            'id': 'congressional-layer',
-            'source': 'PEC-map',
-            'source-layer': 'congressional',
-            'minzoom': zoomThreshold,
-            'paint': {
-                'fill-opacity': 0,
-                    },
-            'type': 'fill',
-        }
-    );
+    // map.addLayer(
+    //     {
+    //         'id': 'congressional-layer',
+    //         'source': 'PEC-map',
+    //         'source-layer': 'congressional',
+    //         'minzoom': zoomThreshold,
+    //         'paint': {
+    //             'fill-opacity': 0,
+    //                 },
+    //         'type': 'fill',
+    //     }
+    // );
 
     // State-layer click and pop-up stuff
     map.on('click', 'states-layer', function(e) {
@@ -64,13 +64,18 @@ map.on('load', function() {
         let el = document.createElement('div'); //parent
         let clickedStateBox = document.getElementById('clicked-info') 
 
-        let clickedStateInfo = clickedStateBox.appendChild(el)
+        let clickedStateInfo = document.getElementById('state-info')
 
-        clickedStateInfo.insertBefore(el, clickedStateInfo.firstElementChild)
+        clickedStateInfo.innerHTML = ""
 
+        clickedStateBox.appendChild(clickedStateInfo)
 
-        clickedStateInfo.id = "state-" + prop.State;
-        clickedStateInfo.className = 'item';
+        // let clickedStateInfo = clickedStateBox.appendChild(el)
+
+        // clickedStateInfo.insertBefore(el, clickedStateInfo.firstElementChild)
+
+        // clickedStateInfo.id = "state-" + prop.State;
+        // clickedStateInfo.className = 'item';
         
         /* Add hyperlinked state name. */
         let link = clickedStateInfo.appendChild(document.createElement('a'));
@@ -116,10 +121,12 @@ map.on('load', function() {
         let prop = e.features[0].properties
         let el = document.createElement('div');
         el.className = 'marker'
+        console.log("clicked prop", prop);
 
         let myCongressionalTable = '<table> <tr> <th>' + "District" + '</th> <td>' + prop.District + '</td>' + 
                                    '<tr> <th>' + "June Cook Rating" + '</th> <td>' + prop["June Cook"] + '</td>' + 
-                                '</table>'
+                                    '</table>'
+
 
         new mapboxgl.Popup(el)
             .setLngLat(e.lngLat)
