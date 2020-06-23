@@ -33,6 +33,26 @@ map.on('load', function() {
 
     map.addLayer(
         {
+            'id': 'congressional-border',
+            'type': 'line',
+            'source': 'PEC-map',
+            'source-layer': 'congressional',
+            // 'minzoom': 0,
+            // 'maxzoom': zoomThreshold,
+            'layout': {
+                // make layer visible by default
+                'visibility': 'visible',
+                'line-join': 'round',
+                'line-cap': 'round'
+            },
+            'paint': {
+                'line-color': '#877b59',
+                'line-width': 1
+            }
+        });
+
+    map.addLayer(
+        {
             'id': 'states-layer',
             'source': 'PEC-map',
             'source-layer': 'state',
