@@ -46,7 +46,7 @@ map.on('load', function() {
                 'line-cap': 'round'
             },
             'paint': {
-                'line-color': '#877b59',
+                'line-color': 'white',
                 'line-width': 1
             }
         });
