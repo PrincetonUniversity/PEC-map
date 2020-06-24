@@ -36,12 +36,10 @@ map.on('load', function() {
             'id': 'congressional-border',
             'type': 'line',
             'source': 'PEC-map',
-            'source-layer': 'congressional',
-            // 'minzoom': 0,
-            // 'maxzoom': zoomThreshold,
+            'source-layer': 'congressional', // change this once MB tiles change 
+            'minzoom': zoomThreshold,
             'layout': {
-                // make layer visible by default
-                'visibility': 'visible',
+                // 'visibility': 'visible',
                 'line-join': 'round',
                 'line-cap': 'round'
             },
