@@ -51,7 +51,7 @@ cong_out = cong_out[["NAME", "District", "Code", "D", "R", "April Cook Ratings",
            "June Cook Ratings", "Opposition Primary", "geometry"]]
 
 # next: upload this file and full congressional shapefile as separate sources to generate MB tiles
-cong_out.to_file("/Users/hopecj/projects/PEC/PEC-map/out-files/state_dat_june24.geojson", driver="GeoJSON")
+cong_out.to_file("/Users/hopecj/projects/PEC/PEC-map/out-files/house_dat_june24.geojson", driver="GeoJSON")
 
 
 ###############################
