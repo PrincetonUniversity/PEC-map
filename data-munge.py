@@ -50,9 +50,9 @@ cong_out = cong_shp.merge(cong, on='Code')
 cong_out = cong_out[["NAME", "District", "Code", "D", "R", "April Cook Ratings",
            "June Cook Ratings", "Opposition Primary", "geometry"]]
 
-# next: merge with full congressional map in QGIS
-# then save as geojson
-cong_out.to_file("cong_dat.shp")
+# next: upload this file and full congressional shapefile as separate sources to generate MB tiles
+cong_out.to_file("/Users/hopecj/projects/PEC/PEC-map/out-files/state_dat_june24.geojson", driver="GeoJSON")
+
 
 ###############################
 #      CREATE STATE DATA      #
