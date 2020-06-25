@@ -12,9 +12,12 @@ mapboxgl.accessToken = 'pk.eyJ1Ijoib3BlbnByZWNpbmN0cyIsImEiOiJjanVqMHJtM3gwMXdyM
 
 const map = new mapboxgl.Map({
     container: 'map-container',
-    style: 'mapbox://styles/openprecincts/ckbazy0ec05n81imptth2lltu', // stylesheet location
-    center: [-96.527, 38.233],
-    zoom: 3.5
+    style: 'mapbox://styles/openprecincts/ckbazy0ec05n81imptth2lltu', // stylesheet location    
+});
+// bounding box, defines extent of USA view
+const bbox = [[-63.588704947691994, 50.715649574086314], [-127.55862265048071, 22.645896726596078]];
+map.fitBounds(bbox, {
+    padding: {top: 10, bottom:25, left: 15, right: 5}
 });
 
 const svg = d3
@@ -28,7 +31,7 @@ const zoomThreshold = 5;
 map.on('load', function() {
     map.addSource('PEC-map', {
         'type': 'vector',
-        'url': 'mapbox://openprecincts.PEC-map'
+        'url': 'mapbox://openprecincts.PEC-mapV2'
     });
 
     map.addLayer(
@@ -36,10 +39,9 @@ map.on('load', function() {
             'id': 'congressional-border',
             'type': 'line',
             'source': 'PEC-map',
-            'source-layer': 'congressional', // change this once MB tiles change 
+            'source-layer': 'congressBoundary', 
             'minzoom': zoomThreshold,
             'layout': {
-                // 'visibility': 'visible',
                 'line-join': 'round',
                 'line-cap': 'round'
             },
@@ -67,7 +69,7 @@ map.on('load', function() {
         {
             'id': 'congressional-layer',
             'source': 'PEC-map',
-            'source-layer': 'congressional',
+            'source-layer': 'congressFill',
             'minzoom': zoomThreshold,
             'paint': {
                 'fill-opacity': 0,
@@ -134,7 +136,7 @@ map.on('load', function() {
         console.log("clicked prop", prop);
 
         let myCongressionalTable = '<table> <tr> <th>' + "District" + '</th> <td>' + prop.District + '</td>' + 
-                                   '<tr> <th>' + "June Cook Rating" + '</th> <td>' + prop["June Cook"] + '</td>' + 
+                                   '<tr> <th>' + "June Cook Rating" + '</th> <td>' + prop["June Cook Ratings"] + '</td>' + 
                                     '</table>'
 
 
