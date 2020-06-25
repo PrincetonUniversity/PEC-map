@@ -17,7 +17,8 @@ const map = new mapboxgl.Map({
 // bounding box, defines extent of USA view
 const bbox = [[-63.588704947691994, 50.715649574086314], [-127.55862265048071, 22.645896726596078]];
 map.fitBounds(bbox, {
-    padding: {top: 10, bottom:25, left: 15, right: 5}
+    padding: {top: 10, bottom:25, left: 15, right: 5},
+    linear: true,
 });
 
 const svg = d3
@@ -27,6 +28,9 @@ const svg = d3
       .attr("height", height);
 
 const zoomThreshold = 5;
+let hoveredDistrictId = null;
+var hoveredStateId = null;
+
 
 map.on('load', function() {
     map.addSource('PEC-map', {
@@ -46,9 +50,15 @@ map.on('load', function() {
                 'line-cap': 'round'
             },
             'paint': {
-                'line-color': 'white',
-                'line-width': 1
-            }
+                'line-color': [
+                    'case',
+                    ['boolean', ['feature-state', 'hover'], false],
+                    'red',
+                    'silver'
+                ],
+                'line-width': 1.5
+            },
+            
         });
 
     map.addLayer(
@@ -58,9 +68,17 @@ map.on('load', function() {
             'source-layer': 'state',
             'minzoom': 0,
             'maxzoom': zoomThreshold,
+            // 'paint': { 'fill-opacity': 0 },
             'paint': {
-            'fill-opacity': 0,
-                },
+                // 'fill-color': [
+                //     'case',
+                //     ['boolean', ['feature-state', 'hover'], false],
+                //     'red',
+                //     'blue'
+                // ],
+                // 'fill-opacity': .5
+                'fill-opacity': 0
+            },
             'type': 'fill',
         }
     );
@@ -145,15 +163,69 @@ map.on('load', function() {
             .setHTML(myCongressionalTable)
             .addTo(map);
         });
-
-    map.on('mouseenter', 'congressional-layer', function() {
-        map.getCanvas().style.cursor = 'pointer';
-    });
+    
+    // // When user moves mouse over the congressional-layer, update the feature state for the feature under the mouse
+    // map.on('mousemove', 'congressional-border', function(e) {
+    //     if (e.features.length > 0) {
+    //         if (hoveredDistrictId) {
+    //             map.setFeatureState(
+    //                 { source: 'congressBoundary', id: hoveredDistrictId },
+    //                 { hover: false }
+    //             );
+    //         }
+    //         hoveredDistrictId = e.features[0].Code;
+    //         map.setFeatureState(
+    //             { source: 'congressBoundary', id: hoveredDistrictId },
+    //             { hover: true }
+    //         );
+    //     }
+    // });
         
-    // Change it back to a pointer when it leaves.
-    map.on('mouseleave', 'congressional-layer', function() {
-         map.getCanvas().style.cursor = '';
-    });
+    // // Change it back to a pointer when it leaves.
+    // map.on('mouseleave', 'congressional-border', function(e) {
+    //     if (hoveredDistrictId) {
+    //         map.setFeatureState(
+    //             { source: 'congressBoundary', id: hoveredDistrictId },
+    //             { hover: false }
+    //             );
+    //         }
+    //     hoveredStateId = null;
+    // });
+    
+    map.on('mousemove', 'states-layer', function(e) {
+        map.getCanvas().style.cursor = 'pointer';
+        hoveredStateId = parseInt(e.features[0].properties.STATEFP);
+        console.log('hover state id second', hoveredStateId);
+        map.setFeatureState({ 
+            source: 'PEC-map', 
+            sourceLayer: 'state', 
+            id: hoveredStateId,
+        },
+            { hover: true }
+        );
+        map.getFeatureState({
+            source: 'PEC-map', 
+            sourceLayer: 'state', 
+            id: hoveredStateId 
+            });
+        });
+         
+        // When the mouse leaves the state-fill layer, update the feature state of the
+        // previously hovered feature.
+        map.on('mouseleave', 'states-layer', function() {
+        if (hoveredStateId) {
+        map.setFeatureState({ 
+            source: 'PEC-map', 
+            sourceLayer: 'state', 
+            id: hoveredStateId 
+        },
+        { hover: false }
+        );
+        }
+        hoveredStateId = null;
+        map.getCanvas().style.cursor = '';
+        });
+
 
     // add legend on zoom
     var congressionalLegendEl = document.getElementById('congressional-legend');
@@ -166,4 +238,5 @@ map.on('load', function() {
     });
 
 });
+
 
