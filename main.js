@@ -98,15 +98,15 @@ map.on('load', function() {
 
     // State-layer click and pop-up stuff
     map.on('click', 'states-layer', function(e) {
+        // map.flyTo({center: e.features[0].geometry.coordinates, zoom:10});
         let prop = e.features[0].properties
-        let el = document.createElement('div'); //parent
         let clickedStateBox = document.getElementById('clicked-info') 
 
         let clickedStateInfo = document.getElementById('state-info')
         clickedStateInfo.innerHTML = ""
         clickedStateBox.appendChild(clickedStateInfo)
         
-        /* Add hyperlinked state name. */
+        /* Add state name. */
         let title = clickedStateInfo.appendChild(document.createElement('div'));
         title.className = 'title';
         title.innerHTML = prop.State;
@@ -163,15 +163,12 @@ map.on('load', function() {
         if (prop['State Supreme Court Elections']) {
             details.innerHTML += 'State Supreme Court Elections: '.bold() + prop['State Supreme Court Elections']+ "<br />";
         }
-        if (prop['State Supreme Court Retention']) {
-            details.innerHTML += 'State Supreme Court Retention? '.bold() + prop['State Supreme Court Retention']+ "<br />";
-        }
         if (prop['PGP Link']) {
             let pgp_link = details.appendChild(document.createElement('a'));
             pgp_link.href = prop['PGP Link'];
             pgp_link.className = 'a';
             pgp_link.id = "link-" + prop.id;
-            pgp_link.innerHTML = 'PGP Link'+ "<br />";
+            pgp_link.innerHTML = 'Princeton Gerrymandering Project Link'+ "<br />";
         }
         if (prop['Ballotpedia Link']) {
             let ballot_link = details.appendChild(document.createElement('a'));
@@ -200,69 +197,6 @@ map.on('load', function() {
             .setHTML(myCongressionalTable)
             .addTo(map);
         });
-    
-    // // When user moves mouse over the congressional-layer, update the feature state for the feature under the mouse
-    // map.on('mousemove', 'congressional-border', function(e) {
-    //     if (e.features.length > 0) {
-    //         if (hoveredDistrictId) {
-    //             map.setFeatureState(
-    //                 { source: 'congressBoundary', id: hoveredDistrictId },
-    //                 { hover: false }
-    //             );
-    //         }
-    //         hoveredDistrictId = e.features[0].Code;
-    //         map.setFeatureState(
-    //             { source: 'congressBoundary', id: hoveredDistrictId },
-    //             { hover: true }
-    //         );
-    //     }
-    // });
-        
-    // // Change it back to a pointer when it leaves.
-    // map.on('mouseleave', 'congressional-border', function(e) {
-    //     if (hoveredDistrictId) {
-    //         map.setFeatureState(
-    //             { source: 'congressBoundary', id: hoveredDistrictId },
-    //             { hover: false }
-    //             );
-    //         }
-    //     hoveredStateId = null;
-    // });
-    
-    map.on('mousemove', 'states-layer', function(e) {
-        map.getCanvas().style.cursor = 'pointer';
-        hoveredStateId = parseInt(e.features[0].properties.STATEFP);
-        console.log('hover state id second', hoveredStateId);
-        map.setFeatureState({ 
-            source: 'PEC-map', 
-            sourceLayer: 'state', 
-            id: hoveredStateId,
-        },
-            { hover: true }
-        );
-        map.getFeatureState({
-            source: 'PEC-map', 
-            sourceLayer: 'state', 
-            id: hoveredStateId 
-            });
-        });
-         
-        // When the mouse leaves the state-fill layer, update the feature state of the
-        // previously hovered feature.
-        map.on('mouseleave', 'states-layer', function() {
-        if (hoveredStateId) {
-        map.setFeatureState({ 
-            source: 'PEC-map', 
-            sourceLayer: 'state', 
-            id: hoveredStateId 
-        },
-        { hover: false }
-        );
-        }
-        hoveredStateId = null;
-        map.getCanvas().style.cursor = '';
-        });
-
 
     // add legend on zoom
     var congressionalLegendEl = document.getElementById('congressional-legend');
