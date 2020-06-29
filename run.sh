@@ -8,4 +8,12 @@ tilesets create openprecincts.PEC-mapV2 --recipe ../recipe.json --name "PEC map 
 
 tilesets publish openprecincts.PEC-mapV2 
 
-tilesets status openprecincts.PEC-mapV2 # to check the status
+tilesets status openprecincts.PEC-mapV2 
+
+# update the recipe with new data 
+tilesets delete-source openprecincts state # delete old source
+tilesets add-source openprecincts state2 ./state_dat_june29.geojson # upload new data.
+tilesets update-recipe openprecincts.PEC-mapV2 ../recipe.json # update recipe; not sure why this is not working 
+
+
+

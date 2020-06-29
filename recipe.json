@@ -12,7 +12,7 @@
             "maxzoom": 16
         },
         "state": {
-            "source": "mapbox://tileset-source/openprecincts/state",
+            "source": "mapbox://tileset-source/openprecincts/state2",
             "minzoom": 0,
             "maxzoom": 5
         }
