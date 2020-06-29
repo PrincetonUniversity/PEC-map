@@ -107,11 +107,9 @@ map.on('load', function() {
         clickedStateBox.appendChild(clickedStateInfo)
         
         /* Add hyperlinked state name. */
-        let link = clickedStateInfo.appendChild(document.createElement('a'));
-        link.href = prop['PGP Link'];
-        link.className = 'title';
-        link.id = "link-" + prop.id;
-        link.innerHTML = prop.State;
+        let title = clickedStateInfo.appendChild(document.createElement('div'));
+        title.className = 'title';
+        title.innerHTML = prop.State;
         
         /* Add details to the individual state info. */
         let details = clickedStateInfo.appendChild(document.createElement('div'));
@@ -130,13 +128,37 @@ map.on('load', function() {
             }
         }
         if (prop['State Senate']) {
-            details.innerHTML += 'State Senate: '.bold() + prop['State Senate'] + "<br />";
+            details.innerHTML += 'State Senate: '.bold()
+            if ((prop['State Senate'] == "Not competitive") | (prop['State Senate'] == "No election")) {
+                stateSenate = "<span style='background-color:purple; color:white'>" + prop['State Senate'] + "</span>";
+                details.innerHTML += stateSenate + "<br />";
+            }
+            else {
+                stateSenate = "<span style='background-color:green; color:white'>" + prop['State Senate'] + "</span>";
+                details.innerHTML += stateSenate + "<br />";
+            }
         }
         if (prop['Governor Cook Rating June']) {
-            details.innerHTML += 'June Cook Rating (Governor): '.bold() + prop['Governor Cook Rating June']+ "<br />";
+            details.innerHTML += 'June Cook Rating (Governor): '.bold()
+            if ((prop['Governor Cook Rating June'] == "Safe D") | (prop['Governor Cook Rating June'] == "Safe R")) {
+                cookGovJune = "<span style='background-color:purple; color:white'>" + prop['Governor Cook Rating June'] + "</span>";
+                details.innerHTML += cookGovJune + "<br />";
+            }
+            else {
+                cookGovJune = "<span style='background-color:green; color:white'>" + prop['Governor Cook Rating June'] + "</span>";
+                details.innerHTML += cookGovJune + "<br />";
+            }
         }
         if (prop['Senate Cook Rating June']) {
-            details.innerHTML += 'June Cook Rating (Senate): '.bold() + prop['Senate Cook Rating June']+ "<br />";
+            details.innerHTML += 'June Cook Rating (Senate): '.bold()
+            if ((prop['Senate Cook Rating June'] == "Safe D") | (prop['Senate Cook Rating June'] == "Safe R")) {
+                cookSenateJune = "<span style='background-color:purple; color:white'>" + prop['Senate Cook Rating June'] + "</span>";
+                details.innerHTML += cookSenateJune + "<br />";
+            }
+            else {
+                cookSenateJune = "<span style='background-color:green; color:white'>" + prop['Senate Cook Rating June'] + "</span>";
+                details.innerHTML += cookSenateJune + "<br />";
+            }
         }
         if (prop['State Supreme Court Elections']) {
             details.innerHTML += 'State Supreme Court Elections: '.bold() + prop['State Supreme Court Elections']+ "<br />";
@@ -144,12 +166,19 @@ map.on('load', function() {
         if (prop['State Supreme Court Retention']) {
             details.innerHTML += 'State Supreme Court Retention? '.bold() + prop['State Supreme Court Retention']+ "<br />";
         }
+        if (prop['PGP Link']) {
+            let pgp_link = details.appendChild(document.createElement('a'));
+            pgp_link.href = prop['PGP Link'];
+            pgp_link.className = 'a';
+            pgp_link.id = "link-" + prop.id;
+            pgp_link.innerHTML = 'PGP Link'+ "<br />";
+        }
         if (prop['Ballotpedia Link']) {
             let ballot_link = details.appendChild(document.createElement('a'));
             ballot_link.href = prop['Ballotpedia Link'];
             ballot_link.className = 'a';
-            ballot_link.id = "ballot_link-" + prop.id;
-            ballot_link.innerHTML = 'Ballotpedia Link';
+            ballot_link.id = "link-" + prop.id;
+            ballot_link.innerHTML = 'Ballotpedia Link' ;
         }
         });
 

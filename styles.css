@@ -45,6 +45,7 @@ body {
 }
 
 .state-info .title {
+  font-size: 1.5em;
   display: block;
   color: #00853e;
   font-weight: 700;
