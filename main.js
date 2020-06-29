@@ -113,9 +113,6 @@ map.on('load', function() {
         
         /* Add details to the individual state info. */
         let details = clickedStateInfo.appendChild(document.createElement('div'));
-        if (prop['Ballot Measures Include']) {
-            details.innerHTML += 'Ballot Measures Include: '.bold() + prop['Ballot Measures Include']+ "<br />";
-        }
         if (prop['State House']) {
             details.innerHTML += 'State House: '.bold()
             if ((prop['State House'] == "Not competitive") | (prop['State House'] == "No election")) {
@@ -159,6 +156,9 @@ map.on('load', function() {
                 cookSenateJune = "<span style='background-color:green; color:white'>" + prop['Senate Cook Rating June'] + "</span>";
                 details.innerHTML += cookSenateJune + "<br />";
             }
+        }
+        if (prop['Ballot Measures Include']) {
+            details.innerHTML += 'Ballot Measures Include: '.bold() + prop['Ballot Measures Include']+ "<br />";
         }
         if (prop['State Supreme Court Elections']) {
             details.innerHTML += 'State Supreme Court Elections: '.bold() + prop['State Supreme Court Elections']+ "<br />";
