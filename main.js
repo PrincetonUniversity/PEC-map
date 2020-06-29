@@ -119,7 +119,15 @@ map.on('load', function() {
             details.innerHTML += 'Ballot Measures Include: '.bold() + prop['Ballot Measures Include']+ "<br />";
         }
         if (prop['State House']) {
-            details.innerHTML += 'State House: '.bold() + prop['State House'] + "<br />";
+            details.innerHTML += 'State House: '.bold()
+            if ((prop['State House'] == "Not competitive") | (prop['State House'] == "No election")) {
+                stateHouse = "<span style='background-color:purple; color:white'>" + prop['State House'] + "</span>";
+                details.innerHTML += stateHouse + "<br />";
+            }
+            else {
+                stateHouse = "<span style='background-color:green; color:white'>" + prop['State House'] + "</span>";
+                details.innerHTML += stateHouse + "<br />";
+            }
         }
         if (prop['State Senate']) {
             details.innerHTML += 'State Senate: '.bold() + prop['State Senate'] + "<br />";
