@@ -157,6 +157,10 @@ map.on('load', function() {
                 details.innerHTML += cookSenateJune + "<br />";
             }
         }
+        // update this when I have the correct data 
+        if (prop['Competitive Congressional Districts']) {
+            details.innerHTML += 'Competitive Congressional Districts: '.bold() + prop['Competitive Congressional Districts'] + "<br />";
+        }
         if (prop['Ballot Measures Include']) {
             details.innerHTML += 'Ballot Measures Include: '.bold() + prop['Ballot Measures Include']+ "<br />";
         }
