@@ -72,8 +72,18 @@ list(st_data.columns)
 st_data['STUSPS'] = st_data['State']
 st_data.groupby(['STUSPS']).agg(['count']) 
 
+# merge competitive congressional districts separated by comma 
+# filter to competitive congressional districts
+competitive_congressional = cong[(cong['June Cook Ratings'] == "Toss-Up") | 
+                                 (cong['June Cook Ratings'] == "Lean D") | 
+                                 (cong['June Cook Ratings'] == "Lean R")]
+competitive_cong_list = competitive_congressional.groupby('State').District.agg([('nCompetitive CDs', 'count'), ('Competitive Congressional Districts', ', '.join)])
+competitive_cong_list.reset_index(inplace=True)
+st_data = st_data.merge(competitive_cong_list, how='outer')
+
+# merge with shape 
 st_out = state_shp.merge(st_data, on='STUSPS')
-st_out = st_out[['STATEFP', 'State', 'Senate Special', 'Senate D',
+st_out = st_out[['STATEFP', 'State', 'NAME', 'Senate Special', 'Senate D',
        'Senate R', 'Senate Cook Rating April', 'Senate Comments',
        'Senate Cook Rating June', 'Governor D', 'Governor R',
        'Governor Opposition Primary', 'Governor Cook Rating April',
@@ -82,46 +92,15 @@ st_out = st_out[['STATEFP', 'State', 'Senate Special', 'Senate D',
        'State Legislature Comments', 'State Legislature June CNalysis rating',
        'PGP Link', 'Ballot Measures Include', 'Ballotpedia Link',
        'State Supreme Court Elections', 'State Supreme Court Ballotpedia Link',
-       'State Supreme Court Retention', 'State Supreme Court Comments', 'geometry']]
+       'State Supreme Court Retention', 'State Supreme Court Comments', 
+       'nCompetitive CDs', 'Competitive Congressional Districts', 
+       'geometry']]
 st_out.to_file("state_dat.shp")
-st_out.to_file("/Users/hopecj/projects/PEC/PEC-map/out-files/state_dat_june11.geojson", driver="GeoJSON")
+st_out.to_file("/Users/hopecj/projects/PEC/PEC-map/out-files/state_dat_june29.geojson", driver="GeoJSON")
 
 ###############################################
 # update features /(column names) of geojson files
 #
-# names will be changed if I merge it with another 
+# note: names will be changed if I merge it with another 
 # shapefile in geojson due to column name limits
 ###############################################
-
-#congressional
-out_cong = gpd.read_file("/Users/hopecj/projects/PEC/PEC-map/out-files/house_dat.geojson")
-out_cong.columns
-out_cong = out_cong.rename(columns={'Opposition': 'Opposition Primary'})
-out_cong.to_file("/Users/hopecj/projects/PEC/PEC-map/out-files/house_dat_june11.geojson", driver="GeoJSON")
-
-# cong = gpd.read_file("/Users/hopecj/projects/PEC/PEC-map/out-files/house_dat_june11.geojson")
-# list(cong.columns)
-
-
-# #state
-# out_st = gpd.read_file("/Users/hopecj/projects/PEC/state_dat.shp")
-# list(out_st.columns)
-# out_st = out_st.rename(columns={'Senate Spe': 'Senate Special',
-#                                 'Senate Coo': 'Senate Cook April',
-#                                 'Senate Com': 'Senate Comments',
-#                                 'Senate C_1': 'Senate Cook June',
-#                                 'Governor O': 'Governor Opposition Primary',
-#                                 'Governor C': 'Governor Cook April',
-#                                 'Governor_1': 'Governor Comments',
-#                                 'Governor_2': 'Governor Cook June',
-#                                 'State Hous': 'State House',
-#                                 'State Sena': 'State Senate',
-#                                 'State Legi': 'State Legislature April CNalysis rating',
-#                                 'State Le_1': 'State Legislature Comments',
-#                                 'State Le_2': 'State Legislature June CNalysis rating',
-#                                 'Ballot Mea': 'Ballot Measures Include',
-#                                 'Ballotpedi': 'Ballotpedia Link',
-#                                 'State Supr': 'State Supreme Court Elections',
-#                                 'State Su_1': 'State Supreme Court Ballotpedia Link',
-#                                 'State Su_2': 'State Supreme Court Retention',
-#                                 'State Su_3': 'State Supreme Court Comments'})
