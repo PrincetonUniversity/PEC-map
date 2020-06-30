@@ -98,7 +98,7 @@ map.on('load', function() {
 
     // State-layer click and pop-up stuff
     map.on('click', 'states-layer', function(e) {
-        // map.flyTo({center: e.features[0].geometry.coordinates, zoom:10});
+        map.flyTo({center: e.lngLat, zoom:5});
         let prop = e.features[0].properties
         let clickedStateBox = document.getElementById('clicked-info') 
 
