@@ -164,3 +164,15 @@ body {
     visibility: hidden;
   }
 
+  #zoom {
+      position: absolute;
+      top: 10px;
+      left: 35%;
+      border: none;
+      border-radius: 3px;
+      font-size: 15px;
+      text-align: center;
+      color: #fff;
+      background: gray;
+  }
+
