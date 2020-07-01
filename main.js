@@ -211,6 +211,17 @@ map.on('load', function() {
         }
     });
 
+    document.getElementById('zoom').addEventListener('click', function() {
+        map.zoomTo(4);
+        map.fitBounds(bbox, {
+            padding: {top: 10, bottom:25, left: 15, right: 5},
+            linear: true,
+            });
+        });
+
+    map.addControl(new mapboxgl.NavigationControl());
+
+
 });
 
 
