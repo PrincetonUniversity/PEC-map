@@ -35,7 +35,7 @@ var hoveredStateId = null;
 map.on('load', function() {
     map.addSource('PEC-map', {
         'type': 'vector',
-        'url': 'mapbox://openprecincts.PEC-mapV2'
+        'url': 'mapbox://openprecincts.PEC-mapV3'
     });
 
     map.addLayer(
@@ -109,7 +109,7 @@ map.on('load', function() {
         /* Add state name. */
         let title = clickedStateInfo.appendChild(document.createElement('div'));
         title.className = 'title';
-        title.innerHTML = prop.State;
+        title.innerHTML = prop.NAME;
         
         /* Add details to the individual state info. */
         let details = clickedStateInfo.appendChild(document.createElement('div'));
@@ -157,7 +157,6 @@ map.on('load', function() {
                 details.innerHTML += cookSenateJune + "<br />";
             }
         }
-        // update this when I have the correct data 
         if (prop['Competitive Congressional Districts']) {
             details.innerHTML += 'Competitive Congressional Districts: '.bold() + prop['Competitive Congressional Districts'] + "<br />";
         }
