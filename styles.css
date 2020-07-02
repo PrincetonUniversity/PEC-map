@@ -164,15 +164,31 @@ body {
     visibility: hidden;
   }
 
-  #zoom {
+  /* #zoom {
       position: absolute;
       top: 10px;
       left: 35%;
       border: none;
       border-radius: 3px;
-      font-size: 15px;
+      font-size: 1.5em;
       text-align: center;
-      color: #fff;
-      background: gray;
+      color: gray;
+      background: white;
+  } */
+
+#zoom {
+  display: inline-block;
+  top: 13px;
+  left: 12px;
+  position: absolute;
+  left: 35%;
+  border: none;
+  border-radius: 3px;
+  font-size: 1.25em;
+  text-align: center;
+  color: #757575;
+  background: #fff;
+  line-height: 1;
+  font-family: "Open Sans", "Helvetica Neue", Arial, Helvetica, sans-serif;
   }
 
