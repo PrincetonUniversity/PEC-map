@@ -31,19 +31,28 @@ const zoomThreshold = 5;
 let hoveredDistrictId = null;
 var hoveredStateId = null;
 
-
 map.on('load', function() {
-    map.addSource('PEC-map', {
-        'type': 'vector',
-        'url': 'mapbox://openprecincts.PEC-mapV3'
+
+    map.addSource('congressional-layer', {
+        type: 'geojson',
+        data: 'https://princetonuniversity.github.io/PEC-map/out-files/house_dat_june24.geojson'
+    });
+
+    map.addSource('states-layer', {
+        type: 'geojson',
+        data: 'https://princetonuniversity.github.io/PEC-map/out-files/state_dat_june29.geojson'
+    });
+
+    map.addSource('congressional-border', {
+        type: 'geojson',
+        data: 'https://princetonuniversity.github.io/PEC-map/out-files/house_boundaries.geojson'
     });
 
     map.addLayer(
         {
             'id': 'congressional-border',
             'type': 'line',
-            'source': 'PEC-map',
-            'source-layer': 'congressBoundary', 
+            'source': 'congressional-border',
             'minzoom': zoomThreshold,
             'layout': {
                 'line-join': 'round',
@@ -64,19 +73,10 @@ map.on('load', function() {
     map.addLayer(
         {
             'id': 'states-layer',
-            'source': 'PEC-map',
-            'source-layer': 'state',
+            'source': 'states-layer',
             'minzoom': 0,
             'maxzoom': zoomThreshold,
-            // 'paint': { 'fill-opacity': 0 },
             'paint': {
-                // 'fill-color': [
-                //     'case',
-                //     ['boolean', ['feature-state', 'hover'], false],
-                //     'red',
-                //     'blue'
-                // ],
-                // 'fill-opacity': .5
                 'fill-opacity': 0
             },
             'type': 'fill',
@@ -86,8 +86,8 @@ map.on('load', function() {
     map.addLayer(
         {
             'id': 'congressional-layer',
-            'source': 'PEC-map',
-            'source-layer': 'congressFill',
+            'source': 'congressional-layer',
+            // 'source-layer': 'congressFill',
             'minzoom': zoomThreshold,
             'paint': {
                 'fill-opacity': 0,
@@ -113,7 +113,7 @@ map.on('load', function() {
         
         /* Add details to the individual state info. */
         let details = clickedStateInfo.appendChild(document.createElement('div'));
-        if (prop['State House']) {
+        if (prop['State House'] != 'null') {
             details.innerHTML += 'State House: '.bold()
             if ((prop['State House'] == "Not competitive") | (prop['State House'] == "No election")) {
                 stateHouse = "<span style='background-color:purple; color:white'>" + prop['State House'] + "</span>";
@@ -124,7 +124,7 @@ map.on('load', function() {
                 details.innerHTML += stateHouse + "<br />";
             }
         }
-        if (prop['State Senate']) {
+        if (prop['State Senate'] != 'null') {
             details.innerHTML += 'State Senate: '.bold()
             if ((prop['State Senate'] == "Not competitive") | (prop['State Senate'] == "No election")) {
                 stateSenate = "<span style='background-color:purple; color:white'>" + prop['State Senate'] + "</span>";
@@ -135,7 +135,7 @@ map.on('load', function() {
                 details.innerHTML += stateSenate + "<br />";
             }
         }
-        if (prop['Governor Cook Rating June']) {
+        if (prop['Governor Cook Rating June'] != 'null') {
             details.innerHTML += 'June Cook Rating (Governor): '.bold()
             if ((prop['Governor Cook Rating June'] == "Safe D") | (prop['Governor Cook Rating June'] == "Safe R")) {
                 cookGovJune = "<span style='background-color:purple; color:white'>" + prop['Governor Cook Rating June'] + "</span>";
@@ -146,7 +146,7 @@ map.on('load', function() {
                 details.innerHTML += cookGovJune + "<br />";
             }
         }
-        if (prop['Senate Cook Rating June']) {
+        if (prop['Senate Cook Rating June'] != 'null') {
             details.innerHTML += 'June Cook Rating (Senate): '.bold()
             if ((prop['Senate Cook Rating June'] == "Safe D") | (prop['Senate Cook Rating June'] == "Safe R")) {
                 cookSenateJune = "<span style='background-color:purple; color:white'>" + prop['Senate Cook Rating June'] + "</span>";
@@ -157,23 +157,23 @@ map.on('load', function() {
                 details.innerHTML += cookSenateJune + "<br />";
             }
         }
-        if (prop['Competitive Congressional Districts']) {
+        if (prop['Competitive Congressional Districts'] != 'null') {
             details.innerHTML += 'Competitive Congressional Districts: '.bold() + prop['Competitive Congressional Districts'] + "<br />";
         }
-        if (prop['Ballot Measures Include']) {
+        if (prop['Ballot Measures Include'] != 'null') {
             details.innerHTML += 'Ballot Measures Include: '.bold() + prop['Ballot Measures Include']+ "<br />";
         }
-        if (prop['State Supreme Court Elections']) {
+        if (prop['State Supreme Court Elections'] != 'null') {
             details.innerHTML += 'State Supreme Court Elections: '.bold() + prop['State Supreme Court Elections']+ "<br />";
         }
-        if (prop['PGP Link']) {
+        if (prop['PGP Link'] != 'null') {
             let pgp_link = details.appendChild(document.createElement('a'));
             pgp_link.href = prop['PGP Link'];
             pgp_link.className = 'a';
             pgp_link.id = "link-" + prop.id;
             pgp_link.innerHTML = 'Princeton Gerrymandering Project Link'+ "<br />";
         }
-        if (prop['Ballotpedia Link']) {
+        if (prop['Ballotpedia Link'] != 'null') {
             let ballot_link = details.appendChild(document.createElement('a'));
             ballot_link.href = prop['Ballotpedia Link'];
             ballot_link.className = 'a';
@@ -181,7 +181,6 @@ map.on('load', function() {
             ballot_link.innerHTML = 'Ballotpedia Link' ;
         }
         });
-
     // Congressional-layer click and pop-up stuff
     map.on('click', 'congressional-layer', function(e) {
         e.originalEvent.cancelBubble = true; 
