@@ -213,7 +213,7 @@ map.on('load', function() {
     // add legend on zoom
     var congressionalLegendEl = document.getElementById('congressional-legend');
     map.on('zoom', function() {
-        if (map.getZoom() > zoomThreshold) {
+        if (map.getZoom() >= zoomThreshold) {
             congressionalLegendEl.style.display = 'block';
         } else {
         congressionalLegendEl.style.display = 'none';
@@ -222,7 +222,7 @@ map.on('load', function() {
 
     // add "Reset Map" 
     document.getElementById('zoom').addEventListener('click', function() {
-        map.zoomTo(4);
+        map.zoomTo(zoomThreshold);
         map.fitBounds(bbox, {
             padding: {top: 10, bottom:25, left: 15, right: 5},
             linear: true,
