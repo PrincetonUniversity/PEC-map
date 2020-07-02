@@ -12,7 +12,8 @@ mapboxgl.accessToken = 'pk.eyJ1Ijoib3BlbnByZWNpbmN0cyIsImEiOiJjanVqMHJtM3gwMXdyM
 
 const map = new mapboxgl.Map({
     container: 'map-container',
-    style: 'mapbox://styles/openprecincts/ckbazy0ec05n81imptth2lltu', // stylesheet location    
+    // style: 'mapbox://styles/openprecincts/ckbazy0ec05n81imptth2lltu', // stylesheet location    
+    style: 'mapbox://styles/openprecincts/ckb82ge1d1xx81ip9v5i0xony'
 });
 // bounding box, defines extent of USA view
 const bbox = [[-63.588704947691994, 50.715649574086314], [-127.55862265048071, 22.645896726596078]];
@@ -59,12 +60,7 @@ map.on('load', function() {
                 'line-cap': 'round'
             },
             'paint': {
-                'line-color': [
-                    'case',
-                    ['boolean', ['feature-state', 'hover'], false],
-                    'red',
-                    'silver'
-                ],
+                'line-color': 'silver',
                 'line-width': 1.5
             },
             
@@ -77,7 +73,7 @@ map.on('load', function() {
             'minzoom': 0,
             'maxzoom': zoomThreshold,
             'paint': {
-                'fill-opacity': 0
+                'fill-opacity': 0,
             },
             'type': 'fill',
         }
@@ -87,11 +83,25 @@ map.on('load', function() {
         {
             'id': 'congressional-layer',
             'source': 'congressional-layer',
-            // 'source-layer': 'congressFill',
             'minzoom': zoomThreshold,
             'paint': {
-                'fill-opacity': 0,
-                    },
+                'fill-opacity': [
+                    'match',
+                    ['get', 'June Cook Ratings'],
+                    'Toss-Up', 0.5, 
+                    'Lean R', 0.5, 
+                    'Lean D', 0.5,
+                    0
+                    ],
+                'fill-color': [
+                    'match',
+                    ['get', 'June Cook Ratings'],
+                    'Toss-Up', '#faeab7', 
+                    'Lean R', '#ee9595', 
+                    'Lean D', '#96cde9',
+                    'white'
+                    ]
+                },
             'type': 'fill',
         }
     );
