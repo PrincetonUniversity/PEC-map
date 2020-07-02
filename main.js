@@ -88,9 +88,9 @@ map.on('load', function() {
                 'fill-opacity': [
                     'match',
                     ['get', 'June Cook Ratings'],
-                    'Toss-Up', 0.5, 
-                    'Lean R', 0.5, 
-                    'Lean D', 0.5,
+                    'Toss-Up', 0.8, 
+                    'Lean R', 0.8, 
+                    'Lean D', 0.8,
                     0
                     ],
                 'fill-color': [
@@ -220,6 +220,7 @@ map.on('load', function() {
         }
     });
 
+    // add "Reset Map" 
     document.getElementById('zoom').addEventListener('click', function() {
         map.zoomTo(4);
         map.fitBounds(bbox, {
@@ -228,8 +229,16 @@ map.on('load', function() {
             });
         });
 
-    map.addControl(new mapboxgl.NavigationControl());
+    // add address search thing
+    map.addControl(
+        new MapboxGeocoder({
+        accessToken: mapboxgl.accessToken,
+        mapboxgl: mapboxgl
+        })
+    );
 
+    // add plus/minus zoom button
+    map.addControl(new mapboxgl.NavigationControl());
 
 });
 
