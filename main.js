@@ -188,7 +188,7 @@ map.on('load', function() {
             ballot_link.href = prop['Ballotpedia Link'];
             ballot_link.className = 'a';
             ballot_link.id = "link-" + prop.id;
-            ballot_link.innerHTML = 'Ballotpedia Link' ;
+            ballot_link.innerHTML = 'More info on ballot measures' ;
         }
         });
     // Congressional-layer click and pop-up stuff
