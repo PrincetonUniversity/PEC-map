@@ -173,7 +173,7 @@ map.on('load', function() {
             details.innerHTML += 'Competitive State Senate Races: '.bold() + prop['State Senate Seat'] + "<br />";
         }
         if (prop['Governor Cook Rating June'] != 'null') {
-            details.innerHTML += 'June Cook Rating (Governor): '.bold()
+            details.innerHTML += 'Cook Rating (Governor): '.bold()
             if ((prop['Governor Cook Rating June'] == "Safe D") | (prop['Governor Cook Rating June'] == "Safe R")) {
                 cookGovJune = "<span style='background-color:purple; color:white'>" + prop['Governor Cook Rating June'] + "</span>";
                 details.innerHTML += cookGovJune + "<br />";
@@ -184,7 +184,7 @@ map.on('load', function() {
             }
         }
         if (prop['Senate Cook Rating June'] != 'null') {
-            details.innerHTML += 'June Cook Rating (Senate): '.bold()
+            details.innerHTML += 'Cook Rating (Senate): '.bold()
             if ((prop['Senate Cook Rating June'] == "Safe D") | (prop['Senate Cook Rating June'] == "Safe R")) {
                 cookSenateJune = "<span style='background-color:purple; color:white'>" + prop['Senate Cook Rating June'] + "</span>";
                 details.innerHTML += cookSenateJune + "<br />";
@@ -224,7 +224,7 @@ map.on('load', function() {
         console.log("clicked prop", prop);
 
         let myCongressionalTable = '<table> <tr> <th>' + "District" + '</th> <td>' + prop.District + '</td>' + 
-                                   '<tr> <th>' + "June Cook Rating" + '</th> <td>' + prop["June Cook Ratings"] + '</td>' + 
+                                   '<tr> <th>' + "Cook Rating" + '</th> <td>' + prop["Cook Rating"] + '</td>' + 
                                     '</table>'
 
 
