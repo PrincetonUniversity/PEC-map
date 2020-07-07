@@ -19,6 +19,7 @@ referenda = pd.read_csv("/Users/hopecj/projects/PEC/PEC-map/data/PEC Map Data 20
 senate = pd.read_csv("/Users/hopecj/projects/PEC/PEC-map/data/PEC Map Data 2020  - Senate.csv")
 stleg = pd.read_csv("/Users/hopecj/projects/PEC/PEC-map/data/PEC Map Data 2020  - State Legislatures.csv")
 supreme = pd.read_csv("/Users/hopecj/projects/PEC/PEC-map/data/PEC Map Data 2020  - State Supreme Court.csv")
+stleg2 = pd.read_csv("/Users/hopecj/projects/PEC/PEC-map/data/PEC Map Data 2020  - State Leg 2.csv")
 
 # Shapefiles
 cong_shp = gpd.read_file("/Users/hopecj/projects/PEC/PEC-map/data/cb_2019_us_cd116_500k/cb_2019_us_cd116_500k.shp")
@@ -50,9 +51,8 @@ cong_out = cong_shp.merge(cong, on='Code')
 cong_out = cong_out[["NAME", "District", "Code", "D", "R", "April Cook Ratings",
            "June Cook Ratings", "Opposition Primary", "geometry"]]
 
-# next: upload these files and full congressional shapefile as separate sources to generate MB tiles
-cong_out.to_file("/Users/hopecj/projects/PEC/PEC-map/out-files/house_dat_june24.geojson", driver="GeoJSON")
-cong_shp.to_file("/Users/hopecj/projects/PEC/PEC-map/out-files/house_boundaries.geojson", driver="GeoJSON")
+cong_out.to_file("/Users/hopecj/projects/PEC/PEC-map/out-files/house_dat.geojson", driver="GeoJSON")
+#cong_shp.to_file("/Users/hopecj/projects/PEC/PEC-map/out-files/house_boundaries.geojson", driver="GeoJSON")
 
 
 ###############################
@@ -61,13 +61,14 @@ cong_shp.to_file("/Users/hopecj/projects/PEC/PEC-map/out-files/house_boundaries.
 senate['State'] = senate['State'].str.replace(' ', '')
 gov['State'] = gov['State'].str.replace(' ', '')
 stleg['State'] = stleg['State'].str.replace(' ', '')
-
+stleg2['State'] = stleg2['State'].str.replace(' ', '')
 
 st_data = senate.merge(gov, how='outer')
 st_data = st_data.merge(stleg, how='outer')
 st_data = st_data.merge(redistrict, how='outer')
 st_data = st_data.merge(referenda, how='outer')
 st_data = st_data.merge(supreme, how='outer')
+st_data = st_data.merge(stleg2, how='outer')
 list(st_data.columns)
 st_data['STUSPS'] = st_data['State']
 st_data.groupby(['STUSPS']).agg(['count']) 
@@ -91,12 +92,13 @@ st_out = st_out[['STATEFP', 'State', 'NAME', 'Senate Special', 'Senate D',
        'State Senate', 'State Legislature April CNalysis rating',
        'State Legislature Comments', 'State Legislature June CNalysis rating',
        'PGP Link', 'Ballot Measures Include', 'Ballotpedia Link',
+       'Overall blurb', 'Redistricting blurb', 'State color',
        'State Supreme Court Elections', 'State Supreme Court Ballotpedia Link',
        'State Supreme Court Retention', 'State Supreme Court Comments', 
-       'nCompetitive CDs', 'Competitive Congressional Districts', 
+       'nCompetitive CDs', 'Competitive Congressional Districts', 'State House Seat', 'State Senate Seat',
        'geometry']]
-st_out.to_file("state_dat.shp")
-st_out.to_file("/Users/hopecj/projects/PEC/PEC-map/out-files/state_dat_june29.geojson", driver="GeoJSON")
+#st_out.to_file("state_dat.shp")
+st_out.to_file("/Users/hopecj/projects/PEC/PEC-map/out-files/state_dat.geojson", driver="GeoJSON")
 
 ###############################################
 # update features /(column names) of geojson files
