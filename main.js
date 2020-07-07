@@ -36,12 +36,12 @@ map.on('load', function() {
 
     map.addSource('congressional-layer', {
         type: 'geojson',
-        data: 'https://princetonuniversity.github.io/PEC-map/out-files/house_dat_june24.geojson'
+        data: 'https://princetonuniversity.github.io/PEC-map/out-files/house_dat.geojson'
     });
 
     map.addSource('states-layer', {
         type: 'geojson',
-        data: 'https://princetonuniversity.github.io/PEC-map/out-files/state_dat_june29.geojson'
+        data: 'https://princetonuniversity.github.io/PEC-map/out-files/state_dat.geojson'
     });
 
     map.addSource('congressional-border', {
@@ -73,7 +73,19 @@ map.on('load', function() {
             'minzoom': 0,
             'maxzoom': zoomThreshold,
             'paint': {
-                'fill-opacity': 0,
+                'fill-opacity': [
+                    'match',
+                    ['get', 'State color'],
+                    'yes', 0.8, 
+                    0
+                    ],
+                'fill-color': [
+                    'match',
+                    ['get', 'State color'],
+                    'yes', 'green', // change this
+                    'white'
+                    ],
+                'fill-outline-color': 'white'
             },
             'type': 'fill',
         }
@@ -123,6 +135,15 @@ map.on('load', function() {
         
         /* Add details to the individual state info. */
         let details = clickedStateInfo.appendChild(document.createElement('div'));
+        if (prop['Overall blurb'] != 'null') {
+            details.innerHTML += prop['Overall blurb']+ "<br /> <br />";
+        }
+        if (prop['Redistricting blurb'] != 'null') {
+            details.innerHTML += 'Redistricting process: '.bold() + prop['Redistricting blurb']+ "<br />";
+        }
+        if (prop['Competitive Congressional Districts'] != 'null') {
+            details.innerHTML += 'Competitive Congressional Districts: '.bold() + prop['Competitive Congressional Districts'] + "<br />";
+        }
         if (prop['State House'] != 'null') {
             details.innerHTML += 'State House: '.bold()
             if ((prop['State House'] == "Not competitive") | (prop['State House'] == "No election")) {
@@ -134,6 +155,9 @@ map.on('load', function() {
                 details.innerHTML += stateHouse + "<br />";
             }
         }
+        if (prop['State House Seat'] != 'null') {
+            details.innerHTML += 'Competitive State House Races: '.bold() + prop['State House Seat'] + "<br />";
+        }
         if (prop['State Senate'] != 'null') {
             details.innerHTML += 'State Senate: '.bold()
             if ((prop['State Senate'] == "Not competitive") | (prop['State Senate'] == "No election")) {
@@ -144,6 +168,9 @@ map.on('load', function() {
                 stateSenate = "<span style='background-color:green; color:white'>" + prop['State Senate'] + "</span>";
                 details.innerHTML += stateSenate + "<br />";
             }
+        }
+        if (prop['State Senate Seat'] != 'null') {
+            details.innerHTML += 'Competitive State Senate Races: '.bold() + prop['State Senate Seat'] + "<br />";
         }
         if (prop['Governor Cook Rating June'] != 'null') {
             details.innerHTML += 'June Cook Rating (Governor): '.bold()
@@ -166,9 +193,6 @@ map.on('load', function() {
                 cookSenateJune = "<span style='background-color:green; color:white'>" + prop['Senate Cook Rating June'] + "</span>";
                 details.innerHTML += cookSenateJune + "<br />";
             }
-        }
-        if (prop['Competitive Congressional Districts'] != 'null') {
-            details.innerHTML += 'Competitive Congressional Districts: '.bold() + prop['Competitive Congressional Districts'] + "<br />";
         }
         if (prop['Ballot Measures Include'] != 'null') {
             details.innerHTML += 'Ballot Measures Include: '.bold() + prop['Ballot Measures Include']+ "<br />";
@@ -241,5 +265,3 @@ map.on('load', function() {
     map.addControl(new mapboxgl.NavigationControl());
 
 });
-
-
