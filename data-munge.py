@@ -10,23 +10,27 @@ Expected output:
 '''
 import pandas as pd 
 import geopandas as gpd
+from pathlib import Path
+
+data_dir = Path.cwd() / "data"
+out_dir = Path.cwd() / "out-files"
 
 # PEC data 
-cong = pd.read_csv("/Users/hopecj/projects/PEC/PEC-map/data/PEC Map Data 2020  - House.csv")
-gov = pd.read_csv("/Users/hopecj/projects/PEC/PEC-map/data/PEC Map Data 2020  - Governors.csv")
-redistrict = pd.read_csv("/Users/hopecj/projects/PEC/PEC-map/data/PEC Map Data 2020  - Redistricting.csv")
-referenda = pd.read_csv("/Users/hopecj/projects/PEC/PEC-map/data/PEC Map Data 2020  - Referenda.csv")
-senate = pd.read_csv("/Users/hopecj/projects/PEC/PEC-map/data/PEC Map Data 2020  - Senate.csv")
-stleg = pd.read_csv("/Users/hopecj/projects/PEC/PEC-map/data/PEC Map Data 2020  - State Legislatures.csv")
-supreme = pd.read_csv("/Users/hopecj/projects/PEC/PEC-map/data/PEC Map Data 2020  - State Supreme Court.csv")
-stleg2 = pd.read_csv("/Users/hopecj/projects/PEC/PEC-map/data/PEC Map Data 2020  - State Leg 2.csv")
+cong = pd.read_csv(data_dir / "PEC Map Data 2020  - House.csv")
+gov = pd.read_csv(data_dir / "PEC Map Data 2020  - Governors.csv")
+redistrict = pd.read_csv(data_dir / "PEC Map Data 2020  - Redistricting.csv")
+referenda = pd.read_csv(data_dir / "PEC Map Data 2020  - Referenda.csv")
+senate = pd.read_csv(data_dir / "PEC Map Data 2020  - Senate.csv")
+stleg = pd.read_csv(data_dir / "PEC Map Data 2020  - State Legislatures.csv")
+supreme = pd.read_csv(data_dir / "PEC Map Data 2020  - State Supreme Court.csv")
+stleg2 = pd.read_csv(data_dir / "PEC Map Data 2020  - State Leg 2.csv")
 
 # Shapefiles
-cong_shp = gpd.read_file("/Users/hopecj/projects/PEC/PEC-map/data/cb_2019_us_cd116_500k/cb_2019_us_cd116_500k.shp")
-state_shp = gpd.read_file("/Users/hopecj/projects/PEC/PEC-map/data/cb_2018_us_state_500k/cb_2018_us_state_500k.shp")
+cong_shp = gpd.read_file(data_dir / "cb_2019_us_cd116_500k/cb_2019_us_cd116_500k.shp")
+state_shp = gpd.read_file(data_dir / "cb_2018_us_state_500k/cb_2018_us_state_500k.shp")
 
 # State-code-to-state-FIPS crosswalk
-fips = pd.read_csv("/Users/hopecj/Downloads/StateFIPSicsprAB.csv")
+fips = pd.read_csv(data_dir / "StateFIPSicsprAB.csv")
 
 ################################
 #  CREATE CONGRESSIONAL DATA   #
@@ -37,7 +41,7 @@ cd_code = cong["District"].str.split(pat = "-", expand=True)
 cong["CD"] = cd_code[1]
 cong["fips"] = cong['FIPS'].map("{:02}".format)
 
-cong["Code"] = cong["fips"] + cong["CD"] # this is what we'll need to match to state legislative boundaries (mapbox)
+cong["Code"] = cong["fips"] + cong["CD"] 
 cong['Code'] = cong['Code'].astype(str)
 cong.groupby(['June Cook Ratings']).agg(['count']) # check for any misspelling 
 cong.groupby(['April Cook Ratings']).agg(['count']) # check for any misspelling 
@@ -51,9 +55,8 @@ cong_out = cong_shp.merge(cong, on='Code')
 cong_out = cong_out[["NAME", "District", "Code", "D", "R", "April Cook Ratings",
            "June Cook Ratings", "Opposition Primary", "geometry"]]
 
-cong_out.to_file("/Users/hopecj/projects/PEC/PEC-map/out-files/house_dat.geojson", driver="GeoJSON")
+cong_out.to_file(out_dir / "house_dat.geojson", driver="GeoJSON")
 #cong_shp.to_file("/Users/hopecj/projects/PEC/PEC-map/out-files/house_boundaries.geojson", driver="GeoJSON")
-
 
 ###############################
 #      CREATE STATE DATA      #
@@ -97,12 +100,4 @@ st_out = st_out[['STATEFP', 'State', 'NAME', 'Senate Special', 'Senate D',
        'State Supreme Court Retention', 'State Supreme Court Comments', 
        'nCompetitive CDs', 'Competitive Congressional Districts', 'State House Seat', 'State Senate Seat',
        'geometry']]
-#st_out.to_file("state_dat.shp")
-st_out.to_file("/Users/hopecj/projects/PEC/PEC-map/out-files/state_dat.geojson", driver="GeoJSON")
-
-###############################################
-# update features /(column names) of geojson files
-#
-# note: names will be changed if I merge it with another 
-# shapefile in geojson due to column name limits
-###############################################
+st_out.to_file(out_dir / "state_dat.geojson", driver="GeoJSON")
