@@ -60,7 +60,7 @@ map.on('load', function() {
                 'line-cap': 'round'
             },
             'paint': {
-                'line-color': 'silver',
+                'line-color': 'black',
                 'line-width': 1.5
             },
             
@@ -116,7 +116,6 @@ map.on('load', function() {
                 },
             'type': 'fill',
             'layout': {
-                // make layer visible by default
                 'visibility': 'visible'
                 },        
         }
@@ -228,7 +227,7 @@ map.on('load', function() {
         console.log("clicked prop", prop);
 
         let myCongressionalTable = '<table> <tr> <th>' + "District" + '</th> <td>' + prop.District + '</td>' + 
-                                   '<tr> <th>' + "Cook Rating" + '</th> <td>' + prop["Cook Rating"] + '</td>' + 
+                                   '<tr> <th>' + "Cook Rating" + '</th> <td>' + prop["June Cook Ratings"] + '</td>' + 
                                     '</table>'
 
 
@@ -271,16 +270,16 @@ map.on('load', function() {
     const selectElement = d3.select("#dropdown").on("change", function(e) {
         console.log("new selected layer is", this.value);
         clickedLayer = this.value;
-        // e.preventDefault();
-        // e.stopPropagation();
         var visibility = map.getLayoutProperty(clickedLayer, 'visibility');
         // toggle layer visibility by changing the layout object's visibility property
-        if (visibility === 'visible') {
-            map.setLayoutProperty(clickedLayer, 'visibility', 'none');
-            this.className = '';
-        } else {
-            this.className = 'active';
-            map.setLayoutProperty(clickedLayer, 'visibility', 'visible');
+        if (clickedLayer === 'congressional-layer') {
+            map.setLayoutProperty('congressional-layer', 'visibility', 'visible');
+            map.setLayoutProperty('congressional-border', 'visibility', 'visible');
+            map.setLayoutProperty('states-layer', 'visibility', 'none');
+        } else if (clickedLayer === 'states-layer'){
+            map.setLayoutProperty('states-layer', 'visibility', 'visible');
+            map.setLayoutProperty('congressional-border', 'visibility', 'none');
+            map.setLayoutProperty('congressional-layer', 'visibility', 'none');
         }
       });
 
