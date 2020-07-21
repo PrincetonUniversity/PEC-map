@@ -180,7 +180,7 @@ body {
   font-family: "Open Sans", "Helvetica Neue", Arial, Helvetica, sans-serif;
   }
 
-  #menu {
+  #dropdown {
     /* position: absolute;
     z-index: 1;
     top: 10px;
@@ -202,7 +202,7 @@ body {
     font-family: "Open Sans", "Helvetica Neue", Arial, Helvetica, sans-serif;
     }
      
-    #menu a {
+    #dropdown a {
     font-size: 13px;
     color: #404040;
     display: block;
@@ -214,21 +214,21 @@ body {
     text-align: center;
     }
      
-    #menu a:last-child {
+    #dropdown a:last-child {
     border: none;
     }
      
-    #menu a:hover {
+    #dropdown a:hover {
     background-color: #f8f8f8;
     color: #404040;
     }
      
-    #menu a.active {
+    #dropdown a.active {
     background-color: #3887be;
     color: #ffffff;
     }
      
-    #menu a.active:hover {
+    #dropdown a.active:hover {
     background: #3074a4;
     }
 
