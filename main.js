@@ -28,7 +28,7 @@ const svg = d3
       .attr("width", width)
       .attr("height", height);
 
-const zoomThreshold = 5;
+const zoomThreshold = 4;
 let hoveredDistrictId = null;
 var hoveredStateId = null;
 
@@ -108,9 +108,9 @@ map.on('load', function() {
                 'fill-color': [
                     'match',
                     ['get', 'June Cook Ratings'],
-                    'Toss-Up', '#faeab7', 
-                    'Lean R', '#ee9595', 
-                    'Lean D', '#96cde9',
+                    'Toss-Up', '#c79e4a', 
+                    'Lean R', '#C62535', 
+                    'Lean D', '#1660CE',
                     'white'
                     ]
                 },
@@ -260,8 +260,5 @@ map.on('load', function() {
         mapboxgl: mapboxgl
         })
     );
-
-    // add plus/minus zoom button
-    map.addControl(new mapboxgl.NavigationControl());
 
 });
