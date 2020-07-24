@@ -10,7 +10,7 @@
 
 body {
   color: #404040;
-  font: 400 15px/22px 'IBM Plex Sans', sans-serif;
+  font: 400 .75em 'IBM Plex Sans', sans-serif;
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
@@ -45,16 +45,17 @@ body {
 }
 
 .state-info .title {
-  font-size: 1em;
+  font-size: 1.3em;
   display: block;
   color: #00853e;
   font-weight: 700;
 }
 
 .heading {
+  font-size: 1.3em;
   background: #fff;
   border-bottom: 1px solid #eee;
-  height: 60px;
+  height: 45px;
   line-height: 60px;
   padding: 0 10px;
 }
@@ -193,8 +194,8 @@ body {
   font-family: "Open Sans", "Helvetica Neue", Arial, Helvetica, sans-serif;
   position: relative;
   background-color: #fff;
-  /* width: 100%; */
-  /* min-width: 240px; */
+  width: 100%; 
+  min-width: 150px;
   z-index: 1;
   border-radius: 4px;
   transition: width .25s, min-width .25s;
@@ -207,8 +208,8 @@ body {
   background-color: transparent;
   margin: 0;
   height: 50px;
-  color: #404040; /* fallback */
-  color: rgba(0, 0, 0, 0.75);
+  color: #001940; 
+  color: #001940;
   padding: 6px 45px;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -221,7 +222,7 @@ body {
 
 .mapboxgl-ctrl-geocoder--input:focus {
   color: #404040; /* fallback */
-  color: rgba(0, 0, 0, 0.75);
+  color: #001940;
   outline: 0;
   box-shadow: none;
   outline: thin dotted\8;
@@ -301,7 +302,7 @@ body {
   display: inline-block;
   vertical-align: middle;
   speak: none;
-  fill: #757575;
+  fill: #001940;
   top: 15px;
 }
 
