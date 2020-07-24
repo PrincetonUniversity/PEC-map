@@ -8,6 +8,9 @@ const width = window.innerWidth * 0.9, // this is in the CSS for map-container
       height = window.innerHeight * 0.7, // this is in the CSS for map-container
       margin = { top: 20, bottom: 50, left: 60, right: 40 };
 
+// const competitiveColor = '#f8f67e';
+// const#001940ompColor = '#cbafe9';
+
 mapboxgl.accessToken = 'pk.eyJ1Ijoib3BlbnByZWNpbmN0cyIsImEiOiJjanVqMHJtM3gwMXdyM3lzNmZkbmpxaXpwIn0.ZU772lvU-NeKNFAkukT6hw';
 
 const map = new mapboxgl.Map({
@@ -147,11 +150,11 @@ map.on('load', function() {
         if (prop['State House'] != 'null') {
             details.innerHTML += 'State House: '.bold()
             if ((prop['State House'] == "Not competitive") | (prop['State House'] == "No election")) {
-                stateHouse = "<span style='background-color:purple; color:white'>" + prop['State House'] + "</span>";
+                stateHouse = "<span style='background-color:#cbafe9; color:#001940'>" + prop['State House'] + "</span>";
                 details.innerHTML += stateHouse + "<br />";
             }
             else {
-                stateHouse = "<span style='background-color:green; color:white'>" + prop['State House'] + "</span>";
+                stateHouse = "<span style='background-color:#f8f67e; color:#001940'>" + prop['State House'] + "</span>";
                 details.innerHTML += stateHouse + "<br />";
             }
         }
@@ -161,11 +164,11 @@ map.on('load', function() {
         if (prop['State Senate'] != 'null') {
             details.innerHTML += 'State Senate: '.bold()
             if ((prop['State Senate'] == "Not competitive") | (prop['State Senate'] == "No election")) {
-                stateSenate = "<span style='background-color:purple; color:white'>" + prop['State Senate'] + "</span>";
+                stateSenate = "<span style='background-color:#cbafe9; color:#001940'>" + prop['State Senate'] + "</span>";
                 details.innerHTML += stateSenate + "<br />";
             }
             else {
-                stateSenate = "<span style='background-color:green; color:white'>" + prop['State Senate'] + "</span>";
+                stateSenate = "<span style='background-color:#f8f67e; color:#001940'>" + prop['State Senate'] + "</span>";
                 details.innerHTML += stateSenate + "<br />";
             }
         }
@@ -175,22 +178,22 @@ map.on('load', function() {
         if (prop['Governor Cook Rating June'] != 'null') {
             details.innerHTML += 'Cook Rating (Governor): '.bold()
             if ((prop['Governor Cook Rating June'] == "Safe D") | (prop['Governor Cook Rating June'] == "Safe R")) {
-                cookGovJune = "<span style='background-color:purple; color:white'>" + prop['Governor Cook Rating June'] + "</span>";
+                cookGovJune = "<span style='background-color:#cbafe9; color:#001940'>" + prop['Governor Cook Rating June'] + "</span>";
                 details.innerHTML += cookGovJune + "<br />";
             }
             else {
-                cookGovJune = "<span style='background-color:green; color:white'>" + prop['Governor Cook Rating June'] + "</span>";
+                cookGovJune = "<span style='background-color:#f8f67e; color:#001940'>" + prop['Governor Cook Rating June'] + "</span>";
                 details.innerHTML += cookGovJune + "<br />";
             }
         }
         if (prop['Senate Cook Rating June'] != 'null') {
             details.innerHTML += 'Cook Rating (Senate): '.bold()
             if ((prop['Senate Cook Rating June'] == "Safe D") | (prop['Senate Cook Rating June'] == "Safe R")) {
-                cookSenateJune = "<span style='background-color:purple; color:white'>" + prop['Senate Cook Rating June'] + "</span>";
+                cookSenateJune = "<span style='background-color:#cbafe9; color:#001940'>" + prop['Senate Cook Rating June'] + "</span>";
                 details.innerHTML += cookSenateJune + "<br />";
             }
             else {
-                cookSenateJune = "<span style='background-color:green; color:white'>" + prop['Senate Cook Rating June'] + "</span>";
+                cookSenateJune = "<span style='background-color:#f8f67e; color:#001940'>" + prop['Senate Cook Rating June'] + "</span>";
                 details.innerHTML += cookSenateJune + "<br />";
             }
         }
