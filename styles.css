@@ -47,8 +47,9 @@ body {
 .state-info .title {
   font-size: 1.3em;
   display: block;
-  color: #00853e;
+  color: #F58025;
   font-weight: 700;
+  text-align: center;
 }
 
 .heading {
@@ -102,7 +103,6 @@ body {
     border-radius: 3px;
     bottom: 30px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-    /* font: 400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif; */
     padding: 10px;
     position: absolute;
     right: 10px;
@@ -151,7 +151,7 @@ body {
   }
   
   ::-webkit-scrollbar-thumb {
-    background: #00853e;
+    background: #001940;
     border-radius: 0;
   }
   

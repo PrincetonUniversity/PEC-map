@@ -1,24 +1,17 @@
-// legend code and zoom by layer help from this code
-// https://docs.mapbox.com/mapbox-gl-js/example/updating-choropleth/
-
 /**
  * CONSTANTS AND GLOBALS
  * */
-const width = window.innerWidth * 0.9, // this is in the CSS for map-container
-      height = window.innerHeight * 0.7, // this is in the CSS for map-container
+const width = window.innerWidth * 0.9, 
+      height = window.innerHeight * 0.7, 
       margin = { top: 20, bottom: 50, left: 60, right: 40 };
-
-// const competitiveColor = '#f8f67e';
-// const#001940ompColor = '#cbafe9';
 
 mapboxgl.accessToken = 'pk.eyJ1Ijoib3BlbnByZWNpbmN0cyIsImEiOiJjanVqMHJtM3gwMXdyM3lzNmZkbmpxaXpwIn0.ZU772lvU-NeKNFAkukT6hw';
 
 const map = new mapboxgl.Map({
     container: 'map-container',
-    // style: 'mapbox://styles/openprecincts/ckbazy0ec05n81imptth2lltu', // stylesheet location    
     style: 'mapbox://styles/openprecincts/ckb82ge1d1xx81ip9v5i0xony'
 });
-// bounding box, defines extent of USA view
+
 const bbox = [[-63.588704947691994, 50.715649574086314], [-127.55862265048071, 22.645896726596078]];
 map.fitBounds(bbox, {
     padding: {top: 10, bottom:25, left: 15, right: 5},
@@ -32,8 +25,6 @@ const svg = d3
       .attr("height", height);
 
 const zoomThreshold = 4;
-let hoveredDistrictId = null;
-var hoveredStateId = null;
 
 map.on('load', function() {
 
@@ -63,7 +54,7 @@ map.on('load', function() {
                 'line-cap': 'round'
             },
             'paint': {
-                'line-color': 'silver',
+                'line-color': '#001940',
                 'line-width': 1.5
             },
             
