@@ -82,7 +82,7 @@ map.on('load', function() {
                 'fill-color': [
                     'match',
                     ['get', 'State color'],
-                    'yes', 'green', // change this
+                    'yes', '#F58025', 
                     'white'
                     ],
                 'fill-outline-color': 'white'
