@@ -3,7 +3,8 @@
         <meta charset="utf-8">
         <title>PEC Map</title>
         <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">        
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500&display=swap" rel="stylesheet">        
         <link href='./styles.css' rel='stylesheet' />
     </head>
     <body>
@@ -12,7 +13,13 @@
               <h1>Election Information</h1>
             </div>
             <div id='clicked-info' class='clicked-info'>
-                <div id='state-info' class='state-info'></div>
+                <div id='state-info' class='state-info'>
+                    <body>
+                        <b>Click on a state</b> to view information about elections and redistricting.<br /><br />
+                        <b>Zoom in and click on a district</b> for more information about competitiveness.<br /><br />
+                        <b>Select a layer</b> from the drop-down menu to toggle between info on U.S. Congressional races and state legislative races.
+                    </body>
+                </div>
             </div>
           </div>
         <div id='map-container' class='map pad2'></div>

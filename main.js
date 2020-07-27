@@ -7,6 +7,8 @@ const width = window.innerWidth * 0.9,
 
 mapboxgl.accessToken = 'pk.eyJ1Ijoib3BlbnByZWNpbmN0cyIsImEiOiJjanVqMHJtM3gwMXdyM3lzNmZkbmpxaXpwIn0.ZU772lvU-NeKNFAkukT6hw';
 
+const zoomThreshold = 4;
+
 const map = new mapboxgl.Map({
     container: 'map-container',
     style: 'mapbox://styles/openprecincts/ckb82ge1d1xx81ip9v5i0xony'
@@ -23,8 +25,6 @@ const svg = d3
       .append("svg")    
       .attr("width", width)
       .attr("height", height);
-
-const zoomThreshold = 4;
 
 map.on('load', function() {
 
@@ -114,13 +114,19 @@ map.on('load', function() {
 
     // State-layer click and pop-up stuff
     map.on('click', 'states-layer', function(e) {
-        map.flyTo({center: e.lngLat, zoom:5});
+        map.flyTo({center: e.lngLat, zoom:zoomThreshold});
         let prop = e.features[0].properties
         let clickedStateBox = document.getElementById('clicked-info') 
 
         let clickedStateInfo = document.getElementById('state-info')
         clickedStateInfo.innerHTML = ""
+
         clickedStateBox.appendChild(clickedStateInfo)
+
+        /* Default text. */
+        // `When you click on a state, information appears about elections and redistricting.<br />
+        // Zoom in and click on a district of interest for more information about competitiveness.<br />
+        // Select a layer from the drop-down menu in the top right corner to toggle between information on U.S. Congressional races and state legislative races.`
         
         /* Add state name. */
         let title = clickedStateInfo.appendChild(document.createElement('div'));
@@ -242,7 +248,7 @@ map.on('load', function() {
     document.getElementById('zoom').addEventListener('click', function() {
         map.zoomTo(zoomThreshold);
         map.fitBounds(bbox, {
-            padding: {top: 10, bottom:25, left: 15, right: 5},
+            // padding: {top: 10, bottom:25, left: 15, right: 5},
             linear: true,
             });
         });
