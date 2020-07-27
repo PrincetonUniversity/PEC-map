@@ -3,18 +3,18 @@
     "layers": {
         "congressFill": {
             "source": "mapbox://tileset-source/openprecincts/congressFill",
-            "minzoom": 5,
+            "minzoom": 4,
             "maxzoom": 10
         },
         "congressBoundary": {
             "source": "mapbox://tileset-source/openprecincts/congressBoundary",
-            "minzoom": 5,
+            "minzoom": 4,
             "maxzoom": 10
         },
         "state": {
             "source": "mapbox://tileset-source/openprecincts/state",
             "minzoom": 0,
-            "maxzoom": 5
+            "maxzoom": 4
         }
     }
 }
