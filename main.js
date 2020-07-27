@@ -54,7 +54,7 @@ map.on('load', function() {
                 'line-cap': 'round'
             },
             'paint': {
-                'line-color': '#001940',
+                'line-color': 'black',
                 'line-width': 1.5
             },
             
@@ -109,6 +109,9 @@ map.on('load', function() {
                     ]
                 },
             'type': 'fill',
+            'layout': {
+                'visibility': 'visible'
+                },        
         }
     );
 
@@ -224,7 +227,7 @@ map.on('load', function() {
         console.log("clicked prop", prop);
 
         let myCongressionalTable = '<table> <tr> <th>' + "District" + '</th> <td>' + prop.District + '</td>' + 
-                                   '<tr> <th>' + "Cook Rating" + '</th> <td>' + prop["Cook Rating"] + '</td>' + 
+                                   '<tr> <th>' + "Cook Rating" + '</th> <td>' + prop["June Cook Ratings"] + '</td>' + 
                                     '</table>'
 
 
@@ -260,5 +263,24 @@ map.on('load', function() {
         mapboxgl: mapboxgl
         })
     );
+
+    // add plus/minus zoom button
+    // map.addControl(new mapboxgl.NavigationControl());
+    
+    const selectElement = d3.select("#dropdown").on("change", function(e) {
+        console.log("new selected layer is", this.value);
+        clickedLayer = this.value;
+        var visibility = map.getLayoutProperty(clickedLayer, 'visibility');
+        // toggle layer visibility by changing the layout object's visibility property
+        if (clickedLayer === 'congressional-layer') {
+            map.setLayoutProperty('congressional-layer', 'visibility', 'visible');
+            map.setLayoutProperty('congressional-border', 'visibility', 'visible');
+            map.setLayoutProperty('states-layer', 'visibility', 'none');
+        } else if (clickedLayer === 'states-layer'){
+            map.setLayoutProperty('states-layer', 'visibility', 'visible');
+            map.setLayoutProperty('congressional-border', 'visibility', 'none');
+            map.setLayoutProperty('congressional-layer', 'visibility', 'none');
+        }
+      });
 
 });

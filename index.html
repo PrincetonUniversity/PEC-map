@@ -25,6 +25,14 @@
         <div id='map-container' class='map pad2'></div>
         <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.5.1/mapbox-gl-geocoder.min.js"></script>
         <button id="zoom">Reset map</button>
+        <!-- <nav id="dropdown"></nav> -->
+
+        <!-- <label for="dropdown">Select a Layer</label> -->
+        <select id="dropdown" name="dropdown">
+            <option value="congressional-layer">Congressional</option>
+            <option value="states-layer">State</option>
+        </select>
+
         <div id="congressional-legend" class="legend" style="display: none;">
             <div><span style="background-color: #c79e4a"></span>Toss-Up</div>
             <div><span style="background-color: #C62535"></span>Lean-R</div>
