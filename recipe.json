@@ -4,15 +4,15 @@
         "congressFill": {
             "source": "mapbox://tileset-source/openprecincts/congressFill",
             "minzoom": 5,
-            "maxzoom": 16
+            "maxzoom": 10
         },
         "congressBoundary": {
-            "source": "mapbox://tileset-source/openprecincts/congressBoundry",
+            "source": "mapbox://tileset-source/openprecincts/congressBoundary",
             "minzoom": 5,
-            "maxzoom": 16
+            "maxzoom": 10
         },
         "state": {
-            "source": "mapbox://tileset-source/openprecincts/state2",
+            "source": "mapbox://tileset-source/openprecincts/state",
             "minzoom": 0,
             "maxzoom": 5
         }
