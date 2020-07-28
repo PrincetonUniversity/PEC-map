@@ -194,7 +194,13 @@ lower_shp['LEAN'] = lower_shp.apply(lambda row: get_lean(row, lower_df), axis = 
 
 # eliminate unneeded columns and order 
 upper_shp = upper_shp[['STATEFP', 'GEOID', 'DISTRICT', 'NOM_R', 'NOM_D', 'INCUMBENT','ANTI_GERRY_PARTY', 'LEAN', 'VOTER_POWER', 'geometry']]	
-lower_shp = lower_shp[['STATEFP', 'GEOID', 'DISTRICT', 'NOM_R', 'NOM_D', 'INCUMBENT','ANTI_GERRY_PARTY', 'LEAN', 'VOTER_POWER', 'geometry']]	
+lower_shp = lower_shp[['STATEFP', 'GEOID', 'DISTRICT', 'NOM_R', 'NOM_D', 'INCUMBENT','ANTI_GERRY_PARTY', 'LEAN', 'VOTER_POWER', 'geometry']]
+
+# replace 'FALSE' with blank candidate fields  ('TBA' is the other option)
+upper_shp['NOM_R'].replace({'FALSE': ''}, inplace =True)
+upper_shp['NOM_D'].replace({'FALSE': ''}, inplace =True)
+lower_shp['NOM_R'].replace({'FALSE': ''}, inplace =True)
+lower_shp['NOM_D'].replace({'FALSE': ''}, inplace =True)
 
 upper_nonzero_rows = len(upper_shp[upper_shp['VOTER_POWER'] != 0].index)
 lower_nonzero_rows = len(lower_shp[lower_shp['VOTER_POWER'] != 0].index)
