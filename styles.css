@@ -427,6 +427,13 @@ body {
 
 }
 
+/*** remove this to keep searchbar at small sizes ***/
+@media screen and (max-width: 560px) {
+  .mapboxgl-ctrl-top-right{
+    display: none;
+  }
+}
+
 
   #dropdown, #dropdown-2 {
     display: inline-block;
