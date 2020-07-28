@@ -95,6 +95,12 @@ def getChamber(district_str):
     state, chamber, dist_num = district_str.split('-')
     return chamber
 
+# extracts the district name.  Used for the non-numerical Massachussets 
+# districts in place of GEOID matching
+def getName(district_str):
+    state, chamber, dist_str = district_str.split('-')
+    if len(dist_str) < 4 : return ''
+    return dist_str
 
 #################################################
 #  PROCESS + ADD FIELDS TO MONEYBALL MODEL CSV  #
@@ -103,15 +109,16 @@ def process_moneyball_data(inFile, outFile):
     df = pd.read_csv(data_dir / inFile)
 
     lambdafunc = lambda x: pd.Series(
-        [getGEOID(x['district']),
-        getChamber(x['district'])]
+        [getGEOID(x['district'], leading_zero = True),
+        getChamber(x['district']),
+        getName(x['district'])]
     )
-    df [['GEOID', 'chamber']] = df.apply(lambdafunc, axis = 1)
+    df [['GEOID', 'chamber', 'dist_name']] = df.apply(lambdafunc, axis = 1)
 
     df.to_csv(data_dir / outFile, index=False, float_format='%.16f')
 
-## process the raw model output -- add GEOID + Chamber Fields
-# process_moneyball_data('dummy_data.csv', 'processed_data.csv')
+# process the raw model output -- add GEOID + Chamber Fields
+process_moneyball_data('model-output-7-28.csv', 'processed_data.csv')
 
 
 
@@ -137,8 +144,14 @@ lower_shp = gpd.read_file(data_dir / 'LOWER_cb_2019_us_sldl_500k/cb_2019_us_sldl
 def pandas_lambda_geolocate(row, df, df_columns, default_values):
     vals = []
 
-    geomatch = df[df['GEOID'] == row['GEOID']]
+    # match by district name if MA
+    if row['STATEFP'] == '25':
+        geomatch = df[df['dist_name'] == row['NAME']]
+    else:
+        geomatch = df[df['GEOID'] == row['GEOID']]
+    
     if len(geomatch.index) < 1:
+        #print (f"No match found for GEOID: {row['GEOID']}")
         return pd.Series(default_values)
     elif len(geomatch.index) > 1:
         print(f"More than one match found for GEOID: {row['GEOID']}")
@@ -151,7 +164,12 @@ def pandas_lambda_geolocate(row, df, df_columns, default_values):
 
 # Concatenates the fields "confidence" and "favored" into a 'likely' string
 def get_lean(row, df):
-    geomatch = df[df['GEOID'] == row['GEOID']]
+    # match by district name if MA
+    if row['STATEFP'] == '25':
+        geomatch = df[df['dist_name'] == row['NAME']]
+    else:
+        geomatch = df[df['GEOID'] == row['GEOID']]
+    
     if len(geomatch.index) < 1:
         return 'no data'
     elif len(geomatch.index) > 1:
@@ -163,20 +181,31 @@ def get_lean(row, df):
     return confidence + " " + favored
 
 # add data columns from model to geojson 
-df_columns =    ['district', 'nom_R',   'nom_D',    'incumbent',    'VOTER_POWER']
-default_values = ['no data', 'no data', 'no data',  'no data',      0]
+df_columns = ['district', 'rep_nominee', 'dem_nominee', 'incumbent', 'anti_gerrymandering_party', 'redistricting_voter_power']
+default_values = ['',       '',           '',           '',          '',                            0]
 
-upper_shp[['DISTRICT', 'NOM_R', 'NOM_D', "INCUMBENT",'VOTER_POWER']] = upper_shp.apply(
+upper_shp[['DISTRICT', 'NOM_R', 'NOM_D', 'INCUMBENT','ANTI_GERRY_PARTY', 'VOTER_POWER']] = upper_shp.apply(
     lambda row: pandas_lambda_geolocate(row, upper_df, df_columns, default_values), axis = 1)
 upper_shp['LEAN'] = upper_shp.apply(lambda row: get_lean(row, upper_df), axis = 1)
 
-lower_shp[['DISTRICT', 'NOM_R', 'NOM_D', "INCUMBENT",'VOTER_POWER']] = lower_shp.apply(
+lower_shp[['DISTRICT', 'NOM_R', 'NOM_D', 'INCUMBENT','ANTI_GERRY_PARTY', 'VOTER_POWER']] = lower_shp.apply(
     lambda row: pandas_lambda_geolocate(row, lower_df, df_columns, default_values), axis = 1)
 lower_shp['LEAN'] = lower_shp.apply(lambda row: get_lean(row, lower_df), axis = 1)
 
 # eliminate unneeded columns and order 
-upper_shp = upper_shp[['STATEFP', 'GEOID', 'DISTRICT', 'NOM_R', 'NOM_D', 'INCUMBENT', 'LEAN', 'VOTER_POWER', 'geometry']]	
-lower_shp = lower_shp[['STATEFP', 'GEOID', 'DISTRICT', 'NOM_R', 'NOM_D', 'INCUMBENT', 'LEAN', 'VOTER_POWER', 'geometry']]
+upper_shp = upper_shp[['STATEFP', 'GEOID', 'DISTRICT', 'NOM_R', 'NOM_D', 'INCUMBENT','ANTI_GERRY_PARTY', 'LEAN', 'VOTER_POWER', 'geometry']]	
+lower_shp = lower_shp[['STATEFP', 'GEOID', 'DISTRICT', 'NOM_R', 'NOM_D', 'INCUMBENT','ANTI_GERRY_PARTY', 'LEAN', 'VOTER_POWER', 'geometry']]
+
+# replace 'FALSE' with blank candidate fields  ('TBA' is the other option)
+upper_shp['NOM_R'].replace({'FALSE': ''}, inplace =True)
+upper_shp['NOM_D'].replace({'FALSE': ''}, inplace =True)
+lower_shp['NOM_R'].replace({'FALSE': ''}, inplace =True)
+lower_shp['NOM_D'].replace({'FALSE': ''}, inplace =True)
+
+upper_nonzero_rows = len(upper_shp[upper_shp['VOTER_POWER'] != 0].index)
+lower_nonzero_rows = len(lower_shp[lower_shp['VOTER_POWER'] != 0].index)
+
+print(f"nonzero rows upper: {upper_nonzero_rows}  lower: {lower_nonzero_rows}")
 
 # save to GeoJSON format
 upper_shp.to_file(out_dir / "upper_state_moneyball.geojson", driver="GeoJSON")
