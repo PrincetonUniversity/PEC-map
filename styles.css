@@ -170,6 +170,7 @@ body {
 #zoom {
   display: inline-block;
   /* top: 13px; */
+  /* when second dropdown: 64px; */
   top: 40px;
   left: 12px;
   position: absolute;
@@ -427,7 +428,7 @@ body {
 }
 
 
-  #dropdown {
+  #dropdown, #dropdown-2 {
     display: inline-block;
     /* top: 40px; */
     top: 13px;
@@ -442,6 +443,12 @@ body {
     background: #fff;
     font-family: "Open Sans", "Helvetica Neue", Arial, Helvetica, sans-serif;
     }
+
+    #dropdown-2 {
+      /* 'inline-block' when state-house/senate layer active*/
+      display: none;
+      top: 40px;
+      }
      
     #dropdown a {
     color: #404040;

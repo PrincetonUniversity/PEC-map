@@ -13,7 +13,7 @@ const zoomThreshold = 4;
 const map = new mapboxgl.Map({
     container: 'map-container',
     // style: 'mapbox://styles/openprecincts/ckb82ge1d1xx81ip9v5i0xony'
-    style: 'mapbox://styles/mdhallee/ckcw6g37w14oi1hqitiq1t42p',
+    style: 'mapbox://styles/mdhallee/ckd567qcu0baj1iqlnk8sg99b',
 
 });
 
@@ -135,12 +135,13 @@ map.on('load', function() {
         {
             'id': 'state-house',
             'source': 'state-house',
-            'minzoom': zoomThreshold,
+            'minzoom': 2,
             'paint': {
+                'fill-outline-color': '#000000',
                 'fill-opacity': [
                     'match',
                     ['get', 'VOTER_POWER'],
-                    0, 0, 
+                    0, 0.5, 
                     0.8
                     ],
                 'fill-color': [
@@ -195,12 +196,13 @@ map.on('load', function() {
         {
             'id': 'state-senate',
             'source': 'state-senate',
-            'minzoom': zoomThreshold,
+            'minzoom': 2,
             'paint': {
+                'fill-outline-color': '#000000',
                 'fill-opacity': [
                     'match',
                     ['get', 'VOTER_POWER'],
-                    0, 0, 
+                    0, 0.5, 
                     0.8
                     ],
                 'fill-color': [
@@ -375,6 +377,52 @@ map.on('load', function() {
             .addTo(map);
         });
 
+    // State-House-layer click and pop-up stuff
+    map.on('click', 'state-house', function(e) {
+        e.originalEvent.cancelBubble = true; 
+        let prop = e.features[0].properties
+        let el = document.createElement('div');
+        el.className = 'marker'
+        console.log("clicked prop", prop);
+
+        let myCongressionalTable = '<table> <tr> <th>' + "District" + '</th> <td>' + prop.DISTRICT + '</td>' + 
+                                   '<tr> <th>' + "Lean" + '</th> <td>' + prop.LEAN + '</td>' + 
+                                   '<tr> <th>' + "Dem. Cand." + '</th> <td>' + prop.NOM_D + '</td>' + 
+                                   '<tr> <th>' + "Rep. Cand" + '</th> <td>' + prop.NOM_R + '</td>' + 
+
+
+                                    '</table>'
+
+
+        new mapboxgl.Popup(el)
+            .setLngLat(e.lngLat)
+            .setHTML(myCongressionalTable)
+            .addTo(map);
+        });
+
+    // State-House-layer click and pop-up stuff
+    map.on('click', 'state-senate', function(e) {
+        e.originalEvent.cancelBubble = true; 
+        let prop = e.features[0].properties
+        let el = document.createElement('div');
+        el.className = 'marker'
+        console.log("clicked prop", prop);
+
+        let myCongressionalTable = '<table> <tr> <th>' + "District" + '</th> <td>' + prop.DISTRICT + '</td>' + 
+                                   '<tr> <th>' + "Lean" + '</th> <td>' + prop.LEAN + '</td>' + 
+                                   '<tr> <th>' + "Dem. Cand." + '</th> <td>' + prop.NOM_D + '</td>' + 
+                                   '<tr> <th>' + "Rep. Cand" + '</th> <td>' + prop.NOM_R + '</td>' + 
+
+
+                                    '</table>'
+
+
+        new mapboxgl.Popup(el)
+            .setLngLat(e.lngLat)
+            .setHTML(myCongressionalTable)
+            .addTo(map);
+        });
+
     // add legend on zoom
     var congressionalLegendEl = document.getElementById('congressional-legend');
     map.on('zoom', function() {
@@ -404,6 +452,15 @@ map.on('load', function() {
 
     // add plus/minus zoom button
     // map.addControl(new mapboxgl.NavigationControl());
+
+    function viewDropdown2(displayStyle) {
+        /* "inline-block" or "none" */
+      var x = document.getElementById("dropdown-2");
+      x.style.display = displayStyle
+
+      var y = document.getElementById("zoom");
+      y.style.top= (displayStyle === 'none' ? '40px' : '64px')
+    }
     
     const selectElement = d3.select("#dropdown").on("change", function(e) {
         console.log("new selected layer is", this.value);
@@ -416,27 +473,29 @@ map.on('load', function() {
             map.setLayoutProperty('states-layer', 'visibility', 'none');
             map.setLayoutProperty('state-house', 'visibility', 'none');
             map.setLayoutProperty('state-senate', 'visibility', 'none');
+            viewDropdown2('none');
         } else if (clickedLayer === 'states-layer'){
             map.setLayoutProperty('states-layer', 'visibility', 'visible');
             map.setLayoutProperty('congressional-border', 'visibility', 'none');
             map.setLayoutProperty('congressional-layer', 'visibility', 'none');
             map.setLayoutProperty('state-house', 'visibility', 'none');
             map.setLayoutProperty('state-senate', 'visibility', 'none');
+            viewDropdown2('none');
         } else if (clickedLayer === 'state-house'){
             map.setLayoutProperty('states-layer', 'visibility', 'none');
             map.setLayoutProperty('congressional-border', 'visibility', 'none');
             map.setLayoutProperty('congressional-layer', 'visibility', 'none');
             map.setLayoutProperty('state-house', 'visibility', 'visible');
             map.setLayoutProperty('state-senate', 'visibility', 'none');
+            viewDropdown2('inline-block');
         } else if (clickedLayer === 'state-senate'){
             map.setLayoutProperty('states-layer', 'visibility', 'none');
             map.setLayoutProperty('congressional-border', 'visibility', 'none');
             map.setLayoutProperty('congressional-layer', 'visibility', 'none');
             map.setLayoutProperty('state-house', 'visibility', 'none');
             map.setLayoutProperty('state-senate', 'visibility', 'visible');
+            viewDropdown2('inline-block');
         }
-
-
       });
 
 });
