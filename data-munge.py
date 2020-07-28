@@ -44,7 +44,6 @@ cong["fips"] = cong['FIPS'].map("{:02}".format)
 cong["Code"] = cong["fips"] + cong["CD"] 
 cong['Code'] = cong['Code'].astype(str)
 cong.groupby(['June Cook Ratings']).agg(['count']) # check for any misspelling 
-cong.groupby(['April Cook Ratings']).agg(['count']) # check for any misspelling 
 
 # Congressional map
 cong_shp['Code'] = cong_shp["STATEFP"] + cong_shp["CD116FP"]
@@ -52,7 +51,7 @@ cong_shp['Code'] = cong_shp['Code'].astype(str)
 
 # Merge them 
 cong_out = cong_shp.merge(cong, on='Code')
-cong_out = cong_out[["NAME", "District", "Code", "D", "R", "April Cook Ratings",
+cong_out = cong_out[["NAME", "District", "Code", "D", "R", 
            "June Cook Ratings", "Opposition Primary", "geometry"]]
 
 cong_out.to_file(out_dir / "house_dat.geojson", driver="GeoJSON")
@@ -100,4 +99,4 @@ st_out = st_out[['STATEFP', 'State', 'NAME', 'Senate Special', 'Senate D',
        'State Supreme Court Retention', 'State Supreme Court Comments', 
        'nCompetitive CDs', 'Competitive Congressional Districts', 'State House Seat', 'State Senate Seat',
        'geometry']]
-st_out.to_file(out_dir / "state_dat.geojson", driver="GeoJSON")
+st_out.to_file(out_dir / "state_dat.geojson", driver="GeoJSON") 
