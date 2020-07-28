@@ -266,11 +266,6 @@ map.on('load', function() {
 
         clickedStateBox.appendChild(clickedStateInfo)
 
-        /* Default text. */
-        // `When you click on a state, information appears about elections and redistricting.<br />
-        // Zoom in and click on a district of interest for more information about competitiveness.<br />
-        // Select a layer from the drop-down menu in the top right corner to toggle between information on U.S. Congressional races and state legislative races.`
-        
         /* Add state name. */
         let title = clickedStateInfo.appendChild(document.createElement('div'));
         title.className = 'title';
