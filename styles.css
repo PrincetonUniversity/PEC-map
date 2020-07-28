@@ -54,7 +54,8 @@ body {
 }
 
 .heading {
-  font-size: .75em;
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 1.3em;
   background: #fff;
   border-bottom: 1px solid #eee;
   height: 45px;
