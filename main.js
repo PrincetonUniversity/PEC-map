@@ -69,10 +69,9 @@ map.on('load', function() {
                 'line-cap': 'round'
             },
             'paint': {
-                'line-color': 'black',
+                'line-color': '#001940',
                 'line-width': 1.5
             },
-            
         });
 
     map.addLayer(
@@ -134,9 +133,9 @@ map.on('load', function() {
         {
             'id': 'state-house',
             'source': 'state-house',
-            'minzoom': 2,
+            'minzoom': zoomThreshold,
             'paint': {
-                'fill-outline-color': '#000000',
+                'fill-outline-color': '#001940',
                 'fill-opacity': [
                     'match',
                     ['get', 'VOTER_POWER'],
@@ -183,9 +182,9 @@ map.on('load', function() {
         {
             'id': 'state-senate',
             'source': 'state-senate',
-            'minzoom': 2,
+            'minzoom': zoomThreshold,
             'paint': {
-                'fill-outline-color': '#000000',
+                'fill-outline-color': '#001940',
                 'fill-opacity': [
                     'match',
                     ['get', 'VOTER_POWER'],
@@ -227,6 +226,22 @@ map.on('load', function() {
                 },  
         }
     );
+    map.addLayer(
+        {
+            'id': 'state-house-border',
+            'type': 'line',
+            'source': 'state-house',
+            'minzoom': zoomThreshold,
+            'layout': {
+                'line-join': 'round',
+                'line-cap': 'round',
+                'visibility': 'none'
+            },
+            'paint': {
+                'line-color': '#001940',
+                'line-width': 1.5
+            },
+        });
 
 
 
@@ -241,11 +256,6 @@ map.on('load', function() {
 
         clickedStateBox.appendChild(clickedStateInfo)
 
-        /* Default text. */
-        // `When you click on a state, information appears about elections and redistricting.<br />
-        // Zoom in and click on a district of interest for more information about competitiveness.<br />
-        // Select a layer from the drop-down menu in the top right corner to toggle between information on U.S. Congressional races and state legislative races.`
-        
         /* Add state name. */
         let title = clickedStateInfo.appendChild(document.createElement('div'));
         title.className = 'title';
@@ -415,6 +425,12 @@ map.on('load', function() {
             // padding: {top: 10, bottom:25, left: 15, right: 5},
             linear: true,
             });
+        map.setLayoutProperty('states-layer', 'visibility', 'visible');
+        // map.setLayoutProperty('congressional-border', 'visibility', 'visible');
+        // map.setLayoutProperty('congressional-layer', 'visibility', 'visible');
+        // map.setLayoutProperty('state-house', 'visibility', 'none');
+        // map.setLayoutProperty('state-senate', 'visibility', 'none');
+        viewDropdown2('none');
         });
 
     // add address search thing
@@ -461,6 +477,7 @@ map.on('load', function() {
             map.setLayoutProperty('congressional-border', 'visibility', 'none');
             map.setLayoutProperty('congressional-layer', 'visibility', 'none');
             map.setLayoutProperty('state-house', 'visibility', 'visible');
+            map.setLayoutProperty('state-house-border', 'visibility', 'visible');
             map.setLayoutProperty('state-senate', 'visibility', 'none');
             viewDropdown2('inline-block');
         } else if (clickedLayer === 'state-senate'){
