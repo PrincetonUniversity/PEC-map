@@ -57,7 +57,6 @@ map.on('load', function() {
     });
 
 
-    https://princetonuniversity.github.io/PEC-map/out-files/lower_state_moneyball.geojson
 
     map.addLayer(
         {
@@ -147,43 +146,31 @@ map.on('load', function() {
                 'fill-color': [
                     "case",
                     [
-                      "==",
+                      ">=",
                       ["get", "VOTER_POWER"],
-                      0
+                      75
                     ],
-                    "hsla(0, 0%, 100%, 0)",
+                    "hsla(312, 99%, 55%, 0.88)",
                     [
-                      ">",
+                      ">=",
                       ["get", "VOTER_POWER"],
-                      1.01e-7
+                      45
                     ],
-                    "hsla(239, 93%, 49%, 0.73)",
+                    "hsla(288, 82%, 56%, 0.85)",
                     [
-                      "<",
+                      ">=",
                       ["get", "VOTER_POWER"],
-                      -2.15e-7
+                      25
                     ],
-                    "hsla(0, 100%, 55%, 0.61)",
+                    "hsla(232, 56%, 75%, 0.68)",
                     [
-                      "<",
+                      ">=",
                       ["get", "VOTER_POWER"],
-                      0
+                      5
                     ],
-                    "hsla(0, 72%, 83%, 0.74)",
-                    [
-                      ">",
-                      ["get", "VOTER_POWER"],
-                      3.58e-8
-                    ],
-                    "hsla(232, 98%, 68%, 0.74)",
-                    [
-                      ">",
-                      ["get", "VOTER_POWER"],
-                      0
-                    ],
-                    "hsla(223, 88%, 86%, 0.75)",
-                    "#000000"
-                    ]
+                    "hsla(193, 32%, 80%, 0.75)",
+                    "hsla(0, 0%, 100%, 0)"
+                  ]
                 },
             'type': 'fill', 
             'layout': {
@@ -208,43 +195,31 @@ map.on('load', function() {
                 'fill-color': [
                     "case",
                     [
-                      "==",
+                      ">=",
                       ["get", "VOTER_POWER"],
-                      0
+                      75
                     ],
-                    "hsla(0, 0%, 100%, 0)",
+                    "hsla(312, 99%, 55%, 0.88)",
                     [
-                      ">",
+                      ">=",
                       ["get", "VOTER_POWER"],
-                      1.01e-7
+                      45
                     ],
-                    "hsla(239, 93%, 49%, 0.73)",
+                    "hsla(288, 82%, 56%, 0.85)",
                     [
-                      "<",
+                      ">=",
                       ["get", "VOTER_POWER"],
-                      -2.15e-7
+                      25
                     ],
-                    "hsla(0, 100%, 55%, 0.61)",
+                    "hsla(232, 56%, 75%, 0.68)",
                     [
-                      "<",
+                      ">=",
                       ["get", "VOTER_POWER"],
-                      0
+                      5
                     ],
-                    "hsla(0, 72%, 83%, 0.74)",
-                    [
-                      ">",
-                      ["get", "VOTER_POWER"],
-                      3.58e-8
-                    ],
-                    "hsla(232, 98%, 68%, 0.74)",
-                    [
-                      ">",
-                      ["get", "VOTER_POWER"],
-                      0
-                    ],
-                    "hsla(223, 88%, 86%, 0.75)",
-                    "#000000"
-                    ]
+                    "hsla(193, 32%, 80%, 0.75)",
+                    "hsla(0, 0%, 100%, 0)"
+                  ]
                 },
             'type': 'fill',
             'layout': {
