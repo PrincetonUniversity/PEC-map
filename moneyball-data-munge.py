@@ -118,7 +118,7 @@ def process_moneyball_data(inFile, outFile):
     df.to_csv(data_dir / outFile, index=False, float_format='%.16f')
 
 # process the raw model output -- add GEOID + Chamber Fields
-process_moneyball_data('model-output-7-28.csv', 'processed_data.csv')
+process_moneyball_data('model-output-7-28-new.csv', 'processed_data.csv')
 
 
 
