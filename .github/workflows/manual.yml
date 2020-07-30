@@ -25,18 +25,13 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    # Runs a single command using the runners shell
-    - name: Create greeting
-      run: touch hello.txt
-    - name: switching from HTTPS to SSH
-      run: git remote set-url origin ${{ secrets.GITHUB_TOKEN }}
-    - name: check for changes
-      run: git status
-    - name: stage changed files
-      run: git add hello.txt
-    - name: commit changed files
-      run: git commit -m "Auto updating hello.txt"
-    - name: fetch from master
-      run: git fetch origin master
-    - name: push code to master
-      run: git push origin HEAD:master
+      - uses: actions/checkout@v2
+      - with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - run: |
+          date > generated.txt
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "generated"
+          git push
