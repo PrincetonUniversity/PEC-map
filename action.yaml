@@ -2,19 +2,16 @@ name: gsheet.action Update-data
 on:
   schedule: 
   - cron: '0 1 * * *'
-
-
 jobs:
   fetch:
     runs-on: ubuntu-latest
     steps:
-      - id: 'update_worksheet'
-        uses: jroehl/gsheet.action@v1.0.0 # you can specify '@release' to always have the latest changes
+      - id: 'download_gsheet_data'
+        uses: jroehl/gsheet.action@v1.0.0 
         with:
           spreadsheetId: <spreadsheetId>
-          commands: | # list of commands, specified as a valid JSON string
+          commands: | 
             [
-              { "command": "addWorksheet", "args": { "worksheetTitle": "<worksheetTitle>" }},
               { "command": "updateData", "args": { "data": [["A1", "A2", "A3"]] }},
               { "command": "getData", "args": { "range": "'<worksheetTitle>'!A2:B3" } }
             ]
@@ -26,12 +23,10 @@ jobs:
           #  the output of the action can be found in ${{ steps.update_worksheet.outputs.results }}
           RESULTS: ${{ steps.update_worksheet.outputs.results }}
         run: echo "$RESULTS" | jq
-
-
-steps:
-- uses: actions/checkout@v2
-- uses: actions/setup-python@v2
-  with:
-    python-version: '3.x' # Version range or exact version of a Python version to use, using SemVer's version range syntax
-    architecture: 'x64' # optional x64 or x86. Defaults to x64 if not specified
-- run: python my_script.py
+      - id: 'clean_data'
+      uses: actions/checkout@v2
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x' 
+      name: run python script 
+      run: python my_script.py
