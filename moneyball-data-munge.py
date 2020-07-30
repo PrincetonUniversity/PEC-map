@@ -115,10 +115,13 @@ def process_moneyball_data(inFile, outFile):
     )
     df [['GEOID', 'chamber', 'dist_name']] = df.apply(lambdafunc, axis = 1)
 
+    df['rep_nominee'].replace({'False': ''}, inplace =True)
+    df['dem_nominee'].replace({'False': ''}, inplace =True)
+
     df.to_csv(data_dir / outFile, index=False, float_format='%.16f')
 
 # process the raw model output -- add GEOID + Chamber Fields
-process_moneyball_data('model-output-7-28-new.csv', 'processed_data.csv')
+process_moneyball_data('output_7_28_with_nominees.csv', 'processed_data.csv')
 
 
 
