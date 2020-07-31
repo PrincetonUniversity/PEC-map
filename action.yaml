@@ -6,7 +6,7 @@ jobs:
   fetch:
     runs-on: ubuntu-latest
     steps:
-      - id: 'download_gsheet_data'
+      - id: 'get_gsheet_data'
         uses: jroehl/gsheet.action@v1.0.0 
         with:
           spreadsheetId: <spreadsheetId>
@@ -20,9 +20,8 @@ jobs:
           GSHEET_PRIVATE_KEY: ${{ secrets.GSHEET_PRIVATE_KEY }}
       - name: dump results
         env:
-          #  the output of the action can be found in ${{ steps.update_worksheet.outputs.results }}
-          RESULTS: ${{ steps.update_worksheet.outputs.results }}
-        run: echo "$RESULTS" | jq
+          RESULTS: ${{ steps.get_gsheet_data.outputs.results }}
+        run: touch "$RESULTS" | something.csv # need to change this
       - id: 'clean_data'
       uses: actions/checkout@v2
       uses: actions/setup-python@v2
