@@ -11,19 +11,31 @@ Expected output:
 import pandas as pd 
 import geopandas as gpd
 from pathlib import Path
+import gspread
 
+# directory set-up
 data_dir = Path.cwd() / "data"
 out_dir = Path.cwd() / "out-files"
 
+# grab google sheets using sheets API
+def import_gsheet(sheet_name):
+    gc = gspread.oauth() 
+    sh = gc.open("PEC Map Data 2020 ")
+    worksheet = sh.worksheet(sheet_name)
+    data = worksheet.get_all_values()
+    column_names = data.pop(0)
+    df = pd.DataFrame(data, columns=column_names)
+    return df
+
 # PEC data 
-cong = pd.read_csv(data_dir / "PEC Map Data 2020  - House.csv")
-gov = pd.read_csv(data_dir / "PEC Map Data 2020  - Governors.csv")
-redistrict = pd.read_csv(data_dir / "PEC Map Data 2020  - Redistricting.csv")
-referenda = pd.read_csv(data_dir / "PEC Map Data 2020  - Referenda.csv")
-senate = pd.read_csv(data_dir / "PEC Map Data 2020  - Senate.csv")
-stleg = pd.read_csv(data_dir / "PEC Map Data 2020  - State Legislatures.csv")
-supreme = pd.read_csv(data_dir / "PEC Map Data 2020  - State Supreme Court.csv")
-stleg2 = pd.read_csv(data_dir / "PEC Map Data 2020  - State Leg 2.csv")
+cong = import_gsheet("House")
+gov = import_gsheet("Governors")
+redistrict = import_gsheet("Redistricting")
+referenda = import_gsheet("Referenda")
+senate = import_gsheet("Senate")
+stleg = import_gsheet("State Legislatures")
+supreme = import_gsheet("State Supreme Court")
+stleg2 = import_gsheet("State Leg 2")
 
 # Shapefiles
 cong_shp = gpd.read_file(data_dir / "cb_2019_us_cd116_500k/cb_2019_us_cd116_500k.shp")
@@ -43,7 +55,7 @@ cong["fips"] = cong['FIPS'].map("{:02}".format)
 
 cong["Code"] = cong["fips"] + cong["CD"] 
 cong['Code'] = cong['Code'].astype(str)
-cong.groupby(['June Cook Ratings']).agg(['count']) # check for any misspelling 
+# cong.groupby(['June Cook Ratings']).agg(['count']) # check for any misspelling 
 
 # Congressional map
 cong_shp['Code'] = cong_shp["STATEFP"] + cong_shp["CD116FP"]
