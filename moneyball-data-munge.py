@@ -139,15 +139,35 @@ lower_shp = gpd.read_file(data_dir / 'LOWER_cb_2019_us_sldl_500k/cb_2019_us_sldl
 # read in north carolinas updated district geometry
 nc_upper_shp = gpd.read_file(data_dir / 'NC_State_Senate_2020/Senate Consensus Nonpartisan Map v3.shp')
 nc_lower_shp = gpd.read_file(data_dir / 'NC_State_House_2020/HB 1020 H Red Comm CSBK-25.shp')
+# normalize coordinate system of NC data for integration to census data
+nc_upper_shp = nc_upper_shp.to_crs(upper_shp.crs)
+nc_lower_shp = nc_lower_shp.to_crs(lower_shp.crs)
 
-# replace nc geometry from census shapefile
-for index, row in upper_shp.iterrows():
-    if row['STATEFP'] == '37':
-        row['geometry'] = nc_upper_shp[nc_upper_shp['DISTRICT'] == row['NAME']]['geometry']
+#### replace nc geometry into census shapefile ####
 
-for index, row in lower_shp.iterrows():
-    if row['STATEFP'] == '37':
-        row['geometry'] = nc_lower_shp[nc_lower_shp['DISTRICT'] == row['NAME']]['geometry']
+# get GEOID columns for merge
+nc_lower_shp['GEOID'] = nc_lower_shp['DISTRICT'].apply(lambda x:\
+                                            '37' + str(x).zfill(3))
+nc_upper_shp['GEOID'] = nc_upper_shp['DISTRICT'].apply(lambda x:\
+                                            '37' + str(x).zfill(3))
+
+# merge
+merged_upper_shp = pd.merge(upper_shp, nc_upper_shp, how='left', on='GEOID', suffixes=['', '_y'])
+merged_lower_shp = pd.merge(lower_shp, nc_lower_shp, how='left', on='GEOID', suffixes=['', '_y'])
+
+# merge in geometries to the proper column
+merged_upper_shp['geometry'] = merged_upper_shp.apply(lambda x:\
+                        x['geometry_y'] if x['STATEFP'] == '37'\
+                                        else x['geometry'], \
+                                        axis = 1)
+merged_lower_shp['geometry'] = merged_lower_shp.apply(lambda x:\
+                        x['geometry_y'] if x['STATEFP'] == '37'\
+                                        else x['geometry'], \
+                                        axis = 1)
+
+upper_shp = merged_upper_shp.drop(columns='geometry_y')
+lower_shp = merged_lower_shp.drop(columns='geometry_y')
+
 
 # Pandas lambda helper function
 # Locates fields from df_columns[] in df corresponding to the GEOID 
@@ -255,6 +275,5 @@ print(f"nonzero rows upper: {upper_nonzero_rows}  lower: {lower_nonzero_rows}")
 # save to GeoJSON format
 upper_shp.to_file(out_dir / "upper_state_moneyball.geojson", driver="GeoJSON")
 lower_shp.to_file(out_dir / "lower_state_moneyball.geojson", driver="GeoJSON")
-
 
 
