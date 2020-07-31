@@ -9,9 +9,10 @@ data_dir = Path.cwd() / "data"
 out_dir = Path.cwd() / "out-files"
 
 # Util method to come between state formats 
-def get_state_code(input, FIPS=True, TwoDigit=False, Full=False):
-    if (FIPS + TwoDigit + Full != 1):
-        raise ValueError("Exactly one format argument must be True. Default = FIPS")
+# returnType must be either 'full' 'two_digit' or 'FIPS'
+def get_state_code(input, returnType = 'FIPS'):
+    if (returnType != 'full' and returnType != 'two_digit' and returnType != 'FIPS'):
+        raise ValueError("returnType must be either 'full' 'two_digit' or 'FIPS'")
 
     code_hash = {
         'AL': {'full': 'Alabama', 'two_digit': 'AL', 'FIPS': 1},
@@ -67,10 +68,10 @@ def get_state_code(input, FIPS=True, TwoDigit=False, Full=False):
         'WY': {'full': 'Wyoming', 'two_digit': 'WY', 'FIPS': 56},
         'PR': {'full': 'Puerto Rico', 'two_digit': 'PR', 'FIPS': 72}
     }
-
-    if FIPS:
-        return code_hash[input]['FIPS']
-    
+    for row in code_hash:
+        for value in code_hash[row]:
+            if code_hash[row][value] == input:
+                return code_hash[row][returnType]
     return None
 
 
@@ -109,14 +110,9 @@ def process_moneyball_data(inFile, outFile):
     df = pd.read_csv(data_dir / inFile)
 
     lambdafunc = lambda x: pd.Series(
-        [getGEOID(x['district'], leading_zero = True),
         getChamber(x['district']),
-        getName(x['district'])]
     )
-    df [['GEOID', 'chamber', 'dist_name']] = df.apply(lambdafunc, axis = 1)
-
-    df['rep_nominee'].replace({'False': ''}, inplace =True)
-    df['dem_nominee'].replace({'False': ''}, inplace =True)
+    df ['chamber'] = df.apply(lambdafunc, axis = 1)
 
     df.to_csv(data_dir / outFile, index=False, float_format='%.16f')
 
@@ -140,19 +136,46 @@ lower_df = df[df['chamber'] == 'HD']
 upper_shp = gpd.read_file(data_dir / 'UPPER_cb_2019_us_sldu_500k/cb_2019_us_sldu_500k.shp')
 lower_shp = gpd.read_file(data_dir / 'LOWER_cb_2019_us_sldl_500k/cb_2019_us_sldl_500k.shp')
 
+# read in north carolinas updated district geometry
+nc_upper_shp = gpd.read_file(data_dir / 'NC_State_Senate_2020/Senate Consensus Nonpartisan Map v3.shp')
+nc_lower_shp = gpd.read_file(data_dir / 'NC_State_House_2020/HB 1020 H Red Comm CSBK-25.shp')
+# normalize coordinate system of NC data for integration to census data
+nc_upper_shp = nc_upper_shp.to_crs(upper_shp.crs)
+nc_lower_shp = nc_lower_shp.to_crs(lower_shp.crs)
+
+#### replace nc geometry into census shapefile ####
+
+# get GEOID columns for merge
+nc_lower_shp['GEOID'] = nc_lower_shp['DISTRICT'].apply(lambda x:\
+                                            '37' + str(x).zfill(3))
+nc_upper_shp['GEOID'] = nc_upper_shp['DISTRICT'].apply(lambda x:\
+                                            '37' + str(x).zfill(3))
+
+# merge
+merged_upper_shp = pd.merge(upper_shp, nc_upper_shp, how='left', on='GEOID', suffixes=['', '_y'])
+merged_lower_shp = pd.merge(lower_shp, nc_lower_shp, how='left', on='GEOID', suffixes=['', '_y'])
+
+# merge in geometries to the proper column
+merged_upper_shp['geometry'] = merged_upper_shp.apply(lambda x:\
+                        x['geometry_y'] if x['STATEFP'] == '37'\
+                                        else x['geometry'], \
+                                        axis = 1)
+merged_lower_shp['geometry'] = merged_lower_shp.apply(lambda x:\
+                        x['geometry_y'] if x['STATEFP'] == '37'\
+                                        else x['geometry'], \
+                                        axis = 1)
+
+upper_shp = merged_upper_shp.drop(columns='geometry_y')
+lower_shp = merged_lower_shp.drop(columns='geometry_y')
+
+
 # Pandas lambda helper function
 # Locates fields from df_columns[] in df corresponding to the GEOID 
 # of the given geopandas row and returns them for lambda insertion.
 # If there is no GEOID match, returns the value from default_values[]
 def pandas_lambda_geolocate(row, df, df_columns, default_values):
     vals = []
-
-    # match by district name if MA
-    if row['STATEFP'] == '25':
-        geomatch = df[df['dist_name'] == row['NAME']]
-    else:
-        geomatch = df[df['GEOID'] == row['GEOID']]
-    
+    geomatch = df[df['geoid'] == row['GEOID']]
     if len(geomatch.index) < 1:
         #print (f"No match found for GEOID: {row['GEOID']}")
         return pd.Series(default_values)
@@ -167,12 +190,7 @@ def pandas_lambda_geolocate(row, df, df_columns, default_values):
 
 # Concatenates the fields "confidence" and "favored" into a 'likely' string
 def get_lean(row, df):
-    # match by district name if MA
-    if row['STATEFP'] == '25':
-        geomatch = df[df['dist_name'] == row['NAME']]
-    else:
-        geomatch = df[df['GEOID'] == row['GEOID']]
-    
+    geomatch = df[df['geoid'] == row['GEOID']]
     if len(geomatch.index) < 1:
         return 'no data'
     elif len(geomatch.index) > 1:
@@ -182,6 +200,37 @@ def get_lean(row, df):
     favored = geomatch['favored']
     if confidence == 'Toss-Up': return confidence
     return confidence + " " + favored
+
+# helper method parsing districts with characters
+def toInt(foo):
+    try:
+        int(foo)
+    except ValueError:
+        return foo
+    return int(foo)
+
+# returns district from GEOID
+def get_district(GEOID, chamber):
+    GEOID_str = str(GEOID)
+    end_state = 2 if len(GEOID_str) == 5 else 1
+    two_letter = get_state_code(int(GEOID_str[0:end_state]), 'two_digit')
+    district = two_letter + '-' + chamber + '-' + str(toInt(GEOID_str[end_state:]))
+    return district
+
+# returns full state name from GEOID
+def get_full_state(GEOID):
+    GEOID_str = str(GEOID)
+    end_state = 2 if len(GEOID_str) == 5 else 1
+    full = get_state_code(int(GEOID_str[0:end_state]), 'full')
+    return full
+
+# returns two letter state abbreviation from GEOID
+def get_postal(GEOID):
+    GEOID_str = str(GEOID)
+    end_state = 2 if len(GEOID_str) == 5 else 1
+    two_letter = get_state_code(int(GEOID_str[0:end_state]), 'two_digit')
+    return two_letter
+
 
 # add data columns from model to geojson 
 df_columns = ['district', 'rep_nominee', 'dem_nominee', 'incumbent', 'anti_gerrymandering_party', 'redistricting_voter_power']
@@ -195,9 +244,22 @@ lower_shp[['DISTRICT', 'NOM_R', 'NOM_D', 'INCUMBENT','ANTI_GERRY_PARTY', 'VOTER_
     lambda row: pandas_lambda_geolocate(row, lower_df, df_columns, default_values), axis = 1)
 lower_shp['LEAN'] = lower_shp.apply(lambda row: get_lean(row, lower_df), axis = 1)
 
+# add district fields to shapes not in the model
+lower_shp['DISTRICT'] = lower_shp.apply(lambda row: get_district(row['GEOID'], 'HD') if row['DISTRICT'] == '' 
+                        else row['DISTRICT'], axis=1)
+upper_shp['DISTRICT'] = upper_shp.apply(lambda row: get_district(row['GEOID'], 'SD') if row['DISTRICT'] == '' 
+                        else row['DISTRICT'], axis=1)
+
 # eliminate unneeded columns and order 
 upper_shp = upper_shp[['STATEFP', 'GEOID', 'DISTRICT', 'NOM_R', 'NOM_D', 'INCUMBENT','ANTI_GERRY_PARTY', 'LEAN', 'VOTER_POWER', 'geometry']]	
 lower_shp = lower_shp[['STATEFP', 'GEOID', 'DISTRICT', 'NOM_R', 'NOM_D', 'INCUMBENT','ANTI_GERRY_PARTY', 'LEAN', 'VOTER_POWER', 'geometry']]
+
+# add full state names and 2 letter state abbreviations to all shapes
+upper_shp['FULL'] = upper_shp.apply(lambda row: get_full_state(row['GEOID']), axis=1)
+upper_shp['POSTAL'] = upper_shp.apply(lambda row: get_postal(row['GEOID']), axis=1)
+lower_shp['FULL'] = lower_shp.apply(lambda row: get_full_state(row['GEOID']), axis=1)
+lower_shp['POSTAL'] = lower_shp.apply(lambda row: get_postal(row['GEOID']), axis=1)
+
 
 # replace 'FALSE' with blank candidate fields  ('TBA' is the other option)
 upper_shp['NOM_R'].replace({'FALSE': ''}, inplace =True)
@@ -213,6 +275,5 @@ print(f"nonzero rows upper: {upper_nonzero_rows}  lower: {lower_nonzero_rows}")
 # save to GeoJSON format
 upper_shp.to_file(out_dir / "upper_state_moneyball.geojson", driver="GeoJSON")
 lower_shp.to_file(out_dir / "lower_state_moneyball.geojson", driver="GeoJSON")
-
 
 
