@@ -458,7 +458,7 @@ map.on('load', function() {
     );
 
     // add plus/minus zoom button
-    // map.addControl(new mapboxgl.NavigationControl());
+    map.addControl(new mapboxgl.NavigationControl());
 
     function viewDropdown2(displayStyle) {
         /* "inline-block" or "none" */
