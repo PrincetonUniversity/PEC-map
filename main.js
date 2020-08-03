@@ -124,7 +124,7 @@ map.on('load', function() {
         {
             'id': 'state-house',
             'source': 'state-house',
-            'minzoom': zoomThreshold,
+            'minzoom': zoomThreshold-1,
             'paint': {
                 'fill-outline-color': '#001940',
                 'fill-opacity': [
@@ -173,7 +173,7 @@ map.on('load', function() {
         {
             'id': 'state-senate',
             'source': 'state-senate',
-            'minzoom': zoomThreshold,
+            'minzoom': zoomThreshold-1,
             'paint': {
                 'fill-outline-color': '#001940',
                 'fill-opacity': [
