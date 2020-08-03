@@ -62,7 +62,7 @@ cong_shp['Code'] = cong_shp["STATEFP"] + cong_shp["CD116FP"]
 cong_shp['Code'] = cong_shp['Code'].astype(str)
 
 # Merge them 
-cong_out = cong_shp.merge(cong, on='Code')
+cong_out = cong_shp.merge(cong, on='Code', how='left')
 cong_out = cong_out[["NAME", "District", "Code", "D", "R", 
            "June Cook Ratings", "Opposition Primary", "geometry"]]
 
