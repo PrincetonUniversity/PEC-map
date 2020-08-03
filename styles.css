@@ -1,3 +1,4 @@
+/*** SIZING FOR FULL DESKTOP VERSION ***/
 .sidebar {
   position: absolute;
   width: 33.3333%;
@@ -37,7 +38,7 @@ body {
 }
 
 .state-info {
-  font-size: .75em;
+  font-size: 1.25em;
   display: block;
   border-bottom: 1px solid #eee;
   padding: 10px;
@@ -55,12 +56,12 @@ body {
 
 .heading {
   font-family: 'IBM Plex Serif', serif;
-  font-size: 1.3em;
+  font-size: 2.5em;
   background: #fff;
   border-bottom: 1px solid #eee;
-  height: 45px;
-  line-height: 60px;
-  padding: 0 5px;
+  height: 55px;
+  line-height: 100px;
+  padding: 10px 15px;
 }
 
   a {
@@ -178,7 +179,7 @@ body {
   left: 35%;
   border: none;
   border-radius: 3px;
-  font-size: 1em;
+  font-size: 1.25em;
   text-align: center;
   color: #757575;
   background: #fff;
@@ -427,15 +428,6 @@ body {
   }
 
 }
-
-/*** remove this to keep searchbar at small sizes ***/
-@media screen and (max-width: 560px) {
-  .mapboxgl-ctrl-top-right{
-    display: none;
-  }
-}
-
-
   #dropdown, #dropdown-2 {
     display: inline-block;
     /* top: 40px; */
@@ -445,7 +437,7 @@ body {
     left: 35%;
     border: none;
     border-radius: 3px;
-    font-size: 1em;
+    font-size: 1.25em;
     text-align: center;
     color: #757575;
     background: #fff;
@@ -486,3 +478,70 @@ body {
     #dropdown a.active:hover {
     background: #3074a4;
     }
+
+    /*** SIZING FOR SITE EMBED, MOBILE ***/
+@media screen and (max-width: 992px) {
+  .state-info {
+    font-size: .75em;
+    display: block;
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+    text-decoration: none;
+    border-bottom: none;
+  } 
+  .state-info .title {
+    font-size: 1.25em;
+    display: block;
+    color: #F58025;
+    font-weight: 700;
+    text-align: center;
+  }
+  .heading {
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 1.3em;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    height: 45px;
+    line-height: 60px;
+    padding: 0 5px;
+  }
+  body {
+    color: #404040;
+    font: 400 .75em 'IBM Plex Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+  }
+  #zoom {
+    display: inline-block;
+    /* top: 13px; */
+    /* when second dropdown: 64px; */
+    top: 40px;
+    left: 12px;
+    position: absolute;
+    left: 35%;
+    border: none;
+    border-radius: 3px;
+    font-size: 1em;
+    text-align: center;
+    color: #757575;
+    background: #fff;
+    }
+    #dropdown, #dropdown-2 {
+      display: inline-block;
+      /* top: 40px; */
+      top: 13px;
+      left: 12px;
+      position: absolute;
+      left: 35%;
+      border: none;
+      border-radius: 3px;
+      font-size: 1em;
+      text-align: center;
+      color: #757575;
+      background: #fff;
+      font-family: "Open Sans", "Helvetica Neue", Arial, Helvetica, sans-serif;
+      }
+}
+
+
