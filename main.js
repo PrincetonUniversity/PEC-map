@@ -5,15 +5,13 @@ const width = window.innerWidth * 0.9,
       height = window.innerHeight * 0.7, 
       margin = { top: 20, bottom: 50, left: 60, right: 40 };
 
-// mapboxgl.accessToken = 'pk.eyJ1Ijoib3BlbnByZWNpbmN0cyIsImEiOiJjanVqMHJtM3gwMXdyM3lzNmZkbmpxaXpwIn0.ZU772lvU-NeKNFAkukT6hw';
 mapboxgl.accessToken = 'pk.eyJ1IjoibWRoYWxsZWUiLCJhIjoiY2tjcWVscWkyMTN6czM0bGJ4eXB1dDNzMSJ9.ZqDUoCfQVWMN_ASDB9Mhdg';
 
 const zoomThreshold = 4;
 
 const map = new mapboxgl.Map({
     container: 'map-container',
-    // style: 'mapbox://styles/openprecincts/ckb82ge1d1xx81ip9v5i0xony'
-    style: 'mapbox://styles/mdhallee/ckd567qcu0baj1iqlnk8sg99b',
+    style: 'mapbox://styles/mdhallee/ckd567qcu0baj1iqlnk8sg99b?optimize=true',
 
 });
 
@@ -41,38 +39,15 @@ map.on('load', function() {
         data: 'https://princetonuniversity.github.io/PEC-map/out-files/state_dat.geojson'
     });
 
-    map.addSource('congressional-border', {
-        type: 'geojson',
-        data: 'https://princetonuniversity.github.io/PEC-map/out-files/house_boundaries.geojson'
-    });
-
     map.addSource('state-house', {
         type: 'geojson',
-        data: 'https://princetonuniversity.github.io/PEC-map/out-files/lower_state_moneyball.geojson'
+        data: 'https://princetonuniversity.github.io/PEC-map/out-files/lower_state_moneyball_simple.geojson'
     });
 
     map.addSource('state-senate', {
         type: 'geojson',
         data: 'https://princetonuniversity.github.io/PEC-map/out-files/upper_state_moneyball.geojson'
     });
-
-
-
-    map.addLayer(
-        {
-            'id': 'congressional-border',
-            'type': 'line',
-            'source': 'congressional-border',
-            'minzoom': zoomThreshold,
-            'layout': {
-                'line-join': 'round',
-                'line-cap': 'round'
-            },
-            'paint': {
-                'line-color': '#001940',
-                'line-width': 1.5
-            },
-        });
 
     map.addLayer(
         {
@@ -120,14 +95,30 @@ map.on('load', function() {
                     'Lean R', '#C62535', 
                     'Lean D', '#1660CE',
                     'white'
-                    ]
-                },
+                    ]                
+            },
             'type': 'fill',
             'layout': {
                 'visibility': 'visible'
                 },        
         }
     );
+
+    map.addLayer(
+        {
+            'id': 'congressional-border',
+            'type': 'line',
+            'source': 'congressional-layer',
+            'minzoom': zoomThreshold,
+            'layout': {
+                'line-join': 'round',
+                'line-cap': 'round'
+            },
+            'paint': {
+                'line-color': '#001940',
+                'line-width': 1.5
+            },
+        });
 
     map.addLayer(
         {
@@ -226,40 +217,38 @@ map.on('load', function() {
                 },  
         }
     );
-    map.addLayer(
-        {
-            'id': 'state-house-border',
-            'type': 'line',
-            'source': 'state-house',
-            'minzoom': zoomThreshold,
-            'layout': {
-                'line-join': 'round',
-                'line-cap': 'round',
-                'visibility': 'none'
-            },
-            'paint': {
-                'line-color': '#001940',
-                'line-width': 1.5
-            },
-        });
-        map.addLayer(
-            {
-                'id': 'state-senate-border',
-                'type': 'line',
-                'source': 'state-senate',
-                'minzoom': zoomThreshold,
-                'layout': {
-                    'line-join': 'round',
-                    'line-cap': 'round',
-                    'visibility': 'none'
-                },
-                'paint': {
-                    'line-color': '#001940',
-                    'line-width': 1.5
-                },
-            });
-
-
+    // map.addLayer(
+    //     {
+    //         'id': 'state-house-border',
+    //         'type': 'line',
+    //         'source': 'state-house',
+    //         'minzoom': zoomThreshold,
+    //         'layout': {
+    //             'line-join': 'round',
+    //             'line-cap': 'round',
+    //             'visibility': 'none'
+    //         },
+    //         'paint': {
+    //             'line-color': '#001940',
+    //             'line-width': 1.5
+    //         },
+    //     });
+    //     map.addLayer(
+    //         {
+    //             'id': 'state-senate-border',
+    //             'type': 'line',
+    //             'source': 'state-senate',
+    //             'minzoom': zoomThreshold,
+    //             'layout': {
+    //                 'line-join': 'round',
+    //                 'line-cap': 'round',
+    //                 'visibility': 'none'
+    //             },
+    //             'paint': {
+    //                 'line-color': '#001940',
+    //                 'line-width': 1.5
+    //             },
+    //         });
 
     // State-layer click and pop-up stuff
     map.on('click', 'states-layer', function(e) {
@@ -479,36 +468,36 @@ map.on('load', function() {
             map.setLayoutProperty('congressional-border', 'visibility', 'visible');
             map.setLayoutProperty('states-layer', 'visibility', 'none');
             map.setLayoutProperty('state-house', 'visibility', 'none');
-            map.setLayoutProperty('state-house-border', 'visibility', 'none');
+            // map.setLayoutProperty('state-house-border', 'visibility', 'none');
             map.setLayoutProperty('state-senate', 'visibility', 'none');            
-            map.setLayoutProperty('state-senate-border', 'visibility', 'none');
+            // map.setLayoutProperty('state-senate-border', 'visibility', 'none');
             viewDropdown2('none');
         } else if (clickedLayer === 'states-layer'){
             map.setLayoutProperty('states-layer', 'visibility', 'visible');
             map.setLayoutProperty('congressional-border', 'visibility', 'none');
             map.setLayoutProperty('congressional-layer', 'visibility', 'none');
             map.setLayoutProperty('state-house', 'visibility', 'none');
-            map.setLayoutProperty('state-house-border', 'visibility', 'none');
+            // map.setLayoutProperty('state-house-border', 'visibility', 'none');
             map.setLayoutProperty('state-senate', 'visibility', 'none');
-            map.setLayoutProperty('state-senate-border', 'visibility', 'none');
+            // map.setLayoutProperty('state-senate-border', 'visibility', 'none');
             viewDropdown2('none');
         } else if (clickedLayer === 'state-house'){
             map.setLayoutProperty('states-layer', 'visibility', 'none');
             map.setLayoutProperty('congressional-border', 'visibility', 'none');
             map.setLayoutProperty('congressional-layer', 'visibility', 'none');
             map.setLayoutProperty('state-house', 'visibility', 'visible');
-            map.setLayoutProperty('state-house-border', 'visibility', 'visible');
+            // map.setLayoutProperty('state-house-border', 'visibility', 'visible');
             map.setLayoutProperty('state-senate', 'visibility', 'none');
-            map.setLayoutProperty('state-senate-border', 'visibility', 'none');
+            // map.setLayoutProperty('state-senate-border', 'visibility', 'none');
             viewDropdown2('inline-block');
         } else if (clickedLayer === 'state-senate'){
             map.setLayoutProperty('states-layer', 'visibility', 'none');
             map.setLayoutProperty('congressional-border', 'visibility', 'none');
             map.setLayoutProperty('congressional-layer', 'visibility', 'none');
             map.setLayoutProperty('state-house', 'visibility', 'none');
-            map.setLayoutProperty('state-house-border', 'visibility', 'none');
+            // map.setLayoutProperty('state-house-border', 'visibility', 'none');
             map.setLayoutProperty('state-senate', 'visibility', 'visible');
-            map.setLayoutProperty('state-senate-border', 'visibility', 'visible');
+            // map.setLayoutProperty('state-senate-border', 'visibility', 'visible');
             viewDropdown2('inline-block');
         }
       });
