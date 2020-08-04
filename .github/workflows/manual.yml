@@ -1,27 +1,34 @@
-name: Update PEC data
+name: Manual workflow
+
+# Controls when the action will run. Workflow runs when manually triggered using the UI
+# or API.
 on:
-  schedule: 
-  - cron: '0 1 * * *'
-
-jobs: 
-  run:
-    name: Run data-cleaning script and commit-push
+  workflow_dispatch:
+    # Inputs the workflow accepts.
+    inputs:
+      name:
+        # Friendly description to be shown in the UI instead of 'name'
+        description: 'Person to greet'
+        # Default value if no value is explicitly provided
+        default: 'World'
+        # Input has to be provided for the workflow to run
+        required: true
+jobs:
+  updateGraphs:
     runs-on: ubuntu-latest
-    steps: 
+    steps:
+      - uses: actions/checkout@v2
 
-    - name: Run python script
-    - uses: actions/checkout@v2
-    - uses: actions/setup-python@v2
-      with:
-        python-version: '3.x' # Version range or exact version of a Python version to use, using SemVer's version range syntax
-    - run: python ./data-munge.py
+      - uses: actions/setup-python@v1
+        with:
+          python-version: '3.x'
 
-    - name: Commit changes
-      uses: EndBug/add-and-commit@v4
-      with:
-        author_name: Hope Johnson
-        author_email: mail@example.com
-        message: "update data"
-        add: "*.geojson"
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Clean data
+        run: python data-munge.py
+
+      - name: Update graphs
+        run: |
+          git config --global user.name 'Hope Johnson'
+          git config --global user.email 'hjohns12@users.noreply.github.com'
+          git commit -am "Clean data"
+          git push
