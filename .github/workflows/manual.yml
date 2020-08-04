@@ -1,37 +1,27 @@
-# This is a basic workflow that is manually triggered
-
-name: Manual workflow
-
-# Controls when the action will run. Workflow runs when manually triggered using the UI
-# or API.
+name: Update PEC data
 on:
-  workflow_dispatch:
-    # Inputs the workflow accepts.
-    inputs:
-      name:
-        # Friendly description to be shown in the UI instead of 'name'
-        description: 'Person to greet'
-        # Default value if no value is explicitly provided
-        default: 'World'
-        # Input has to be provided for the workflow to run
-        required: true
+  schedule: 
+  - cron: '0 1 * * *'
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
-jobs:
-  # This workflow contains a single job called "greet"
-  greet:
-    # The type of runner that the job will run on
+jobs: 
+  run:
+    name: Run data-cleaning script and commit-push
     runs-on: ubuntu-latest
+    steps: 
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
-      - uses: actions/checkout@v2
-      - with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-      - run: |
-          date > generated.txt
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add .
-          git commit -m "generated"
-          git push
+    - name: Run python script
+      uses: actions/checkout@v2
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x' # Version range or exact version of a Python version to use, using SemVer's version range syntax
+      run: python ./data-munge.py
+
+    - name: Commit changes
+      uses: EndBug/add-and-commit@v4
+      with:
+        author_name: Hope Johnson
+        author_email: mail@example.com
+        message: "update data"
+        add: "*.geojson"
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
