@@ -10,11 +10,11 @@ jobs:
     steps: 
 
     - name: Run python script
-      uses: actions/checkout@v2
-      uses: actions/setup-python@v2
+    - uses: actions/checkout@v2
+    - uses: actions/setup-python@v2
       with:
         python-version: '3.x' # Version range or exact version of a Python version to use, using SemVer's version range syntax
-      run: python ./data-munge.py
+    - run: python ./data-munge.py
 
     - name: Commit changes
       uses: EndBug/add-and-commit@v4
