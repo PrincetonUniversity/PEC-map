@@ -126,7 +126,7 @@ map.on('load', function() {
             'source': 'state-house',
             'minzoom': zoomThreshold-1,
             'paint': {
-                'fill-outline-color': '#001940',
+                'fill-outline-color': '#c4c4c4',
                 'fill-opacity': [
                     'match',
                     ['get', 'VOTER_POWER'],
@@ -146,19 +146,19 @@ map.on('load', function() {
                       ["get", "VOTER_POWER"],
                       45
                     ],
-                    "hsla(288, 82%, 56%, 0.85)",
+                    "hsla(288, 88%, 56%, 0.85)",
                     [
                       ">=",
                       ["get", "VOTER_POWER"],
-                      25
+                      30
                     ],
-                    "hsla(232, 56%, 75%, 0.68)",
+                    "hsla(232, 82%, 69%, 0.75)",
                     [
                       ">=",
                       ["get", "VOTER_POWER"],
-                      5
+                      20
                     ],
-                    "hsla(193, 32%, 80%, 0.75)",
+                    "hsla(193, 82%, 74%, 0.75)",
                     "hsla(0, 0%, 100%, 0)"
                   ]
                 },
@@ -175,42 +175,44 @@ map.on('load', function() {
             'source': 'state-senate',
             'minzoom': zoomThreshold-1,
             'paint': {
-                'fill-outline-color': '#001940',
+                'fill-outline-color': '#a3a3a3',
                 'fill-opacity': [
                     'match',
                     ['get', 'VOTER_POWER'],
                     0, 0.5, 
                     0.8
                     ],
-                'fill-color': [
-                    "case",
-                    [
-                      ">=",
-                      ["get", "VOTER_POWER"],
-                      75
-                    ],
-                    "hsla(312, 99%, 55%, 0.88)",
-                    [
-                      ">=",
-                      ["get", "VOTER_POWER"],
-                      45
-                    ],
-                    "hsla(288, 82%, 56%, 0.85)",
-                    [
-                      ">=",
-                      ["get", "VOTER_POWER"],
-                      25
-                    ],
-                    "hsla(232, 56%, 75%, 0.68)",
-                    [
-                      ">=",
-                      ["get", "VOTER_POWER"],
-                      5
-                    ],
-                    "hsla(193, 32%, 80%, 0.75)",
-                    "hsla(0, 0%, 100%, 0)"
-                  ]
-                },
+                    'fill-color': [
+                        "case",
+                        [
+                          ">=",
+                          ["get", "VOTER_POWER"],
+                          75
+                        ],
+                        "hsla(312, 99%, 55%, 0.88)",
+                        [
+                          ">=",
+                          ["get", "VOTER_POWER"],
+                          45
+                        ],
+                        "hsla(288, 88%, 56%, 0.85)",
+                        [
+                          ">=",
+                          ["get", "VOTER_POWER"],
+                          30
+                        ],
+                        "hsla(232, 82%, 69%, 0.75)",
+                        [
+                          ">=",
+                          ["get", "VOTER_POWER"],
+                          20
+                        ],
+                        "hsla(193, 82%, 74%, 0.75)",
+                        ['all', [">=", ["get", "VOTER_POWER"], 7], ["==", ["get", "POSTAL"], "NC"]],
+                        "hsla(193, 82%, 74%, 0.75)",
+                        "hsla(0, 0%, 100%, 0)"
+                      ]
+                    },
             'type': 'fill',
             'layout': {
                 'visibility': 'none'
