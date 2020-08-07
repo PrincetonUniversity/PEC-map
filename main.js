@@ -91,9 +91,13 @@ map.on('load', function() {
                 'fill-color': [
                     'match',
                     ['get', 'June Cook Ratings'],
+                    // old colors (PEC style guide)
                     'Toss-Up', '#c79e4a', 
                     'Lean R', '#C62535', 
                     'Lean D', '#1660CE',
+                    // 'Toss-Up', "hsla(312, 99%, 55%, 0.88)", 
+                    // 'Lean R', "hsla(288, 88%, 56%, 0.85)", 
+                    // 'Lean D', "hsla(232, 82%, 69%, 0.75)",
                     'white'
                     ]                
             },
