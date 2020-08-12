@@ -13,7 +13,7 @@
               <h1>Election Information</h1>
             </div>
             <div class="btn-group" style="width:100%">
-                <h3>Key Districts: Click to Navigate</h3>
+                <h3>Key States: Click to Navigate</h3>
                 <a class='state-button' id='tx-link'>TX</a>
                 <a class='state-button' id='mn-link'>MN</a>
                 <a class='state-button' id='ks-link'>KS</a>
@@ -31,7 +31,7 @@
                 </div>
             </div>
           </div>
-        <div id='map-container' class='map'></div>
+        <div id='map-container'></div>
         <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.5.1/mapbox-gl-geocoder.min.js"></script>
         <button id="zoom">Reset map</button>
 
@@ -49,7 +49,13 @@
             <div><span style="background-color: hsla(232, 82%, 69%, 0.75)"></span>Toss-Up</div>
             <div><span style="background-color: hsla(312, 99%, 55%, 0.88)"></span>Lean-R</div>
             <div><span style="background-color: hsla(193, 82%, 74%, 0.75)"></span>Lean-D</div>                
-            
+        </div>
+
+        <div id="voter-power-legend" class="legend" style="display: none;">
+            <div><span style="background-color: hsla(312, 99%, 55%, 0.88)"></span>Highest Voter Power</div>
+            <div><span style="background-color: hsla(288, 88%, 56%, 0.85)"></span>Medium-High</div>
+            <div><span style="background-color: hsla(232, 82%, 69%, 0.75)"></span>Medium</div>      
+            <div><span style="background-color: hsla(193, 82%, 74%, 0.75)"></span>Low</div>             
         </div>
 
 

@@ -1,18 +1,3 @@
-#info {
-  display: block;
-  position: relative;
-  top: 40px
-  margin: 0px auto;
-  width: 50%;
-  padding: 10px;
-  border: none;
-  border-radius: 3px;
-  font-size: 12px;
-  text-align: center;
-  color: #222;
-  background: #fff;
-}
-
 /*** SIZING FOR FULL DESKTOP VERSION ***/
 .sidebar {
   position: absolute;
@@ -44,6 +29,10 @@ body {
     bottom: 0;
     left: 33.3333%;
     width: 66.6666%;
+  }
+
+  .mapboxgl-canvas {
+    cursor: pointer;
   }
 
 .clicked-info {
@@ -553,6 +542,35 @@ body {
       background: #fff;
       font-family: "Open Sans", "Helvetica Neue", Arial, Helvetica, sans-serif;
       }
+}
+
+/***  state buttons  ***/
+.btn-group-wrap {
+  text-align: center;
+}
+a.state-button {
+  font: 800 1em 'IBM Plex Sans', sans-serif;
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.2em solid #F58025;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.4em;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #F58025;
+  box-shadow: 0 0 5px rgb(241, 146, 3);
+  text-align: center;
+  transition: all 0.2s;
+}
+a.state-button:hover {
+  color: #FFFFFF;
+  background-color: #F58025;
+}
+div.btn-group {
+  margin: 0 auto;
+  text-align: center;
+  width: inherit;
+  display: inline-block;
 }
 
 

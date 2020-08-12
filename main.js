@@ -223,38 +223,6 @@ map.on('load', function() {
                 },  
         }
     );
-    // map.addLayer(
-    //     {
-    //         'id': 'state-house-border',
-    //         'type': 'line',
-    //         'source': 'state-house',
-    //         'minzoom': zoomThreshold,
-    //         'layout': {
-    //             'line-join': 'round',
-    //             'line-cap': 'round',
-    //             'visibility': 'none'
-    //         },
-    //         'paint': {
-    //             'line-color': '#001940',
-    //             'line-width': 1.5
-    //         },
-    //     });
-    //     map.addLayer(
-    //         {
-    //             'id': 'state-senate-border',
-    //             'type': 'line',
-    //             'source': 'state-senate',
-    //             'minzoom': zoomThreshold,
-    //             'layout': {
-    //                 'line-join': 'round',
-    //                 'line-cap': 'round',
-    //                 'visibility': 'none'
-    //             },
-    //             'paint': {
-    //                 'line-color': '#001940',
-    //                 'line-width': 1.5
-    //             },
-    //         });
 
     // State-layer click and pop-up stuff
     map.on('click', 'states-layer', function(e) {
@@ -441,7 +409,6 @@ map.on('load', function() {
         // map.setLayoutProperty('congressional-layer', 'visibility', 'visible');
         // map.setLayoutProperty('state-house', 'visibility', 'none');
         // map.setLayoutProperty('state-senate', 'visibility', 'none');
-        viewDropdown2('none');
         });
 
     // add address search thing
@@ -454,17 +421,10 @@ map.on('load', function() {
 
     // add plus/minus zoom button
     map.addControl(new mapboxgl.NavigationControl());
-
-    function viewDropdown2(displayStyle) {
-        /* "inline-block" or "none" */
-      var x = document.getElementById("dropdown-2");
-      x.style.display = displayStyle
-
-      var y = document.getElementById("zoom");
-      y.style.top= (displayStyle === 'none' ? '40px' : '64px')
-    }
     
-    const selectElement = d3.select("#dropdown").on("change", function(e) {
+    // handle drop-down layer selections
+    const stateLegLegend = document.getElementById('voter-power-legend')
+    d3.select("#dropdown").on("change", function(e) {
         console.log("new selected layer is", this.value);
         clickedLayer = this.value;
         var visibility = map.getLayoutProperty(clickedLayer, 'visibility');
@@ -474,50 +434,74 @@ map.on('load', function() {
             map.setLayoutProperty('congressional-border', 'visibility', 'visible');
             map.setLayoutProperty('states-layer', 'visibility', 'none');
             map.setLayoutProperty('state-house', 'visibility', 'none');
-            // map.setLayoutProperty('state-house-border', 'visibility', 'none');
-            map.setLayoutProperty('state-senate', 'visibility', 'none');            
-            // map.setLayoutProperty('state-senate-border', 'visibility', 'none');
-            viewDropdown2('none');
+            map.setLayoutProperty('state-senate', 'visibility', 'none');
+            congressionalLegendEl.style.display = 'block';
+            stateLegLegend.style.display = 'none';
         } else if (clickedLayer === 'states-layer'){
             map.setLayoutProperty('states-layer', 'visibility', 'visible');
             map.setLayoutProperty('congressional-border', 'visibility', 'none');
             map.setLayoutProperty('congressional-layer', 'visibility', 'none');
             map.setLayoutProperty('state-house', 'visibility', 'none');
-            // map.setLayoutProperty('state-house-border', 'visibility', 'none');
             map.setLayoutProperty('state-senate', 'visibility', 'none');
-            // map.setLayoutProperty('state-senate-border', 'visibility', 'none');
-            viewDropdown2('none');
+            congressionalLegendEl.style.display = 'none';
+            stateLegLegend.style.display = 'none';
         } else if (clickedLayer === 'state-house'){
             map.setLayoutProperty('states-layer', 'visibility', 'none');
             map.setLayoutProperty('congressional-border', 'visibility', 'none');
             map.setLayoutProperty('congressional-layer', 'visibility', 'none');
             map.setLayoutProperty('state-house', 'visibility', 'visible');
-            // map.setLayoutProperty('state-house-border', 'visibility', 'visible');
             map.setLayoutProperty('state-senate', 'visibility', 'none');
-            // map.setLayoutProperty('state-senate-border', 'visibility', 'none');
-            viewDropdown2('inline-block');
+            congressionalLegendEl.style.display = 'none';
+            stateLegLegend.style.display = 'block';
         } else if (clickedLayer === 'state-senate'){
             map.setLayoutProperty('states-layer', 'visibility', 'none');
             map.setLayoutProperty('congressional-border', 'visibility', 'none');
             map.setLayoutProperty('congressional-layer', 'visibility', 'none');
             map.setLayoutProperty('state-house', 'visibility', 'none');
-            // map.setLayoutProperty('state-house-border', 'visibility', 'none');
             map.setLayoutProperty('state-senate', 'visibility', 'visible');
-            // map.setLayoutProperty('state-senate-border', 'visibility', 'visible');
-            viewDropdown2('inline-block');
+            congressionalLegendEl.style.display = 'none';
+            stateLegLegend.style.display = 'block';
         }
       });
     
-    /* coordinates helper */
-    map.on('mousemove', function(e) {
-        document.getElementById('info').innerHTML =
-        // e.point is the x, y coordinates of the mousemove event relative
-        // to the top-left corner of the map
-        JSON.stringify(e.point) +
-        '<br />' +
-        'zoom: ' + map.getZoom() +'<br />' +
-        // e.lngLat is the longitude, latitude geographical position of the event
-        JSON.stringify(e.lngLat.wrap());
-        });
+    // /* coordinates helper */
+    // map.on('mousemove', function(e) {
+    //     document.getElementById('info').innerHTML =
+    //     // e.point is the x, y coordinates of the mousemove event relative
+    //     // to the top-left corner of the map
+    //     JSON.stringify(e.point) +
+    //     '<br />' +
+    //     'zoom: ' + map.getZoom() +'<br />' +
+    //     // e.lngLat is the longitude, latitude geographical position of the event
+    //     JSON.stringify(e.lngLat.wrap());
+    //     });
+
+    document.getElementById("tx-link").addEventListener('click', function() {
+        map.flyTo({
+            center: [-97.5, 31.5], 
+            zoom: zoomThreshold+.2,
+            speed: 0.4,
+            curve: 1
+        })
+    });
+
+    document.getElementById("tx-link").addEventListener('click', function() {
+        map.flyTo({
+            center: [-97.5, 31.5], 
+            zoom: zoomThreshold+.2,
+            speed: 0.4,
+            curve: 1
+        })
+    });
+
+    document.getElementById("tx-link").addEventListener('click', function() {
+        map.flyTo({
+            center: [-97.5, 31.5], 
+            zoom: zoomThreshold+.2,
+            speed: 0.4,
+            curve: 1
+        })
+    });
+
 
 });
