@@ -106,19 +106,25 @@ def getName(district_str):
 #################################################
 #  PROCESS + ADD FIELDS TO MONEYBALL MODEL CSV  #
 #################################################
-def process_moneyball_data(inFile, outFile):
-    df = pd.read_csv(data_dir / inFile)
-
-    lambdafunc = lambda x: pd.Series(
-        getChamber(x['district']),
-    )
-    df ['chamber'] = df.apply(lambdafunc, axis = 1)
-
-    df.to_csv(data_dir / outFile, index=False, float_format='%.16f')
-
-# process the raw model output -- add GEOID + Chamber Fields
-process_moneyball_data('output_7_28_with_nominees.csv', 'processed_data.csv')
-
+def process_combine_data(outname):
+    model_df = pd.read_csv(data_dir / 'moneyball-output_8_9_2020.csv')
+    cand_df = pd.read_csv(data_dir / 'moneyball-latest-candidates.csv')
+    ma_geoids = pd.read_csv(data_dir / 'MA_GEOIDS.csv')
+    model_df = model_df[['state', 'district', 'favored', 'confidence', 'anti_gerrymandering_party', 'abs_power']]
+    max_vp = model_df['abs_power'].max()
+    model_df['abs_power'] = model_df.apply(lambda x: x['abs_power'] / max_vp * 100, axis=1)
+    model_df = model_df.rename({'abs_power': 'redistricting_voter_power'}, axis='columns')
+    cand_df = cand_df[['district', 'dem_nominee', 'rep_nominee', 'incumbent']]
+    merged_df = pd.merge(model_df, cand_df, how='left', on='district')
+    merged_df['geoid'] = merged_df.apply(lambda x: ma_geoids[ma_geoids.district == x.district].iloc[0]['geoid'] \
+            if x.state == 'MA' \
+            else getGEOID(x['district'], leading_zero = True), \
+            axis=1)
+    merged_df['chamber'] = merged_df.apply(lambda x: getChamber(x['district']), axis=1)
+    merged_df.replace({'dem_nominee': {'FALSE': '', 'False': ''}, 'rep_nominee': {'FALSE': '', 'False': ''}}, inplace  = True)
+    merged_df = merged_df[['state','district','favored','confidence','rep_nominee','dem_nominee','incumbent', \
+               'redistricting_voter_power','anti_gerrymandering_party','geoid','chamber']]
+    merged_df.to_csv(data_dir / outname, index=False, float_format='%.16f')
 
 
 #################################################
@@ -126,7 +132,7 @@ process_moneyball_data('output_7_28_with_nominees.csv', 'processed_data.csv')
 #################################################
 
 # read in moneyball data
-df = pd.read_csv(data_dir / 'processed_data.csv')
+df = pd.read_csv(data_dir / 'processed_data_8_11.csv')
 
 # segment to upper and lower chamber
 upper_df = df[df['chamber'] == 'SD']
@@ -275,5 +281,3 @@ print(f"nonzero rows upper: {upper_nonzero_rows}  lower: {lower_nonzero_rows}")
 # save to GeoJSON format
 upper_shp.to_file(out_dir / "upper_state_moneyball.geojson", driver="GeoJSON")
 lower_shp.to_file(out_dir / "lower_state_moneyball.geojson", driver="GeoJSON")
-
-
