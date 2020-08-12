@@ -1,0 +1,2182 @@
+state,district,favored,confidence,dem_nominee,rep_nominee,incumbent,redistricting_voter_power,anti_gerrymandering_party
+TX,TX-HD-112,FALSE,Toss-Up,Brandy Chambers,Angie Chen Button,R,100,D
+TX,TX-HD-26,R,Tilt,L. Sarah DeMerchant,Jacey Jetton,Open,93.30962453,D
+TX,TX-HD-66,FALSE,Toss-Up,Sharon Hirsch,Matt Shaheen,R,90.40928594,D
+TX,TX-HD-67,FALSE,Toss-Up,Lorenzo Sanchez,Jeff Leach,R,86.47757298,D
+TX,TX-HD-96,FALSE,Toss-Up,Joe Drago,David Cook,Open,86.14093617,D
+TX,TX-HD-92,R,Tilt,Jeff Whitfield,Jeff Cason,Open,84.89766218,D
+TX,TX-HD-54,R,Lean,Likeithia Williams,Brad Buckley,R,82.6155896,D
+TX,TX-HD-134,R,Tilt,Ann Johnson,Sarah Davis,R,76.30721201,D
+TX,TX-HD-108,FALSE,Toss-Up,Joanna Cattanach,Morgan Meyer,R,75.77877616,D
+TX,TX-HD-121,R,Lean,Celina Montoya,Steve Allison,R,75.73983727,D
+MN,MN-SD-14,FALSE,Toss-Up,Aric Putnam,Jerry Relph,R,71.42033012,R
+MN,MN-SD-58,FALSE,Toss-Up,Matt Little,Zach Duckworth,D,70.86156516,R
+KS,KS-HD-98,FALSE,Toss-Up,Steven Crum,Ron Howard,R,70.43130889,D
+TX,TX-HD-126,R,Likely,Natali Hurtado,H. Sam Harless,R,70.2121088,D
+KS,KS-HD-48,FALSE,Toss-Up,Jennifer Day,Terry Frederick,D,69.85002456,D
+MN,MN-SD-56,FALSE,Toss-Up,Primary TBA,Dan Hall,R,66.86550118,R
+KS,KS-HD-72,D,Tilt,Tim Hodge,Avery Anderson,D,65.61529562,D
+KS,KS-HD-15,R,Tilt,Cole Fine,John Toplikar,R,62.74626367,D
+KS,KS-HD-14,FALSE,Toss-Up,Angela Justus Schweller,Charlotte Esau,R,60.82361282,D
+TX,TX-HD-138,D,Tilt,Akilah Bacy,Lacey Hull,Open,57.88168838,D
+KS,KS-HD-102,D,Tilt,Jason Probst,John Whitesel,D,57.1133962,D
+TX,TX-HD-132,FALSE,Toss-Up,Gina Calanni,Mike Schofield,D,56.17062629,D
+MN,MN-SD-20,R,Lean,Jon Olson,Rich Draheim,R,56.004487,R
+KS,KS-HD-40,R,Tilt,Joana Scholtz,David French,R,54.11938065,D
+KS,KS-HD-17,FALSE,Toss-Up,Jo Ella Hoye,Kristine Sapp,Open,53.38928081,D
+MN,MN-SD-54,D,Lean,Karla Bigham,Leilani Holmstadt,D,52.37074455,R
+MN,MN-SD-05,R,Lean,Rita Albrecht,Justin Eichorn,R,51.92294794,R
+KS,KS-HD-23,D,Lean,Susan Ruiz,Jeff Shull,D,51.17195596,D
+TX,TX-HD-97,R,Likely,Elizabeth Beck,Craig Goldman,R,48.77816276,D
+TX,TX-HD-93,R,Likely,Lydia Bean,Matt Krause,R,46.71072751,D
+MN,MN-SD-48,D,Lean,Steve Cwodzinski,Jeff Jiang,D,46.35205516,R
+FL,FL-HD-120,R,Lean,Clint Barras,Primary TBA,R,45.78416365,D
+KS,KS-HD-18,D,Lean,Cindy Neighbor,Cathy Gordon,D,44.3105998,D
+KS,KS-HD-96,D,Lean,Stephanie Yeager,Tom Kessler,D,41.36729412,D
+KS,KS-HD-2,R,Lean,Lynn Grant,Kenneth Collins,R,41.0151938,D
+MN,MN-SD-37,D,Lean,Jerry Newton,Brad Sanford,D,40.96416507,R
+TX,TX-HD-85,R,Likely,Joey Cardenas III,Phil Stephenson,R,40.66054661,D
+FL,FL-HD-83,R,Lean,Edgar Bernier,Toby Overdorf,R,40.02983042,D
+KS,KS-HD-79,R,Lean,Ken White,Cheryl Helmer,R,39.51937015,D
+KS,KS-HD-16,D,Likely,Linda Featherston,Rashard Young,Open,39.3106639,D
+FL,FL-HD-15,R,Tilt,Primary TBA,Wyman Duggan,R,39.0289299,D
+FL,FL-HD-93,R,Tilt,Linda Thompson Gonzalez,Chip LaMarca,R,38.73903146,D
+TX,TX-HD-64,R,Likely,Angela Brewer,Lynn Stucky,R,38.2078402,D
+KS,KS-HD-3,D,Lean,Monica Murnan,Chuck Smith,D,38.17452791,D
+KS,KS-HD-49,R,Lean,Katie Dixon,Megan Lynn,R,37.97043003,D
+MN,MN-SD-26,R,Lean,Aleta Borrund,Carla Nelson,R,37.86029889,R
+CT,CT-HD-119,R,Lean,Bryan Anderson,Kathy Kennedy,R,37.76103053,R
+CT,CT-HD-90,R,Lean,Jim Jinks,Craig Fishbein,R,37.6826558,R
+FL,FL-HD-60,R,Tilt,Julie Jenkins,Jackie Toledo,R,37.53321256,D
+CT,CT-HD-34,R,Lean,Judd Melon,Irene Haines,R,37.35202277,R
+FL,FL-HD-28,R,Tilt,Primary TBA,David Smith,R,37.12517177,D
+CT,CT-HD-74,R,Lean,Michael DiGiovancarlo,Stephanie Cummings,R,37.04451943,R
+FL,FL-HD-29,R,Tilt,Tracey Kagan,Primary TBA,R,36.68959333,D
+KS,KS-HD-39,R,Lean,Les Lampe,Owen Donohue,R,36.56236101,D
+CT,CT-HD-51,R,Lean,Arthur Fairthorne,Ricky Hayes,R,36.03933442,R
+KS,KS-HD-41,D,Lean,Primary TBA,Pat Proctor,Open,36.01710026,D
+CT,CT-HD-37,R,Tilt,Cate Steel,Holly Cheeseman,R,36.00033985,R
+FL,FL-HD-21,FALSE,Toss-Up,Kayser Enneking,Chuck Clemons,R,35.92108535,D
+FL,FL-HD-42,R,Lean,Barbara Ann Cady,Primary TBA,R,35.73042032,D
+TX,TX-HD-28,R,Likely,Elizabeth Markowitz,Gary Gates,R,35.50060052,D
+FL,FL-HD-115,FALSE,Toss-Up,Franccesca Cesti-Browne,Vance Aloupis,R,35.32164659,D
+FL,FL-HD-58,R,Likely,Cleo Townsend Jr.,Lawrence McClure,R,35.23189986,D
+CT,CT-HD-99,R,Tilt,No candidate,Primary TBA ,R,35.20367458,R
+CT,CT-HD-38,R,Tilt,Baird Welch-Collins,Kathleen McCarty,R,35.149205,R
+FL,FL-HD-119,R,Likely,Imtiaz Ahmad Mohammad,Juan Fernandez-Barquin,R,34.4375524,D
+FL,FL-HD-89,FALSE,Toss-Up,Jim Bonfiglio,Mike Caruso,R,34.14182431,D
+CT,CT-HD-23,R,Lean,David Rubino,Devin Carney,R,32.9989437,R
+MN,MN-SD-36,D,Likely,John Hoffman,Karen Attia,D,32.75670638,R
+CT,CT-HD-30,FALSE,Toss-Up,JoAnn Angelico-Stetson,Primary TBA,Open,32.52512968,R
+KS,KS-HD-111,R,Lean,Eber Phelps,Barb Wasinger,R,32.45193377,D
+FL,FL-HD-72,FALSE,Toss-Up,Drake Buckman,Primary TBA,Open,32.36743204,D
+CT,CT-HD-106,FALSE,Toss-Up,Rebekah Harriman-Stites,Mitch Bolinsky,R,31.353094,R
+TX,TX-HD-94,R,Likely,Alisa Simmons,Tony Tinderholt,R,30.47799706,D
+MN,MN-SD-11,R,Likely,Michelle Lee,Jason Rarick,R,30.45688677,R
+FL,FL-HD-85,R,Likely,Jim Carroll,Rick Roth,R,30.36467767,D
+CT,CT-HD-14,R,Likely,Genevieve Coursey,Tom Delnicki,R,30.09777593,R
+FL,FL-HD-105,FALSE,Toss-Up,Primary TBA,Primary TBA,Open,29.92584185,D
+CT,CT-HD-151,R,Likely,Hector Arzeno,Harry Arora,R,29.79862888,R
+NC,NC-HD-45,FALSE,Toss-Up,Frances Vinell Jackson,John Szoka,R,29.54961236,D
+TX,TX-HD-65,D,Lean,Michelle Beckley,Kronda Thimesch,D,29.48547542,D
+FL,FL-HD-27,R,Likely,Dolores Guzman,Primary TBA,R,29.41402158,D
+FL,FL-HD-118,FALSE,Toss-Up,Ricky Junquera,Anthony Rodriguez,R,28.75983397,D
+CT,CT-HD-77,D,Tilt,Andrew Rasmussen-Tuller,Cara Pavalock-D'Amato,D,28.691699,R
+FL,FL-HD-50,R,Likely,Nina Yoakum,Rene Plasencia,R,28.68632245,D
+NC,NC-HD-74,FALSE,Toss-Up,Dan Besse,Jeff Zenger,Open,28.66805097,D
+NC,NC-HD-43,FALSE,Toss-Up,Kimberly Hardy,Diane Wheatley,Open,28.55738733,D
+FL,FL-HD-57,R,Likely,Scott Hottenstein,Mike Beltran,R,28.51195871,D
+TX,TX-HD-135,D,Lean,Jon Rosenthal,Justin Ray,D,28.36473509,D
+CT,CT-HD-59,R,Likely,Gerald Calnen,Carol Hall,R,28.06660765,R
+KS,KS-HD-85,R,Lean,Marcey Gregory,Patrick Penn,Open,27.98882559,D
+CT,CT-HD-35,R,Likely,Christine Goupil,Jesse MacLachlan,R,27.98791275,R
+MN,MN-SD-27,D,Lean,Dan Sparks,Gene Dornink,D,27.95372424,R
+CT,CT-HD-132,R,Likely,Jennifer Leeper,Brian Farnen,R,27.79604901,R
+CT,CT-HD-103,FALSE,Toss-Up,Liz Linehan,Pam Salamone,D,27.69728243,R
+NC,NC-HD-59,FALSE,Toss-Up,Nicole Quick,Jon Hardister,R,27.67565037,D
+FL,FL-HD-59,FALSE,Toss-Up,Andrew Learned,Primary TBA,Open,27.38593089,D
+NC,NC-HD-82,FALSE,Toss-Up,Aimy Steele,Kristin Baker,Open,27.35097927,D
+NC,NC-HD-83,R,Tilt,Gail Young,Larry Pittman,R,27.02494616,D
+CT,CT-HD-143,D,Tilt,Stephanie Thomas,Patrizia Zucaro,Open,26.75422136,R
+TX,TX-HD-45,D,Lean,Erin Zwiener,Carrie Isaac,D,26.61007319,D
+TX,TX-HD-32,R,Likely,Eric Holguin,Todd Hunter,R,26.43242772,D
+KS,KS-HD-56,D,Likely,Virgil Weigel,Tim Clothier,D,26.36860518,D
+CT,CT-HD-55,R,Likely,John Collins,Robin Green,R,26.35565238,R
+CT,CT-HD-125,R,Likely,Steven Eno,Tom O'Dea,R,26.29324917,R
+CT,CT-HD-17,FALSE,Toss-Up,Eleni Kavros DeGraw,Leslee Hill,Open,26.21104438,R
+CT,CT-HD-64,FALSE,Toss-Up,Maria Horn,Brian Ohler,D,25.86099148,R
+CT,CT-HD-120,FALSE,Toss-Up,Philip Young,Jim Feehan,D,25.31062478,R
+KS,KS-HD-87,R,Tilt,Matt Fox,Susan Oliver Estes,Open,25.09848411,D
+CT,CT-HD-111,FALSE,Toss-Up,Aimee Berger-Girvalo,Bob Hebert,Open,25.07227646,R
+KS,KS-HD-28,R,Lean,Sally Jercha,Carl Turner,Open,24.72465586,D
+TX,TX-HD-47,D,Lean,Viki Goodwin,Justin Berry,D,24.54016613,D
+CT,CT-HD-117,R,Likely,Tony Sutton,Charles Ferraro,R,24.35150591,R
+MN,MN-SD-38,R,Lean,Justin Stofferahn,Roger Chamberlain,R,24.1062754,R
+CT,CT-HD-101,FALSE,Toss-Up,John-Michael Parker,Noreen Kokoruda,R,23.97286627,R
+KS,KS-HD-30,D,Likely,Brandon Woodard,Laura Williams,D,23.87922616,D
+FL,FL-HD-32,R,Likely,Primary TBA,Anthony Sabatini,R,23.6596672,D
+NC,NC-HD-20,R,Tilt,Adam Ericson,Ted Davis,Open,23.28242885,D
+MN,MN-SD-53,D,Likely,Primary TBA,Mary Giuliani Stephens,Open,23.2637774,R
+MN,MN-SD-57,D,Likely,Greg Clausen,Jose W. Jimenez,D,23.06355776,R
+NC,NC-HD-63,D,Tilt,Ricky Hurtado,Stephen Ross,R,23.02937253,D
+PA,PA-SD-13,R,Likely,Janet Diaz,Scott Martin,R,22.87541736,R
+TX,TX-HD-113,D,Lean,Rhetta Andrews Chambers,Will Douglas,D,22.73254478,D
+KS,KS-HD-119,R,Lean,Jan Scoggins,Bradley Ralph,R,22.66587735,D
+FL,FL-HD-26,FALSE,Toss-Up,Primary TBA,Elizabeth Fetterhoff,R,22.50414218,D
+NC,NC-HD-9,D,Tilt,Brian Farkas,Perrin Jones,R,22.24674474,D
+CT,CT-HD-32,R,Likely,No candidate,Christie Carpino,R,21.46088271,R
+NC,NC-HD-98,D,Tilt,Christy Clark,John R. Bradford III,D,21.19570055,D
+NC,NC-HD-93,D,Tilt,Ray Russell,Ray Pickett,D,20.09966158,D
+CT,CT-HD-31,D,Tilt,Jill Barry,Stewart Beckett,D,19.52768903,R
+MN,MN-SD-21,R,Likely,Ralph Kaehler,Michael P. Goggin,R,19.46821205,R
+NC,NC-HD-37,D,Tilt,Sydney Batch,Erin Pare,D,19.4337164,D
+KS,KS-HD-26,R,Likely,W. Michael Shimeall,Adam Thomas,R,18.83959936,D
+TX,TX-HD-89,R,Safe,Sugar Ray Ash,Candy Noble,R,18.72140788,D
+CT,CT-HD-36,D,Tilt,Robert Siegrist,Christine Palm,D,18.52879177,R
+TX,TX-HD-102,D,Likely,Ana-Maria Ramos,Linda Koop,D,18.26589743,D
+NC,NC-HD-1,R,Lean,Emily Bunch Nicholson,Edward C. Goodwin,R,18.26029637,D
+NC,NC-HD-66,R,Lean,Scott T. Brewer,Ben Moss,D,18.14139941,D
+TX,TX-HD-23,R,Safe,Jeff Anotonelli,Mayes Middleton,R,17.89615512,D
+MN,MN-SD-44,D,Likely,Ann Johnson Stewart,Greg Pulles,Open,17.79567981,R
+NC,NC-HD-51,R,Lean,Jason Cain,John Sauls,R,17.69353891,D
+TX,TX-HD-52,D,Likely,James Talarico,Lucio Valdez,D,17.13786301,D
+PA,PA-SD-49,FALSE,Toss-Up,Julie Slomski,Daniel Laughlin,R,16.41108393,R
+FL,FL-HD-84,D,Tilt,Delores Hogan Johnson,TBA,D,16.33832978,D
+TX,TX-HD-106,R,Safe,Jennifer Skidonenko,Jared Patterson,R,16.01867917,D
+KS,KS-HD-69,R,Lean,TBA,Clarke Sanders,Open,15.96958288,D
+MN,MN-SD-04,D,Likely,Kent Eken,Mark Larson,D,15.69730908,R
+CT,CT-HD-83,D,Tilt,Catherine Abercrombie,Lou Arata,D,15.69398094,R
+CT,CT-HD-150,D,Lean,Joe Kelly,Steve Meskers,D,15.2681565,R
+FL,FL-HD-110,R,Safe,Joseph Geller,TBA,R,14.93515911,D
+CT,CT-HD-65,D,Lean,Michelle Cook,Christopher Beyus,D,14.69006358,R
+PA,PA-SD-15,FALSE,Toss-Up,George Scott,John DiSanto,R,14.10347117,R
+TX,TX-HD-150,R,Safe,Michael Robert Walsh,Valoree Swanson,R,13.74234303,D
+NC,NC-HD-24,D,Lean,Jean Farmer-Butterfield,Mick Rankin,Open,13.56398336,D
+CT,CT-HD-60,D,Tilt,Jane Garibay,Scott Storms,D,13.51747537,R
+NC,NC-HD-25,D,Lean,James Gailliard,John Check,D,13.47780981,D
+KS,KS-HD-67,R,Likely,Cheryl Arthur,Mike Dodson,Open,13.47367751,D
+CT,CT-HD-138,D,Lean,Kenneth Gucker,Emile Buzaid,D,13.29534754,R
+NC,NC-HD-119,D,Lean,Joe Sam Queen,Mike Clampitt,Open,12.98698686,D
+KS,KS-HD-86,D,Safe,Stephanie Byers,Cyndi Howerton,Open,12.93796795,D
+CT,CT-HD-141,R,Likely,*Dropped Out*,Terrie Wood,R,12.92848033,R
+FL,FL-HD-44,D,Lean,Primary TBA,Primary TBA,D,12.67190599,D
+FL,FL-HD-116,R,Safe,Primary TBA,Primary TBA,R,12.51478615,D
+CT,CT-HD-149,R,Likely,Kathleen Stowe,Kimberly Fiorello,Open,12.42378372,R
+KS,KS-HD-29,D,Safe,Brett Parker,Jerry Clinton,D,12.22078963,D
+FL,FL-SD-9,R,Lean,Jestine Ianotti (Independent),Jason Brodeur,R,11.75339304,D
+FL,FL-HD-103,D,Lean,Cindy Polo,Primary TBA,D,11.72431563,D
+KS,KS-HD-78,R,Likely,Kathy Meyer,Ron Ryckman,R,11.72102401,D
+CT,CT-HD-53,D,Lean,Pat Wilson Pheanious,Tammy Nuccio,D,11.47668702,R
+FL,FL-HD-114,D,Lean,Primary TBA,Demi Busatta Cabrera,D,11.43204708,D
+MN,MN-SD-25,R,Likely,Sara Flick,David Senjem,R,11.36880098,R
+FL,FL-SD-25,R,Likely,Primary TBA,Primary TBA,R,11.20671785,D
+NC,NC-HD-35,D,Lean,Terence Everitt,Fred Von Canon,D,11.09426087,D
+FL,FL-HD-12,R,Safe,Primary TBA,Primary TBA,R,10.58150777,D
+MN,MN-SD-33,R,Likely,Gretchen Piper,David Osmek,R,10.45848004,R
+MN,MN-SD-39,R,Likely,TBA,Karin Housley,R,10.44098213,R
+CT,CT-HD-27,D,Likely,FALSE,FALSE,D,10.11976903,R
+NC,NC-SD-19,FALSE,Toss-Up,Kirk DeViere,Wesley Meredith,D,9.987352215,D
+FL,FL-HD-64,R,Safe,FALSE,FALSE,R,9.803755312,D
+FL,FL-HD-2,R,Safe,FALSE,FALSE,R,9.801823117,D
+FL,FL-HD-67,R,Safe,FALSE,FALSE,R,9.740522043,D
+FL,FL-HD-40,R,Safe,FALSE,FALSE,R,9.720174058,D
+NC,NC-HD-46,R,Likely,Tim Heath,Brenden H. Jones,R,9.695873904,D
+WI,WI-HD-74,D,Lean,Beth Meyers,James Bolen,D,9.53933976,D
+FL,FL-HD-69,D,Lean,FALSE,FALSE,D,9.489247153,D
+FL,FL-HD-36,R,Safe,FALSE,FALSE,R,9.445806808,D
+CT,CT-HD-2,D,Lean,FALSE,FALSE,D,9.43107926,R
+FL,FL-HD-41,R,Safe,FALSE,FALSE,R,9.405609247,D
+CT,CT-HD-123,R,Safe,FALSE,FALSE,R,9.373026248,R
+FL,FL-HD-30,D,Lean,FALSE,FALSE,D,9.311155576,D
+FL,FL-HD-66,R,Safe,FALSE,FALSE,R,9.30377128,D
+WI,WI-HD-14,D,Lean,Robyn Vining,TBA,Open,9.278009402,D
+TX,TX-HD-122,R,Safe,Claire Barnett,Lyle Larson,D,9.227152948,D
+FL,FL-HD-79,R,Safe,FALSE,FALSE,R,9.175283444,D
+CT,CT-HD-114,R,Safe,FALSE,FALSE,R,9.146922674,R
+FL,FL-HD-53,R,Safe,FALSE,FALSE,R,9.143320812,D
+FL,FL-HD-78,R,Safe,FALSE,FALSE,R,9.083127205,D
+FL,FL-HD-16,R,Safe,FALSE,FALSE,R,9.075860414,D
+FL,FL-HD-51,R,Safe,FALSE,FALSE,R,8.995272282,D
+NC,NC-HD-19,R,Likely,Marcia Morgan,Charlie Miller,Open,8.959510365,D
+FL,FL-HD-65,R,Safe,FALSE,FALSE,R,8.884144853,D
+MN,MN-SD-02,R,Safe,Leonard Alan Roy,Paul Utke,R,8.846453413,R
+CT,CT-HD-67,R,Safe,FALSE,FALSE,R,8.843295427,R
+CT,CT-HD-107,R,Safe,FALSE,FALSE,R,8.820874406,R
+FL,FL-HD-39,R,Safe,FALSE,FALSE,R,8.761608693,D
+NC,NC-HD-118,R,Likely,Alan Jones,Mark Pless,Open,8.747999176,D
+CT,CT-HD-135,D,Lean,FALSE,FALSE,D,8.698195147,R
+FL,FL-HD-111,R,Safe,FALSE,FALSE,R,8.677950969,D
+NC,NC-HD-6,R,Likely,Tommy Fulcher,Bobby Hanig,R,8.576604114,D
+FL,FL-HD-71,R,Safe,FALSE,FALSE,R,8.554328449,D
+CT,CT-HD-66,R,Safe,FALSE,FALSE,R,8.442111951,R
+CT,CT-HD-134,R,Safe,FALSE,FALSE,R,8.431025807,R
+MN,MN-SD-06,D,Safe,TBA,John J. Moren,Open,8.417538259,R
+FL,FL-HD-25,R,Safe,FALSE,FALSE,R,8.316848518,D
+MN,MN-SD-51,D,Safe,Jim Carlson,Douglas D. Willetts,D,8.20043917,R
+MN,MN-SD-17,R,Safe,Fernando Alvarado,Andrew Lang,R,8.097451607,R
+FL,FL-HD-74,R,Safe,FALSE,FALSE,R,8.024213451,D
+CT,CT-HD-58,D,Lean,FALSE,FALSE,D,8.01144387,R
+CT,CT-HD-62,R,Safe,FALSE,FALSE,R,7.980068113,R
+CT,CT-HD-45,R,Safe,FALSE,FALSE,R,7.937558854,R
+FL,FL-HD-75,R,Safe,FALSE,FALSE,R,7.885132649,D
+CT,CT-HD-47,R,Safe,FALSE,FALSE,R,7.875344186,R
+CT,CT-HD-81,R,Safe,FALSE,FALSE,R,7.867394722,R
+WI,WI-HD-94,D,Likely,Steve Doyle,Kevin Hoyer,D,7.829131027,D
+PA,PA-SD-9,D,Tilt,John Kane,Tom Killion,R,7.785940264,R
+CT,CT-HD-42,R,Safe,FALSE,FALSE,R,7.779784058,R
+FL,FL-HD-37,R,Safe,FALSE,FALSE,R,7.764770794,D
+MN,MN-SD-49,D,Safe,Melisa Lopez Franzen,TBA,D,7.746127675,R
+MN,MN-SD-24,R,Safe,Roger Steinkamp,John R. Jasinski,R,7.706904176,R
+MN,MN-SD-32,R,Safe,Joshua Fike,Mark Koran,R,7.568203923,R
+MN,MN-SD-42,D,Safe,"Jason ""Ike"" Isaacson",Ben Schwanke,D,7.507097602,R
+NC,NC-SD-9,FALSE,Toss-Up,Harper Peterson,Michael Lee,D,7.44424063,D
+CT,CT-HD-69,R,Safe,FALSE,FALSE,R,7.362578214,R
+MN,MN-SD-13,R,Safe,Michael Willemsen,Jeff Howe,R,7.335354009,R
+FL,FL-SD-39,FALSE,Toss-Up,FALSE,FALSE,Open,7.144105237,D
+CT,CT-HD-61,R,Safe,FALSE,FALSE,R,7.113090177,R
+FL,FL-HD-1,R,Safe,FALSE,FALSE,R,7.028224565,D
+CT,CT-HD-21,D,Lean,FALSE,FALSE,D,7.015210815,R
+MN,MN-SD-34,R,Safe,Bonnie Westlin,Warren Limmer,R,6.803173193,R
+NC,NC-HD-105,D,Likely,Wesley Harris,Amy Bynum,Open,6.756624483,D
+PA,PA-HD-151,FALSE,Toss-Up,Jonathan Kassa,Todd Stephens,R,6.678216515,R
+KS,KS-HD-20,R,Likely,Mari-Lynn Poskin,TBA,Open,6.639790064,D
+NC,NC-HD-104,D,Likely,Brandon Lofton,Don Pomeroy,D,6.541180078,D
+NC,NC-HD-47,D,Likely,Charles Graham,Olivia Oxendine,D,6.485190443,D
+PA,PA-HD-49,R,Lean,Randy Barli,Bud Cook,R,6.480711721,R
+KS,KS-HD-52,R,Likely,TBA,TBA,Open,6.467437919,D
+CT,CT-HD-139,D,Likely,FALSE,FALSE,D,6.400156108,R
+NC,NC-HD-21,D,Likely,Raymond Smith,Brent Heath,D,6.247890911,D
+FL,FL-HD-31,R,Safe,FALSE,FALSE,R,6.226904403,D
+PA,PA-HD-18,R,Tilt,Harold Hayes,Kathleen Tomilson,Open,6.205200387,R
+CT,CT-HD-79,D,Likely,FALSE,FALSE,D,6.191019537,R
+PA,PA-HD-168,FALSE,Toss-Up,Deb Ciamacca,Chris Quinn,R,6.17692921,R
+PA,PA-HD-44,R,Lean,Michele Knoll,Valerie Gaydos,R,6.159677576,R
+PA,PA-HD-30,R,Lean,Lissa Geiger Shulman,Lori Mizgorski,R,6.133242721,R
+PA,PA-HD-29,R,Tilt,Marlene Katz,Meghan Schroeder,R,6.101293362,R
+FL,FL-HD-35,R,Safe,FALSE,FALSE,R,5.923843368,D
+FL,FL-HD-24,R,Safe,FALSE,FALSE,R,5.920449135,D
+NC,NC-SD-7,R,Tilt,Donna Lake,Jim Perry,R,5.887748551,D
+NC,NC-HD-36,D,Likely,Julie von Haefen,Kim Coley,D,5.861869223,D
+NC,NC-HD-103,D,Likely,Rachel Hunt,Bill Brawley,D,5.834672467,D
+NC,NC-SD-17,D,Lean,Sam Searcy,Mark Cavaliero,D,5.820060253,D
+TX,TX-HD-105,D,Safe,Terry Meza,Gerson Hernandez,D,5.802639117,D
+KS,KS-HD-54,R,Safe,John Brosz,Ken Corbet,R,5.782409165,D
+PA,PA-SD-35,R,Safe,Shaun Dougherty,Wayne Langerholc,R,5.769969681,R
+PA,PA-HD-105,R,Tilt,Brittney Rodas,Andrew Lewis,R,5.766919792,R
+CT,CT-HD-122,R,Safe,FALSE,FALSE,R,5.746176422,R
+FL,FL-HD-63,D,Likely,FALSE,FALSE,D,5.680966386,D
+KS,KS-HD-32,D,Safe,TBA,Greg Conchola,Open,5.675883255,D
+WI,WI-HD-51,FALSE,Toss-Up,Kriss Marion,Todd Novak,R,5.609462659,D
+MN,MN-SD-01,R,Safe,Reed Perkins,Mark Johnson,R,5.505933368,R
+KS,KS-HD-38,R,Safe,Sherri Grogan,TBA,Open,5.488432079,D
+TX,TX-HD-107,D,Safe,Victoria Neave,Samuel Smith,D,5.404928471,D
+NC,NC-SD-27,D,Lean,Michael Garrett,Sebastian King,D,5.392123104,D
+PA,PA-HD-26,R,Tilt,Paul Friel,Tim Hennessey,R,5.383265502,R
+CT,CT-HD-71,R,Safe,FALSE,FALSE,R,5.346583956,R
+PA,PA-HD-144,FALSE,Toss-Up,Gary Spillane,F. Todd Polinchock,R,5.314276562,R
+KS,KS-SD-28,D,Tilt,Jim Ward,Mike Petersen,R,5.274486315,D
+MN,MN-SD-47,R,Safe,TBA,TBA,Open,5.253409724,R
+CT,CT-HD-142,D,Likely,FALSE,FALSE,D,5.232631812,R
+TX,TX-HD-114,D,Safe,John Turner,Luisa del Rosal,D,5.179240298,D
+PA,PA-SD-37,D,Lean,Pam Iovino,Devlin Robinson,D,5.146277231,R
+TX,TX-HD-91,R,Safe,Jeromey Sims,Stephanie Klick,R,5.132948725,D
+CT,CT-HD-44,R,Safe,FALSE,FALSE,R,5.13163792,R
+PA,PA-HD-131,R,Tilt,Kevin Branco,Milou Mackenzie,Open,5.119177074,R
+NC,NC-SD-18,D,Lean,Sarah Crawford,Larry Norman,Open,5.118295019,D
+PA,PA-HD-178,FALSE,Toss-Up,Ann Marie Mitchell,Wendy Thomas,R,5.115801863,R
+TX,TX-HD-133,R,Safe,Sandra Moore,Jim Murphy,R,5.073327818,D
+NC,NC-SD-1,R,Tilt,Tess Judge,Bob Steinburg,R,5.070787382,D
+TX,TX-HD-115,D,Safe,Julie Johnson,Karyn Brownlee,D,5.066991999,D
+WI,WI-HD-57,D,Safe,Lee Snodgrass,Eric J. Beach,Open,5.030589139,D
+NC,NC-SD-24,R,Tilt,J.D. Wooten,Amy S. Galey,Open,5.028065619,D
+FL,FL-HD-82,R,Safe,FALSE,FALSE,R,5.019137397,D
+MN,MN-SD-52,D,Safe,Matt Klein,Tomas Settell,D,4.983809914,R
+TX,TX-HD-68,R,Safe,Patsy Ledbetter,Drew Springer,R,4.87333348,D
+CT,CT-HD-52,R,Safe,FALSE,FALSE,R,4.842548437,R
+TX,TX-HD-5,R,Safe,LaWyanda Prince,Cole Hefner,R,4.841747239,D
+KS,KS-SD-18,FALSE,Toss-Up,TBA,Kristen O'Shea,Open,4.792588638,D
+FL,FL-HD-73,R,Safe,FALSE,FALSE,R,4.785644747,D
+TX,TX-HD-17,R,Safe,Madeline Eden,John Cyrier,R,4.714694621,D
+TX,TX-HD-57,R,Safe,Jason Rogers,Trent Ashby,R,4.673320868,D
+CT,CT-HD-57,R,Safe,FALSE,FALSE,R,4.621084482,R
+TX,TX-HD-11,R,Safe,Alec Johnson,Travis Clardy,R,4.619697257,D
+CT,CT-HD-43,D,Likely,FALSE,FALSE,D,4.618108822,R
+TX,TX-HD-117,D,Safe,Phillip Cortez,Carlos Antonio Raymond,D,4.585049182,D
+TX,TX-HD-127,R,Safe,FALSE,Dan Huberty,R,4.582371137,D
+TX,TX-HD-6,R,Safe,Julie Gobble,Matt Schaefer,R,4.580745066,D
+KS,KS-SD-10,FALSE,Toss-Up,Lindsey Constance,TBA,Open,4.561494801,D
+KS,KS-SD-5,FALSE,Toss-Up,Jeffrey Pittman,Kevin Braun,R,4.550839545,D
+FL,FL-HD-80,R,Safe,FALSE,FALSE,R,4.537417991,D
+TX,TX-HD-128,R,Safe,Mary Williams,Briscoe Cain,R,4.486668685,D
+TX,TX-HD-62,R,Safe,Gary D. Thomas,Reggie Smith,R,4.471876092,D
+NM,NM-SD-30,D,Lean,Pamela Cordova,Joshua Sanchez,Open,4.46103294,R
+TX,TX-HD-98,R,Safe,Debra Edmondson,Giovanni Caprglione,R,4.439291556,D
+TX,TX-HD-24,R,Safe,Brian J. Rogers,Greg Bonnen,R,4.427008495,D
+TX,TX-HD-84,R,Safe,John Gibson,John Frullo,R,4.424699449,D
+TX,TX-HD-71,R,Safe,Samuel Hatton,Stan Lambert,R,4.407923257,D
+CT,CT-HD-85,D,Likely,FALSE,FALSE,D,4.385589476,R
+TX,TX-HD-56,R,Safe,Katherine Turner-Pearson,Charles Anderson,R,4.383749828,D
+TX,TX-HD-129,R,Safe,Kayla Alix,Dennis Paul,R,4.373250006,D
+TX,TX-HD-136,D,Safe,John Bucy,Mike Guevara,D,4.340837909,D
+TX,TX-HD-14,R,Safe,Janet Dudding,John Raney,R,4.333239773,D
+CT,CT-HD-102,D,Likely,FALSE,FALSE,D,4.323845407,R
+CT,CT-HD-73,D,Likely,FALSE,FALSE,D,4.320458858,R
+CT,CT-HD-50,D,Likely,FALSE,FALSE,D,4.298920687,R
+TX,TX-HD-53,R,Safe,Joe P. Herrera,Andrew Murr,Open,4.291954674,D
+TX,TX-HD-25,R,Safe,Patrick Henry,TBA,Open,4.290173407,D
+TX,TX-HD-33,R,Safe,Andrew Rose,Justin Holland,R,4.289262129,D
+TX,TX-HD-3,R,Safe,Martin Shupp,Cecil Bell,R,4.264223202,D
+CT,CT-HD-8,R,Safe,FALSE,FALSE,R,4.253778949,R
+TX,TX-HD-63,R,Safe,Leslie Peeler,Tan Parker,R,4.218248967,D
+TX,TX-HD-2,R,Safe,Bill Brannon,TBA,Open,4.202348563,D
+GA,GA-HD-35,R,Lean,TBA,Ed Setzler,R,4.189634647,D
+TX,TX-HD-58,R,Safe,Cindy Rocha,DeWayne Burns,R,4.186206726,D
+KS,KS-HD-121,R,Safe,James Rexford,John Resman,R,4.180065838,D
+NM,NM-SD-39,D,Lean,Elizabeth Stefanics,TBA,D,4.174675675,R
+TX,TX-HD-29,R,Safe,Travis Boldt,Ed Thompson,R,4.170322626,D
+TX,TX-HD-15,R,Safe,Lorena Perez McGill,Steve Toth,R,4.149571753,D
+GA,GA-HD-97,R,Likely,Mary Campbell,Bonnie Rich,R,4.140661867,D
+MN,MN-SD-10,R,Safe,Steve Samuelson,TBA,Open,4.135250584,R
+TX,TX-HD-83,R,Safe,Addison Perry-Franks,Dustin Burrows,R,4.124764457,D
+TX,TX-HD-130,R,Safe,Bryan J. Henry,Tom Oliverson,R,4.110266201,D
+GA,GA-HD-138,R,Likely,Marc Arnett,Mike Cheokas,R,4.023198058,D
+WI,WI-SD-32,FALSE,Toss-Up,TBA,Dan Kapanke,Open,4.022046869,D
+TX,TX-HD-61,R,Safe,Christopher Cox,Phil King,R,4.013780466,D
+CT,CT-HD-28,D,Likely,FALSE,FALSE,D,3.97865507,R
+TX,TX-HD-20,R,Safe,Jessica Tiedt,Terry Wilson,R,3.947571025,D
+PA,PA-HD-147,R,Lean,Jill Dennin,Tracy Pennycuick,Open,3.931209836,R
+KS,KS-SD-8,D,Lean,Cindy Holscher,James Todd,Open,3.916207325,D
+PA,PA-HD-40,R,Likely,Sharon Guidi,Natalie Mihalek Stuck,R,3.905345264,R
+PA,PA-HD-76,R,Likely,Joseph Waltz,Stephanie Borcowiz,R,3.903865023,R
+KS,KS-HD-103,D,Safe,Ponka-We Victors,Susanne Haynes,D,3.880718146,D
+PA,PA-HD-39,R,Likely,Sara-Summer Oliphant,TBA,Open,3.878793269,R
+FL,FL-SD-21,R,Safe,FALSE,FALSE,R,3.834485111,D
+TX,TX-HD-70,R,Safe,Angie Bado,Scott Sanford,R,3.822337206,D
+GA,GA-HD-104,R,Lean,TBA,Chuck Efstration,R,3.814066746,D
+PA,PA-HD-48,R,Likely,Harlan Shober,Tim O'Neal,R,3.80462245,R
+TX,TX-HD-118,D,Safe,Leo Pacheco,Adam Salyer,D,3.790925606,D
+FL,FL-SD-23,R,Safe,FALSE,FALSE,R,3.789375481,D
+TX,TX-HD-44,R,Safe,Robert Bohmfalk,John Kuempel,R,3.729049075,D
+GA,GA-HD-119,R,Likely,Jonathon Wallace,Marcus A. Wiedower,R,3.721017462,D
+NM,NM-SD-9,D,Tilt,Brandon McKenna,John Clark,Open,3.709707001,R
+FL,FL-SD-7,R,Safe,FALSE,FALSE,R,3.701178503,D
+KS,KS-SD-21,D,Lean,Dinah Sykes,Tom Bickimer,FALSE,3.69909598,D
+MN,MN-SD-28,R,Safe,Sarah Kruger,Jeremy Miller,R,3.692861593,R
+TX,TX-HD-73,R,Safe,Stephanie Phillips,Kyle Biedermann,R,3.666300506,D
+GA,GA-HD-117,R,Likely,Mokah Johnson,Houston Gaines,R,3.661034347,D
+PA,PA-HD-28,R,Lean,Emily Skopov,Rob Mercuri,Open,3.660462081,R
+PA,PA-HD-104,R,Likely,Patricia Smith,Susan Helm,R,3.626595549,R
+CT,CT-HD-56,D,Likely,FALSE,FALSE,D,3.623744319,R
+FL,FL-HD-77,R,Safe,FALSE,FALSE,R,3.589607996,D
+CT,CT-HD-89,R,Safe,FALSE,FALSE,R,3.582255798,R
+CT,CT-HD-86,R,Safe,FALSE,FALSE,R,3.580142622,R
+FL,FL-HD-54,R,Safe,FALSE,FALSE,R,3.574412683,D
+PA,PA-HD-120,R,Lean,Joanna Smith,Aaron Kaufer,R,3.547454209,R
+MN,MN-SD-50,D,Safe,Melissa Halvorson Wiklund,Dean Wm Mumbleau,D,3.501399641,R
+GA,GA-HD-44,R,Likely,Connie Diccio,Don Parsons,R,3.438399331,D
+MN,MN-HD-48B,D,Tilt,Carlie Kotyza-Witthuhn,Holly Link,D,3.434386503,R
+CT,CT-SD-30,R,Lean,FALSE,FALSE,R,3.430090463,R
+GA,GA-HD-52,R,Tilt,Shea Roberts,Deborah Silcox,R,3.409759125,D
+WI,WI-HD-23,FALSE,Toss-Up,Deb Andraca,Jim Ott,R,3.367609133,D
+GA,GA-HD-43,R,Tilt,Luisa Wakeman,Sharon Cooper,R,3.365012889,D
+GA,GA-HD-49,R,Safe,Ken Lawler,Chuck Martin,R,3.345491954,D
+WI,WI-HD-43,D,Safe,Don Vruwink,Beth Drew,D,3.326134868,D
+MN,MN-HD-55A,D,Tilt,Brad Tabke,TBA,D,3.318054884,R
+CT,CT-SD-35,R,Lean,FALSE,FALSE,R,3.315580158,R
+KS,KS-HD-84,D,Safe,Gail Finney,Janet Sue Rine,D,3.308872111,D
+KS,KS-HD-35,D,Safe,TBA,Mark David Snelson,Open,3.304262519,D
+TX,TX-HD-41,D,Safe,Bobby Guerra,John R. Guerra,D,3.296979243,D
+FL,FL-HD-7,R,Safe,FALSE,FALSE,R,3.283465624,D
+PA,PA-HD-160,D,Lean,Anton Andrew,Wendell Williams,Open,3.281266823,R
+FL,FL-HD-22,R,Safe,FALSE,FALSE,R,3.253481071,D
+KS,KS-HD-58,D,Safe,Vic Miller,Geoffrey Gawdun,Open,3.229453615,D
+FL,FL-HD-52,R,Safe,FALSE,FALSE,R,3.22474386,D
+PA,PA-HD-72,D,Tilt,Frank Burns,Howard Terndrup,D,3.220622175,R
+CT,CT-SD-17,FALSE,Toss-Up,TBA,George Logan,Open,3.208255382,R
+KS,KS-HD-83,D,Safe,Henry Helgerson,Crystal Dozier,D,3.196047734,D
+NM,NM-SD-18,D,Tilt,Bill Tallman,Ryan Chavez,D,3.192883242,R
+GA,GA-HD-147,R,Lean,Stephen Baughier,TBA,Open,3.182193049,D
+MN,MN-SD-19,D,Safe,Nick Frentz,Elizabeth Bangert,D,3.150426149,R
+TX,TX-HD-74,D,Safe,Eddie Morales,Ruben Falcon,Open,3.124802348,D
+KS,KS-HD-31,D,Safe,Louis Ruiz,Landon Griffith,D,3.11135984,D
+MN,MN-HD-56B,D,Tilt,Kaela Berg,Roz Peterson,Open,3.098665131,R
+CT,CT-SD-20,FALSE,Toss-Up,Martha Marx,Paul Formica,Open,3.064053911,R
+MN,MN-SD-62,D,Safe,TBA,Bruce Lundeen,Open,3.046298433,R
+KS,KS-HD-57,D,Safe,John Alcala,Michael Martin,D,3.032332617,D
+GA,GA-HD-164,R,Tilt,TBA,Ron Stephens,R,3.024603799,D
+MN,MN-HD-54A,D,Lean,Anne Claflin,Keith Franke,D,2.981559715,R
+TX,TX-HD-144,D,Safe,Mary Ann Perez,Tony Salas,D,2.962866765,D
+KS,KS-HD-89,D,Safe,KC Ohaebosim,TBA,D,2.962689626,D
+KS,KS-HD-92,D,Safe,John Carmichael,Patrick McCormack,D,2.946402221,D
+CT,CT-HD-22,R,Safe,FALSE,FALSE,R,2.930255276,R
+CT,CT-SD-36,D,Tilt,Alexandra Kasser,Ryan Fazio,D,2.910735691,R
+MN,MN-HD-56A,D,Tilt,Jessica Hanson,TBA,Open,2.894728847,R
+MN,MN-HD-33B,D,Tilt,Kelly Morrison,TBA,D,2.893373059,R
+KS,KS-HD-33,D,Safe,Tom Burroughs,Jordan Michael Mackey,D,2.892485324,D
+MN,MN-HD-39B,D,Tilt,Shelly Christensen,Joe Garofalo,D,2.867913141,R
+MN,MN-HD-57B,D,Lean,John D. Huot,Sandra A. Jimenez,D,2.852945169,R
+FL,FL-HD-76,R,Safe,FALSE,FALSE,R,2.843893489,D
+GA,GA-HD-34,R,Safe,Priscilla Smith,Bert Reeves,R,2.837588241,D
+KS,KS-HD-88,D,Safe,Elizabeth Bishop,Wade Moore,D,2.833055709,D
+NC,NC-SD-3,D,Likely,Ernestine Bazemore,Thomas S. Hester,Open,2.797192707,D
+NM,NM-SD-20,D,Tilt,TBA,John Morton,Open,2.790628151,R
+GA,GA-HD-110,R,Safe,Ebony Carter,Clint Crowe,Open,2.788717281,D
+FL,FL-SD-17,R,Safe,FALSE,FALSE,R,2.781188238,D
+MN,MN-HD-38B,D,Tilt,Ami Wazlawik,Elliott Engen,D,2.768245172,R
+KS,KS-HD-53,D,Safe,Jim Gartner,Jeff Coen,D,2.761868845,D
+PA,PA-HD-13,R,Likely,FALSE,John Adda Lawrence,R,2.755607804,R
+KS,KS-HD-95,D,Safe,Tom Sawyer,Christopher Parisho,D,2.751946953,D
+MN,MN-HD-05A,D,Tilt,John Persell,Matt Bliss,D,2.720347108,R
+CT,CT-HD-87,R,Safe,FALSE,FALSE,R,2.708690253,R
+KS,KS-HD-55,D,Safe,Annie Kuether,Janlyn Nesbett Tucker,D,2.687266595,D
+MN,MN-HD-37B,FALSE,Toss-Up,Amir Joseph Malik,Nolan West,R,2.679580346,R
+MN,MN-HD-36A,D,Lean,Zack Stephenson,Bill Maresh,D,2.668989464,R
+MN,MN-HD-53B,D,Lean,Steve Sandell,Kelly Jahner-Byrne,D,2.656434605,R
+CT,CT-HD-63,R,Safe,FALSE,FALSE,R,2.651470217,R
+FL,FL-HD-112,D,Safe,FALSE,FALSE,D,2.634788774,D
+KS,KS-HD-21,D,Safe,Jerry Stogsdill,Bob Reese,D,2.622493418,D
+MN,MN-SD-43,D,Safe,"Charles ""Chuck"" Wiger",Bob Zick,D,2.599290116,R
+KS,KS-HD-100,R,Safe,Chad Smith,Daniel Hawkins,R,2.58806145,D
+NM,NM-SD-10,D,Tilt,Katy Duhigg,Candace Gould,R,2.565535423,R
+MN,MN-SD-40,D,Safe,Chris Eaton,Robert Marvin,D,2.53271323,R
+PA,PA-HD-123,R,Likely,Peter Symons,Tim Twardzik,Open,2.521281396,R
+KS,KS-HD-36,D,Safe,Kathy Wolfe Moore,Mark Gilstrap,D,2.515118412,D
+MN,MN-SD-65,D,Safe,Sandy Pappas,Paul Holmgren,D,2.514221958,R
+CT,CT-HD-48,D,Safe,FALSE,FALSE,D,2.50775356,R
+CT,CT-HD-118,D,Safe,FALSE,FALSE,D,2.500621523,R
+KS,KS-SD-3,D,Lean,Tom Holland,Willie Dove,D,2.497055701,D
+PA,PA-SD-25,R,Safe,Margaret Satterwhite Brown,Cris Dush,Open,2.495046044,R
+NM,NM-SD-28,D,Safe,Siah Correa Hemphill,James Williams,Open,2.491099558,R
+PA,PA-SD-41,R,Safe,Anthony Deloreto,Joe Pittman,R,2.489571386,R
+PA,PA-SD-39,R,Safe,Tay Waltenbaugh,Kim Ward,R,2.482100941,R
+CT,CT-HD-76,R,Safe,FALSE,FALSE,R,2.477989493,R
+PA,PA-HD-165,D,Lean,Jennifer O'Mara,Robert Smythe,D,2.464546955,R
+CT,CT-HD-112,R,Safe,FALSE,FALSE,R,2.444452644,R
+WI,WI-HD-96,R,Lean,TBA,Loren Oldenburg,R,2.442488007,D
+NV,NV-SD-11,D,Safe,Dallas Harris,Joshua Dowden,D,2.437039244,R
+PA,PA-SD-47,R,Safe,Stephen John Krizan,Elder Vogel,R,2.43584737,R
+FL,FL-SD-27,R,Safe,FALSE,FALSE,R,2.430531502,D
+GA,GA-HD-151,FALSE,Toss-Up,Joyce Barlow,Gerald Greene,R,2.426781793,D
+PA,PA-SD-23,R,Safe,Jaclyn Baker,Gene Yaw,R,2.424149497,R
+CT,CT-HD-29,D,Safe,FALSE,FALSE,D,2.41222259,R
+WI,WI-HD-8,D,Safe,TBA,TBA,Open,2.388790407,D
+FL,FL-HD-56,R,Safe,FALSE,FALSE,R,2.385470986,D
+NM,NM-SD-37,D,Safe,William Soules,David Gallus,D,2.381267867,R
+NM,NM-SD-15,D,Safe,Daniel Ivey-Soto,Sandra Rausch,D,2.368543127,R
+PA,PA-HD-162,D,Lean,David Delloso,Peter Thomas Gaglio,D,2.362609744,R
+MN,MN-SD-03,D,Safe,Thomas (Tom) Bakk,Christopher Hogan,D,2.360651476,R
+PA,PA-HD-143,D,Lean,Wendy Ullman,Shelby Labs,D,2.353923425,R
+CT,CT-HD-104,D,Safe,FALSE,FALSE,D,2.353572759,R
+PA,PA-SD-27,R,Safe,Michelle Lynn Siegel,John Gordner,R,2.339963708,R
+FL,FL-HD-100,D,Safe,FALSE,FALSE,D,2.326443431,D
+PA,PA-SD-31,R,Safe,Shanna Danielson,Mike Regan,R,2.314251388,R
+FL,FL-HD-19,R,Safe,FALSE,FALSE,R,2.304914136,D
+CT,CT-SD-14,D,Lean,James Maroney,Mike Southworth,D,2.301006849,R
+MN,MN-SD-63,D,Safe,Patricia Torres Ray,Diane Napper,D,2.286555707,R
+PA,PA-HD-41,R,Likely,Michele Wherley,Brett Miller,R,2.284838291,R
+PA,PA-SD-21,R,Safe,Shelbie Lynn Stromyer,Scott Hutchinson,R,2.284067752,R
+MN,MN-SD-59,D,Safe,TBA,Paul Anderson,Open,2.283670683,R
+MN,MN-SD-64,D,Safe,Erin Murphy,Sharon Anderson,Open,2.282846242,R
+TX,TX-HD-90,D,Safe,Ramon Romero,Elva Camacho,D,2.280891785,D
+PA,PA-SD-33,R,Safe,Richard Sterner,Doug Mastriano,R,2.279574462,R
+FL,FL-HD-10,R,Safe,FALSE,FALSE,R,2.25277702,D
+PA,PA-HD-138,R,Likely,Tara Zrinski,Ann Flood,Open,2.250476154,R
+FL,FL-HD-55,R,Safe,FALSE,FALSE,R,2.234692302,D
+FL,FL-HD-18,R,Safe,FALSE,FALSE,R,2.23464575,D
+FL,FL-HD-9,D,Safe,FALSE,FALSE,D,2.221900481,D
+MN,MN-SD-66,D,Safe,John Marty,Greg Copeland,D,2.218754224,R
+OR,OR-HD-49,D,Likely,Zach Hudson,Joe Demers,Open,2.216776153,R
+KS,KS-HD-82,R,Safe,Edward Hackerott,TBA,Open,2.212745159,D
+NV,NV-SD-6,D,Lean,Nicole Cannizzaro,April Becker,D,2.205209348,R
+CT,CT-HD-113,R,Safe,FALSE,FALSE,R,2.201535359,R
+PA,PA-HD-53,D,Lean,Steve Malagari,Allan Arnott,D,2.198113119,R
+CT,CT-SD-28,R,Likely,FALSE,FALSE,R,2.183531823,R
+MN,MN-SD-41,D,Safe,Mary Kunesh-Podein,Lucia Marina Vogel,Open,2.168796693,R
+MN,MN-HD-47B,R,Tilt,Dan Kessler,Greg Boe,R,2.162869181,R
+MN,MN-SD-22,R,Safe,TBA,Bill Weber,R,2.160829505,R
+FL,FL-HD-23,R,Safe,FALSE,FALSE,R,2.151215849,D
+FL,FL-HD-5,R,Safe,FALSE,FALSE,R,2.150454606,D
+OR,OR-HD-20,D,Likely,Paul Evans,Selma Pierce,D,2.145767627,R
+KS,KS-SD-20,R,Likely,Rachel Willis,TBA,Open,2.135784041,D
+MN,MN-SD-61,D,Safe,Scott Dibble,Jennifer Zielinski,D,2.12683267,R
+NC,NC-HD-68,R,Safe,Ericka L. McKnight,David Willis,Open,2.109906358,D
+FL,FL-HD-38,R,Safe,FALSE,FALSE,R,2.109010577,D
+CT,CT-SD-7,R,Likely,FALSE,FALSE,R,2.105329428,R
+OR,OR-HD-37,D,Likely,Rachel Prusak,Kelly Sloop,D,2.098687594,R
+FL,FL-HD-4,R,Safe,FALSE,FALSE,R,2.096887975,D
+PA,PA-HD-167,D,Lean,Kristine Howard,Wendy Graham Leland,D,2.096081455,R
+FL,FL-HD-68,D,Safe,FALSE,FALSE,D,2.090598896,D
+FL,FL-HD-6,R,Safe,FALSE,FALSE,R,2.088935657,D
+FL,FL-HD-106,R,Safe,FALSE,FALSE,R,2.082983639,D
+FL,FL-HD-34,R,Safe,FALSE,FALSE,R,2.076691097,D
+MN,MN-SD-15,R,Safe,Brent Krist,Andrew Matthews,R,2.076563647,R
+MN,MN-SD-09,R,Safe,A. John Peters,TBA,Open,2.073558961,R
+CT,CT-HD-80,R,Safe,FALSE,FALSE,R,2.066971173,R
+NC,NC-HD-96,R,Safe,Kim Bost,Jay Adams,R,2.055225889,D
+TX,TX-HD-103,D,Safe,Rafael Anchia,Sherry Lee Mecom,D,2.05156924,D
+NC,NC-HD-22,R,Safe,Albert Kirby,William Brisson,R,2.049816598,D
+MN,MN-SD-45,D,Safe,Ann H. Rest,Roxana Bruins,D,2.047201574,R
+NC,NC-HD-70,R,Safe,Susan Lee Scott,Pat B. Hurley,R,2.046173208,D
+GA,GA-HD-173,R,Safe,Booker Gainor,Darlene Taylor,R,2.04445696,D
+NC,NC-HD-69,R,Safe,Pam De Maria,Dean Arp,R,2.030024513,D
+CT,CT-SD-18,R,Likely,FALSE,FALSE,R,2.021804566,R
+CT,CT-HD-131,R,Safe,FALSE,FALSE,R,2.021322338,R
+NC,NC-HD-4,R,Safe,Christopher Schulte,Jimmy Dixon,R,2.019140263,D
+NC,NC-HD-12,R,Safe,Virginia Cox-Daugherty,Chris Humphrey,R,2.015641282,D
+MN,MN-SD-18,R,Safe,Chad R. Tschimperle,Scott Newman,R,2.015443628,R
+FL,FL-HD-3,R,Safe,FALSE,FALSE,R,2.011991871,D
+MN,MN-SD-30,R,Safe,Diane Nguyen,Mary Kiffmeyer,R,2.011562736,R
+PA,PA-HD-97,R,Likely,Dana Gulick,Steve Mentzer,R,2.011221831,R
+MN,MN-SD-46,D,Safe,Ron Latz,Bryan P. Björnson,D,2.010003125,R
+MN,MN-SD-23,R,Safe,FALSE,Julie A. Rosen,R,2.008556059,R
+MN,MN-SD-16,R,Safe,FALSE,Gary Dahms,R,1.995507534,R
+FL,FL-HD-11,R,Safe,FALSE,FALSE,R,1.994467403,D
+NC,NC-HD-109,R,Safe,Susan Maxon,Dana Bumgardner,R,1.994288805,D
+CT,CT-HD-105,R,Safe,FALSE,FALSE,R,1.993281283,R
+MN,MN-SD-12,R,Safe,Jill Abahsain,Torrey Westrom,R,1.992961596,R
+CT,CT-HD-70,R,Safe,FALSE,FALSE,R,1.971748173,R
+NC,NC-HD-78,R,Safe,Jim Meredith,Allen Ray McNeill,R,1.970126562,D
+MN,MN-SD-55,R,Safe,Sahra Odowa,Eric Pratt,R,1.960841963,R
+MN,MN-SD-35,R,Safe,David L. Nelson,Jim Abeler,R,1.959451467,R
+NC,NC-HD-7,R,Safe,Phil Stover,Matthew Winslow,Open,1.956722192,D
+MN,MN-SD-07,D,Safe,TBA,Donna Bergstrom,Open,1.950270261,R
+NC,NC-HD-79,R,Safe,Nick Blount,Keith Kidwell,R,1.946909057,D
+MN,MN-SD-29,R,Safe,Chris Brazelton,Bruce D. Anderson,R,1.939013398,R
+NC,NC-HD-3,R,Safe,Dorothea Downing White,Steve Tyson,Open,1.926776764,D
+NC,NC-HD-55,R,Safe,Gloria Harrington Overcash,Mark Brody,R,1.920855349,D
+NC,NC-HD-108,R,Safe,Daniel Caudill,John A. Torbett,R,1.903819424,D
+MN,MN-SD-31,R,Safe,Kate Luthner,Michelle R. Benson,R,1.903793762,R
+NC,NC-HD-89,R,Safe,Greg Cranford,Mitchell Smith Setzer,R,1.903603293,D
+NC,NC-HD-14,R,Safe,Marcy Wofford,George Cleveland,R,1.903025026,D
+NC,NC-HD-75,R,Safe,Elisabeth Motsinger,Donny Lambeth,R,1.899030903,D
+CT,CT-HD-108,R,Safe,FALSE,FALSE,R,1.898502912,R
+NC,NC-HD-111,R,Safe,Jennifer Childers,Tim Moore,R,1.89342282,D
+TX,TX-HD-31,D,Safe,Ryan Guillen,Marian Knowlton,D,1.886763763,D
+MN,MN-SD-08,R,Safe,Michele Anderson,Bill Ingebrigtsen,R,1.886320313,R
+NV,NV-SD-4,D,Safe,Dina Neal,Esper M. Hickman,Open,1.884597219,R
+OR,OR-HD-26,D,Lean,Courtney Neron,Peggy Stevens,Open,1.883706403,R
+CT,CT-HD-68,R,Safe,FALSE,FALSE,R,1.880466195,R
+NC,NC-HD-85,R,Safe,Ted Remington,Dudley Greene,Open,1.878120122,D
+NC,NC-HD-64,R,Safe,Eric Henry,Dennis Riddell,R,1.87435125,D
+KS,KS-SD-30,R,Likely,TBA,Renee Erickson,Open,1.868778999,D
+NC,NC-HD-2,R,Safe,Cindy Deporter,Larry Yarborough,R,1.860564897,D
+WI,WI-HD-30,R,Tilt,Sarah Yacoub,Shannon Zimmerman,Open,1.858910187,D
+NC,NC-HD-73,R,Safe,William Stinson,Lee Zachary,R,1.849333458,D
+FL,FL-HD-17,R,Safe,FALSE,FALSE,R,1.844900336,D
+MN,MN-HD-34B,D,Likely,Kristin Bahner,Dori Trossen,D,1.843117666,R
+NC,NC-HD-80,R,Safe,Wendy Sellars,Sam Watford,Open,1.833349536,D
+TX,TX-HD-145,D,Safe,Christina Morales,Martha Elena Fierro,D,1.828678993,D
+NC,NC-HD-91,R,Safe,Rita Cruise,Kyle Hall,R,1.824003302,D
+NC,NC-HD-10,R,Safe,Carl Martin,John Bell,R,1.822733817,D
+NC,NC-HD-86,R,Safe,Cecelia Surratt,Hugh Blackwell,R,1.822084002,D
+NC,NC-HD-95,R,Safe,Amanda Brown Kotis,Grey Mills,Open,1.820607509,D
+CT,CT-HD-78,R,Safe,FALSE,FALSE,R,1.819577939,R
+NC,NC-HD-76,R,Safe,Al Heggins,Harry Warren,R,1.811027038,D
+MN,MN-HD-25B,D,Likely,Liz Boldon,Kenneth L. Bush,Open,1.809449801,R
+NV,NV-SD-5,D,Tilt,Kristee Watson,TBA,Open,1.809107242,R
+NC,NC-HD-112,R,Safe,Ed Hallyburton,David Rogers,R,1.808811163,D
+TX,TX-HD-148,D,Safe,TBA,Luis LaRotta,Open,1.805956626,D
+PA,PA-HD-176,R,Likely,Claudette Williams,Jack Rader,R,1.790620449,R
+OR,OR-HD-52,D,Lean,Anna Williams,Jeff Helfrich,D,1.790369607,R
+NC,NC-HD-90,R,Safe,Beth Shaw,Sarah Stevens,R,1.782166893,D
+NC,NC-HD-81,R,Safe,Robert Lewis Jordan,Larry W. Potts,R,1.778943333,D
+CT,CT-SD-8,R,Likely,FALSE,FALSE,R,1.777951541,R
+NC,NC-HD-87,R,Safe,Corie Schreiber,Destin Hall,R,1.773404845,D
+NC,NC-HD-84,R,Safe,Gayle Wesley Harris,Jeffrey C. McNeely,R,1.771916279,D
+NC,NC-HD-117,R,Safe,Josh Remillard,Tim Moffitt,Open,1.768805839,D
+NC,NC-HD-62,R,Safe,Brandon Gray,John Faircloth,R,1.766863887,D
+KS,KS-HD-47,R,Safe,Michael Caddell,Ronald Ellis,R,1.766724354,D
+NC,NC-HD-120,R,Safe,Susan Landis,Karl Gillespie,Open,1.765971113,D
+NC,NC-HD-97,R,Safe,Greg McBryde,Jason R. Saine,R,1.76587186,D
+NC,NC-HD-65,R,Safe,Amanda Joann Bell,Jerry Carter,R,1.764227551,D
+WI,WI-HD-9,D,Safe,TBA,TBA,Open,1.75715701,D
+NC,NC-HD-77,R,Safe,Barbara B. Howard,Julia Craven Howard,R,1.752046428,D
+MN,MN-HD-52B,D,Likely,Ruth Richardson,Cynthia Lonnquist,D,1.749194995,R
+PA,PA-HD-158,D,Lean,Christina Sappey,Eric Roe,D,1.747881848,R
+NC,NC-HD-28,R,Safe,Corey Stephens,Larry C. Strickland,R,1.745827594,D
+NC,NC-HD-13,R,Safe,Buck Bayliff,Pat McElraft,R,1.73623749,D
+NM,NM-SD-23,FALSE,Toss-Up,Harold Pope,Sander Rue,R,1.725148765,R
+MN,MN-HD-54B,R,Tilt,Kelsey Waits,Tony Jurgens,R,1.72438657,R
+NC,NC-HD-16,R,Safe,Debbi Fintak,Carson Smith,R,1.722357615,D
+NC,NC-HD-52,R,Safe,Lowell Simon,Jamie Boles,R,1.719737225,D
+NC,NC-HD-26,R,Safe,Linda Bennett,Donna McDowell White,R,1.713697648,D
+OR,OR-HD-32,D,Lean,Debbie Boothe-Schmidt,Suzanne Weber,Open,1.712425938,R
+PA,PA-HD-152,D,Lean,Nancy Guenst,Karen Houck,Open,1.710321527,R
+MN,MN-HD-44A,D,Likely,Ginny Klevorn,Perry Nouis,D,1.695545451,R
+NC,NC-HD-15,R,Safe,Carolyn F. Gomaa,Phil Shepard,R,1.687990095,D
+TX,TX-HD-149,D,Safe,Hubert Vo,Lily Truong,D,1.68230304,D
+OR,OR-HD-50,D,Safe,Ricki Ruiz,Amelia Salvador,Open,1.678936048,R
+CT,CT-SD-12,D,Lean,Christine Cohen,Joseph LaPorta,D,1.676210643,R
+PA,PA-HD-142,R,Likely,Malinda Lauren Lareau,Frank Farry,R,1.675363136,R
+GA,GA-HD-19,R,Safe,Alison Feliciano,Joseph Gullett,R,1.673174435,D
+WI,WI-HD-13,R,Tilt,TBA,Rob Hutton,R,1.672884933,D
+GA,GA-HD-109,FALSE,Toss-Up,Regina Lewis-Ward,Dale Rutledge,R,1.672216828,D
+OR,OR-HD-11,D,Likely,Marty Wilde,Katie Glaser,D,1.650717144,R
+NC,NC-HD-53,R,Safe,Sally Weeks Benson,David R. Lewis,R,1.647342877,D
+KS,KS-HD-12,R,Safe,FALSE,Doug Blex,R,1.642956847,D
+NC,NC-HD-113,R,Safe,Sam Edney,Jake Johnson,R,1.625773946,D
+KS,KS-HD-116,R,Safe,Rick Roitman,Kyle D. Hoffman,Open,1.622355786,D
+FL,FL-HD-33,R,Safe,FALSE,FALSE,R,1.619579423,D
+CT,CT-SD-33,D,Lean,Norm Needleman,Brendan Saunders,D,1.616840168,R
+FL,FL-HD-104,D,Safe,FALSE,FALSE,D,1.613837127,D
+KS,KS-HD-13,R,Safe,Mark Pringle,Joe Newland,R,1.609153754,D
+OR,OR-HD-22,D,Safe,Teresa Alonso Leon,Anna Kasachev,D,1.608710854,R
+TX,TX-HD-142,D,Safe,TBA,Jason Rowe,Open,1.595319066,D
+KS,KS-HD-106,R,Safe,James Swim,TBA,Open,1.594818087,D
+TX,TX-HD-78,D,Safe,Joe Moody,Jeffrey Lane,D,1.573098805,D
+FL,FL-HD-47,D,Safe,FALSE,FALSE,D,1.568193947,D
+PA,PA-HD-61,D,Lean,Liz Hanbidge,Florence Friebel,D,1.551131685,R
+CT,CT-SD-13,D,Lean,Mary Daugherty Abrams,Len Suzio,D,1.543002279,R
+OR,OR-HD-14,D,Safe,Julie Fahey,Rich Cunningham,D,1.519554566,R
+TX,TX-HD-22,D,Safe,Joe Deshotel,Jacorion Randle,D,1.518813286,D
+OR,OR-HD-40,D,Safe,Mark Meek,Josh Howard,D,1.509690935,R
+NC,NC-HD-100,D,Safe,John Autry,Kalle Thompson,D,1.496878538,D
+KS,KS-HD-27,R,Safe,Sona Patel,Sean Tarwater,R,1.491768358,D
+KS,KS-HD-5,R,Safe,Roger Sims,TBA,Open,1.485126046,D
+OR,OR-HD-51,D,Safe,Janelle Bynum,Jane Hays,D,1.477886264,R
+CT,CT-HD-128,D,Safe,FALSE,FALSE,D,1.464482297,R
+KS,KS-HD-70,R,Safe,Jo Schwartz,TBA,Open,1.461548858,D
+KS,KS-HD-101,R,Safe,Elliott Adams,Joe Seiwert,R,1.456406238,D
+NC,NC-HD-102,D,Safe,Becky Carney,Kyle Kirby,D,1.456326981,D
+WI,WI-HD-10,D,Safe,David Bowen,Aaron McClendon,D,1.456094288,D
+NC,NC-HD-17,R,Safe,Tom Simmons,Frank Iler,R,1.443821728,D
+KS,KS-HD-114,R,Safe,Jeff Stroberg,TBA,Open,1.442644802,D
+KS,KS-HD-4,R,Safe,Bill Meyer,TBA,Open,1.441084597,D
+MN,MN-HD-19A,D,Likely,Jeff Brand,Susan Akland,D,1.440669914,R
+KS,KS-HD-81,R,Safe,Matthew Joyce,Blake Carpenter,R,1.440597611,D
+CT,CT-HD-147,D,Safe,FALSE,FALSE,D,1.434654057,R
+WI,WI-HD-16,D,Safe,Kalan Haywood,FALSE,D,1.429263933,D
+KS,KS-HD-77,R,Safe,FALSE,Kristey Williams,R,1.427262195,D
+TX,TX-HD-27,D,Safe,Ron Reynolds,Tom Virippan,D,1.427228787,D
+KS,KS-HD-50,R,Safe,Timothy Reed,Fred Patton,R,1.423869651,D
+TX,TX-HD-34,D,Safe,Abel Herrero,James Hernandez,D,1.420004033,D
+TX,TX-HD-109,D,Safe,Carl Sherman,Eugene Allen,D,1.413289912,D
+NM,NM-SD-35,FALSE,Toss-Up,Neomi Martinez-Parra,Crystal Diamond,Open,1.409362757,R
+KS,KS-HD-9,R,Safe,Alana Cloutier,TBA,Open,1.409203083,D
+TX,TX-HD-119,D,Safe,TBA,George Garza,Open,1.403514749,D
+WI,WI-HD-66,D,Safe,Greta Neubauer,Will Leverson,D,1.401398024,D
+KS,KS-HD-59,R,Safe,Caren Rugg,TBA,Open,1.374340375,D
+TX,TX-HD-51,D,Safe,Eddie Rodriguez,Robert Reynolds,D,1.371068129,D
+TX,TX-HD-120,D,Safe,Barbara Gervin-Hawkins,Ronald Payne,D,1.369765851,D
+TX,TX-HD-116,D,Safe,Trey Martinez Fischer,Robert Litoff,D,1.368795041,D
+CT,CT-HD-40,D,Safe,FALSE,FALSE,D,1.365122041,R
+CT,CT-HD-13,D,Safe,FALSE,FALSE,D,1.363720545,R
+WI,WI-HD-17,D,Safe,TBA,Abie Eisenbach,Open,1.362563782,D
+NC,NC-HD-27,D,Safe,Michael Wray,Warren Scott Nail,D,1.350527337,D
+KS,KS-HD-99,R,Safe,Phil Hodson,Susan Humphries,R,1.350409851,D
+WI,WI-HD-90,D,Safe,TBA,Drew Kirsteatter,Open,1.347637305,D
+SC,SC-SD-44,R,Likely,TBA,TBA,Open,1.343350685,D
+NM,NM-SD-36,D,Safe,Jeff Steinborn,Kimberly Skaggs,D,1.342364456,R
+KS,KS-HD-64,R,Safe,Jim Vathauer,Susan Carlson,R,1.333621288,D
+WI,WI-HD-11,D,Safe,TBA,Orlando Owens,Open,1.330383204,D
+CT,CT-SD-6,D,Lean,Rick Lopes,Gennaro Bizzarro,D,1.322538062,R
+CT,CT-HD-140,D,Safe,FALSE,FALSE,D,1.321840432,R
+KY,KY-HD-92,R,Safe,Ancel Smith,John Blanton,R,1.319638914,D
+NC,NC-HD-5,D,Safe,Howard Hunter,Donald Kirkland,Open,1.316196988,D
+NC,NC-HD-72,D,Safe,Amber Baker,Dan Lawlor,Open,1.313608085,D
+WI,WI-HD-65,D,Safe,Tod Ohnstad,Crystal J. Miller,D,1.311336069,D
+MN,MN-HD-27B,D,Likely,Jeanne Poppe,Patricia Mueller,D,1.304828152,R
+KS,KS-HD-60,R,Safe,Todd Maddox,Mark Schreiber,R,1.303636649,D
+NC,NC-HD-34,D,Safe,Grier Martin,Ronald L. Smith,D,1.302118432,D
+NC,NC-HD-99,D,Safe,Nasif Majeed,Russell Rowe,D,1.300929739,D
+NC,NC-HD-44,D,Safe,Billy Richardson,Heather S. Holmes,D,1.299029546,D
+NC,NC-HD-38,D,Safe,Abe Jones,Kenneth Bagnal,Open,1.296237992,D
+KY,KY-HD-3,R,Likely,Corbin Snardon,Randy Bridges,R,1.295638219,D
+TX,TX-HD-50,D,Safe,Celia Israel,Larry Delarose,D,1.288399386,D
+NC,NC-HD-23,D,Safe,Shelly Willingham,Claiborne Holtzman,D,1.285716985,D
+KS,KS-HD-68,R,Safe,Scott Dawson,Dave Baker,R,1.283235227,D
+PA,PA-HD-146,D,Lean,Joseph Ciresi,Thomas Neafcy,D,1.280093173,R
+KS,KS-HD-75,R,Safe,Ethan Caylor,Will Carpenter,R,1.275552589,D
+CT,CT-HD-110,D,Safe,FALSE,FALSE,D,1.267413747,R
+NC,NC-HD-58,D,Safe,Amos Quick,Clinton Honey,D,1.267093181,D
+KS,KS-SD-22,D,Lean,Tom Hawk,TBA,D,1.267037959,D
+KS,KS-HD-43,R,Safe,Pamela Finley,William Sutton,R,1.261837733,D
+FL,FL-HD-91,D,Safe,FALSE,FALSE,D,1.259704847,D
+PA,PA-HD-119,D,Lean,Gerald Mullery,John Chura,D,1.259684031,R
+CT,CT-HD-145,D,Safe,FALSE,FALSE,D,1.257658205,R
+WI,WI-HD-45,D,Safe,Mark Spreitzer,Tawny Gustina,D,1.256483866,D
+PA,PA-HD-9,D,Lean,Chris Sainato,Carol Lynne Ryan,D,1.255386643,R
+WI,WI-HD-12,D,Safe,LaKeshia N. Myers,Ozell Cox,D,1.253491884,D
+KY,KY-HD-93,R,Lean,Rod Varney,Norma Kirk-McCormick,Open,1.252924242,D
+KS,KS-HD-71,R,Safe,Jeffrey Zamrzla,TBA,Open,1.251405377,D
+KS,KS-HD-94,R,Safe,Derek Milligan,Leo Delperdang,R,1.248853271,D
+WI,WI-HD-80,D,Safe,TBA,Chase Binnie,Open,1.244257203,D
+SC,SC-SD-43,R,Lean,Richard Hricik,Chip Campsen,R,1.240760492,D
+NC,NC-HD-32,D,Safe,Terry E. Garrison,David Woodson,D,1.240339006,D
+KS,KS-HD-104,R,Safe,Garth Strand,Paul Waggoner,R,1.238523241,D
+NC,NC-HD-107,D,Safe,Kelly Alexander,Richard Rivette,D,1.228892302,D
+WI,WI-HD-73,D,Safe,Nick Milroy,Keith Kern,D,1.226109936,D
+TX,TX-HD-49,D,Safe,Gina Hinojosa,Charles Meyer,D,1.223509717,D
+WI,WI-HD-64,D,Safe,Tip McGuire,Ed Hibsch,D,1.220445129,D
+KY,KY-HD-24,R,Safe,Terry Mills,Brandon Reed,R,1.21921386,D
+WI,WI-HD-81,D,Safe,Dave Considine,David J. Dahlke,D,1.219108508,D
+KY,KY-HD-97,R,Safe,Will Hurst,Bobby McCool,R,1.217782631,D
+MN,MN-HD-14A,R,Lean,Tamara 'Tami' Calhoun,Tama Theis,R,1.217713163,R
+WI,WI-HD-44,D,Safe,TBA,DuWayne Severson,Open,1.214904688,D
+NC,NC-HD-11,D,Safe,Allison Dahle,Clark Pope,D,1.21046334,D
+PA,PA-HD-55,D,Lean,Joseph Petrarca,Jason Silvis,D,1.20825981,R
+NC,NC-HD-92,D,Safe,Terry Brown,Jerry Munden,Open,1.206842252,D
+NC,NC-HD-60,D,Safe,Cecil Brockman,Frank Ragsdale,D,1.206253865,D
+NC,NC-HD-57,D,Safe,Ashton Clemmons,Chris Meadows,D,1.199675613,D
+NC,NC-HD-41,D,Safe,Gale Adcock,Scott Populorum,D,1.198993406,D
+OR,OR-HD-10,D,Safe,David Gomberg,Max Sherman,D,1.198239405,R
+KY,KY-HD-15,R,Safe,Crystal Chapell,Melinda Gibbons Prunty,R,1.197164121,D
+CT,CT-SD-26,D,Lean,Will Haskell,TBA,D,1.194386691,R
+CT,CT-HD-95,D,Safe,FALSE,FALSE,D,1.192732707,R
+WI,WI-HD-46,D,Safe,Gary Alan Hebl,TBA,D,1.184808164,D
+NC,NC-HD-88,D,Safe,Mary Belk,David Tondreau,D,1.184331337,D
+WI,WI-HD-71,D,Safe,Katrina Shankland,Scott C. Soik,D,1.183857391,D
+CT,CT-HD-3,D,Safe,FALSE,FALSE,D,1.182735614,R
+KY,KY-HD-50,R,Safe,TBA,TBA,Open,1.18074708,D
+WI,WI-HD-4,R,Likely,TBA,David Steffen,Open,1.179839821,D
+WI,WI-HD-48,D,Safe,TBA,Samuel Nektary Anderson,Open,1.174684194,D
+WI,WI-HD-79,D,Safe,Dianne H. Hesselbein,Victoria Fueger,D,1.173535857,D
+TX,TX-HD-48,D,Safe,Donna Howard,Bill Strieber,D,1.172657439,D
+KS,KS-SD-23,R,Likely,Wendy Budetti,TBA,Open,1.172237514,D
+PA,PA-HD-199,R,Safe,Janelle Crossley,Barbara Gleim,R,1.170111935,R
+PA,PA-HD-62,R,Safe,Dennis Semsick,Jim Struzzi,R,1.166235346,R
+KS,KS-HD-105,R,Safe,Michelle Snyder,Brenda Landwehr,R,1.161441134,D
+WI,WI-HD-88,R,Lean,TBA,John Macco,R,1.159062509,D
+NC,NC-HD-116,D,Safe,Brian Turner,Eric Burns,D,1.15742343,D
+GA,GA-HD-29,R,Safe,Pat Calmes,Matt Dubnik,R,1.14976257,D
+CT,CT-HD-148,D,Safe,FALSE,FALSE,D,1.147919951,R
+PA,PA-HD-183,R,Safe,Jason Ruff,Zach Mako,R,1.141869508,R
+WI,WI-HD-78,D,Safe,TBA,FALSE,Open,1.141070323,D
+NC,NC-HD-48,D,Safe,Garland E. Pierce,Johnny H. Boyles,D,1.140672916,D
+WI,WI-SD-24,R,Lean,Paul Piotrowski,Patrick Testin,R,1.139963954,D
+NC,NC-HD-8,D,Safe,Kandie D. Smith,Tony Moore,D,1.139111024,D
+PA,PA-HD-145,R,Safe,Robyn Colajezzi,Craig Staats,R,1.13871534,R
+PA,PA-HD-87,R,Safe,Nicole Miller,Greg Rothman,R,1.137020453,R
+NC,NC-HD-40,D,Safe,Joe John,Gerard Falzon,D,1.134913062,D
+GA,GA-HD-48,FALSE,Toss-Up,Mary Robichaux,Betty Price,D,1.132613767,D
+WI,WI-HD-92,R,Likely,Amanda WhiteEagle,Treig E. Pronschinske,R,1.129508894,D
+WI,WI-HD-91,D,Safe,Jodi Emerson,Charlie Walker,D,1.12935337,D
+CT,CT-HD-6,D,Safe,FALSE,FALSE,D,1.127451095,R
+WI,WI-HD-47,D,Safe,Jimmy Anderson,TBA,D,1.124847628,D
+WI,WI-HD-54,D,Safe,Gordon Hintz,TBA,D,1.116087666,D
+KY,KY-HD-69,R,Likely,Ryan Neaves,Adam Koenig,R,1.112282017,D
+CT,CT-HD-130,D,Safe,FALSE,FALSE,D,1.11114612,R
+NC,NC-HD-42,D,Safe,Marvin W. Lucas,Jon Blake,D,1.108835929,D
+NC,NC-HD-49,D,Safe,Cynthia Ball,David Robertson,D,1.104226266,D
+NC,NC-HD-101,D,Safe,Carolyn G. Logan,Steve Mauney,D,1.099361637,D
+KY,KY-HD-22,R,Likely,David Young,TBA,Open,1.098268256,D
+NV,NV-HD-21,D,Likely,TBA,Cherlyn Arrington,Open,1.097262661,R
+KY,KY-HD-62,R,Safe,David Mayo,Phillip Pratt,R,1.095573129,D
+CT,CT-HD-1,D,Safe,FALSE,FALSE,D,1.086947143,R
+PA,PA-HD-46,R,Safe,Byron Timmins,Jason Ortitay,R,1.085871678,R
+CT,CT-HD-75,D,Safe,FALSE,FALSE,D,1.085023731,R
+NC,NC-HD-31,D,Safe,Zack Hawkins,Steven W. Sosebee,D,1.081979,D
+FL,FL-SD-5,R,Safe,FALSE,FALSE,R,1.081894222,D
+NC,NC-HD-54,D,Safe,Robert T. Reives,George T. Gilson,D,1.080548405,D
+KY,KY-HD-91,R,Lean,TBA,TBA,Open,1.075177636,D
+NC,NC-HD-115,D,Safe,John Ager,Mark Crawford,D,1.074488893,D
+WI,WI-HD-62,R,Likely,August Edward Schutz,Robert Wittke,R,1.071919888,D
+KY,KY-HD-29,R,Tilt,Suzanne Kugler,Kevin Bratcher,R,1.071128717,D
+WI,WI-HD-85,R,Likely,TBA,Patrick Snyder,R,1.070012191,D
+CT,CT-HD-129,D,Safe,FALSE,FALSE,D,1.068233317,R
+WI,WI-HD-55,R,Likely,Daniel Schierl,TBA,Open,1.064039614,D
+WI,WI-HD-19,D,Safe,Jonathan Brostoff,Helmut Fritz,D,1.057265339,D
+NV,NV-HD-5,D,Likely,Brittney Miller,TBA,D,1.055729809,R
+WI,WI-SD-30,R,Lean,TBA,TBA,Open,1.055151353,D
+FL,FL-HD-113,D,Safe,FALSE,FALSE,D,1.04788264,D
+KY,KY-HD-74,R,Likely,Jeff Spradling,David Hale,R,1.040365316,D
+WI,WI-HD-95,D,Safe,Jill Billings,TBA,D,1.039809428,D
+KY,KY-HD-8,R,Safe,Pam Dossett,Walker Wood Thomas,R,1.039803644,D
+NC,NC-HD-30,D,Safe,Marcia Morey,FALSE,D,1.038585492,D
+NC,NC-HD-114,D,Safe,Susan C. Fisher,Tim Hyatt,D,1.03723333,D
+FL,FL-SD-1,R,Safe,FALSE,FALSE,R,1.034944356,D
+NC,NC-HD-18,D,Safe,Deb Butler,Warren Kennedy,D,1.033740597,D
+CT,CT-HD-24,D,Safe,FALSE,FALSE,D,1.033185122,R
+KY,KY-HD-49,R,Safe,Jonathan Cacciatore,Thomas Huff,R,1.030967466,D
+CT,CT-HD-84,D,Safe,FALSE,FALSE,D,1.026431909,R
+NC,NC-HD-33,D,Safe,Rosa Gill,Frann Sarpolus,Open,1.026325294,D
+CT,CT-HD-82,D,Safe,FALSE,FALSE,D,1.025222584,R
+GA,GA-HD-98,R,Safe,Taeho Cho,David Clark,R,1.019835194,D
+PA,PA-HD-156,D,Likely,Carolyn Comitta,Leonard Iacono,D,1.016689896,R
+FL,FL-HD-86,D,Safe,FALSE,FALSE,D,1.012337994,D
+FL,FL-HD-81,D,Safe,FALSE,FALSE,D,1.011211617,D
+CT,CT-HD-16,D,Safe,FALSE,FALSE,D,1.007644714,R
+CT,CT-HD-127,D,Safe,FALSE,FALSE,D,1.007424081,R
+CT,CT-HD-25,D,Safe,FALSE,FALSE,D,1.006270787,R
+CT,CT-HD-7,D,Safe,FALSE,FALSE,D,0.9999987604,R
+CT,CT-HD-4,D,Safe,FALSE,FALSE,D,0.9955169678,R
+CT,CT-HD-124,D,Safe,FALSE,FALSE,D,0.9911134961,R
+KS,KS-SD-9,R,Likely,Stacey Knoell,Julia Lynn,R,0.9899260862,D
+WI,WI-HD-76,D,Safe,TBA,Patrick Hull,Open,0.9703451544,D
+CT,CT-HD-116,D,Safe,FALSE,FALSE,D,0.9660320683,R
+GA,GA-HD-36,R,Safe,James Ryner,Ginny Ehrhart,R,0.9586492554,D
+GA,GA-HD-106,D,Tilt,TBA,Brett Harrell,R,0.9531101148,D
+GA,GA-HD-30,R,Safe,Leigh Miller,Emory Dunahoo,R,0.9458574805,D
+GA,GA-HD-67,R,Safe,Angela Mayfield,Micah Gravley,R,0.9423019,D
+FL,FL-HD-87,D,Safe,FALSE,FALSE,D,0.9372776055,D
+FL,FL-HD-95,D,Safe,FALSE,FALSE,D,0.9371491704,D
+PA,PA-HD-189,R,Safe,Adam Rodriguez,Rosemary Brown,R,0.9346339063,R
+CT,CT-HD-94,D,Safe,FALSE,FALSE,D,0.9344782316,R
+NV,NV-HD-41,D,Likely,Sandra Jauregui,Erika Smith,D,0.9322055254,R
+MN,MN-HD-05B,R,Lean,Joe Abeyta,Spencer Igo,Open,0.9262329893,R
+SC,SC-SD-41,R,Tilt,TBA,Sandy Senn,R,0.9132473982,D
+CT,CT-HD-115,D,Safe,FALSE,FALSE,D,0.9089448931,R
+GA,GA-HD-21,R,Safe,William D Hughes,TBA,Open,0.9084772446,D
+NV,NV-HD-35,D,Likely,Michelle Gorelow,TBA,D,0.9083669855,R
+CT,CT-HD-126,D,Safe,FALSE,FALSE,D,0.906355992,R
+KS,KS-SD-7,D,Likely,Ethan Corson,Laura McConwell,Open,0.9016510353,D
+NV,NV-HD-12,D,Safe,Susan Martinez,Jeremy Graves,D,0.9005591958,R
+PA,PA-HD-155,D,Likely,Danielle Otten,Michael Taylor,D,0.897938179,R
+GA,GA-HD-25,R,Safe,Christa Olenczak,Todd Jones,R,0.8975094447,D
+CT,CT-SD-24,D,Likely,Julie Kushner,Susan Chapman,D,0.8962627576,R
+OR,OR-HD-29,D,Safe,Susan McLain,Dale Fishback,D,0.8942548224,R
+PA,PA-HD-137,R,Safe,Katelind Brennan,Joe Emrick,R,0.8913062504,R
+CT,CT-HD-146,D,Safe,FALSE,FALSE,D,0.8908969642,R
+PA,PA-SD-45,D,Likely,Jim Brewster,Nicole Ziccarelli,D,0.8907560764,R
+CT,CT-HD-100,D,Safe,FALSE,FALSE,D,0.889638464,R
+KY,KY-HD-12,R,Safe,Art McLaughlin,Jim Gooch,R,0.8893518952,D
+GA,GA-HD-24,R,Safe,Natalie Bucsko,Sheri Gilligan,R,0.8815828439,D
+CT,CT-HD-92,D,Safe,FALSE,FALSE,D,0.879066563,R
+KY,KY-HD-63,R,Safe,Ashley Williams,Kim Banta,R,0.8711625808,D
+GA,GA-HD-13,R,Safe,J. Scott Fuller,TBA,Open,0.8703317831,D
+WI,WI-HD-24,R,Lean,Emily Siegrist,Dan Knodl,R,0.8680275774,D
+CT,CT-HD-93,D,Safe,FALSE,FALSE,D,0.8638082072,R
+GA,GA-HD-47,R,Safe,Anthia Carter,Jan Jones,R,0.8625095845,D
+FL,FL-HD-96,D,Safe,FALSE,FALSE,D,0.8608043143,D
+PA,PA-HD-50,D,Likely,Pam Snyder,Larry Yost,D,0.8593425915,R
+PA,PA-HD-15,R,Safe,Robert Williams,Joshua Daniel Kail,R,0.8523799182,R
+CT,CT-HD-72,D,Safe,FALSE,FALSE,D,0.8520116207,R
+GA,GA-HD-103,R,Safe,Clifton Marshall,TBA,Open,0.8501345153,D
+CT,CT-HD-20,D,Safe,FALSE,FALSE,D,0.8473348174,R
+GA,GA-HD-114,R,Safe,FALSE,Tom Kirby,R,0.8457926064,D
+CT,CT-HD-144,D,Safe,FALSE,FALSE,D,0.8444824065,R
+CT,CT-HD-39,D,Safe,FALSE,FALSE,D,0.8382735496,R
+CT,CT-HD-97,D,Safe,FALSE,FALSE,D,0.8370234192,R
+GA,GA-HD-26,R,Safe,Jason Boskey,Lauren McDonald,Open,0.8370086303,D
+CT,CT-HD-26,D,Safe,FALSE,FALSE,D,0.8323384971,R
+CT,CT-HD-11,D,Safe,FALSE,FALSE,D,0.8259895039,R
+FL,FL-HD-107,D,Safe,FALSE,FALSE,D,0.8253583904,D
+CT,CT-HD-121,D,Safe,FALSE,FALSE,D,0.8227121819,R
+FL,FL-HD-108,D,Safe,FALSE,FALSE,D,0.8198895088,D
+FL,FL-HD-117,D,Safe,FALSE,FALSE,D,0.819168715,D
+FL,FL-HD-109,D,Safe,FALSE,FALSE,D,0.8175935712,D
+CT,CT-HD-133,D,Safe,FALSE,FALSE,D,0.8175408209,R
+GA,GA-HD-5,R,Safe,Orianna Sanders,Matt Barton,R,0.8171869122,D
+GA,GA-HD-145,R,Safe,TBA,Ricky A. Williams,R,0.8171205145,D
+CT,CT-HD-137,D,Safe,FALSE,FALSE,D,0.8164051271,R
+GA,GA-HD-20,R,Safe,Ginny LeNox,TBA,Open,0.8154654154,D
+GA,GA-HD-46,R,Safe,TBA,John Carson,R,0.8149698462,D
+NV,NV-HD-31,D,Lean,Skip Daly,TBA,D,0.8141450491,R
+WI,WI-HD-21,R,Likely,Erik Brooks,Jessie Rodriguez,R,0.8125107234,D
+CT,CT-SD-4,D,Likely,Steve Cassano,Matthew Corey,D,0.8103182499,R
+CT,CT-HD-109,D,Safe,FALSE,FALSE,D,0.8094959416,R
+NV,NV-HD-9,D,Safe,Steve Yeager,Barbara Altman,D,0.8051372286,R
+GA,GA-HD-122,R,Safe,Doris Crutchfield,Jodi Lott,R,0.8043882708,D
+NM,NM-SD-17,D,Safe,Mimi Stewart,Rodney Deskin,D,0.7992899001,R
+NM,NM-SD-11,D,Safe,Linda Lopez,Marylinda Price,D,0.7992123505,R
+GA,GA-HD-144,R,Safe,Mary Whipple-Lue,Danny Mathis,R,0.7946243289,D
+CT,CT-HD-18,D,Safe,FALSE,FALSE,D,0.7945871463,R
+GA,GA-HD-45,R,Safe,Sara Ghazal,Matt Dollar,R,0.793648032,D
+MN,MN-HD-37A,D,Safe,Erin Koegel,Ken Wendling,D,0.7891033258,R
+GA,GA-HD-71,R,Safe,Jill Prouty,TBA,Open,0.7886506662,D
+CT,CT-HD-10,D,Safe,FALSE,FALSE,D,0.7886334394,R
+GA,GA-HD-50,D,Tilt,Angelika Kausche,Jay Lin,D,0.7885529432,D
+GA,GA-HD-73,R,Safe,William Harris,Karen Mathiak,R,0.787226415,D
+FL,FL-HD-101,D,Safe,FALSE,FALSE,D,0.7827856319,D
+GA,GA-HD-170,R,Safe,Andre Oliver,Penny Houston,R,0.7812050221,D
+GA,GA-HD-33,R,Safe,Kerry Dornell Hamm,TBA,Open,0.7809118832,D
+GA,GA-HD-16,R,Safe,Lyndey Arrendale,TBA,Open,0.7806366599,D
+GA,GA-HD-72,R,Safe,Fred Rovner,Josh Bonner,R,0.7798470976,D
+GA,GA-HD-115,R,Safe,Debbie Reed,Bruce Williamson,R,0.7765807031,D
+GA,GA-HD-155,R,Safe,Lethia Jones Kittrell,Clay Pirkle,R,0.7752573935,D
+CT,CT-HD-96,D,Safe,FALSE,FALSE,D,0.7750590036,R
+KY,KY-HD-99,R,Lean,Bill Redwine,Richard White,R,0.7740895792,D
+SC,SC-SD-16,R,Safe,Ram Mammadov,TBA,Open,0.7734766126,D
+GA,GA-HD-169,R,Safe,Buckle Moore,Dominic Lariccia,R,0.7732518673,D
+GA,GA-HD-68,R,Safe,Dominique Conteh,J. Collins,R,0.7722313226,D
+MN,MN-HD-48A,D,Safe,Laurie Pryor,Eric Wessels,D,0.7712471411,R
+KY,KY-HD-84,R,Safe,Kenneth Hall,Chris Fugate,R,0.7683238634,D
+GA,GA-HD-158,R,Safe,Ann Gleason,Butch Parrish,R,0.7682198694,D
+GA,GA-HD-102,FALSE,Toss-Up,Gregg Kennard,Soo Hong,D,0.764639155,D
+GA,GA-HD-17,R,Safe,Q. Dailey,Martin Momtahan,R,0.7638326214,D
+GA,GA-HD-129,R,Safe,Sharonda Bell,Susan Holmes,R,0.7630243715,D
+GA,GA-HD-130,R,Safe,Sheila Henley,David Knight,R,0.762988886,D
+GA,GA-HD-18,R,Safe,Pat Rhudy,TBA,Open,0.7609775974,D
+FL,FL-HD-92,D,Safe,FALSE,FALSE,D,0.7605003613,D
+KS,KS-SD-1,R,Safe,Kirk Miller,Dennis Pyle,R,0.7597590041,D
+GA,GA-HD-22,R,Safe,TBA,Wes Cantrell,R,0.7594437266,D
+GA,GA-HD-12,R,Safe,Jonathon Gilreath-Harvey,Eddie Lumsden,R,0.7594266463,D
+FL,FL-HD-99,D,Safe,FALSE,FALSE,D,0.7590679797,D
+CT,CT-HD-136,D,Safe,FALSE,FALSE,D,0.755106225,R
+FL,FL-HD-46,D,Safe,FALSE,FALSE,D,0.7549918885,D
+GA,GA-HD-148,R,Safe,Regina Awung,Noel Williams,R,0.7546344272,D
+GA,GA-HD-112,R,Safe,Malcolm Adams,Dave Belton,R,0.7481080055,D
+CT,CT-HD-5,D,Safe,FALSE,FALSE,D,0.7480468585,R
+FL,FL-HD-62,D,Safe,FALSE,FALSE,D,0.7475369256,D
+GA,GA-HD-131,R,Safe,Chris Benton,TBA,Open,0.7442193728,D
+GA,GA-HD-32,R,Safe,Alisha Isom,Alan Powell,R,0.7438957643,D
+NV,NV-HD-29,D,Lean,Lesley Cohen,TBA,D,0.7421864042,R
+GA,GA-HD-180,R,Safe,FALSE,Steven Sainz,R,0.7413108669,D
+GA,GA-HD-11,R,Safe,Kayla Hollifield,TBA,Open,0.7412408601,D
+GA,GA-HD-10,R,Safe,Nick Mitchell,TBA,Open,0.740278457,D
+GA,GA-HD-54,D,Tilt,Betsy Holland,TBA,D,0.738028765,D
+CT,CT-HD-12,D,Safe,FALSE,FALSE,D,0.7352584927,R
+GA,GA-HD-176,R,Safe,Evans Primus,James Burchett,R,0.7342720767,D
+GA,GA-HD-69,R,Safe,Herbert Giles,Randy Nix,R,0.7330726973,D
+GA,GA-HD-31,R,Safe,Pete Fuller,Tommy Benton,R,0.7304159923,D
+FL,FL-HD-102,D,Safe,FALSE,FALSE,D,0.7288169884,D
+GA,GA-HD-134,R,Safe,TBA,Richard Smith,R,0.7238624781,D
+CT,CT-HD-9,D,Safe,FALSE,FALSE,D,0.7232190985,R
+PA,PA-HD-88,R,Safe,Tara Shakespeare,Sheryl Delozier,R,0.7170726646,R
+FL,FL-HD-94,D,Safe,FALSE,FALSE,D,0.7155399138,D
+NM,NM-SD-31,D,Safe,Joseph Cervantes,John Roberts,D,0.7149005167,R
+NM,NM-SD-3,D,Safe,Shannon Pinto,Arthur Allison,D,0.7126053679,R
+KY,KY-HD-45,FALSE,Toss-Up,TBA,Killian Timoney,Open,0.7099756182,D
+NV,NV-HD-34,D,Safe,Shannon Bilbray-Axelrod,Jay Thomas Carlson,D,0.7098967742,R
+FL,FL-HD-97,D,Safe,FALSE,FALSE,D,0.7098002434,D
+CT,CT-HD-41,D,Safe,FALSE,FALSE,D,0.7087583139,R
+FL,FL-HD-88,D,Safe,FALSE,FALSE,D,0.7057482025,D
+GA,GA-HD-7,R,Safe,Rick Day,David Ralston,R,0.7038083532,D
+GA,GA-HD-108,D,Tilt,Jasmine Clark,Johnny Crist,D,0.7023839327,D
+CT,CT-HD-46,D,Safe,FALSE,FALSE,D,0.6992478629,R
+CT,CT-HD-49,D,Safe,FALSE,FALSE,D,0.6940762519,R
+GA,GA-HD-179,R,Safe,Julie Jordan,Don Hogan,R,0.6930833279,D
+FL,FL-HD-98,D,Safe,FALSE,FALSE,D,0.6885991921,D
+MN,MN-HD-57A,D,Safe,Robert Bierman,Megan Olson,D,0.6864947839,R
+GA,GA-HD-37,D,Tilt,Mary Williams,Rose Wing,D,0.6827563635,D
+NM,NM-SD-22,D,Safe,Benny Shendo,Susan Aguayo,D,0.6820884523,R
+GA,GA-HD-9,R,Safe,Sharon Ravert,TBA,Open,0.6816887715,D
+CT,CT-HD-19,D,Safe,FALSE,FALSE,D,0.6762853544,R
+GA,GA-HD-8,R,Safe,Dave Cooper,TBA,Open,0.675764099,D
+NM,NM-SD-14,D,Safe,Michael Padilla,Mary Ingham,D,0.6711272858,R
+FL,FL-HD-61,D,Safe,FALSE,FALSE,D,0.6698801515,D
+NM,NM-SD-26,D,Safe,Jacob Candelaria,Manuel Lardizabal,D,0.6692773478,R
+CT,CT-HD-98,D,Safe,FALSE,FALSE,D,0.6682381854,R
+KY,KY-HD-96,R,Lean,Kathy Hinkle,TBA,D,0.6656268184,D
+CT,CT-HD-33,D,Safe,FALSE,FALSE,D,0.6654074422,R
+FL,FL-HD-48,D,Safe,FALSE,FALSE,D,0.6650122562,D
+MN,MN-HD-20B,D,Safe,Todd Lippert,Joe Moravchik,D,0.6641657855,R
+FL,FL-HD-70,D,Safe,FALSE,FALSE,D,0.6640267833,D
+FL,FL-HD-20,D,Safe,FALSE,FALSE,D,0.6586180087,D
+FL,FL-HD-13,D,Safe,FALSE,FALSE,D,0.6558566594,D
+MN,MN-HD-19B,D,Safe,Luke Frederick,Jeremy Loger,Open,0.6549507098,R
+FL,FL-HD-90,D,Safe,FALSE,FALSE,D,0.6538348246,D
+NM,NM-SD-12,D,Safe,Jerry Ortiz Y Pino,Lisa Meyer-Hagen,D,0.6530450924,R
+CT,CT-HD-91,D,Safe,FALSE,FALSE,D,0.652995057,R
+NM,NM-SD-24,D,Safe,Nancy Rodriguez,Leighton Cornish,D,0.652072969,R
+NM,NM-SD-38,D,Safe,Carrie Hamblen,Charles Wendler,Open,0.6485885743,R
+GA,GA-HD-166,R,Safe,Michael Mack,Jesse Petrea,R,0.6476589192,D
+FL,FL-HD-8,D,Safe,FALSE,FALSE,D,0.6458522007,D
+GA,GA-HD-51,D,Tilt,Josh McLaurin,Alex Kaufman,D,0.6449531734,D
+FL,FL-HD-45,D,Safe,FALSE,FALSE,D,0.6386962397,D
+MN,MN-HD-38A,R,Likely,Kris Fredrick,TBA,Open,0.6364510262,R
+PA,PA-HD-58,R,Safe,Robert Prah,Eric Davanzo,Open,0.6334502379,R
+CT,CT-HD-88,D,Safe,FALSE,FALSE,D,0.6312991005,R
+NM,NM-SD-4,D,Safe,George Munoz,Angela Olive,D,0.6301661229,R
+KS,KS-SD-17,R,Safe,Stephen Vecchione,Jeff Longbine,R,0.6296466117,D
+MN,MN-HD-21A,R,Likely,Matt Bruns,Barb Haley,R,0.6290786659,R
+KS,KS-SD-13,R,Safe,Nancy Ingle,Richard Hilderbrand,R,0.6281938115,D
+FL,FL-HD-14,D,Safe,FALSE,FALSE,D,0.6278853964,D
+PA,PA-SD-19,D,Safe,Carolyn Comitta,Kevin Runey,Open,0.6252303664,R
+NM,NM-SD-29,R,Lean,Paul Baca,Gregory Baca,R,0.6248106732,R
+NM,NM-SD-16,D,Safe,Antoinette Sedillo-Lopez,Chelsea Flanders,Open,0.6094996248,R
+NM,NM-SD-6,D,Safe,Bobby Gonzales,FALSE,D,0.6056666406,R
+FL,FL-HD-43,D,Safe,FALSE,FALSE,D,0.601977576,D
+NM,NM-SD-8,D,Safe,Pete Campos,Melissa Fryzel,D,0.6002465229,R
+CT,CT-HD-15,D,Safe,FALSE,FALSE,D,0.5987515542,R
+KY,KY-HD-39,FALSE,Toss-Up,Carolyn Dupont,TBA,Open,0.5978779826,D
+MN,MN-HD-35A,R,Likely,Mike Erickson,John Heinrich,R,0.5977426428,R
+MN,MN-HD-04B,D,Safe,Paul Marquart,Brian Anderson,D,0.5967526484,R
+KY,KY-HD-6,R,Safe,TBA,Chris Freeland,R,0.5964195922,D
+NM,NM-SD-13,D,Safe,Bill Oneill,Michaela Chavez,D,0.5909451785,R
+NM,NM-SD-5,D,Safe,Leo Jaramillo,Diamantina Storment,Open,0.5891803044,R
+PA,PA-HD-52,R,Safe,Harry Cochran,Ryan Warner,R,0.585458747,R
+PA,PA-HD-33,D,Likely,Frank Dermody,Carrie Delrosso,D,0.5844919625,R
+KY,KY-HD-72,R,Lean,Todd Neace,Matt Koch,R,0.5837662943,D
+CT,CT-HD-54,D,Safe,FALSE,FALSE,D,0.5804771931,R
+KY,KY-HD-47,R,Lean,Jack Couch,TBA,Open,0.5729563937,D
+FL,FL-HD-49,D,Safe,FALSE,FALSE,D,0.5675955096,D
+MN,MN-HD-26B,R,Likely,Randy Brock,Nels T. Pierson,R,0.5606397482,R
+KY,KY-HD-13,R,Tilt,Jim Glenn,D.J. Johnson,D,0.5586227483,D
+KS,KS-SD-11,R,Safe,Joy Koesten,TBA,Open,0.5570105172,D
+KS,KS-SD-25,D,Safe,Mary Ware,Vail Fruechting,D,0.5475109377,D
+CT,CT-SD-29,D,Likely,Mae Flexer,Jessica Alba,D,0.54560439,R
+OR,OR-HD-9,FALSE,Toss-Up,Cal Mukumoto,Boomer Wright,Open,0.5425275136,R
+OR,OR-HD-21,D,Safe,Brian Clem,Jack Esp,D,0.5409046311,R
+MN,MN-HD-50B,D,Safe,Andrew Carlson,Gary Heyer,D,0.5407072099,R
+CT,CT-SD-16,R,Safe,FALSE,FALSE,R,0.5331633691,R
+CT,CT-SD-34,R,Safe,FALSE,FALSE,R,0.5319136105,R
+NV,NV-HD-11,D,Safe,Beatrice Duran,Eric Krattiger,FALSE,0.5308485602,R
+KY,KY-HD-58,R,Safe,Will Barnett,TBA,Open,0.5303974694,D
+KY,KY-HD-73,R,Safe,TBA,TBA,Open,0.5285611398,D
+MN,MN-HD-25A,R,Likely,Kim Hicks,Duane Quam,R,0.5283195904,R
+CT,CT-SD-21,R,Safe,FALSE,FALSE,R,0.5277872381,R
+PA,PA-HD-12,R,Safe,Daniel Smith,Daryl Metcalfe,R,0.5239863516,R
+GA,GA-HD-80,D,Lean,Matthew Wilson,Alan Cole,D,0.5141004106,D
+FL,FL-SD-3,D,Safe,FALSE,FALSE,D,0.5036063962,D
+PA,PA-HD-163,D,Safe,Michael Zabel,Michael McCollum,D,0.5002410471,R
+OR,OR-HD-47,D,Safe,Diego Hernandez,Ryan Gardner,D,0.4965907472,R
+KY,KY-HD-33,FALSE,Toss-Up,Margaret Plattner,Jason Nemes,R,0.4959859544,D
+CT,CT-SD-31,R,Safe,FALSE,FALSE,R,0.4951743548,R
+GA,GA-HD-132,D,Tilt,TBA,TBA,Open,0.4934821927,D
+SC,SC-SD-23,R,Safe,Bill Brown,Katrina Shealy,R,0.4821075433,D
+NV,NV-HD-28,D,Safe,Edgar Flores,FALSE,D,0.481722655,R
+MN,MN-HD-42A,D,Safe,Kelly Moller,Candy Sina,D,0.4756827354,R
+NM,NM-SD-25,D,Safe,Peter Wirth,Ricardo Vargas,D,0.4746390446,R
+NV,NV-HD-8,D,Safe,Jason Frierson,Eddie Facey,D,0.4723316106,R
+SC,SC-SD-12,R,Safe,Dawn Bingham,TBA,Open,0.4683694289,D
+SC,SC-SD-6,R,Safe,Hao Wu,Dwight Loftis,R,0.4676166071,D
+FL,FL-SD-19,D,Safe,FALSE,FALSE,D,0.4661076973,D
+SC,SC-SD-4,R,Safe,Jose Villa,Mike Gambrell,R,0.4646286432,D
+FL,FL-SD-13,D,Safe,FALSE,FALSE,D,0.460787207,D
+NV,NV-HD-6,D,Safe,Shondra Summers-Armstrong,TBA,Open,0.4527695437,R
+FL,FL-SD-15,D,Safe,FALSE,FALSE,D,0.4504233512,D
+SC,SC-SD-25,R,Safe,Shirley Green Frayson,TBA,Open,0.4491403958,D
+OR,OR-HD-28,D,Safe,Wlnsvey Campos,Daniel Martin,Open,0.4465298854,R
+OR,OR-HD-30,D,Safe,Janeen Sollman,Darrell Gulstrom,D,0.4465289041,R
+SC,SC-SD-5,R,Safe,Michael McCord,TBA,Open,0.444021919,D
+SC,SC-SD-18,R,Safe,Christopher Thibault,TBA,Open,0.4399476955,D
+KY,KY-HD-19,R,Safe,Daniel Wayne Johnson,Michael Lee Meredith,R,0.4388224579,D
+PA,PA-HD-81,R,Safe,Ian Kidd,Rich Irvin,R,0.4377053129,R
+WI,WI-SD-18,R,Likely,Aaron Wojciechowski,Dan Feyen,R,0.4376492555,D
+KY,KY-HD-21,R,Safe,John Pennington,Bart Rowland,R,0.4340046393,D
+GA,GA-HD-95,D,Lean,Beth Moore,Erica McCurdy,D,0.4339090477,D
+GA,GA-HD-79,D,Lean,Michael Wilensky,Andrea Johnson,D,0.4303711876,D
+MN,MN-HD-43A,D,Safe,Peter M. Fischer,Paul Babin,D,0.4300223585,R
+NC,NC-SD-40,D,Safe,Joyce Waddell,Bobbie Shields,D,0.4286318665,D
+OR,OR-HD-35,D,Safe,Dacia Grayber,Bob Niemeyer,Open,0.4286133361,R
+WI,WI-HD-97,R,Likely,Aaron D. Perry,Scott Allen,R,0.4254563233,D
+PA,PA-HD-171,R,Safe,Peter Buckland,Kerry Benninghoff,R,0.425272325,R
+SC,SC-SD-15,R,Safe,Vickie Holt,Wes Climer,R,0.4212093722,D
+SC,SC-SD-14,R,Safe,FALSE,Harvey Peeler,R,0.4208946226,D
+NV,NV-HD-4,D,Tilt,Connie Munk,TBA,D,0.4190938777,R
+NC,NC-SD-38,D,Safe,Mujtaba Mohammed,Jack W. Brosch,D,0.4171013487,D
+OR,OR-HD-12,D,Safe,John Lively,Ruth Linoz,D,0.4169850369,R
+OR,OR-HD-27,D,Safe,Sheri Schouten,Sandra Nelson,D,0.4143699568,R
+PA,PA-HD-115,D,Safe,Maureen Madden,Dulce Ridder,D,0.4137307126,R
+NC,NC-SD-22,D,Safe,Mike Woodard,Rick Padgett,D,0.4134661722,D
+CT,CT-SD-32,R,Safe,FALSE,FALSE,R,0.412275228,R
+NC,NC-SD-4,D,Safe,Milton F. Fitch,Sammy Davis Webb,D,0.4118111679,D
+PA,PA-HD-161,D,Safe,Leanne Krueger,Ralph Shicatano,D,0.4104896145,R
+SC,SC-SD-38,R,Safe,John Lowe,Sean Bennett,R,0.4094977712,D
+NC,NC-SD-32,D,Safe,Paul Lowe,Ven Challa,D,0.4091386744,D
+PA,PA-HD-31,D,Safe,Perry Warren,Charles Adcock,Open,0.4085627468,R
+NC,NC-SD-21,D,Safe,Ben Clark,Sev Palacios,D,0.4062444104,D
+NV,NV-HD-37,D,Tilt,Shea Backus,TBA,D,0.400751651,R
+OR,OR-HD-13,D,Safe,Nancy Nathanson,David Smith,D,0.3997338393,R
+SC,SC-SD-46,R,Safe,Nathan Campbell,Tom Davis,R,0.3989416256,D
+OR,OR-HD-33,D,Safe,Maxine Dexter,Dick Courter,Open,0.3987908311,R
+NC,NC-SD-39,D,Safe,DeAndrea Salvador,Joshua Niday,Open,0.3965619767,D
+NC,NC-SD-41,D,Safe,Natasha Marcus,FALSE,D,0.3964844274,D
+SC,SC-SD-37,R,Safe,Kathryn Whitaker,Larry Grooms,R,0.3916023771,D
+KY,KY-HD-90,R,Safe,Ralph Hoskins,Derek Lewis,R,0.3889623249,D
+KY,KY-HD-4,R,Safe,Alzono Pennington,Lynn Belcher,R,0.3887674046,D
+NC,NC-SD-28,D,Safe,Gladys A. Robinson,D.R. King,D,0.3873651543,D
+NC,NC-SD-14,D,Safe,Dan Blue,Alan David Michael,D,0.3857023653,D
+OR,OR-HD-38,D,Safe,Andrea Salinas,Patrick Castles,D,0.3855830902,R
+KY,KY-HD-81,R,Tilt,TBA,Deanna Frazier,R,0.3854485611,D
+OR,OR-HD-41,D,Safe,Karin Power,Michael Newgard,D,0.3845531901,R
+OR,OR-HD-44,D,Safe,Tina Kotek,Margo Logan,D,0.3828957269,R
+PA,PA-HD-150,D,Safe,Joseph Webster,Beth Ann Mazza,D,0.3820854384,R
+NC,NC-SD-20,D,Safe,Natalie Murdock,John Tarantino,Open,0.3786781336,D
+NC,NC-SD-5,D,Safe,Don Davis,Karen Kozel,D,0.3784054227,D
+OR,OR-HD-31,D,Safe,Brad Witt,Brian Stout,D,0.3779061937,R
+WI,WI-SD-6,D,Safe,TBA,Alciro Deacon,Open,0.3766288809,D
+NV,NV-HD-14,D,Safe,TBA,FALSE,Open,0.3755180368,R
+OR,OR-HD-16,D,Safe,Dan Rayfield,Jason Hughes,D,0.3746710916,R
+NC,NC-SD-37,D,Safe,Jeff Jackson,Sonja P. Nichols,D,0.3719239419,D
+NV,NV-HD-16,D,Safe,TBA,Reyna Sajdak,Open,0.3684664918,R
+NC,NC-SD-49,D,Safe,Julie Mayfield,Bob Penland,Open,0.3682023936,D
+NC,NC-SD-16,D,Safe,Wiley Nickel,Will Marsh,D,0.3656890776,D
+NC,NC-SD-23,D,Safe,Valerie P. Foushee,Tom Glendinning,D,0.3649029676,D
+MN,MN-HD-42B,D,Safe,Jamie Becker-Finn,Sue Finney,D,0.3627625281,R
+KS,KS-SD-19,D,Safe,Anthony Hensley,Rick Kloos,D,0.3620366036,D
+MN,MN-HD-58A,R,Likely,Erin Preese,Jon Koznick,R,0.359646855,R
+OR,OR-HD-5,D,Safe,Pam Marsh,Sandra Abercrombie,D,0.3594372136,R
+KY,KY-HD-27,R,Tilt,TBA,Nancy Tate,R,0.3582117397,D
+KY,KY-HD-95,FALSE,Toss-Up,Ashley Tackett Laferty,TBA,D,0.3574684188,D
+NV,NV-HD-15,D,Safe,TBA,Stan Vaughan,Open,0.3574662186,R
+NV,NV-SD-15,R,Lean,Wendy Jauregui-Jackins,Heidi S. Gansert,R,0.3574045472,R
+NC,NC-SD-31,R,Lean,Terri Elizabeth LeGrand,Joyce Krawiec,R,0.3533246034,D
+OR,OR-HD-36,D,Safe,Lisa Reynolds,James Ball,Open,0.347791614,R
+KY,KY-HD-23,R,Safe,Steve Jones,Steve Riley,R,0.345236433,D
+KY,KY-HD-70,R,Tilt,Craig Miller,TBA,Open,0.3412164164,D
+NC,NC-SD-15,D,Safe,Jay J. Chaudhuri,Mario J. Lomuscio,D,0.3403450992,D
+FL,FL-SD-37,D,Safe,FALSE,FALSE,D,0.3395151568,D
+KY,KY-HD-89,R,Safe,Mike VanWinkle,Robert Goforth,R,0.3383034701,D
+WI,WI-SD-4,D,Safe,TBA,FALSE,Open,0.3374648518,D
+OR,OR-HD-8,D,Safe,Paul Holvey,Timothy Aldal,D,0.3363794588,R
+NV,NV-HD-10,D,Safe,TBA,Chris Hisgen,Open,0.3361097685,R
+KY,KY-HD-53,R,Safe,Dustin Burley,James Allen Tipton,R,0.3360844951,D
+SC,SC-SD-34,R,Safe,Emily Cegledy,Stephen Goldfinch,R,0.3337414403,D
+KY,KY-HD-51,R,Safe,Richard Steele,John Carney,R,0.3334396917,D
+NV,NV-HD-42,D,Safe,Alexander Assefa,FALSE,Open,0.3284629585,R
+NC,NC-SD-11,R,Lean,Allen Wellons,Lisa Barnes,Open,0.32679814,D
+MN,MN-HD-11A,D,Safe,Mike Sundin,Jeff Dotseth,D,0.3180605667,R
+NM,NM-SD-21,R,Likely,Athena Christodoulou,Mark Moores,R,0.3171222497,R
+NV,NV-HD-7,D,Safe,TBA,Tony Palmer,Open,0.3145409992,R
+PA,PA-HD-116,R,Safe,Todd Eachus,Tarah Toohil,R,0.3116367091,R
+PA,PA-HD-8,R,Safe,Phillip Heasley,Tim Bonner,R,0.3101545131,R
+OR,OR-HD-54,FALSE,Toss-Up,Jason Kropf,Cheri Helt,R,0.3058517194,R
+KY,KY-HD-54,R,Safe,Lydia Coffey,Daniel Elliott,R,0.3055469618,D
+PA,PA-HD-17,R,Safe,Jeffrey Omelian,Parke Wentling,R,0.3030252948,R
+WI,WI-SD-10,R,Likely,Patty Schachtner,TBA,D,0.3015736227,D
+PA,PA-HD-139,R,Safe,Marian Keegan,Michael Peifer,R,0.3006605878,R
+PA,PA-HD-124,R,Safe,Taylor Picone,Jerry Knowles,R,0.297922554,R
+KY,KY-HD-5,R,Safe,Shannon Davis-Roberts,Mary Beth Imes,Open,0.2967389915,D
+WI,WI-SD-8,R,Likely,TBA,TBA,Open,0.2961041102,D
+WI,WI-HD-28,R,Safe,Kim Ann Butler,Gae Magnafici,R,0.2952052054,D
+WI,WI-HD-26,R,Safe,TBA,Terry Katsma,R,0.2934855353,D
+PA,PA-HD-84,R,Safe,Amanda Waldman,Joe Hamm,Open,0.2930937854,R
+WI,WI-HD-42,R,Safe,Melisa Arndt,Jon Plumer,R,0.291192445,D
+PA,PA-HD-106,R,Safe,Lindsay Drew,Thomas Mehaffie,R,0.2863400461,R
+PA,PA-HD-109,R,Safe,William Monahan,David Millard,R,0.2859920231,R
+PA,PA-HD-6,R,Safe,Matthew Ferrence,Brad Roae,R,0.2858263513,R
+NV,NV-HD-30,D,Safe,TBA,Randy Moff,Open,0.2855103102,R
+GA,GA-SD-45,R,Safe,TBA,TBA,Open,0.2850856227,D
+WI,WI-HD-3,R,Safe,Emily Voight,TBA,Open,0.283883486,D
+PA,PA-HD-11,R,Safe,Samuel Joseph Doctor,Marci Mustello,R,0.2837807844,R
+PA,PA-HD-25,D,Safe,Brandon Markosek,John Ritter,D,0.2834258946,R
+PA,PA-HD-14,R,Safe,Zachary James Wilson,James Marshall,R,0.283297891,R
+PA,PA-HD-5,R,Safe,Graham Gonzales,Barry Jozwiak,R,0.2832767845,R
+WI,WI-HD-68,R,Safe,Emily Berge,Jesse James,R,0.2827938808,D
+WI,WI-HD-75,R,Safe,John Conrad Ellenson,David Armstrong,Open,0.2823809841,D
+WI,WI-HD-50,R,Safe,Mark Waldon,Tony Kurtz,R,0.2823616006,D
+PA,PA-HD-79,R,Safe,Jason Runk,Louis Schmitt,R,0.2820140822,R
+PA,PA-HD-99,R,Safe,Richard Hodge,David Zimmerman,R,0.2810050289,R
+WI,WI-SD-16,D,Safe,TBA,Scott Barker,Open,0.2802268876,D
+PA,PA-HD-75,R,Safe,Ryan Grimm,Lisa Becker,Open,0.2801214213,R
+WI,WI-HD-72,R,Safe,TBA,Scott S. Krug,R,0.2795726617,D
+WI,WI-HD-38,R,Safe,Melissa Winker,Barbara Dittrich,R,0.2779321244,D
+KY,KY-HD-64,R,Safe,Larry Varney,Kimberly Poore Moser,R,0.2771402614,D
+PA,PA-HD-10,R,Safe,Kolbe Cole,Aaron Bernstine,R,0.2752652526,R
+WI,WI-HD-49,R,Safe,TBA,Travis Tranel,R,0.2742723866,D
+PA,PA-HD-101,R,Safe,Calvin Clements,Frank Ryan,R,0.2742466159,R
+PA,PA-HD-83,R,Safe,Airneezer Page,Jeff Wheeland,R,0.2736789447,R
+WI,WI-HD-29,R,Safe,TBA,TBA,Open,0.2724826967,D
+WI,WI-HD-2,R,Safe,Mark Kiley,Shae Sortwell,R,0.2711218558,D
+PA,PA-HD-37,R,Safe,John Padora,Mindy Fee,R,0.2704510435,R
+KY,KY-HD-66,R,Safe,Roberto Henriquez,Ed Massey,R,0.2664749894,D
+PA,PA-HD-92,R,Safe,Douglas Ross,Dawn Keefer,R,0.2656856137,R
+PA,PA-HD-128,R,Safe,FALSE,Mark Gillen,R,0.2639312694,R
+PA,PA-HD-98,R,Safe,William Troutman,David Hickernell,R,0.2632424269,R
+PA,PA-HD-130,R,Safe,Francis Foley,David Maloney,R,0.2616430917,R
+PA,PA-HD-102,R,Safe,Matthew Duvall,Russ Diamond,R,0.2615451362,R
+KY,KY-HD-48,FALSE,Toss-Up,Maria Sorolis,Ken Fleming,D,0.2614723053,D
+PA,PA-HD-129,R,Safe,Kelly McDonough,Jim Cox,R,0.260697817,R
+KY,KY-HD-68,R,Safe,Nancy Bardgett,Joseph Fischer,R,0.25976941,D
+GA,GA-SD-32,R,Safe,Christine Triebsch,Kay Kirkpatrick,R,0.2583073156,D
+GA,GA-SD-56,R,Lean,Sarah Beeson,John Albers,R,0.258138602,D
+FL,FL-SD-31,D,Safe,FALSE,FALSE,D,0.2569282503,D
+KY,KY-HD-36,R,Safe,Jeff Grammer,Jerry Miller,R,0.2546967441,D
+MN,MN-HD-03B,D,Safe,Mary Murphy,Andrew J. Hjelle,D,0.2542959957,R
+GA,GA-SD-9,R,Lean,TBA,P. K. Martin,R,0.2536976555,D
+PA,PA-HD-187,R,Safe,Michael Blichar,Gary Day,R,0.2521927333,R
+KS,KS-SD-38,R,Safe,Edgar Pando,Bud Estes,R,0.2468984877,D
+WI,WI-HD-32,R,Safe,Katherine Gaulke,Tyler August,R,0.2422744342,D
+PA,PA-HD-36,D,Safe,Jessica Benham,Adrian Doyle,Open,0.2422026232,R
+MN,MN-HD-62A,D,Safe,Hodan Hassan,Arjun Kataria,D,0.2413216092,R
+WI,WI-HD-31,R,Safe,Elizabeth Lochner-Abel,Amy Loudenbeck,R,0.2339358033,D
+GA,GA-HD-40,D,Lean,Erick Allen,Taryn Bowman,D,0.2339107669,D
+GA,GA-SD-17,R,Likely,Kelly Rose,Brian Strickland,R,0.2330869641,D
+NV,NV-HD-17,D,Safe,Claire Thomas,TBA,Open,0.2316413287,R
+MN,MN-HD-43B,D,Safe,Leon M. Lillie,Jordan Herzog,D,0.23109035,R
+CT,CT-SD-9,D,Safe,FALSE,FALSE,D,0.2298052278,R
+PA,PA-HD-177,D,Safe,Joe Hohenstein,John Nungesser,D,0.2296936876,R
+NV,NV-HD-27,D,Safe,Teresa Benitez-Thompson,Barb Hawn,D,0.2284994243,R
+CT,CT-SD-19,D,Safe,FALSE,FALSE,D,0.2283599381,R
+MN,MN-HD-40B,D,Safe,Samantha Vang,Charlotte Smith,D,0.2267708137,R
+MN,MN-HD-11B,R,Safe,Jake Frechette,Nathan Nelson,R,0.2266260552,R
+MN,MN-HD-28B,R,Safe,Jordan Fontenello,Gregory M. Davids,R,0.2263708027,R
+IN,IN-HD-59,R,Safe,Dale Nowlin,Ryan Lauer,R,0.2248963887,D
+MN,MN-HD-53A,D,Safe,Tou Xiong,William A. Johnston,D,0.2227190995,R
+MN,MN-HD-67A,D,Safe,TBA,John Stromenger,Open,0.2221858777,R
+MN,MN-HD-06A,D,Safe,Julie Sandstede,Robert Farnsworth,D,0.2200376472,R
+MN,MN-HD-17A,R,Safe,TBA,Tim Miller,R,0.2193270782,R
+MN,MN-HD-40A,D,Safe,Michael V. Nelson,David True,D,0.2186163861,R
+MN,MN-HD-62B,D,Safe,Aisha Gomez,Ross Tenneson,D,0.2185804478,R
+MN,MN-HD-65A,D,Safe,Rena Moran,Amy Anderson,D,0.2178344061,R
+KS,KS-SD-16,R,Safe,Timothy Don Fry II,Ty Masterson,R,0.2173428314,D
+CT,CT-SD-22,D,Safe,FALSE,FALSE,D,0.2144276797,R
+IN,IN-HD-90,R,Safe,Jordan Nienaber,Mike Speedy,R,0.2136549657,D
+IN,IN-HD-20,R,Safe,Tim Gust,Jim Pressel,R,0.213253311,D
+IN,IN-HD-42,R,Safe,Amy Burke Adams,Alan Morrison,R,0.210222906,D
+PA,PA-SD-11,D,Safe,Judith Schwank,Annette Baker,D,0.2099982568,R
+KY,KY-HD-100,FALSE,Toss-Up,Terri Branham Clark,Scott Sharp,D,0.2090547027,D
+MN,MN-HD-66B,D,Safe,TBA,Mikki Murray,Open,0.2085152344,R
+IN,IN-HD-60,R,Safe,Tiffany Grant,Peggy Mayfield,R,0.2055474127,D
+IN,IN-HD-75,R,Safe,John Hurley,TBA,Open,0.2051616335,D
+PA,PA-SD-17,D,Safe,Amanda Cappelletti,Ellen Fisher,Open,0.2030114965,R
+IN,IN-HD-62,R,Safe,Alyssa Bailey,Jeff Ellington,R,0.2011075902,D
+MN,MN-HD-67B,D,Safe,Jay Xiong,Fred Turk,D,0.2007409142,R
+MN,MN-HD-23B,R,Safe,Leroy McClelland,TBA,Open,0.2000320901,R
+MN,MN-HD-51B,D,Safe,TBA,Fern A. Smith,Open,0.1980763761,R
+MN,MN-HD-51A,D,Safe,TBA,Patrick J. Zurick,Open,0.1969053148,R
+MN,MN-HD-50A,D,Safe,Michael Howard,Tim Johnson,D,0.1956304183,R
+MN,MN-HD-41A,D,Safe,Connie Bernardy,Susan A. Erickson,D,0.1953078563,R
+MN,MN-HD-59A,D,Safe,Fue Lee,FALSE,D,0.1944498637,R
+MN,MN-HD-02B,R,Safe,David Suby,Steve Green,R,0.1937776655,R
+IL,IL-HD-60,D,Safe,Rita Mayfield[I],Mark Lund,D,0.1933444586,R
+KY,KY-HD-11,FALSE,Toss-Up,Robert Weiderstein,Jonathan Dixon,D,0.1928435011,D
+IN,IN-HD-39,R,Safe,Ashley Klein,Jerry Torr,R,0.1920301155,D
+KS,KS-SD-12,R,Safe,Mike Bruner,Caryn Tyson,R,0.1913969927,D
+MN,MN-HD-32B,R,Safe,Katie Malchow,TBA,Open,0.1870576674,R
+IL,IL-HD-83,D,Safe,Barbara Hernandez,Donald Walter,D,0.1865990342,R
+IL,IL-HD-77,D,Safe,Kathleen Willis,Anthony Airdo,D,0.1865087085,R
+IN,IN-HD-37,R,Safe,Aimee Rivera Cole,Todd Huston,R,0.1864762831,D
+MN,MN-HD-63A,D,Safe,TBA,Penny Arcos,Open,0.1862291646,R
+IN,IN-HD-11,R,Safe,Keegan Damron,Michael Aylesworth,R,0.1859324632,D
+MN,MN-HD-64B,D,Safe,Dave Pinto,Georgia Dietz,D,0.1835395178,R
+MN,MN-HD-27A,R,Safe,TBA,Peggy Bennett,R,0.183473163,R
+MN,MN-HD-45A,D,Safe,TBA,Jesse Pfliger,Open,0.182926064,R
+MN,MN-HD-41B,D,Safe,Sandra Feist,Ronald Ray Vogel,Open,0.1825774622,R
+IN,IN-HD-88,R,Likely,Pam Dechert,Chris Jeter,Open,0.1809885811,D
+MN,MN-HD-24B,R,Safe,Ashley Martinez-Perez,Brian Daniels,R,0.1802221576,R
+MN,MN-HD-61B,D,Safe,Jamie Long,Lisa Pohlman,D,0.1784053226,R
+MN,MN-HD-65B,D,Safe,Carlos Mariani,Margaret Mary Stokely,D,0.1781834599,R
+MN,MN-HD-52A,D,Safe,Rick Hansen,Mariah de la Paz,D,0.1767834273,R
+KY,KY-HD-88,D,Tilt,Cherlynn Stevenson,TBA,D,0.1766875686,D
+MN,MN-HD-63B,D,Safe,TBA,Frank Pafko,Open,0.1765626433,R
+MN,MN-HD-02A,R,Safe,Jeremiah Liend,Matthew J. Grossell,R,0.1756146457,R
+MN,MN-HD-64A,D,Safe,Kaohly Her,Sherry Schack,D,0.1752524745,R
+MN,MN-HD-60A,D,Safe,Sydney Jordan,John Holmberg,D,0.175145466,R
+CT,CT-SD-23,D,Safe,FALSE,FALSE,D,0.1751314138,R
+KS,KS-SD-40,R,Safe,Larry Dreiling,Rick Billinger,R,0.1750557,D
+MN,MN-HD-03A,D,Safe,Rob Ecklund,Thomas Manninen,D,0.1748171497,R
+MN,MN-HD-46B,D,Safe,Cheryl Youakim,Melissa Moore,D,0.1741897928,R
+WI,WI-HD-70,R,Safe,John Iver Baldus,Nancy Lynn VanderMeer,R,0.1740096124,D
+MN,MN-HD-44B,D,Safe,Patty Acomb,Gary Porter,D,0.1734162754,R
+MN,MN-HD-45B,D,Safe,Mike Freiberg,Ken Fitzgerald,D,0.1725130954,R
+IN,IN-HD-58,R,Safe,Cindy Reinert,Bruce Armstrong,R,0.1719992978,D
+MN,MN-HD-49B,D,Safe,Steve Elkins,Joe Thalman,D,0.1713891567,R
+PA,PA-HD-127,D,Safe,Manuel Guzman,Vincent Gagliardo Jr.,Open,0.1713512142,R
+MN,MN-HD-13A,R,Safe,Katy Westlund,Lisa Demuth,R,0.1709362261,R
+KS,KS-SD-34,R,Safe,Shanna Henry,TBA,Open,0.1706103247,D
+FL,FL-SD-33,D,Safe,FALSE,FALSE,D,0.1698076679,D
+SC,SC-SD-10,D,Lean,Floyd Nicholson,TBA,D,0.16901983,D
+MN,MN-HD-07B,D,Safe,Liz Olson,Art Johnston,D,0.1689837195,R
+WI,WI-HD-56,R,Safe,TBA,Dave Murphy,R,0.1677883068,D
+MN,MN-HD-04A,D,Safe,TBA,Edwin Hahn,Open,0.1672879943,R
+MN,MN-HD-66A,D,Safe,Alice Hausman,Brett Rose,D,0.1668724279,R
+GA,GA-SD-8,R,Safe,Treva Gear,Russ Goodman,Open,0.1667746265,D
+MN,MN-HD-59B,D,Safe,TBA,Alan Shilepsky,Open,0.166657663,R
+IN,IN-HD-21,R,Safe,Ryan Liedtky,Timothy Wesco,R,0.1635739123,D
+MN,MN-HD-12A,R,Safe,Murray Smart,Jeffery W. Backer,R,0.1633525744,R
+MN,MN-HD-14B,D,Safe,Dan Wolgamott,Paul Brandmire,D,0.1626705348,R
+NV,NV-SD-18,R,Likely,TBA,Scott Hammond,R,0.1615342529,R
+KY,KY-HD-10,FALSE,Toss-Up,Dean Schamore,Josh Calloway,D,0.1614524649,D
+MN,MN-HD-39A,R,Safe,TBA,Bob Dettmer,Open,0.1613537088,R
+WI,WI-HD-52,R,Safe,Julie Schroeder,Jeremy Thiesfeldt,R,0.16113107,D
+MN,MN-HD-46A,D,Safe,Ryan Winkler,Anne Taylor,D,0.1610918373,R
+KS,KS-SD-37,R,Safe,Becca Peck,Molly Baumgardner,R,0.1606038375,D
+MN,MN-HD-07A,D,Safe,Jennifer Schultz,Tom Sullivan,D,0.1603410193,R
+WI,WI-HD-34,R,Safe,Kirk Bangstad,Rob Swearingen,R,0.1580278192,D
+WI,WI-HD-63,R,Safe,TBA,Robin J. Vos,R,0.1574374132,D
+WI,WI-HD-33,R,Safe,Mason Becker,Cody Horlacher,R,0.1566550028,D
+MN,MN-HD-24A,R,Safe,Tom Shea,John Petersburg,R,0.1561057083,R
+FL,FL-SD-35,D,Safe,FALSE,FALSE,D,0.1558925308,D
+IN,IN-HD-33,R,Safe,Julie Snider,John Prescott,R,0.1554420156,D
+MN,MN-HD-61A,D,Safe,Frank Hornstein,Kurtis Fechtmeyer,D,0.1537873426,R
+IL,IL-HD-85,D,Safe,Dagmara Avelar,Ron Doweidt,Open,0.1535434662,R
+WI,WI-HD-35,R,Safe,Tyler E. Ruprecht,TBA,Open,0.1534534009,D
+MN,MN-HD-06B,D,Safe,David Lislegard,Julie Buria,D,0.1529504211,R
+KS,KS-SD-27,R,Safe,Mike McCorkle,Gene Suellentrop,R,0.1522754734,D
+CT,CT-SD-1,D,Safe,FALSE,FALSE,D,0.1514575535,R
+WI,WI-HD-41,R,Safe,Nate Zimdars,TBA,Open,0.1511261025,D
+KS,KS-SD-6,D,Safe,Pat Pettey,Dianna Whittington,D,0.1502246063,D
+KS,KS-SD-4,D,Safe,David Haley,Sam Stillwell,D,0.150174557,D
+MN,MN-HD-23A,R,Safe,Patricia Fahey Bacon,TBA,Open,0.1501119964,R
+PA,PA-HD-172,D,Safe,Kevin Boyle,Haroon Bashir,D,0.1500263314,R
+NV,NV-HD-2,FALSE,Toss-Up,TBA,TBA,Open,0.149952042,R
+PA,PA-HD-184,D,Safe,Elizabeth Fielder,Louis Menna,D,0.1496639033,R
+MN,MN-HD-34A,R,Safe,Brian Raines,Kristin Robbins,R,0.1489446165,R
+IL,IL-HD-17,D,Safe,Jennifer Gong-Gershowitz,Yesoe Yoon,D,0.1486585598,R
+CT,CT-SD-10,D,Safe,FALSE,FALSE,D,0.1483485158,R
+KS,KS-SD-29,D,Safe,Oletha Faust-Goudeau,Myron Ackerman,D,0.1470568211,D
+WI,WI-HD-67,R,Safe,Chris Kapsner,Rob Summerfield,R,0.1459571409,D
+MN,MN-HD-10A,R,Safe,Dale Menk,Josh Heintzeman,R,0.1457744092,R
+WI,WI-SD-14,R,Safe,TBA,TBA,Open,0.1441565571,D
+IN,IN-HD-29,R,Safe,Mike Vick,Chuck Goodrich,R,0.1440055184,D
+NC,NC-SD-46,R,Safe,Michael Barrick,Warren Daniel,R,0.1405039568,R
+WI,WI-HD-6,R,Safe,TBA,Gary Tauchen,Open,0.1400248333,D
+PA,PA-HD-190,D,Safe,Amen Brown,Wanda Logan,Open,0.1394632112,R
+CT,CT-SD-27,D,Safe,FALSE,FALSE,D,0.1393600923,R
+IL,IL-HD-35,D,Safe,Frances Ann Hurley,Herbert Hebein,D,0.1374707278,R
+WI,WI-HD-25,R,Safe,Kerry Trask,Paul Tittl,R,0.1371196441,D
+PA,PA-HD-159,D,Safe,Brian Kirkland,Ruth Moton,D,0.1350578812,R
+FL,FL-SD-11,D,Safe,FALSE,FALSE,D,0.1333804102,D
+GA,GA-HD-107,D,Likely,Shelly Hutchinson,Michael McConnell,D,0.1325062397,D
+FL,FL-SD-29,D,Safe,FALSE,FALSE,D,0.1323745285,D
+IL,IL-HD-38,D,Safe,Debbie Meyers-Martin,Max Solomon,D,0.1316308973,R
+PA,PA-HD-74,D,Safe,Dan Williams,Dale Hensel,D,0.1315915665,R
+CT,CT-SD-3,D,Safe,FALSE,FALSE,D,0.1312785293,R
+GA,GA-HD-59,D,Likely,David Dreyer,FALSE,D,0.130939692,D
+NC,NC-SD-35,R,Safe,Jose Santiago,Todd Johnson,R,0.1306982244,R
+PA,PA-HD-182,D,Safe,Brian Sims,Andrew Murray,D,0.1287917647,R
+PA,PA-HD-95,D,Safe,Carol Hill-Evans,Kathryn French,D,0.1284795665,R
+MN,MN-HD-35B,R,Safe,Jason Ruffalo,Peggy Scott,R,0.1281322954,R
+OR,OR-HD-19,R,Likely,Jacqueline Leung,Raquel Moore-Green,R,0.1267505831,R
+NC,NC-SD-42,R,Safe,Tina R. Miles,H. Dean Proctor,Open,0.1263140133,R
+CT,CT-SD-11,D,Safe,FALSE,FALSE,D,0.1259379956,R
+PA,PA-HD-70,D,Safe,Matthew Bradford,James Saring,D,0.1254085005,R
+PA,PA-HD-154,D,Safe,Napoleon Nelson,Kathleen Bowers,Open,0.1246360582,R
+PA,PA-HD-141,D,Safe,Tina Davis,Kelly Bellerby-Allen,D,0.1231642523,R
+CT,CT-SD-15,D,Safe,FALSE,FALSE,D,0.1231320009,R
+PA,PA-HD-126,D,Safe,Mark Rozzi,James Oswald,D,0.1223498825,R
+PA,PA-HD-140,D,Safe,John Galloway,Jeanine McGee,D,0.1221760609,R
+PA,PA-HD-166,D,Safe,Gregory Vitali,Christine Boyle,D,0.1219756158,R
+IL,IL-HD-19,D,Safe,Lindsey LaPointe,Jeff Muehlfelder,D,0.1207684918,R
+CT,CT-SD-25,D,Safe,FALSE,FALSE,D,0.1205670559,R
+PA,PA-HD-21,D,Safe,Sara Innamorato,John Franklin Waugh,D,0.1192173789,R
+MN,MN-HD-22B,R,Safe,Lynn Herrick,Rod Hamilton,Open,0.1186110589,R
+IN,IN-HD-49,R,Safe,Joseph Christian Lehman,Christy Stutzman,R,0.1186077468,D
+PA,PA-HD-133,D,Safe,Jeanne McNeill,David Molony,D,0.1174088457,R
+PA,PA-HD-135,D,Safe,Steve Samuelson,Scott Hough,D,0.1169124422,R
+PA,PA-HD-112,D,Safe,Kyle Mullins,Mary Noldy,D,0.1168163343,R
+PA,PA-HD-194,D,Safe,Pamela DeLissio,Lisa Riley,D,0.1165787834,R
+IL,IL-HD-72,D,Safe,Michael Halpin,Glen Evans,D,0.1160307299,R
+IN,IN-HD-93,R,Safe,Angela Elliott,Dollyne Sherman,Open,0.1158328284,D
+PA,PA-HD-113,D,Safe,Marty Flynn,William Kresge,D,0.1157678533,R
+CT,CT-SD-2,D,Safe,FALSE,FALSE,D,0.1153058663,R
+IN,IN-HD-17,R,Safe,Bianka Tinklenberg,Jack Gordon,R,0.1146224001,D
+IN,IN-HD-51,R,Safe,Michael Stephenson,Dennis Zent,R,0.1140124408,D
+WI,WI-SD-12,R,Safe,TBA,Mary Czaja-Felzkowski,Open,0.1139813772,D
+WI,WI-HD-1,R,Safe,Kim Delorit Jensen,Joel Kitchens,R,0.1136522209,D
+IN,IN-HD-48,R,Safe,Aaron Mishler,Doug Miller,R,0.1128771161,D
+MN,MN-HD-58B,R,Safe,Sara Wolf,Pat Garofalo,R,0.1126745982,R
+WI,WI-HD-40,R,Safe,Deb Silvers,Kevin Petersen,R,0.1126617385,D
+NC,NC-SD-43,R,Safe,William Young,Kathy Harrington,R,0.1125564256,R
+IN,IN-HD-16,R,Safe,Michael Lovely,Douglas Gutwein,R,0.1123851743,D
+IN,IN-HD-38,R,Safe,Tom Hedde,Heath Van Natter,R,0.1122878228,D
+PA,PA-HD-77,D,Safe,H. Scott Conklin,Stephen Yetsko,D,0.1122639006,R
+NC,NC-SD-48,R,Safe,Brian Caskey,Chuck Edwards,R,0.1122451909,R
+PA,PA-HD-3,D,Safe,Ryan Bizzarro,Greg Hayes,D,0.1121343626,R
+PA,PA-HD-45,D,Safe,Anita Kulik,Danny DeVito,D,0.1115271865,R
+IN,IN-HD-91,R,Safe,Beverly McDermott-Piazza,Robert Behning,R,0.1115154271,D
+PA,PA-HD-118,D,Safe,Mike Carroll,Andrew Holter,D,0.1115150153,R
+PA,PA-HD-148,D,Safe,Mary Jo Daley,Allen Anderson,D,0.1115095262,R
+IN,IN-HD-22,R,Safe,Kelly Thompson,Curt Nisly,R,0.110862458,D
+IN,IN-HD-63,R,Safe,Teresa Kendall,Shane Lindauer,R,0.1108622731,D
+PA,PA-HD-114,D,Safe,Bridget Kosierowski,James May,D,0.1108465862,R
+IN,IN-HD-25,R,Safe,Alex Sabol,Don Lehe,R,0.1106868088,D
+UT,UT-HD-14,R,Safe,Olivia Jaramillo,TBA,Open,0.1104253038,D
+PA,PA-HD-16,D,Safe,Robert Matzie,Rico Elmore,D,0.1100540846,R
+IN,IN-HD-24,R,Safe,Naomi Bechtold,Donna Schaibley,R,0.1088802728,D
+NC,NC-SD-29,R,Safe,Duskin Lassiter,Steven Jarvis,Open,0.1087283114,R
+NM,NM-SD-19,R,Safe,Claudia Risner,Gregg Schmedes,Open,0.1084007072,R
+MN,MN-HD-15B,R,Safe,Ron Thiessen,TBA,Open,0.1077451113,R
+IN,IN-HD-69,R,Safe,Jeffrey Prewitt,Jim Lucas,R,0.1072024694,D
+IN,IN-HD-64,R,Safe,Ian Gamroth,Matt Hostettler,R,0.1068272467,D
+OR,OR-HD-6,R,Likely,Alberto Enriquez,Kim Wallan,Open,0.1067876846,R
+IN,IN-HD-18,R,Safe,Chad Harris,Craig Snow,Open,0.1061256994,D
+IN,IN-HD-85,R,Safe,Pablo Hurtado III,Dave Heine,R,0.105965822,D
+IN,IN-HD-40,R,Safe,Kevin Short,Greg Steuerwald,R,0.1055998367,D
+IN,IN-HD-83,R,Safe,Michael Bienz,Christopher Judy,R,0.1053687977,D
+IN,IN-HD-65,R,Safe,Paula Staley,Chris May,R,0.1051914624,D
+CT,CT-SD-5,D,Safe,FALSE,FALSE,D,0.1046176362,R
+IN,IN-HD-32,R,Safe,Amie Neiling,Tony Cook,R,0.1045962909,D
+IN,IN-HD-30,R,Safe,Dylan McHenry,Mike Karickhoff,R,0.1044327513,D
+IN,IN-HD-50,R,Safe,Jorge Fernandez,TBA,Open,0.1044038512,D
+IN,IN-HD-78,R,Safe,Tonda Pauley,Holli Sullivan,R,0.103790625,D
+GA,GA-SD-27,R,Safe,Brooke Griffiths,Greg Dolezal,R,0.102320999,D
+IN,IN-HD-41,R,Safe,Greg Woods,Tim Brown,R,0.1018002197,D
+UT,UT-HD-51,R,Safe,David Hunt,TBA,Open,0.1014224758,D
+UT,UT-HD-4,R,Safe,Mary Dasilva,Dan Johnson,R,0.1007945356,D
+NC,NC-SD-44,R,Safe,David Lee Lattimore,Ted Alexander,R,0.1006689834,R
+KY,KY-HD-32,D,Lean,Tina Bojanowski,G. Hunt Rounsavall,D,0.1000906099,D
+WI,WI-HD-39,R,Safe,Izzy Hassey Nevarez,Mark Born,R,0.09618865733,D
+NC,NC-SD-10,R,Safe,Vernon R. Moore,Brent Jackson,R,0.09562235666,R
+UT,UT-HD-64,R,Safe,FALSE,TBA,Open,0.09451490698,D
+WI,WI-HD-15,R,Safe,Jessica Katzenmeyer,Joe Sanfelippo,R,0.09443366472,D
+IL,IL-HD-114,D,Safe,LaToya Greenwood,Dave Barnes,D,0.09439732141,R
+UT,UT-HD-21,R,Safe,Stormy Simon,Douglas Sagers,R,0.09394582266,D
+GA,GA-SD-30,R,Safe,TBA,Michael Dugan,R,0.09350347716,D
+TX,TX-SD-1,R,Safe,Audrey Spanko,Bryan Hughes,R,0.09329166501,D
+NC,NC-SD-36,R,Safe,Marcus J. Singleton,Paul Newton,R,0.09309330045,R
+MN,MN-HD-32A,R,Safe,Renae Berg,Brian Johnson,R,0.09303910843,R
+WI,WI-HD-69,R,Safe,Brian Giles,TBA,Open,0.09293747341,D
+WI,WI-HD-82,R,Safe,TBA,TBA,Open,0.09237340934,D
+IN,IN-HD-81,R,Lean,Kyle Miller,Martin Carbaugh,R,0.09150178519,D
+MN,MN-HD-16B,R,Safe,Marinda 'Mindy' Kimmel,TBA,Open,0.09137632082,R
+GA,GA-SD-37,R,Safe,TBA,Lindsey Tippins,R,0.09124943777,D
+WI,WI-HD-87,R,Safe,Richard Pulcher,TBA,Open,0.0910257858,D
+GA,GA-SD-52,R,Safe,Charles DeYoung,Chuck Hufstetler,R,0.09097933899,D
+GA,GA-HD-101,D,Safe,Sam Park,Carol Field,D,0.09072637283,D
+MN,MN-HD-08B,R,Safe,Carol Wenner,Mary Franson,R,0.09042396541,R
+GA,GA-SD-31,R,Safe,Tianna Smith,TBA,Open,0.08986128078,D
+NC,NC-SD-12,R,Safe,John Kirkman,Jim Burgin,R,0.08977188637,R
+IN,IN-HD-72,R,Likely,Erica Lawrence,Ed Clere,R,0.08960740875,D
+IN,IN-HD-76,R,Likely,Stephen Folz,Mac McNamara,R,0.08943576971,D
+TX,TX-SD-22,R,Safe,Robert Vick,Brian Birdwell,R,0.08909954027,D
+WI,WI-HD-37,R,Safe,Abigail Lowery,John Jagler,R,0.08851232421,D
+TX,TX-SD-18,R,Safe,Michael Antalan,Lois Kolkhorst,R,0.08840499298,D
+IL,IL-HD-62,D,Safe,Sam Yingling,Jim Walsh,D,0.08753297356,R
+WI,WI-HD-22,R,Safe,Jack Henry Larsen,Janel Brandtjen,R,0.08750836336,D
+WI,WI-HD-83,R,Safe,TBA,Chuck Wichgers,R,0.08748962012,D
+GA,GA-SD-16,R,Safe,Clinquez Jester,Marty Harbin,R,0.08731503833,D
+WI,WI-HD-93,R,Safe,Charlene Charlie Warner,Warren Petryk,R,0.08696842471,D
+GA,GA-SD-14,R,Safe,TBA,Bruce Thompson,R,0.08693304344,D
+TX,TX-SD-24,R,Safe,Clayton Tucker,Dawn Buckingham,R,0.08684715377,D
+MN,MN-HD-15A,R,Safe,Cal Schmock,Sondra Erickson,R,0.08682637158,R
+NC,NC-SD-47,R,Safe,David Brian Wheeler,Ralph Hise,R,0.08649579924,R
+GA,GA-SD-13,R,Safe,TBA,Carden Summers,R,0.08613207092,D
+TX,TX-SD-11,R,Safe,Susan Criss,Larry Taylor,R,0.08595439209,D
+TX,TX-SD-4,R,Safe,Jay Stittleburg,Brandon Creighton,R,0.08554536128,D
+GA,GA-SD-47,R,Safe,Dawn Johnson,Frank Ginn,R,0.08549410648,D
+WI,WI-HD-89,R,Safe,TBA,TBA,Open,0.08464366761,D
+GA,GA-SD-50,R,Safe,Dee Daley,TBA,Open,0.08398615872,D
+WI,WI-SD-28,R,Safe,Adam Murphy,TBA,Open,0.08396469851,D
+NC,NC-SD-34,R,Safe,Barry Templeton,Vickie Sawyer,R,0.08395691582,R
+UT,UT-HD-7,R,Safe,Grant Protzman,Ryan Wilcox,Open,0.08376214697,D
+GA,GA-SD-23,R,Safe,Ceretta Smith,TBA,Open,0.08325870129,D
+WI,WI-HD-53,R,Safe,FALSE,Michael Schraa,R,0.0829250396,D
+NC,NC-SD-45,R,Safe,Jeanne Supin,Deanna Ballard,R,0.08292210406,R
+GA,GA-SD-20,R,Safe,Julius Johnson,TBA,Open,0.08219131337,D
+GA,GA-SD-1,R,Safe,Kerri Wilkins McGinty,Ben Watson,R,0.08202297956,D
+MN,MN-HD-10B,R,Safe,Gaylene Spolarich,Dale K. Lueck,R,0.08134306767,R
+GA,GA-SD-3,R,Safe,David Sharpe,TBA,Open,0.0810511105,D
+MN,MN-HD-33A,R,Safe,Caitlin Cahill,Jerry Hertaus,R,0.08095556761,R
+UT,UT-HD-56,R,Safe,FALSE,TBA,Open,0.08061192706,D
+UT,UT-HD-13,R,Safe,Tab Uno,Paul Ray,R,0.08018985849,D
+GA,GA-SD-25,R,Safe,Veronica Brison,Burt Jones,R,0.08012221645,D
+UT,UT-HD-61,R,Safe,FALSE,TBA,Open,0.07988400073,D
+UT,UT-HD-5,R,Safe,Lauren Abell,Casey Snider,R,0.07961289061,D
+NC,NC-SD-13,R,Safe,Barbara Yates-Lockamy,Danny Earl Britt,R,0.07937487427,R
+GA,GA-SD-46,R,Safe,Zachary Perry,Bill Cowsert,R,0.07908250624,D
+NC,NC-SD-50,R,Safe,Victoria Fox,Kevin Corbin,Open,0.07884663017,R
+TX,TX-SD-12,R,Safe,Shadi Zitoon,Jane Nelson,R,0.07805635924,D
+UT,UT-HD-48,R,Safe,Lucas Ramirez,TBA,Open,0.07805412443,D
+NC,NC-SD-25,R,Safe,Helen Probst Mills,Tom McInnis,Open,0.07777901674,R
+UT,UT-HD-19,R,Safe,FALSE,Raymond Ward,R,0.07744090087,D
+MN,MN-HD-21B,R,Safe,Elise Diesslin,Steve Drazkowski,R,0.07670936751,R
+GA,GA-SD-51,R,Safe,June Krise,Steve Gooch,R,0.07635866301,D
+UT,UT-HD-1,R,Safe,Amber Hardy,Joel Ferry,R,0.07560376352,D
+UT,UT-HD-53,R,Safe,Cheryl Butler,TBA,Open,0.07539025184,D
+UT,UT-HD-20,R,Safe,Phil Graves,Melissa Ballard,R,0.07538857122,D
+UT,UT-HD-60,R,Safe,FALSE,TBA,Open,0.07507125504,D
+UT,UT-HD-68,R,Safe,Amiee Finster,Merrill Nelson,R,0.07506353075,D
+UT,UT-HD-17,R,Safe,Eric Last,TBA,Open,0.0749356502,D
+UT,UT-HD-12,R,Safe,FALSE,Mike Schultz,R,0.07484241576,D
+UT,UT-HD-16,R,Safe,Cheryl Nunn,Steve Handy,R,0.07397619187,D
+UT,UT-HD-70,R,Safe,Jessica O'Leary,Carl Albrecht,R,0.0738872301,D
+NC,NC-SD-2,R,Safe,Libbie Griffin,Norman W. Sanderson,R,0.07336180782,R
+MN,MN-HD-17B,R,Safe,Logan Kortgard,Dave Baker,R,0.07296337235,R
+SC,SC-SD-20,D,Likely,Dick Harpootlian,TBA,D,0.07292202292,D
+UT,UT-HD-15,R,Safe,FALSE,Brad Wilson,R,0.07271067044,D
+UT,UT-HD-41,R,Safe,Wendy Garvin,Mark Strong,R,0.07269122707,D
+UT,UT-HD-42,R,Safe,TBA,TBA,Open,0.07212375519,D
+UT,UT-HD-72,R,Safe,TBA,Rex Shipp,R,0.07160478852,D
+UT,UT-HD-6,R,Safe,FALSE,Cory Maloy,R,0.07128942596,D
+UT,UT-HD-59,R,Safe,FALSE,TBA,Open,0.07124852183,D
+UT,UT-HD-75,R,Safe,Rebecca Sullivan,Walt Brooks,R,0.07067326125,D
+IN,IN-HD-5,R,Tilt,Donald Westerhausen Jr.,Dale Devon,R,0.0703220377,D
+UT,UT-HD-3,R,Safe,Holly Gunther,TBA,Open,0.0702678858,D
+MN,MN-HD-29B,R,Safe,Joe Rosh,Marion O'Neill,R,0.07021411205,R
+UT,UT-HD-58,R,Safe,FALSE,TBA,Open,0.06979670113,D
+UT,UT-HD-73,R,Safe,Aaron Brewer,Phil Lyman,R,0.06961410204,D
+NC,NC-SD-6,R,Safe,Ike Johnson,Michael Lazzara,Open,0.06892961094,R
+UT,UT-HD-18,R,Safe,Katherine Nicholson,Timothy Hawkes,R,0.06769710006,D
+SC,SC-SD-17,D,Likely,TBA,Erin Mosley,Open,0.06657844651,D
+UT,UT-HD-29,R,Safe,Kerry Wayne,TBA,Open,0.06634114759,D
+MN,MN-HD-30A,R,Safe,Chad Hobot,Paul Novotny,R,0.06581095798,R
+MN,MN-HD-20A,R,Safe,Erina Prom,Brian Pfarr,Open,0.06573808807,R
+NC,NC-SD-30,R,Safe,Wally White,Phil E. Berger,R,0.06540704942,R
+UT,UT-HD-74,R,Safe,Kenzie Carter,TBA,Open,0.06369798922,D
+UT,UT-HD-52,R,Safe,Catherine Voutaz,Candice Pierucci,R,0.06356484504,D
+NC,NC-SD-33,R,Safe,Tarsha Ellis,Carl Ford,R,0.06223751031,R
+UT,UT-HD-50,R,Safe,Emily Hayes,TBA,Open,0.06174843621,D
+MN,MN-HD-09A,R,Safe,Alex Herring,John M. Poston,R,0.06139223436,R
+MN,MN-HD-08A,R,Safe,Brittney Johnson,Jordan Rasmusson,Open,0.0608796891,R
+UT,UT-HD-62,R,Safe,FALSE,Travis Seegmiller,R,0.06049029693,D
+UT,UT-HD-30,R,Likely,Robert Burch,Mike Winder,R,0.05996162207,D
+UT,UT-HD-63,R,Safe,Jenna Rakuita,Adam Robertson,R,0.05928556754,D
+MN,MN-HD-01B,R,Safe,Cindy Ansbacher,Debra Kiel,R,0.05827893353,R
+MN,MN-HD-22A,R,Safe,TBA,Joe Schomacker,R,0.0576814798,R
+MN,MN-HD-09B,R,Safe,Laura Wright,Ron Kresha,R,0.05701953257,R
+MN,MN-HD-12B,R,Safe,Ben Schirmers,Paul Anderson,R,0.0548868539,R
+MN,MN-HD-01A,R,Safe,Connie Lindstrom,TBA,Open,0.05484364808,R
+MN,MN-HD-18B,R,Safe,Heather Bakke,Glenn Gruenhagen,R,0.05452639624,R
+MN,MN-HD-31A,R,Safe,Brad Brown,TBA,Open,0.05317215855,R
+MN,MN-HD-31B,R,Safe,Sue Larson,Cal K. Bahr,R,0.05307108466,R
+NC,NC-SD-8,R,Safe,David Sink,Bill Rabon,R,0.05283268718,R
+MN,MN-HD-16A,R,Safe,Doria Drost,Chris Swedzinski,R,0.05242337482,R
+MN,MN-HD-29A,R,Safe,Renee Cardarelle,Joe McDonald,R,0.05220441385,R
+GA,GA-HD-105,D,Safe,Donna McLeod,Eric Dierks,D,0.05194206556,D
+MN,MN-HD-55B,R,Safe,Andrea Nelsen,Tony Albright,R,0.05128092066,R
+SC,SC-SD-11,D,Likely,Glenn Reese,Josh Kimbrell,D,0.04888444679,D
+UT,UT-HD-39,R,Likely,Lynette Wendel,Jim Dunnigan,R,0.04853732685,D
+MN,MN-HD-47A,R,Safe,Arlan Brinkmeier,Jim Nash,R,0.04846294587,R
+IN,IN-HD-4,R,Lean,Debora Porter,Edmond Soliday,R,0.04794634891,D
+MA,MA-HD-1st Suffolk,D,Safe,FALSE,FALSE,D,0.04742129878,R
+SC,SC-SD-27,D,Likely,Vincent Sheheen,Penry Gustafson,D,0.04641827847,D
+MA,MA-HD-7th Middlesex,D,Safe,FALSE,FALSE,D,0.04623423142,R
+MN,MN-HD-30B,R,Safe,Brad Kovach,Eric Lucero,R,0.0462045702,R
+MA,MA-HD-11th Essex,D,Safe,FALSE,FALSE,D,0.04557712102,R
+MA,MA-HD-17th Essex,D,Safe,FALSE,FALSE,D,0.04536666826,R
+KY,KY-HD-37,D,Likely,TBA,Jimmy Maricle,Open,0.0445982765,D
+MN,MN-HD-13B,R,Safe,Benjamin Carollo,Tim O'Driscoll,R,0.0439267858,R
+MA,MA-HD-16th Essex,D,Safe,FALSE,FALSE,D,0.04363353306,R
+MA,MA-HD-9th Plymouth,D,Safe,FALSE,FALSE,D,0.04355085272,R
+OR,OR-HD-23,R,Safe,Sean Scorvo,Mike Nearman,R,0.04256861477,R
+MA,MA-HD-10th Essex,D,Safe,FALSE,FALSE,D,0.04204579549,R
+MA,MA-HD-33rd Middlesex,D,Safe,FALSE,FALSE,D,0.04082408278,R
+TX,TX-SD-19,D,Lean,TBA,Pete Flores,R,0.04080581762,D
+OR,OR-HD-39,R,Safe,Tessah Danel,Christine Drazan,R,0.04040933414,R
+OR,OR-HD-24,R,Safe,Lynnette Shaw,Ron Noble,R,0.04039508928,R
+MA,MA-HD-28th Middlesex,D,Safe,FALSE,FALSE,D,0.04038064454,R
+TN,TN-HD-76,R,Safe,FALSE,TBA,Open,0.04020039269,D
+TN,TN-HD-36,R,Safe,CJ Mitchell,Dennis Powers,R,0.03972375819,D
+MA,MA-HD-15th Worcester,D,Safe,FALSE,FALSE,D,0.03963644943,R
+TN,TN-HD-20,R,Safe,Susan Sneed,TBA,Open,0.03935573477,D
+OR,OR-HD-15,R,Safe,Miriam Cummins,Shelly Boshart Davis,R,0.03929353935,R
+MA,MA-HD-18th Middlesex,D,Safe,FALSE,FALSE,D,0.03927959216,R
+TN,TN-HD-65,R,Safe,Jennifer Foley,Sam Whitson,R,0.03914486552,D
+MA,MA-HD-4th Middlesex,D,Safe,FALSE,FALSE,D,0.03894489533,R
+MA,MA-HD-11th Bristol,D,Safe,FALSE,FALSE,D,0.03855842464,R
+TN,TN-HD-66,R,Safe,Jarvus M. Turnley,Doc Kumar,R,0.03844479974,D
+TN,TN-HD-17,R,Safe,Delynn McCash,Andrew Ellis Farmer,R,0.03840840267,D
+MA,MA-HD-7th Bristol,D,Safe,FALSE,FALSE,D,0.03837181045,R
+MA,MA-HD-5th Suffolk,D,Safe,FALSE,FALSE,D,0.03830741267,R
+TN,TN-HD-6,R,Safe,Brad Batt,TBA,Open,0.03824567796,D
+TN,TN-HD-4,R,Safe,Bobby Patrick Harrell,TBA,Open,0.03818373876,D
+MA,MA-HD-16th Worcester,D,Safe,FALSE,FALSE,D,0.038015707,R
+TN,TN-HD-24,R,Safe,Daniel Jones,Mark Hall,R,0.03792824363,D
+MA,MA-HD-17th Middlesex,D,Safe,FALSE,FALSE,D,0.03788328839,R
+MA,MA-HD-6th Hampden,D,Safe,FALSE,FALSE,D,0.03772102929,R
+MA,MA-HD-11th Middlesex,D,Safe,FALSE,FALSE,D,0.03769271529,R
+MA,MA-HD-1st Norfolk,D,Safe,FALSE,FALSE,D,0.03751600608,R
+MA,MA-HD-31st Middlesex,D,Safe,FALSE,FALSE,D,0.03747853831,R
+MA,MA-HD-16th Middlesex,D,Safe,FALSE,FALSE,D,0.03745426802,R
+MA,MA-HD-15th Middlesex,D,Safe,FALSE,FALSE,D,0.03744762507,R
+IL,IL-HD-76,D,Likely,Lance Yednock,Travis Breeden,D,0.03739158356,R
+TN,TN-HD-2,R,Safe,Arvil Love,Bud Hulsey,R,0.03730352495,D
+MA,MA-HD-9th Hampden,D,Safe,FALSE,FALSE,D,0.03729000513,R
+MA,MA-HD-9th Middlesex,D,Safe,FALSE,FALSE,D,0.03725553281,R
+MA,MA-HD-6th Bristol,D,Safe,FALSE,FALSE,D,0.03722677865,R
+MA,MA-HD-8th Essex,D,Safe,FALSE,FALSE,D,0.03721466912,R
+TN,TN-HD-95,R,Safe,Lynnette P. Williams,William Kevin Vaughan,R,0.03720360878,D
+OR,OR-HD-53,R,Safe,Emerson Levy,Jack Zika,R,0.03715360196,R
+MA,MA-HD-12th Norfolk,D,Safe,FALSE,FALSE,D,0.03713944342,R
+MA,MA-HD-19th Suffolk,D,Safe,FALSE,FALSE,D,0.03710906093,R
+TN,TN-HD-8,R,Safe,Jay Clark,Jerome F. Moon,R,0.03710840925,D
+TN,TN-HD-12,R,Safe,Bennett H. Lapides,Dale Carr,R,0.03698674283,D
+MA,MA-HD-30th Middlesex,D,Safe,FALSE,FALSE,D,0.03698502469,R
+MA,MA-HD-5th Hampden,D,Safe,FALSE,FALSE,D,0.03694083821,R
+NM,NM-SD-7,R,Safe,FALSE,Pat Woods,R,0.03693682302,R
+TN,TN-HD-75,R,Safe,FALSE,Bruce I. Griffey,R,0.03687657131,D
+MA,MA-HD-12th Middlesex,D,Safe,FALSE,FALSE,D,0.03684585484,R
+TN,TN-HD-61,R,Safe,Sam Bledsoe,Brandon Ogles,R,0.03671388433,D
+MA,MA-HD-12th Hampden,D,Safe,FALSE,FALSE,D,0.03670262024,R
+MA,MA-HD-13th Norfolk,D,Safe,FALSE,FALSE,D,0.03668134895,R
+NM,NM-SD-34,R,Safe,Darren Kugler,Ron Griggs,R,0.036627594,R
+MA,MA-HD-11th Hampden,D,Safe,FALSE,FALSE,D,0.03662401403,R
+GA,GA-HD-85,D,Safe,Karla Drenner,FALSE,D,0.03659120338,D
+MA,MA-HD-5th Norfolk,D,Safe,FALSE,FALSE,D,0.03653401852,R
+TN,TN-HD-71,R,Safe,Christi M. Rice,TBA,R,0.03652723782,D
+MA,MA-HD-2nd Norfolk,D,Safe,FALSE,FALSE,D,0.03650706263,R
+TN,TN-HD-14,R,Safe,Justin Davis,Jason Zachary,R,0.03648700416,D
+MA,MA-HD-16th Suffolk,D,Safe,FALSE,FALSE,D,0.03642863459,R
+MA,MA-HD-2nd Suffolk,D,Safe,FALSE,FALSE,D,0.0363549305,R
+UT,UT-HD-45,R,Lean,Wendy Davis,Steve Eliason,R,0.03616535209,D
+MA,MA-HD-14th Worcester,D,Safe,FALSE,FALSE,D,0.0361524359,R
+MA,MA-HD-35th Middlesex,D,Safe,FALSE,FALSE,D,0.03611427708,R
+TN,TN-HD-16,R,Safe,Elizabeth Rowland,TBA,Open,0.03609317232,D
+MA,MA-HD-7th Norfolk,D,Safe,FALSE,FALSE,D,0.0360714512,R
+MA,MA-HD-13th Bristol,D,Safe,FALSE,FALSE,D,0.03603787422,R
+MA,MA-HD-14th Norfolk,D,Safe,FALSE,FALSE,D,0.03586608788,R
+TN,TN-HD-78,R,Safe,Holly Spann,TBA,Open,0.03571075686,D
+TN,TN-HD-23,R,Safe,FALSE,Mark Cochran,R,0.03557849476,D
+MA,MA-HD-24th Middlesex,D,Safe,FALSE,FALSE,D,0.03553701913,R
+TN,TN-HD-69,R,Safe,Eddie Johnson,Michael G. Curcio,R,0.03552144865,D
+MA,MA-HD-3rd Berkshire,D,Safe,FALSE,FALSE,D,0.0354872501,R
+TN,TN-HD-27,R,Safe,FALSE,Patsy Hazlewood,R,0.0354787107,D
+MA,MA-HD-5th Middlesex,D,Safe,FALSE,FALSE,D,0.03547546974,R
+MA,MA-HD-3rd Middlesex,D,Safe,FALSE,FALSE,D,0.03537842776,R
+NM,NM-SD-42,R,Safe,FALSE,Gay Kernan,R,0.03536814208,R
+MA,MA-HD-10th Suffolk,D,Safe,FALSE,FALSE,D,0.0353665265,R
+MA,MA-HD-12th Essex,D,Safe,FALSE,FALSE,D,0.03535972677,R
+TN,TN-HD-43,R,Safe,FALSE,TBA,Open,0.03531964389,D
+MA,MA-HD-21st Middlesex,D,Safe,FALSE,FALSE,D,0.03526771552,R
+MA,MA-HD-10th Hampden,D,Safe,FALSE,FALSE,D,0.03526083622,R
+MA,MA-HD-11th Plymouth,D,Safe,FALSE,FALSE,D,0.03519137025,R
+NM,NM-SD-33,R,Safe,Denise Lang-Browne,Bill Burt,R,0.03506647674,R
+MA,MA-HD-6th Middlesex,D,Safe,FALSE,FALSE,D,0.03506622565,R
+TN,TN-HD-63,R,Safe,Elizabeth Madeira,Glen Casada,R,0.03502208232,D
+TN,TN-HD-31,R,Safe,Dean Sparks,Ron Travis,R,0.03502085633,D
+MA,MA-HD-6th Norfolk,D,Safe,FALSE,FALSE,D,0.03500116818,R
+MA,MA-HD-10th Middlesex,D,Safe,FALSE,FALSE,D,0.03496475556,R
+MA,MA-HD-13th Middlesex,D,Safe,FALSE,FALSE,D,0.0349336543,R
+MA,MA-HD-12th Worcester,D,Safe,FALSE,FALSE,D,0.03491216562,R
+MA,MA-HD-8th Norfolk,D,Safe,FALSE,FALSE,D,0.0347570475,R
+GA,GA-HD-41,D,Safe,Michael Smith,Stephen George,D,0.03469464635,D
+MA,MA-HD-8th Bristol,D,Safe,FALSE,FALSE,D,0.03459869314,R
+MA,MA-HD-3rd Norfolk,D,Safe,FALSE,FALSE,D,0.03458800828,R
+MA,MA-HD-13th Worcester,D,Safe,FALSE,FALSE,D,0.03452799656,R
+MA,MA-HD-15th Essex,D,Safe,FALSE,FALSE,D,0.03452190929,R
+MA,MA-HD-3rd Essex,D,Safe,FALSE,FALSE,D,0.03443303902,R
+MA,MA-HD-15th Norfolk,D,Safe,FALSE,FALSE,D,0.03434549298,R
+TN,TN-HD-40,R,Safe,FALSE,Terri Lynn Weaver,R,0.03414449952,D
+MA,MA-HD-11th Norfolk,D,Safe,FALSE,FALSE,D,0.03411706715,R
+MA,MA-HD-1st Berkshire,D,Safe,FALSE,FALSE,D,0.03409251836,R
+MA,MA-HD-10th Bristol,D,Safe,FALSE,FALSE,D,0.03388737612,R
+MA,MA-HD-8th Hampden,D,Safe,FALSE,FALSE,D,0.03383018444,R
+MA,MA-HD-5th Essex,D,Safe,FALSE,FALSE,D,0.03372545303,R
+MA,MA-HD-36th Middlesex,D,Safe,FALSE,FALSE,D,0.03372404415,R
+MA,"MA-HD-Barnstable, Dukes & Nantucket",D,Safe,FALSE,FALSE,D,0.03360818156,R
+MA,MA-HD-32nd Middlesex,D,Safe,FALSE,FALSE,D,0.0335581786,R
+TN,TN-HD-89,R,Safe,FALSE,Justin Lafferty,R,0.03341666338,D
+MA,MA-HD-6th Essex,D,Safe,FALSE,FALSE,D,0.03337440574,R
+MA,MA-HD-14th Middlesex,D,Safe,FALSE,FALSE,D,0.03334381841,R
+TN,TN-HD-25,R,Safe,Robyn Deck,Cameron Sexton,R,0.03332286906,D
+MA,MA-HD-17th Suffolk,D,Safe,FALSE,FALSE,D,0.03331630713,R
+TN,TN-HD-64,R,Safe,James Campbell,Scott E. Cepicky,R,0.03324916543,D
+TN,TN-HD-38,R,Safe,Carol Abney,Kelly T. Keisling,R,0.03315750731,D
+MA,MA-HD-14th Suffolk,D,Safe,FALSE,FALSE,D,0.03308337608,R
+MA,MA-HD-13th Suffolk,D,Safe,FALSE,FALSE,D,0.03307712898,R
+MA,MA-HD-9th Bristol,D,Safe,FALSE,FALSE,D,0.03303179774,R
+MA,MA-HD-1st Hampshire,D,Safe,FALSE,FALSE,D,0.0330198274,R
+TN,TN-HD-57,R,Safe,FALSE,Susan M. Lynn,R,0.03289512309,D
+MA,MA-HD-6th Suffolk,D,Safe,FALSE,FALSE,D,0.03287847201,R
+MA,MA-HD-7th Essex,D,Safe,FALSE,FALSE,D,0.03271434759,R
+KY,KY-HD-56,D,Likely,TBA,Daniel Fister,Open,0.03268553421,D
+MA,MA-HD-14th Essex,D,Safe,FALSE,FALSE,D,0.03261344983,R
+MA,MA-HD-12th Suffolk,D,Safe,FALSE,FALSE,D,0.03251670762,R
+MA,MA-HD-5th Bristol,D,Safe,FALSE,FALSE,D,0.03245888768,R
+MA,MA-HD-7th Hampden,D,Safe,FALSE,FALSE,D,0.03238013922,R
+MA,MA-HD-26th Middlesex,D,Safe,FALSE,FALSE,D,0.03234031034,R
+MA,MA-HD-23rd Middlesex,D,Safe,FALSE,FALSE,D,0.03224585388,R
+MA,MA-HD-15th Suffolk,D,Safe,FALSE,FALSE,D,0.03217647319,R
+MA,MA-HD-2nd Hampshire,D,Safe,FALSE,FALSE,D,0.03212408473,R
+MA,MA-HD-10th Norfolk,D,Safe,FALSE,FALSE,D,0.03206022855,R
+MA,MA-HD-4th Norfolk,D,Safe,FALSE,FALSE,D,0.03180082437,R
+MA,MA-HD-4th Plymouth,D,Safe,FALSE,FALSE,D,0.03164646413,R
+MA,MA-HD-29th Middlesex,D,Safe,FALSE,FALSE,D,0.03163901181,R
+MA,MA-HD-8th Middlesex,D,Safe,FALSE,FALSE,D,0.03155165787,R
+MA,MA-HD-11th Suffolk,D,Safe,FALSE,FALSE,D,0.03123034033,R
+MA,MA-HD-4th Berkshire,D,Safe,FALSE,FALSE,D,0.03121287289,R
+TN,TN-HD-26,R,Safe,Joan Farrell,Robin T. Smith,R,0.03121069431,D
+MA,MA-HD-37th Middlesex,D,Safe,FALSE,FALSE,D,0.03110922599,R
+MA,MA-HD-2nd Berkshire,D,Safe,FALSE,FALSE,D,0.0310750654,R
+MA,MA-HD-18th Suffolk,D,Safe,FALSE,FALSE,D,0.03098032988,R
+GA,GA-HD-124,D,Safe,Wayne Howard,FALSE,D,0.03092144577,D
+KY,KY-HD-67,D,Safe,Rachel Roberts,TBA,Open,0.03090154622,D
+TN,TN-HD-48,R,Safe,Matt Ferry,Bryan Terry,R,0.03071733242,D
+MA,MA-HD-10th Plymouth,D,Safe,FALSE,FALSE,D,0.03062055327,R
+TN,TN-HD-34,R,Safe,Mary R. Vaughn,Tim Rudd,R,0.03060641822,D
+MA,MA-HD-7th Suffolk,D,Safe,FALSE,FALSE,D,0.03054952776,R
+MA,MA-HD-25th Middlesex,D,Safe,FALSE,FALSE,D,0.03041023501,R
+UT,UT-HD-11,R,Likely,Jason Allen,TBA,Open,0.03038256811,D
+MA,MA-HD-2nd Middlesex,D,Safe,FALSE,FALSE,D,0.03015780712,R
+MA,MA-HD-4th Barnstable,D,Safe,FALSE,FALSE,D,0.03006090292,R
+MA,MA-HD-3rd Hampshire,D,Safe,FALSE,FALSE,D,0.03000340078,R
+MA,MA-HD-9th Suffolk,D,Safe,FALSE,FALSE,D,0.02997726313,R
+MA,MA-HD-6th Plymouth,D,Safe,FALSE,FALSE,D,0.02996694051,R
+MA,MA-HD-34th Middlesex,D,Safe,FALSE,FALSE,D,0.02986784647,R
+MA,MA-HD-4th Worcester,D,Safe,FALSE,FALSE,D,0.02965902871,R
+MA,MA-HD-1st Franklin,D,Safe,FALSE,FALSE,D,0.0289982872,R
+OR,OR-HD-25,R,Safe,Ramiro Navarro,Bill Post,R,0.02898636169,R
+MA,MA-HD-10th Worcester,D,Safe,FALSE,FALSE,D,0.02849565332,R
+MA,MA-HD-3rd Plymouth,D,Safe,FALSE,FALSE,D,0.02833022539,R
+MA,MA-HD-8th Suffolk,D,Safe,FALSE,FALSE,D,0.02815050468,R
+MA,MA-HD-4th Suffolk,D,Safe,FALSE,FALSE,D,0.0281421455,R
+MA,MA-HD-27th Middlesex,D,Safe,FALSE,FALSE,D,0.02797940272,R
+GA,GA-HD-39,D,Safe,TBA,Jim Hickey,Open,0.02787473411,D
+GA,GA-HD-92,D,Safe,TBA,FALSE,Open,0.02785901479,D
+SC,SC-SD-22,D,Safe,Mia McLeod,TBA,D,0.02732690729,D
+GA,GA-HD-126,D,Safe,Gloria Frazier,William Harris,D,0.02718634617,D
+OR,OR-HD-59,R,Safe,Arlene Burns,Daniel Bonham,R,0.02711048289,R
+GA,GA-SD-48,D,Tilt,TBA,Matt Reeves,Open,0.02695100944,D
+MA,MA-HD-3rd Suffolk,D,Safe,FALSE,FALSE,D,0.02669050083,R
+GA,GA-HD-63,D,Safe,Debra Bazemore,David Callahan,D,0.02564196639,D
+GA,GA-HD-93,D,Safe,TBA,Hubert Owens,Open,0.0252519982,D
+NV,NV-SD-19,R,Safe,FALSE,Pete Goicoechea,Open,0.02415240579,R
+GA,GA-HD-55,D,Safe,Marie Metze,Fred Quinn,D,0.02393901883,D
+IN,IN-HD-7,R,Tilt,Ross Deal,Jake Teshka,D,0.02388630677,D
+GA,GA-HD-66,D,Safe,Kimberly Alexander,Jason Jones,D,0.02322909011,D
+MA,MA-HD-17th Worcester,D,Likely,FALSE,FALSE,D,0.02247650475,R
+TN,TN-HD-82,R,Safe,Andrea Bond-Johnson,Chris Hurt,R,0.02219698705,D
+SC,SC-SD-36,D,Safe,TBA,Leon Winn,Open,0.02217086759,D
+IN,IN-HD-89,FALSE,Toss-Up,Mitch Gore,Cynthia Kirchhofer,R,0.02205965102,D
+OR,OR-HD-56,R,Safe,Faith Leith,E. Werner Reschke,R,0.02187454526,R
+MA,MA-HD-2nd Bristol,D,Likely,FALSE,FALSE,D,0.02151885412,R
+TN,TN-HD-30,R,Safe,Joseph Udeaja,Esther Helton,R,0.02143470421,D
+MA,MA-HD-3rd Worcester,D,Likely,FALSE,FALSE,D,0.02130407744,R
+TN,TN-HD-37,R,Safe,Mariah N. Phillips,Charlie Baum,R,0.02070508388,D
+OR,OR-HD-3,R,Safe,Jerry Morgan,Lily Morgan,Open,0.02004156133,R
+UT,UT-HD-49,R,Lean,TBA,Robert Spendlove,R,0.0198841369,D
+NV,NV-HD-40,R,Safe,TBA,TBA,Open,0.01959197347,R
+AR,AR-HD-96,R,Safe,Jon Comstock,Joshua Bryant,Open,0.0189390762,D
+AR,AR-HD-59,R,Safe,Ray Prunty,Jack Ladyman,R,0.01884278375,D
+AR,AR-HD-88,R,Safe,Hawley Woods,Clint Penzo,R,0.01850042148,D
+NC,NC-SD-26,R,Safe,Jane Ledwell Gant,Jerry W. Tillman,Open,0.01844787151,R
+UT,UT-HD-47,R,Lean,TBA,TBA,Open,0.01820846556,D
+KY,KY-HD-46,D,Safe,Al Gentry,Bob Devore,D,0.0179551932,D
+AR,AR-HD-28,R,Safe,FALSE,Tony Furman,Open,0.01744620331,D
+SC,SC-SD-26,D,Safe,Nikki Setzler,TBA,D,0.01743009155,D
+OR,OR-HD-57,R,Safe,Roland Ruhe,Greg Smith,R,0.01707907006,R
+AR,AR-HD-15,R,Safe,FALSE,Ken Bragg,R,0.0169565011,D
+AR,AR-HD-67,R,Safe,Steve Wilson,Stephen Meeks,R,0.01692215368,D
+AR,AR-HD-87,R,Safe,Michael Bennett-Spears,Robin Lundstrum,R,0.01690655832,D
+AR,AR-HD-77,R,Safe,FALSE,Justin Boyd,R,0.01671959752,D
+AR,AR-HD-80,R,Safe,Lou Reed Sharp,Charlene Fite,R,0.01652027109,D
+AR,AR-HD-74,R,Safe,June Anteski,Jon Eubanks,R,0.0165083113,D
+AR,AR-HD-65,R,Safe,David Norman,Rick Beck,R,0.01647971112,D
+AR,AR-HD-27,R,Safe,FALSE,Julie Mayberry,R,0.01638819263,D
+AR,AR-HD-53,R,Safe,Shawn Only,TBA,Open,0.01624455136,D
+AR,AR-HD-76,R,Safe,Caleb Harwell,Cindy Crawford,R,0.01616099951,D
+OR,OR-HD-60,R,Safe,Beth Spell,Mark Owens,R,0.01610497427,R
+UT,UT-HD-9,R,Lean,Steve Olsen,Calvin Musselman,R,0.01607934179,D
+AR,AR-HD-22,R,Safe,FALSE,Richard McGrew,Open,0.01599913373,D
+AR,AR-HD-82,R,Safe,Gwen Ford Faulkenberry,Mark Berry,Open,0.01598240225,D
+AR,AR-HD-100,R,Safe,FALSE,Nelda Speaks,R,0.01586773078,D
+UT,UT-HD-38,R,Tilt,Ashlee Matthews,Eric Hutchings,R,0.01579569861,D
+AR,AR-HD-90,R,Safe,Kelly Ross Kraut,TBA,Open,0.01578659699,D
+MA,MA-HD-2nd Hampden,D,Likely,FALSE,FALSE,D,0.01571709404,R
+AR,AR-HD-91,R,Safe,Nick Jones,TBA,Open,0.01568824629,D
+SC,SC-SD-39,D,Safe,TBA,Tom Connor,Open,0.01562960242,D
+AR,AR-HD-44,R,Safe,Rodney Govens,Cameron Cooper,R,0.01561318921,D
+AR,AR-HD-40,R,Safe,FALSE,David Ray,Open,0.01556576423,D
+TN,TN-HD-83,R,Likely,Jerri Green,Mark White,R,0.01553634099,D
+IL,IL-HD-49,D,Lean,Maura Hirschauer,Laura Curtis,Open,0.01541253026,R
+IL,IL-HD-48,D,Lean,Terra Costa Howard,Peter Breen,D,0.01524019232,R
+AR,AR-HD-93,R,Safe,Daisy Bonilla,Jim Dotson,R,0.0152306063,D
+AR,AR-HD-31,R,Safe,Mazhil Rajendran,Keith Brooks,Open,0.01516034165,D
+OR,OR-HD-18,R,Safe,Jamie Morrison,Rick Lewis,R,0.01481709677,R
+AR,AR-HD-26,R,Safe,Joyce Schimenti,Rick McGlure,Open,0.01467274689,D
+OR,OR-HD-58,R,Safe,Nolan Bylenga,Bobby Levy,Open,0.01464215658,R
+UT,UT-HD-8,R,Lean,Oscar Mata,Steve Waldrip,R,0.01458076163,D
+AR,AR-HD-68,R,Safe,Lisa Hassell,Stan Berry,R,0.01401771436,D
+OR,OR-HD-1,R,Safe,Calla Felicity,David Brock Smith,R,0.01400335966,R
+OR,OR-HD-17,R,Safe,Paige Hook,Jami Cate,Open,0.01397068924,R
+OR,OR-HD-55,R,Safe,Barbara Fontaine,Vikki Breese-Iverson,R,0.0139285687,R
+OR,OR-HD-7,R,Safe,Jerry Samaniego,Cedric Hayden,R,0.0137740664,R
+MA,MA-HD-18th Essex,D,Likely,FALSE,FALSE,D,0.01373414751,R
+IN,IN-HD-15,FALSE,Toss-Up,Chris Chyung,Hal Slager,D,0.01357977409,D
+IL,IL-HD-61,D,Lean,Joyce Mason,Dan Yost,D,0.01353603576,R
+OR,OR-HD-4,R,Safe,Mary Middleton,Duane Stark,R,0.01336550008,R
+UT,UT-HD-33,R,Tilt,TBA,Craig Hall,R,0.0133597478,D
+OR,OR-HD-2,R,Safe,Charles Lee,Gary Leif,R,0.01323805427,R
+GA,GA-SD-40,D,Likely,Sally Harrell,Garry Guan,D,0.01313466174,D
+KY,KY-HD-65,D,Safe,Buddy Wheatley,J. Davis,D,0.0121487063,D
+SC,SC-SD-32,D,Safe,TBA,David Ellison,Open,0.0111867154,D
+IL,IL-HD-51,D,Lean,Mary Edly-Allen,Chris Bos,D,0.01104371305,R
+KY,KY-HD-79,D,Safe,TBA,Jon Larson,Open,0.01093232553,D
+MA,MA-HD-2nd Worcester,D,Lean,FALSE,FALSE,D,0.01061801098,R
+UT,UT-HD-43,R,Tilt,Diane Lewis,Cheryl Acton,R,0.01054367791,D
+MA,MA-HD-4th Hampden,D,Lean,FALSE,FALSE,D,0.01016397215,R
+IL,IL-HD-45,D,Lean,Diane Pappas,FALSE,D,0.009985238434,R
+IL,IL-HD-81,D,Lean,Anne Stava-Murray,Laura Hois,D,0.009928019666,R
+SC,SC-SD-29,D,Safe,Gerald Malloy,J.D. Chaplin,D,0.009810498986,D
+SC,SC-SD-45,D,Safe,Margie Bright Matthews,Rodney Buncum,D,0.009704176734,D
+AR,AR-HD-58,R,Safe,Jim Burton,Brandt Smith,R,0.009630488937,D
+IL,IL-HD-116,FALSE,Toss-Up,Nathan Reitz,David Friess,D,0.009588668052,R
+SC,SC-HD-019,R,Safe,Jevarus Howard,Patrick Haddon,R,0.009366538228,D
+NV,NV-HD-32,R,Safe,Paula Povilaitis,Alexis Hansen,Open,0.009351374707,R
+SC,SC-HD-123,R,Safe,Christine deVries,TBA,Open,0.009204788824,D
+IN,IN-HD-19,D,Tilt,Lisa Beck,Julie Oltoff,D,0.008851391975,D
+SC,SC-HD-094,R,Safe,TBA,TBA,Open,0.008600974529,D
+SC,SC-SD-7,D,Safe,TBA,Jack Logan,Open,0.00851699963,D
+SC,SC-HD-026,R,Safe,Monica Danneman,Raye Felder,R,0.008355764586,D
+NV,NV-HD-39,R,Safe,Deborah Chang,Jim Wheeler,R,0.008319427503,R
+SC,SC-HD-112,R,Safe,TBA,TBA,Open,0.008315848613,D
+SC,SC-HD-020,R,Safe,Stephen Dreyfus,Adam Morgan,R,0.008315654123,D
+KY,KY-HD-57,D,Safe,Derrick Graham,Gary Reed Stratton,D,0.008128737009,D
+SC,SC-HD-060,R,Safe,TBA,Phillip Lowe,R,0.008081349571,D
+AR,AR-HD-7,R,Safe,George Calloway,Sonia Eubanks Barker,R,0.00798885404,D
+SC,SC-HD-083,R,Safe,Evelyn Robinson,Bill Hixon,R,0.007981457452,D
+SC,SC-HD-048,R,Safe,Kathryn Roberts,Bruce Bryant,R,0.007979558434,D
+SC,SC-HD-007,R,Safe,Andrea Bejarano-Robinson,Jay West,R,0.007968867373,D
+SC,SC-HD-043,R,Safe,Reid Carico,Randy Ligon,R,0.007940106892,D
+SC,SC-HD-018,R,Safe,Benjamin Smith,TBA,Open,0.007911610564,D
+SC,SC-HD-013,R,Safe,Denise Waldrep,John McCravy,R,0.007842016889,D
+SC,SC-HD-063,R,Safe,Isaac Wilson,Jay Jordan,R,0.007755508109,D
+SC,SC-HD-033,R,Safe,FALSE,TBA,Open,0.00771513968,D
+SC,SC-HD-071,R,Safe,Terry Seawright,Nathan Ballentine,R,0.007661601054,D
+IN,IN-HD-35,D,Tilt,Melanie Wright,Elizabeth Rowray,D,0.007656959199,D
+SC,SC-HD-008,R,Safe,FALSE,TBA,Open,0.007625613093,D
+SC,SC-HD-028,R,Safe,Ty Washington,Ashley Trantham,R,0.007549054682,D
+IL,IL-HD-111,D,Tilt,Monica Bristow,Amy Elik,D,0.007401294888,R
+SC,SC-HD-034,R,Safe,FALSE,Roger Nutt,Open,0.007373348967,D
+SC,SC-HD-022,R,Safe,B.K. Brown,Jason Elliott,R,0.007372975993,D
+SC,SC-HD-124,R,Safe,Barb Nash,Shannon Erickson,R,0.007365316747,D
+SC,SC-HD-035,R,Safe,Helen Pendarvis,TBA,Open,0.007284837402,D
+SC,SC-HD-045,R,Safe,Keith Grey,Brandon Newton,R,0.007187639221,D
+AR,AR-HD-49,R,Safe,Justin Reeves,Steve Hollowell,R,0.007174675658,D
+SC,SC-HD-047,R,Safe,Ryan McKenzie Arioli,Tommy Pope,R,0.007158595414,D
+SC,SC-HD-099,R,Safe,TBA,TBA,Open,0.007077175318,D
+SC,SC-HD-003,R,Safe,Eunice Lehmacher,TBA,Open,0.007060355487,D
+SC,SC-HD-118,R,Safe,Mitchell Siegel,TBA,Open,0.007008913147,D
+NV,NV-HD-26,R,Safe,Dale Conner,Lisa Krasner,R,0.006898016628,R
+AR,AR-HD-3,R,Safe,Larry Faulkner,Danny Watson,R,0.006873924278,D
+SC,SC-HD-068,R,Safe,FALSE,TBA,Open,0.006726877051,D
+SC,SC-HD-056,R,Safe,Bruce Fischer,Tim McGinnis,R,0.006691111147,D
+MA,MA-HD-12th Plymouth,D,Lean,FALSE,FALSE,D,0.006592851292,R
+MA,MA-HD-19th Middlesex,D,Lean,FALSE,FALSE,D,0.006507681875,R
+AR,AR-HD-8,R,Safe,Christopher Ogburn,Jeffrey Wardlaw,R,0.006506116122,D
+AR,AR-HD-14,R,Safe,Rick Bransford,Roger Dale Lynch,R,0.005801812678,D
+UT,UT-HD-54,FALSE,Toss-Up,Meaghan Miller,TBA,Open,0.005616370203,D
+NV,NV-HD-23,R,Safe,Brent Foutz,Glen Leavitt,R,0.005557900815,R
+AR,AR-HD-97,R,Safe,Suzie Bell,Harlan Breaux,R,0.005532115793,D
+IL,IL-HD-20,D,Tilt,Michelle Darbro,Brad Stephens,R,0.005275737823,R
+SC,SC-HD-110,R,Likely,TBA,William Cogswell,R,0.00517547439,D
+SC,SC-HD-097,R,Likely,Ronee De Canio,Mandy Kimmons,R,0.004957193931,D
+SC,SC-HD-075,R,Likely,TBA,Kirkman Finlay,R,0.004717375952,D
+TN,TN-HD-97,R,Lean,TBA,TBA,Open,0.00469361755,D
+TN,TN-HD-49,R,Lean,Brandon Thomas,Mike Sparks,R,0.004524212123,D
+AR,AR-HD-94,R,Lean,Jene Huffman-Gilreath,John Carr,Open,0.004514925504,D
+TX,TX-SD-13,D,Safe,Borris Miles,Milinda Morris,D,0.004238069781,D
+TX,TX-SD-27,D,Safe,Eddie Lucio,Vanessa Tijerina,D,0.004155702253,D
+TX,TX-SD-20,D,Safe,Juan Hinojosa,Judy Cutright,D,0.004136506776,D
+TX,TX-SD-29,D,Safe,César Blanco,Bethany Hatch,Open,0.003764815785,D
+GA,GA-SD-6,D,Safe,Jen Jordan,Harrison Lance,D,0.003740338614,D
+MA,MA-SD-Second Plymouth & Bristol,D,Safe,FALSE,FALSE,D,0.003660997616,R
+MA,MA-SD-Second Middlesex & Norfolk,D,Safe,FALSE,FALSE,D,0.003630951509,R
+MA,MA-SD-Second Essex & Middlesex,D,Safe,FALSE,FALSE,D,0.003600016119,R
+MA,MA-SD-Hampden,D,Safe,FALSE,FALSE,D,0.00356156583,R
+MA,MA-SD-Third Essex,D,Safe,FALSE,FALSE,D,0.003495670229,R
+MA,MA-HD-13th Essex,D,Tilt,FALSE,FALSE,D,0.003454587272,R
+MA,"MA-SD-Norfolk, Bristol & Plymouth",D,Safe,FALSE,FALSE,D,0.003427408385,R
+MA,MA-SD-First Middlesex,D,Safe,FALSE,FALSE,D,0.003410838708,R
+MA,MA-SD-Norfolk & Plymouth,D,Safe,FALSE,FALSE,D,0.003409067588,R
+MA,MA-SD-First Middlesex & Norfolk,D,Safe,FALSE,FALSE,D,0.003387484058,R
+TX,TX-SD-21,D,Safe,Judith Zaffirini,Frank Pomeroy,D,0.003363401491,D
+MA,MA-SD-Second Bristol & Plymouth,D,Safe,FALSE,FALSE,D,0.003357399474,R
+MA,MA-SD-Norfolk & Suffolk,D,Safe,FALSE,FALSE,D,0.003317520174,R
+MA,MA-SD-Third Middlesex,D,Safe,FALSE,FALSE,D,0.003299634818,R
+MA,MA-SD-Fourth Middlesex,D,Safe,FALSE,FALSE,D,0.003286308152,R
+MA,MA-SD-Second Worcester,D,Safe,FALSE,FALSE,D,0.003272234003,R
+MA,MA-SD-First Hampden & Hampshire,D,Safe,FALSE,FALSE,D,0.00325616962,R
+MA,MA-SD-First Bristol & Plymouth,D,Safe,FALSE,FALSE,D,0.003253646846,R
+MA,MA-SD-Middlesex & Worcester,D,Safe,FALSE,FALSE,D,0.003247404135,R
+MA,MA-HD-2nd Essex,FALSE,Toss-Up,FALSE,FALSE,Open,0.003210577902,R
+MA,MA-SD-Fifth Middlesex,D,Safe,FALSE,FALSE,D,0.003200202918,R
+MA,"MA-SD-Berkshire, Hampshire, Franklin & Hampden",D,Safe,FALSE,FALSE,D,0.003178666925,R
+MA,MA-SD-First Worcester,D,Safe,FALSE,FALSE,D,0.003160338994,R
+MA,"MA-SD-Hampshire, Franklin & Worcester",D,Safe,FALSE,FALSE,D,0.003152980341,R
+IL,IL-HD-97,FALSE,Toss-Up,Harry Benton,Mark Batinick,R,0.003088010367,R
+MA,MA-SD-First Essex,D,Safe,FALSE,FALSE,D,0.003061730305,R
+MA,MA-SD-Second Essex,D,Safe,FALSE,FALSE,D,0.003060813803,R
+MA,MA-SD-Middlesex & Suffolk,D,Safe,FALSE,FALSE,D,0.003000982049,R
+MA,MA-SD-First Suffolk & Middlesex,D,Safe,FALSE,FALSE,D,0.002999749532,R
+MA,MA-SD-First Plymouth & Bristol,D,Safe,FALSE,FALSE,D,0.002973871373,R
+IL,IL-HD-54,FALSE,Toss-Up,Maggie Trevor,Thomas Morrison,R,0.002962607059,R
+MA,MA-SD-Cape & Islands,D,Safe,FALSE,FALSE,D,0.002922599232,R
+MA,MA-SD-Second Suffolk,D,Safe,FALSE,FALSE,D,0.002897187924,R
+UT,UT-HD-10,D,Tilt,Lawanna Shurtliff,TBA,D,0.002858006317,D
+MA,MA-SD-Bristol & Norfolk,D,Safe,FALSE,FALSE,D,0.002852294397,R
+IL,IL-HD-47,R,Tilt,Jennifer Zordani,Deanne Marie Mazzochi,R,0.002844893293,R
+MA,MA-SD-First Suffolk,D,Safe,FALSE,FALSE,D,0.002836343166,R
+IL,IL-HD-42,R,Tilt,Ken Mejia-Beal,Amy Grant,R,0.002739065572,R
+IN,IN-HD-66,D,Likely,Terry Goodin,Zach Payne,D,0.002723077637,D
+IL,IL-HD-70,R,Lean,Paul Stoddard,Jeff Keicher,R,0.00268013949,R
+MA,MA-SD-Second Middlesex,D,Safe,FALSE,FALSE,D,0.002667259536,R
+TN,TN-HD-18,FALSE,Toss-Up,Virginia Couch,TBA,Open,0.002664585281,D
+MA,MA-SD-Second Suffolk & Middlesex,D,Safe,FALSE,FALSE,D,0.002595371697,R
+SC,SC-HD-114,R,Lean,Ed Sutton,Lin Bennett,R,0.002359945983,D
+IN,IN-HD-36,D,Likely,Terri Jo Austin,Kyle Pierce,D,0.002355343014,D
+IL,IL-HD-65,R,Lean,Martha Paschke,Dan Ugaste,R,0.002200355741,R
+IL,IL-HD-93,R,Lean,Scott Stoll,Norine Hammond,R,0.002196106706,R
+IN,IN-HD-12,D,Safe,Mike Andrade,Tom Wichlinski,Open,0.002038369528,D
+MA,MA-HD-3rd Bristol,D,Tilt,FALSE,FALSE,D,0.002038350071,R
+AR,AR-HD-41,R,Tilt,Jannie Cotton,Karilyn Brown,R,0.00197648066,D
+GA,GA-SD-41,D,Safe,TBA,William Park Freeman,Open,0.001816252285,D
+IL,IL-HD-41,R,Tilt,Janet Yang Rohr,Grant Wehrli,R,0.001756508134,R
+IL,IL-HD-68,R,Tilt,Dave Vella,John Cabello,R,0.001695781221,R
+GA,GA-SD-12,D,Safe,TBA,TBA,Open,0.001511729401,D
+IL,IL-HD-79,R,Likely,FALSE,Jackie Haas,Open,0.001458268472,R
+MA,MA-HD-5th Plymouth,R,Tilt,FALSE,FALSE,R,0.001383920696,R
+IN,IN-HD-87,D,Safe,Carey Hamilton,Ryan Royer,D,0.001374018037,D
+GA,GA-SD-44,D,Safe,TBA,Benjamin Brooks,Open,0.001369911343,D
+AR,AR-HD-32,R,Tilt,Ashley Hudson,Jim Sorvillo,R,0.001352174754,D
+GA,GA-SD-43,D,Safe,Tonya Anderson,Melanie Williams,D,0.001303358845,D
+MA,MA-HD-2nd Barnstable,R,Tilt,FALSE,FALSE,R,0.001297965706,R
+AR,AR-HD-39,R,Lean,Kayla Applegate,Mark Lowery,R,0.001283385065,D
+AR,AR-HD-38,R,Tilt,Matthew Stallings,Carlton Wing,R,0.001207465164,D
+MA,MA-HD-1st Plymouth,R,Tilt,FALSE,FALSE,R,0.001188836441,R
+IL,IL-HD-66,R,Lean,Suzanne Ness,Allen Skillicorn,R,0.00117427752,R
+IL,IL-HD-104,R,Likely,Cynthia Cunningham,Mike Marron,R,0.001147174365,R
+MA,MA-HD-8th Worcester,R,Lean,FALSE,FALSE,R,0.001075708014,R
+IN,IN-HD-43,D,Safe,Tonya Pflaff,Bill Treadway,D,0.001055147235,D
+IL,IL-HD-64,R,Likely,Leslie Armstrong-McLeod,Tom Weber,R,0.001045575266,R
+IN,IN-HD-100,D,Safe,Robert Johnson,Wayne Harmon,Open,0.00095853157,D
+IN,IN-HD-94,D,Safe,Cherrish Pryor,Felipe Jesus Rios,D,0.0009239802364,D
+UT,UT-HD-31,D,Safe,Elizabeth Weight,TBA,D,0.0008145668892,D
+IN,IN-HD-97,D,Safe,Justin Moed,John Schmitz,D,0.0008062343286,D
+UT,UT-HD-22,D,Safe,Clare Collard,Anthony Loubet,Open,0.0007948538368,D
+MA,MA-HD-1st Essex,R,Lean,FALSE,FALSE,R,0.0007772018815,R
+AR,AR-HD-9,R,Lean,LeAnne Burch,Howard Beaty,D,0.0007597742964,D
+IN,IN-HD-27,D,Safe,Sheila Klinker,James Hass,D,0.0007487550203,D
+MA,"MA-SD-Worcester, Hampden, Hampshire & Middlesex",D,Likely,FALSE,FALSE,D,0.0007441414142,R
+IN,IN-HD-34,D,Safe,Sue Errington,Dale Basham,D,0.0007306950322,D
+UT,UT-HD-34,D,Safe,Karen Kwan,TBA,D,0.0006852136517,D
+UT,UT-HD-44,D,Safe,Andrew Stoddard,TBA,D,0.000671258875,D
+UT,UT-HD-32,D,Safe,Suzanne Harrison,TBA,D,0.0006401594776,D
+IL,IL-HD-95,R,Safe,Chase Wilhelm,Avery Bourne,R,0.0006134416775,R
+MA,MA-HD-12th Bristol,R,Likely,FALSE,FALSE,R,0.0006125966451,R
+IL,IL-HD-91,R,Safe,Josh Grys,Mark Luft,Open,0.0005614246356,R
+IL,IL-HD-37,R,Safe,Michelle Fadeley,Tim Ozinga,Open,0.0005356808689,R
+SC,SC-HD-044,R,Tilt,Mandy Powers Norrell,Sandy McGarry,D,0.000532019277,D
+MA,MA-HD-3rd Barnstable,R,Lean,FALSE,FALSE,R,0.0004680178333,R
+MA,MA-HD-7th Plymouth,R,Likely,FALSE,FALSE,R,0.000462968991,R
+AR,AR-HD-89,D,Lean,Megan Godfrey,Jed Duggar,D,0.0004544003615,D
+MA,MA-HD-1st Barnstable,R,Lean,FALSE,FALSE,R,0.0004501466755,R
+UT,UT-HD-23,D,Safe,Sandra Hollins,Bradley Borden,D,0.0004376716649,D
+IL,IL-HD-71,R,Safe,Joan Padilla,Tony McCombie,R,0.0004373221235,R
+MA,MA-HD-4th Essex,R,Likely,FALSE,FALSE,R,0.0004184669047,R
+TN,TN-HD-13,D,Lean,Gloria Johnson,Elaine Davis,D,0.0003856269007,D
+TN,TN-HD-67,D,Lean,Jason Hodges,John W. Dawson,D,0.0003495148336,D
+IL,IL-HD-82,R,Safe,Kassem Moukahal,Jim Durkin,R,0.0003439517397,R
+SC,SC-HD-115,D,Tilt,TBA,TBA,Open,0.0003195908945,D
+UT,UT-HD-40,D,Safe,Stephanie Pitcher,Jeremiah Clark,D,0.0003180468128,D
+UT,UT-HD-35,D,Safe,Mark Wheatley,Luke Gustafson,D,0.0003107739144,D
+UT,UT-HD-25,D,Safe,Joel Briscoe,Karel Mcdonough,D,0.0003089307846,D
+MA,MA-HD-11th Worcester,R,Likely,FALSE,FALSE,R,0.0003075796447,R
+TN,TN-HD-96,D,Likely,Dwayne Thompson,Patti Possel,D,0.0003011387031,D
+UT,UT-HD-28,D,Safe,Brian King,Carol Hunter,D,0.0002972005694,D
+UT,UT-HD-46,D,Safe,TBA,Jaren Davis,Open,0.0002864498863,D
+UT,UT-HD-36,D,Safe,TBA,Lisa Bagley,Open,0.0002856762802,D
+IL,IL-HD-109,R,Safe,John Spencer,Adam Niemerg,Open,0.0002808109287,R
+IL,IL-HD-73,R,Safe,FALSE,Ryan Spain,R,0.0002805953876,R
+IL,IL-HD-90,R,Safe,Seth Wiggins,Tom Demmer,R,0.0002769679846,R
+IL,IL-HD-107,R,Safe,David Seiler,Blaine Wilhour,R,0.0002760509068,R
+IL,IL-HD-63,R,Safe,Brian Sager,Steven Reick,R,0.0002756562634,R
+UT,UT-HD-37,D,Safe,TBA,TBA,Open,0.0002739994433,D
+IL,IL-HD-74,R,Safe,Christopher Demink,Daniel Swanson,R,0.0002729313914,R
+IL,IL-HD-108,R,Safe,Kacie Weicherding,Charles Meier,R,0.0002645424802,R
+IL,IL-HD-94,R,Safe,Angel Smith,Randy Frese,R,0.0002603124288,R
+IL,IL-HD-88,R,Safe,Karla Bailey-Smith,Keith Sommer,R,0.0002520395029,R
+MA,MA-HD-5th Barnstable,R,Safe,FALSE,FALSE,R,0.0002492064195,R
+IL,IL-HD-105,R,Safe,Chemberly Cummings,Dan Brady,R,0.0002379184801,R
+MA,MA-HD-9th Norfolk,R,Safe,FALSE,FALSE,R,0.000232908911,R
+MA,MA-HD-2nd Plymouth,R,Safe,FALSE,FALSE,R,0.0002222706702,R
+SC,SC-HD-117,D,Lean,Krystle Matthews,TBA,D,0.0002161197091,D
+MA,MA-HD-5th Worcester,R,Safe,FALSE,FALSE,R,0.000211017127,R
+SC,SC-HD-015,D,Tilt,JA Moore,Samuel Rivers,D,0.0001941050386,D
+MA,MA-SD-Second Hampden & Hampshire,D,Lean,FALSE,FALSE,D,0.0001789832843,R
+TN,TN-HD-56,D,Safe,Bob Freeman,Diane Michel Canada,D,0.0001667927088,D
+SC,SC-HD-116,D,Lean,TBA,Carroll O'Neal,Open,0.000165839876,D
+MA,"MA-SD-Norfolk, Bristol & Middlesex",D,Tilt,FALSE,FALSE,D,0.0001565221738,R
+MA,MA-HD-22nd Middlesex,R,Safe,FALSE,FALSE,R,0.0001451151864,R
+MA,MA-HD-14th Bristol,R,Safe,FALSE,FALSE,R,0.0001039994696,R
+MA,MA-HD-9th Worcester,R,Safe,FALSE,FALSE,R,0.0001031667779,R
+MA,MA-HD-1st Middlesex,R,Safe,FALSE,FALSE,R,0.0001025070254,R
+MA,MA-HD-1st Hampden,R,Safe,FALSE,FALSE,R,0.0001024144305,R
+MA,MA-HD-4th Bristol,R,Safe,FALSE,FALSE,R,0.0001012861881,R
+MA,MA-HD-18th Worcester,R,Safe,FALSE,FALSE,R,0.0001011257012,R
+MA,MA-HD-1st Bristol,R,Safe,FALSE,FALSE,R,0.0001006717324,R
+MA,MA-HD-1st Worcester,R,Safe,FALSE,FALSE,R,0.0001004389193,R
+MA,MA-HD-3rd Hampden,R,Safe,FALSE,FALSE,R,9.93E-05,R
+MA,MA-HD-7th Worcester,R,Safe,FALSE,FALSE,R,9.89E-05,R
+MA,MA-HD-6th Worcester,R,Safe,FALSE,FALSE,R,9.88E-05,R
+MA,MA-HD-8th Plymouth,R,Safe,FALSE,FALSE,R,9.85E-05,R
+TN,TN-HD-52,D,Safe,TBA,Donna Tees,Open,9.57E-05,D
+MA,MA-HD-20th Middlesex,R,Safe,FALSE,FALSE,R,9.44E-05,R
+MA,MA-SD-Plymouth & Barnstable,D,Tilt,FALSE,FALSE,D,9.12E-05,R
+MA,MA-HD-9th Essex,R,Safe,FALSE,FALSE,R,9.07E-05,R
+TN,TN-SD-6,R,Safe,TBA,Becky Duncan Massey,R,8.60E-05,D
+TN,TN-SD-32,R,Safe,Julie Byrd Ashworth,TBA,Open,8.39E-05,D
+TN,TN-SD-4,R,Safe,Amber Riddle,Jon Lundberg,R,8.13E-05,D
+TN,TN-HD-86,D,Safe,TBA,Rob White,Open,8.00E-05,D
+TN,TN-HD-15,D,Safe,TBA,FALSE,Open,7.97E-05,D
+TN,TN-SD-14,R,Safe,Chase Clemons,Shane Reeves,R,7.53E-05,D
+AR,AR-HD-5,D,Likely,David Fielding,Chase McDowell,D,7.47E-05,D
+TN,TN-SD-18,R,Safe,FALSE,Ferrell Haile,R,7.45E-05,D
+TN,TN-SD-24,R,Safe,FALSE,TBA,Open,6.92E-05,D
+TN,TN-SD-16,R,Safe,Sheila Younglove,Janice Bowling,R,6.79E-05,D
+TN,TN-SD-28,R,Safe,FALSE,Joey Hensley,R,6.66E-05,D
+TN,TN-SD-26,R,Safe,Civil Miller-Watkins,TBA,Open,6.42E-05,D
+SC,SC-HD-090,D,Safe,TBA,Glenn Posey,Open,6.35E-05,D
+SC,SC-HD-052,D,Likely,Laurie Funderburk,Vic Dabney,D,6.24E-05,D
+AR,AR-HD-85,D,Safe,David Whitaker,Brian Hester,D,6.12E-05,D
+NM,NM-HD-36,D,Safe,Nathan Small,Brandi Polanco,D,5.40E-05,R
+NM,NM-HD-32,D,Safe,Candie Sweetser,J. Chandler,D,5.21E-05,R
+NM,NM-HD-52,D,Safe,Doreen Gallegos,John Foreman,D,4.69E-05,R
+NM,NM-HD-21,D,Safe,Debra Sarinana,FALSE,D,4.46E-05,R
+NM,NM-HD-50,D,Safe,Matthew McQueen,Christina Estrada,D,4.30E-05,R
+NM,NM-HD-43,D,Safe,Christine Chandler,David Hampton,D,4.29E-05,R
+NM,NM-HD-34,D,Safe,Raymundo Lara,Dawn Ladd,D,4.24E-05,R
+NM,NM-HD-13,D,Safe,Patricia Roybal Caballero,Kayla Marshall,D,4.17E-05,R
+NM,NM-HD-30,D,Safe,Natalie Figueroa,John Jones,D,4.13E-05,R
+NM,NM-HD-10,D,Safe,G. Andres Romero,Dinah Vargas,Open,4.12E-05,R
+NM,NM-HD-39,D,Safe,Rodolpho Martinez,Luis Terrazas,D,4.09E-05,R
+AR,AR-HD-72,D,Safe,Steve Magie,James Phillips,D,4.04E-05,D
+AR,AR-HD-34,D,Safe,Joy Springer,FALSE,Open,3.98E-05,D
+SC,SC-HD-122,D,Safe,Shedron Williams,Ashley Lawton,D,3.92E-05,D
+NM,NM-HD-65,D,Safe,Derrick Lente,Phillip Salazar,D,3.83E-05,R
+NM,NM-HD-45,D,Safe,TBA,FALSE,Open,3.76E-05,R
+AR,AR-HD-86,D,Safe,Nicole Clowney,John LaTour,D,3.75E-05,D
+NM,NM-HD-35,D,Safe,Angelica Rubio,Richelle Ponder,D,3.75E-05,R
+NM,NM-HD-19,D,Safe,Sheryl Williams Stapleton,Stephen Cecco,D,3.66E-05,R
+SC,SC-HD-080,D,Safe,TBA,Vincent Wilson,Open,3.61E-05,D
+MA,MA-SD-Worcester & Middlesex,R,Lean,FALSE,FALSE,R,3.59E-05,R
+NM,NM-HD-37,D,Safe,Joanne Ferrary,Isabella Solis,D,3.55E-05,R
+NM,NM-HD-69,D,Safe,Harry Garcia,Roy Ryan,D,3.55E-05,R
+NM,NM-HD-40,D,Safe,Roger Montoya,Justin Salazar-Torrez,Open,3.54E-05,R
+NM,NM-HD-70,D,Safe,TBA,Nathan Dial,Open,3.49E-05,R
+NM,NM-HD-33,D,Safe,Micaela Cadena,Beth Miller,D,3.48E-05,R
+NM,NM-HD-23,D,Safe,Daymon Ely,Ellis McMath,D,3.48E-05,R
+NM,NM-HD-17,D,Safe,Deborah Armstrong,Kimberly Kaehr-Macmillan,D,3.44E-05,R
+NM,NM-HD-24,D,Safe,Elizabeth Thomson,Amy Maloy,D,3.43E-05,R
+MA,MA-SD-Plymouth & Norfolk,R,Lean,FALSE,FALSE,R,3.40E-05,R
+NM,NM-HD-11,D,Safe,Javier Martinez,TBA,D,3.37E-05,R
+NM,NM-HD-6,D,Safe,Eliseo Alcon,Karen Chavez,D,3.37E-05,R
+NM,NM-HD-16,D,Safe,Antonio Maestas,Antoinette Taft,D,3.35E-05,R
+NM,NM-HD-46,D,Safe,Andrea Romero,Jay Groseclose,D,3.35E-05,R
+AR,AR-HD-55,D,Safe,Monte Hodges,Gary Tobar,D,3.34E-05,D
+NM,NM-HD-42,D,Safe,TBA,TBA,Open,3.28E-05,R
+NM,NM-HD-25,D,Safe,Christine Trujillo,Sarah Rich-Jackson,D,3.26E-05,R
+NM,NM-HD-47,D,Safe,Brian Egolf,Glen Berlin,D,3.03E-05,R
+NM,NM-HD-68,D,Likely,Karen Bash,Giovanni Coppola,D,2.95E-05,R
+AR,AR-HD-11,D,Safe,Don Glover,Mark McElroy,D,2.88E-05,D
+AR,AR-HD-12,D,Safe,Chris Richey,David Tollett,D,2.68E-05,D
+SC,SC-HD-064,D,Safe,TBA,TBA,Open,2.43E-05,D
+SC,SC-HD-054,D,Safe,Pat Henegan,Sterling McDiarmid,D,2.40E-05,D
+SC,SC-HD-066,D,Safe,Gilda Cobb-Hunter,Jeffrey Cila,D,2.35E-05,D
+SC,SC-HD-109,D,Safe,TBA,Rouzy Vafaie,Open,2.31E-05,D
+SC,SC-HD-012,D,Safe,Anne Parks,James Pearman,D,2.29E-05,D
+SC,SC-HD-074,D,Safe,Todd Rutherford,Vimalkumar Jariwala,D,2.27E-05,D
+TN,TN-SD-22,R,Safe,Ronnie L. Glynn,TBA,Open,2.26E-05,D
+SC,SC-HD-095,D,Safe,TBA,FALSE,Open,2.24E-05,D
+SC,SC-HD-079,D,Safe,Ivory Thigpen,FALSE,D,2.18E-05,D
+SC,SC-HD-073,D,Safe,TBA,Myron Samuels,Open,2.18E-05,D
+SC,SC-HD-041,D,Safe,TBA,Jennifer Brecheisen,Open,2.16E-05,D
+SC,SC-HD-121,D,Safe,Michael Rivers,Eric Erickson,D,2.15E-05,D
+SC,SC-HD-119,D,Safe,Leon Stavrinakis,FALSE,D,2.14E-05,D
+SC,SC-HD-025,D,Safe,TBA,Darath Mackie,Open,2.08E-05,D
+SC,SC-HD-049,D,Safe,John King,Johnny Walker,D,2.07E-05,D
+SC,SC-HD-078,D,Safe,Beth Bernstein,Viresh Sinha,D,2.04E-05,D
+SC,SC-HD-111,D,Safe,TBA,Ted Vining,Open,1.98E-05,D
+SC,SC-HD-077,D,Safe,Kambrell Garvin,FALSE,D,1.80E-05,D
+NM,NM-HD-28,D,Likely,Melanie Stansbury,Thomas Stull,D,1.53E-05,R
+NM,NM-HD-53,D,Lean,Willie Madrid,Ricky Little,D,1.44E-05,R
+NM,NM-HD-15,D,Likely,Day Hochman-Vigil,Ali Ennenga,D,1.21E-05,R
+NM,NM-HD-29,D,Likely,Joy Garratt,Adelious Stith,Open,1.07E-05,R
+MA,MA-SD-Worcester & Norfolk,R,Safe,FALSE,FALSE,R,1.06E-05,R
+NM,NM-HD-4,D,Lean,Anthony Allison,P Duncan,D,1.01E-05,R
+NM,NM-HD-27,D,Lean,Marian Matthews,TBA,Open,5.67E-06,R
+MA,MA-SD-First Essex & Middlesex,R,Safe,FALSE,FALSE,R,4.60E-06,R
+TN,TN-SD-10,R,Lean,Glenn Scruggs,Todd Gardenhire,R,4.34E-06,D
+NM,NM-HD-20,D,Tilt,Meredith Dixon,Michael Hendricks,Open,4.18E-06,R
+NM,NM-HD-22,D,Tilt,Jessica Velasquez,Stefani Lord,Open,2.94E-06,R
+TN,TN-SD-20,FALSE,Toss-Up,TBA,Steven Reid Dickerson,R,2.19E-06,D
+NM,NM-HD-63,R,Lean,Randal Brown,Martin Zamora,R,1.54E-06,R
+NM,NM-HD-57,R,Tilt,Billie Helean,Jason Harper,R,1.32E-06,R
+NM,NM-HD-7,R,Likely,Santos Griego,Kelly Fajardo,R,6.72E-07,R
+NM,NM-HD-44,R,Likely,Gary Tripp,Jane Powdrell-Culbert,R,2.93E-07,R
+NM,NM-HD-38,R,Safe,FALSE,Rebecca Dow,R,2.52E-07,R
+NM,NM-HD-8,R,Safe,Paul Kinzelman,Alonzo Baldonado,R,1.95E-07,R
+NM,NM-HD-31,R,Safe,Julie Brenning,William Rehm,R,1.41E-07,R
+NM,NM-HD-51,R,Safe,Jeff Swanson,Rachel Black,R,1.15E-07,R
+NM,NM-HD-56,R,Safe,Laura Childress,Zach Cook,R,1.11E-07,R
+NM,NM-HD-59,R,Safe,Kimble Kearns,Greg Nibert,R,9.95E-08,R
+KY,KY-SD-17,R,Safe,Jason Stroude,Damon Thayer,R,0,
+OK,OK-HD-72,D,Safe,TBA,Ismail A Shan,Open,0,
+IN,IN-SD-36,R,Lean,Jason Fletcher,Jack Sandlin,R,0,
+OK,OK-HD-94,D,Safe,Andy Fugate,TBA,D,0,
+KY,KY-SD-7,FALSE,Toss-Up,Joe Graviss,TBA,Open,0,
+KY,KY-SD-9,R,Safe,Brian Pedigo,David Givens,R,0,
+OK,OK-HD-71,D,Likely,Denise Brewer,TBA,D,0,
+KY,KY-SD-11,R,Safe,James Fiorelli,John Schickel,R,0,
+IN,IN-SD-35,R,Safe,Pete Cowden,R. Michael Young,R,0,
+OR,OR-SD-30,R,Safe,Carina Miller,Lynn Findley,R,0,
+OR,OR-SD-29,R,Safe,Mildred O'Callaghan,Bill Hansell,R,0,
+OR,OR-SD-28,R,Safe,Hugh Palcic,Dennis Linthicum,R,0,
+OR,OR-SD-27,R,Lean,Eileen Kiely,Tim Knopp,R,0,
+OK,OK-HD-11,R,Safe,Emilie Tindle,TBA,Open,0,
+OK,OK-HD-90,R,Safe,Wayne Hughes,Jon Echols,R,0,
+OK,OK-HD-70,R,Safe,FALSE,TBA,Open,0,
+IN,IN-SD-32,R,Safe,Belinda Drake,Aaron Freeman,R,0,
+OR,OR-SD-25,D,Safe,Chris Gorsek,Justin Hwang,Open,0,
+KY,KY-SD-21,R,Safe,Walter Trebolo,TBA,Open,0,
+KY,KY-SD-23,R,Likely,Ryan Olexia,Chris McDaniel,R,0,
+KY,KY-SD-29,FALSE,Toss-Up,Johnny Ray Turner,TBA,D,0,
+KY,KY-SD-31,R,Likely,TBA,Phillip Wheeler,R,0,
+OK,OK-HD-95,D,Tilt,Kelly Albright,TBA,D,0,
+OK,OK-HD-96,R,Safe,Nicol Ragland,TBA,Open,0,
+IN,IN-SD-30,D,Lean,Fady Qaddoura,TBA,Open,0,
+OK,OK-HD-68,R,Safe,Michael Ross,Lonnie Sims,R,0,
+IN,IN-SD-28,R,Safe,Theresa Bruno,Mike Crider,R,0,
+OK,OK-HD-93,D,Safe,Mickey Dollens,Mike Christian,D,0,
+OK,OK-HD-89,D,Safe,TBA,John Hutton,Open,0,
+OK,OK-HD-66,R,Safe,Greg Laird,TBA,Open,0,
+OK,OK-HD-78,D,Safe,Meloyde Blancett,Paul Royse,D,0,
+AR,AR-SD-1,R,Safe,Ronetta Francis,Bart Hester,Open,0,
+AR,AR-SD-2,R,Safe,Ryan Craig,Jim Hendren,R,0,
+AR,AR-SD-12,D,Tilt,Bruce Maloch,Charles Beckham,D,0,
+AR,AR-SD-13,R,Safe,Brandon Overly,TBA,Open,0,
+AR,AR-SD-26,R,Safe,Eddie Cheatham,Ben Gilmore,D,0,
+AR,AR-SD-27,R,Safe,TBA,Trent Garner,R,0,
+AR,AR-SD-32,D,Safe,Clarke Tucker,Bob Thomas,Open,0,
+AR,AR-SD-34,R,Likely,Alisa Blaize Dixon,Jane English,R,0,
+OK,OK-HD-83,D,Tilt,Chelsey Branham,TBA,D,0,
+OK,OK-HD-79,D,Tilt,Melissa Provenzano,TBA,D,0,
+OK,OK-HD-85,D,Safe,Cyndi Munson,Bill Robinson,D,0,
+OK,OK-HD-87,D,Safe,Collin Walke,Valerie Walker,D,0,
+UT,UT-SD-29,R,Safe,Chuck Goode,TBA,Open,0,
+OR,OR-SD-12,R,Safe,Bernadette Hansen,Brian J. Boquist,R,0,
+UT,UT-SD-25,R,Safe,Nancy Huntly,TBA,Open,0,
+UT,UT-SD-24,R,Safe,FALSE,TBA,Open,0,
+UT,UT-SD-19,R,Safe,Katy Owens,TBA,Open,0,
+UT,UT-SD-13,R,Safe,Lyndsey Jarman,Jake Anderegg,R,0,
+UT,UT-SD-10,R,Safe,Dan McClellan,TBA,Open,0,
+UT,UT-SD-8,D,Likely,Kathleen Riebe,Brian Zehnder,D,0,
+UT,UT-SD-7,R,Safe,FALSE,TBA,Open,0,
+UT,UT-SD-6,R,Safe,TBA,TBA,Open,0,
+IN,IN-SD-37,R,Safe,Tom Wallace,Rodrick Bray,R,0,
+UT,UT-SD-1,D,Safe,Luz Escamilla,Jim Whited,D,0,
+OK,OK-HD-88,D,Safe,TBA,Kelly Barlean,Open,0,
+IN,IN-SD-24,R,Safe,Stan Albaugh,John Crane,R,0,
+IN,IN-SD-20,R,Safe,Ronnie Saunders III,Scott Baldwin,Open,0,
+OK,OK-HD-23,R,Safe,Susan Carle Young,Terry O'Donnell,R,0,
+IL,IL-SD-31,D,Safe,Melinda Bush,Christopher Kasperski,D,0,
+OK,OK-SD-21,R,Safe,Rick Dunham,Tom J. Dugger,R,0,
+OK,OK-SD-35,FALSE,Toss-Up,TBA,TBA,Open,0,
+OK,OK-SD-37,R,Lean,Allison Ikley-Freeman,TBA,D,0,
+OR,OR-SD-14,D,Safe,Kate Lieber,Harmony Mulkey,Open,0,
+OK,OK-SD-39,R,Tilt,Shawna Mott-Wright,Dave Rader,R,0,
+OK,OK-HD-37,R,Safe,FALSE,Ken Luttrell,R,0,
+OK,OK-SD-43,R,Safe,Terri Reimer,TBA,Open,0,
+OK,OK-HD-34,D,Lean,Trish Ranson,Aaron Means,D,0,
+OK,OK-SD-45,R,Safe,Jennifer Wilkinson,TBA,Open,0,
+IL,IL-SD-10,D,Safe,Robert Martwick,Anthony Beckman,D,0,
+IL,IL-SD-19,D,Safe,Michael Hastings,August Deuser,D,0,
+IL,IL-SD-25,D,Lean,Karina Villa,Jeanette Ward,Open,0,
+IL,IL-SD-37,R,Safe,FALSE,Win Stoller,Open,0,
+OK,OK-HD-65,R,Safe,Jennifer Kerstetter,Toni Hasenbeck,R,0,
+IL,IL-SD-40,D,Safe,Patrick Joyce,Eric Wallace,D,0,
+IL,IL-SD-43,D,Safe,John Connor,Ben Bierly,Open,0,
+IL,IL-SD-46,D,Safe,Dave Koehler,Mary Burress,D,0,
+IL,IL-SD-49,D,Lean,Meg Loughran Cappel,Thomas McCullagh,Open,0,
+OK,OK-SD-47,R,Likely,Andrea Stone,Greg Treat,R,0,
+OK,OK-HD-30,R,Safe,Chuck Threadgill,TBA,Open,0,
+OK,OK-HD-29,R,Safe,Rick Parris,Kyle Hilbert,R,0,
+OK,OK-HD-3,R,Likely,Mike Sullivan,TBA,Open,0,
+OK,OK-HD-28,R,Safe,Yasminda Choate,TBA,Open,0,
+OK,OK-HD-4,R,Tilt,Matt Meredith,Bob Ed Culver,D,0,
+OK,OK-HD-26,R,Safe,TBA,Dell Kerbs,Open,0,
+OK,OK-HD-24,R,Lean,Steve Kouplen,TBA,Open,0,
+OK,OK-HD-97,D,Safe,Jason Lowe,Ben M. Janloo,D,0,
+OK,OK-SD-17,R,Safe,FALSE,TBA,Open,0,
+OK,OK-HD-43,R,Safe,FALSE,Jay Steagall,R,0,
+OK,OK-HD-45,D,Likely,Merleyn Bell,Phillip Hillian,D,0,
+IN,IN-SD-18,R,Safe,Laura Fred-Smith,Stacey Donato,R,0,
+IN,IN-SD-16,R,Safe,Juli Dominguez,Justin Busch,R,0,
+IN,IN-SD-12,R,Safe,Charles Mumaw,Blake Doriot,R,0,
+OK,OK-HD-64,R,Tilt,Kyle Emmett Meraz,Rande Worthen,R,0,
+IN,IN-SD-9,R,Safe,Brandon Cavanaugh,Ryan Mishler,R,0,
+IN,IN-SD-7,R,Safe,Tabitha Bartley,Brian Buchanan,R,0,
+IN,IN-SD-5,R,Safe,Luke Bohm,Ed Charbonneau,R,0,
+OK,OK-HD-82,R,Safe,Max Federman,Nicole Miller,R,0,
+OR,OR-SD-10,FALSE,Toss-Up,Deb Patterson,Denyc Boles,Open,0,
+OK,OK-HD-62,FALSE,Toss-Up,Larry Bush,TBA,Open,0,
+OR,OR-SD-9,R,Safe,Jim Hinsvark,Fred Girod,R,0,
+OR,OR-SD-5,FALSE,Toss-Up,Melissa Cribbins,Dick Anderson,Open,0,
+OR,OR-SD-2,R,Safe,Jerry Allen,Art Robinson,Open,0,
+OR,OR-SD-1,R,Safe,Kat Stone,Dallas Heard,R,0,
+OK,OK-HD-101,R,Safe,Madeline Scott,Robert Manger,R,0,
+OK,OK-HD-57,R,Safe,Juan Garcia,Anthony Moore,Open,0,
+OK,OK-HD-56,R,Lean,Craig Parham,TBA,Open,0,
+OK,OK-HD-55,R,Safe,Austin Gipson-Black,Todd Russ,R,0,
+OK,OK-HD-100,R,Likely,Summer Wesley,TBA,Open,0,
+OK,OK-SD-3,R,Safe,Dyllon Fite,TBA,Open,0,
+OK,OK-SD-5,R,Safe,TBA,TBA,Open,0,
+OK,OK-SD-7,R,Safe,TBA,TBA,Open,0,
+OK,OK-SD-9,R,Likely,Jack Reavis,DeWayne Pemberton,R,0,
+OK,OK-SD-15,R,Likely,TBA,Rob Standridge,R,0,
+OK,OK-HD-46,D,Lean,Jacob Rosecrants,Nancy Sangirardi,D,0,
+OK,OK-HD-81,R,Safe,Jacob Baccus,Mike Osburn,R,0,
