@@ -401,15 +401,10 @@ map.on('load', function() {
     document.getElementById('zoom').addEventListener('click', function() {
         map.zoomTo(zoomThreshold);
         map.fitBounds(bbox, {
-            // padding: {top: 10, bottom:25, left: 15, right: 5},
             linear: true,
             });
         map.setLayoutProperty('states-layer', 'visibility', 'visible');
-        // map.setLayoutProperty('congressional-border', 'visibility', 'visible');
-        // map.setLayoutProperty('congressional-layer', 'visibility', 'visible');
-        // map.setLayoutProperty('state-house', 'visibility', 'none');
-        // map.setLayoutProperty('state-senate', 'visibility', 'none');
-        });
+    });
 
     // add address search thing
     map.addControl(
@@ -463,66 +458,4 @@ map.on('load', function() {
             stateLegLegend.style.display = 'block';
         }
       });
-    
-    // /* coordinates helper */
-    map.on('mousemove', function(e) {
-        console.log("coords", 
-
-        // e.point is the x, y coordinates of the mousemove event relative
-        // to the top-left corner of the map
-        JSON.stringify(e.point) +
-        '<br />' +
-        'zoom: ' + map.getZoom() +'<br />' +
-        // e.lngLat is the longitude, latitude geographical position of the event
-        JSON.stringify(e.lngLat.wrap()));
-        });
-
-    document.getElementById("tx-link").addEventListener('click', function() {
-        map.flyTo({
-            center: [-97.5, 31.5], 
-            zoom: zoomThreshold+.2,
-            speed: 0.4,
-            curve: 1
-        })
-    });
-    document.getElementById("mn-link").addEventListener('click', function() {
-        map.flyTo({
-            center: [-94.2, 46.2], 
-            zoom: zoomThreshold+.2,
-            speed: 0.4,
-            curve: 1
-        })
-    });
-    document.getElementById("ks-link").addEventListener('click', function() {
-        map.flyTo({
-            center: [-96.31, 38.6],             
-            zoom: zoomThreshold+.2,
-            speed: 0.4,
-            curve: 1
-        })
-    });
-    document.getElementById("fl-link").addEventListener('click', function() {
-        map.flyTo({
-            center: [-81.6, 28.7],             
-            zoom: zoomThreshold+.2,
-            speed: 0.4,
-            curve: 1
-        })
-    });
-    document.getElementById("nj-link").addEventListener('click', function() {
-        map.flyTo({
-            center: [-74.5, 40.2], 
-            zoom: zoomThreshold+.2,
-            speed: 0.4,
-            curve: 1
-        })
-    });
-    document.getElementById("pa-link").addEventListener('click', function() {
-        map.flyTo({
-            center: [-77.9, 41.02], 
-            zoom: zoomThreshold+.2,
-            speed: 0.4,
-            curve: 1
-        })
-    });
 });
